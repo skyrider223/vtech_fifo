@@ -1,0 +1,437 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5607
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Diode
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(4.5125 in,0 in)(4.5125 in,2.5 in)(0 in,2.5 in)		
+Polygon	Outline	TopSilkscreen	2	4			2.475 in	0.35 in					0.012 in	90°									(2.475 in,0.35 in)(2.725 in,0.35 in)(2.725 in,0.45 in)(2.475 in,0.45 in)		
+Group			4														"D"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"						
+Group			5														"LED"	"RGB LED"							
+Ellipse	Outline	TopSilkscreen	6	12			0.1375 in	1.7875 in	0.225 in	0.225 in			0.012 in	210°	300°										
+Line		TopSilkscreen	7	12			0.1521815 in	1.954363 in			0.1521815 in	1.844363 in	0.012 in												
+Pad	Via		9	72			0.3994149 in	0.9969851 in	0.075 in	0.075 in				180°			"G"	"Gate"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Group			12														"LED"	"LED T1 3/4 in 5 mm"							
+Pad	Circular	BottomCopper	13	72			0.3994149 in	0.9969851 in	0.08 in	0.08 in				180°											
+Pad	Circular	BottomCopper	15	72			0.4994149 in	0.9969851 in	0.08 in	0.08 in				180°											
+Pad	Circular	BottomCopper	17	72			0.5994149 in	0.9969851 in	0.08 in	0.08 in				180°											
+Point		BottomCopper	19	72			0.3994149 in	1.0719851 in																	
+Pad	Via		20	72			0.4994149 in	0.9969851 in	0.075 in	0.075 in				180°			"D"	"Drain"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Pad	Via		21	72			0.5994149 in	0.9969851 in	0.075 in	0.075 in				180°			"S"	"Source"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Point		BottomCopper	23	72			0.5744149 in	0.9219851 in																	
+Point		BottomCopper	24	72			0.5244149 in	1.0719851 in																	
+Point		BottomCopper	25	72			0.6494149 in	1.0719851 in																	
+Point		BottomCopper	27	72			0.3244149 in	0.9219851 in																	
+Text		TopSilkscreen	38	72			0.3849487 in	0.8887922 in											"G"	Anytime	0.0595 in				
+Text		TopSilkscreen	39	72			0.4849487 in	0.8887922 in											"D"	Anytime	0.0595 in				
+Text		TopSilkscreen	40	72			0.5849486 in	0.8887922 in											"S"	Anytime	0.0595 in				
+Trace		BottomCopper	42	72	46	27							0.04 in												
+Polygon	Outline	TopSilkscreen	43	72			0.3744149 in	0.9469851 in					0.012 in	180°									(0.3744149 in,0.9469851 in)(0.6244149 in,0.9469851 in)(0.6244149 in,1.0469851 in)(0.3744149 in,1.0469851 in)		
+Polygon	Outline	TopSilkscreen	44	72			0.3744149 in	0.9469851 in					0.012 in	180°									(0.3744149 in,0.9469851 in)(0.4244149 in,0.9469851 in)(0.4244149 in,1.0469851 in)(0.3744149 in,1.0469851 in)		
+Pad	SquareWithHole		46	72			0.2994149 in	0.9969851 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in			
+Pad			47	72			0.6994149 in	0.9969851 in	0.088 in	0.088 in				180°			"A"	"Anode"				0.04 in			
+Trace		BottomCopper	49	72	23	27							0.04 in												
+Line		TopSilkscreen	51	72			0.3494149 in	0.9969851 in			0.3744149 in	0.9969851 in	0.012 in												
+Trace		BottomCopper	52	72	25	47							0.04 in												
+Line		TopSilkscreen	53	72			0.6244149 in	0.9969851 in			0.6494149 in	0.9969851 in	0.012 in												
+Trace		BottomCopper	55	72	9	19							0.04 in												
+Trace		BottomCopper	57	72	21	23							0.04 in												
+Trace		BottomCopper	58	72	20	24							0.04 in												
+Trace		BottomCopper	59	72	24	25							0.04 in												
+Line		TopSilkscreen	60	72			0.4794149 in	0.9969851 in			0.5544149 in	0.9969851 in	0.01 in												
+Line		TopSilkscreen	62	72			0.4794149 in	0.9969851 in			0.5044149 in	0.9719851 in	0.01 in												
+Line		TopSilkscreen	64	72			0.4794149 in	0.9969851 in			0.5044149 in	1.0219851 in	0.01 in												
+Line		TopSilkscreen	65	72			0.4794149 in	0.9719851 in			0.4794149 in	1.0219851 in	0.01 in												
+Text		TopSilkscreen	69	72			0.6625 in	1.05 in											"Vin"	Tiny	0.0595 in				
+Text		TopSilkscreen	70	72			0.38537 in	1.0616152 in											"⏚"	Anytime	0.0595 in				
+Text		TopSilkscreen	71	72			0.2472531 in	1.05 in											"Vout"	Tiny	0.0595 in				
+Group			72														"D or Q"	"Diode or MOSFET"	"Reverse battery protection"						
+Pad	SquareWithHole		110	12			0.2 in	1.9 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			111	12			0.3 in	1.9 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Pad			711	5			1 in	1.9 in	0.056 in	0.056 in							"red"					0.029 in			
+Pad			712	5			1.15 in	1.9 in	0.056 in	0.056 in							"green"					0.029 in			
+Pad			713	5			1.225 in	1.9 in	0.056 in	0.056 in							"blue"					0.029 in			
+Pad			714	5			1.075 in	1.9 in	0.056 in	0.056 in							"anode"					0.029 in			
+Text		TopSilkscreen	875	5			1.0128647 in	1.9679775 in						270°					"red"	Tiny	0.0595 in				
+Text		TopSilkscreen	876	5			1.1678338 in	1.9679775 in						270°					"green"	Tiny	0.0595 in				
+Text		TopSilkscreen	877	5			1.2377107 in	1.9679775 in						270°					"blue"	Tiny	0.0595 in				
+Text		TopSilkscreen	878	5			1.086191 in	1.9679775 in						270°					"+5V"	Tiny	0.0595 in				
+Line		TopSilkscreen	879	5			1.25 in	1.95 in			0.975 in	1.95 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	880	5			1.225 in	1.85 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Ellipse	Outline	TopSilkscreen	881	5			0.95 in	1.85 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Line		TopSilkscreen	889	5			1.25 in	1.85 in			0.975 in	1.85 in	0.012 in												
+Pad	SquareWithHole		1969	4			2.4 in	0.4 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			1970	4			2.8 in	0.4 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	1972	4			2.45 in	0.4 in			2.475 in	0.4 in	0.012 in												
+Line		TopSilkscreen	1978	4			2.725 in	0.4 in			2.75 in	0.4 in	0.012 in												
+Line		TopSilkscreen	1981	4			2.6274576 in	0.4 in			2.6824576 in	0.4 in	0.01 in												
+Line		TopSilkscreen	1982	4			2.6011165 in	0.4 in			2.6261165 in	0.375 in	0.01 in												
+Line		TopSilkscreen	1983	4			2.6011165 in	0.4 in			2.6261165 in	0.425 in	0.01 in												
+Line		TopSilkscreen	1984	4			2.5914808 in	0.375 in			2.5914808 in	0.425 in	0.01 in												
+Polygon	Outline	TopSilkscreen	1985	1990			0.1375 in	0.165 in					0.012 in	90°									(0.1375 in,0.165 in)(0.1625 in,0.165 in)(0.1625 in,0.235 in)(0.1375 in,0.235 in)		
+Pad	SquareWithHole		1986	1990			0.1 in	0.2 in	0.065 in	0.056 in				90°			"C"	"Cathode"				0.035 in			
+Pad			1987	1990			0.2 in	0.2 in	0.065 in	0.056 in				90°			"A"	"Anode"				0.035 in			
+Line		TopSilkscreen	1988	1990			0.1312322 in	0.2 in			0.1372322 in	0.2 in	0.012 in												
+Line		TopSilkscreen	1989	1990			0.1643162 in	0.2 in			0.1703162 in	0.2 in	0.012 in												
+Group			1990														"D"	"Diode (stand up)"							
+Polygon	Outline	TopSilkscreen	1991	2010			0.4375 in	0.1625 in					0.012 in	90°									(0.4375 in,0.1625 in)(0.5875 in,0.1625 in)(0.5875 in,0.2375 in)(0.4375 in,0.2375 in)		
+Pad	SquareWithHole		1992	2010			0.3875 in	0.2 in	0.056 in	0.056 in				90°			"C"	"Cathode"				0.029 in			
+Pad			1993	2010			0.6375 in	0.2 in	0.056 in	0.056 in				90°			"A"	"Anode"				0.029 in			
+Line		TopSilkscreen	1994	2010			0.425 in	0.2 in			0.431 in	0.2 in	0.012 in												
+Line		TopSilkscreen	1995	2010			0.5875 in	0.2 in			0.6 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2006	2010			0.5120575 in	0.2121057 in			0.5120575 in	0.1871057 in	0.01 in												
+Line		TopSilkscreen	2007	2010			0.5215527 in	0.1996057 in			0.5340527 in	0.2121057 in	0.01 in												
+Line		TopSilkscreen	2008	2010			0.5215527 in	0.1996057 in			0.5340527 in	0.1871057 in	0.01 in												
+Line		TopSilkscreen	2009	2010			0.5215527 in	0.1996057 in			0.5615527 in	0.1996057 in	0.01 in												
+Group			2010														"D"	"1N914 DO-35 (0.25 in hole spacing)"	"Small signal diode"						
+Pad	Via		2065	2099			1.1875 in	1 in	0.075 in	0.075 in							"S"	"Source"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Pad	Circular	BottomCopper	2066	2099			1.1875 in	1 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	2067	2099			1.0875 in	1 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	2068	2099			0.9875 in	1 in	0.08 in	0.08 in															
+Pad	Via		2070	2099			1.0875 in	1 in	0.075 in	0.075 in							"D"	"Drain"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Pad	Via		2071	2099			0.9875 in	1 in	0.075 in	0.075 in							"G"	"Gate"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Text		TopSilkscreen	2076	2099			0.9499955 in	1.0670483 in											"G⏚"	Anytime	0.0595 in				
+Text		TopSilkscreen	2077	2099			1.077328 in	1.0657322 in											"D"	Anytime	0.0595 in				
+Text		TopSilkscreen	2078	2099			1.1698837 in	1.0647674 in											"S"	Anytime	0.0595 in				
+Trace		BottomCopper	2079	2099	2082	2065							0.04 in												
+Polygon	Outline	TopSilkscreen	2080	2099			0.9625 in	0.95 in					0.012 in										(1.2125 in,1.05 in)(0.9625 in,1.05 in)(0.9625 in,0.95 in)(1.2125 in,0.95 in)		
+Polygon	Outline	TopSilkscreen	2081	2099			1.1625 in	0.95 in					0.012 in										(1.2125 in,1.05 in)(1.1625 in,1.05 in)(1.1625 in,0.95 in)(1.2125 in,0.95 in)		
+Pad	SquareWithHole		2082	2099			1.2875 in	1 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in			
+Pad			2083	2099			0.8875 in	1 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	2085	2099			1.2375 in	1 in			1.2125 in	1 in	0.012 in												
+Line		TopSilkscreen	2087	2099			0.9625 in	1 in			0.9375 in	1 in	0.012 in												
+Line		TopSilkscreen	2092	2099			1.1075 in	1 in			1.0325 in	1 in	0.01 in												
+Line		TopSilkscreen	2093	2099			1.1075 in	1 in			1.0825 in	1.025 in	0.01 in												
+Line		TopSilkscreen	2094	2099			1.1075 in	1 in			1.0825 in	0.975 in	0.01 in												
+Line		TopSilkscreen	2095	2099			1.1075 in	1.025 in			1.1075 in	0.975 in	0.01 in												
+Text		TopSilkscreen	2096	2099			0.8511314 in	1.075 in											"Vin"	Tiny	0.0595 in				
+Text		TopSilkscreen	2098	2099			1.2375 in	1.075 in											"Vout"	Tiny	0.0595 in				
+Group			2099														"D or Q"	"Diode or MOSFET (180°)"	"Reverse battery protection"						
+Point		BottomCopper	2100	2099			0.9375 in	1.075 in																	
+Trace		BottomCopper	2101	2099	2083	2100							0.04 in												
+Point		BottomCopper	2102	2099			1.0375 in	1.075 in																	
+Trace		BottomCopper	2103	2099	2100	2102							0.04 in												
+Trace		BottomCopper	2105	2099	2102	2070							0.04 in												
+Ellipse	Outline	TopSilkscreen	2106	2108			0.4875 in	1.8375 in	0.125 in	0.125 in			0.012 in	220°	280°										
+Line		TopSilkscreen	2107	2108			0.5 in	1.9375 in			0.5 in	1.8625 in	0.012 in												
+Group			2108														"LED"	"LED T1 3 mm"							
+Pad	SquareWithHole		2109	2108			0.5 in	1.9 in	0.056 in	0.056 in							"1"	"Cathode"				0.029 in			
+Pad			2110	2108			0.6 in	1.9 in	0.056 in	0.056 in							"2"	"Anode"				0.029 in			
+Polygon	Outline	TopSilkscreen	2111	2127			0.4 in	0.5625 in					0.012 in	90°									(0.4 in,0.5625 in)(0.55 in,0.5625 in)(0.55 in,0.6375 in)(0.4 in,0.6375 in)		
+Pad	SquareWithHole		2112	2127			0.35 in	0.6 in	0.056 in	0.056 in				90°			"C"	"Cathode"				0.029 in			
+Pad			2113	2127			0.6 in	0.6 in	0.056 in	0.056 in				90°			"A"	"Anode"				0.029 in			
+Line		TopSilkscreen	2114	2127			0.3875 in	0.6 in			0.3935 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2115	2127			0.55 in	0.6 in			0.5625 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2117	2127			0.475 in	0.6125 in			0.475 in	0.5875 in	0.01 in												
+Line		TopSilkscreen	2118	2127			0.4844952 in	0.6 in			0.4969952 in	0.6125 in	0.01 in												
+Line		TopSilkscreen	2119	2127			0.4844952 in	0.6 in			0.4969952 in	0.5875 in	0.01 in												
+Line		TopSilkscreen	2120	2127			0.4963428 in	0.6002192 in			0.5313428 in	0.6002192 in	0.01 in												
+Line		TopSilkscreen	2124	2127			0.4757305 in	0.6136427 in			0.4828016 in	0.6207138 in	0.01 in												
+Line		TopSilkscreen	2125	2127			0.4747869 in	0.5872053 in			0.4677159 in	0.5801342 in	0.01 in												
+Line		TopSilkscreen	2126	2127			0.4985437 in	0.5868985 in			0.4985437 in	0.6127648 in	0.01 in												
+Group			2127														"ZD"	"Zener diode DO-35"							
+Polygon	Outline	TopSilkscreen	2128	2130			2.475 in	0.55 in					0.012 in	90°									(2.475 in,0.55 in)(2.725 in,0.55 in)(2.725 in,0.65 in)(2.475 in,0.65 in)		
+Group			2130														"ZD"	"Zener diode DO-204AL (DO-41)"							
+Pad	SquareWithHole		2131	2130			2.4 in	0.6 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			2132	2130			2.8 in	0.6 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	2133	2130			2.45 in	0.6 in			2.475 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2134	2130			2.725 in	0.6 in			2.75 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2135	2130			2.6309849 in	0.6 in			2.6859849 in	0.6 in	0.01 in												
+Line		TopSilkscreen	2136	2130			2.6011165 in	0.6 in			2.6261165 in	0.575 in	0.01 in												
+Line		TopSilkscreen	2137	2130			2.6011165 in	0.6 in			2.6261165 in	0.625 in	0.01 in												
+Line		TopSilkscreen	2138	2130			2.5914808 in	0.575 in			2.5914808 in	0.625 in	0.01 in												
+Line		TopSilkscreen	2142	2130			2.6263248 in	0.575 in			2.6263248 in	0.625 in	0.01 in												
+Line		TopSilkscreen	2143	2130			2.591435 in	0.625 in			2.6020416 in	0.6356066 in	0.01 in												
+Line		TopSilkscreen	2144	2130			2.5804701 in	0.5642544 in			2.5910767 in	0.574861 in	0.01 in												
+Line		TopSilkscreen	2146	4			2.6263047 in	0.375 in			2.6263047 in	0.425 in	0.01 in												
+Line		TopSilkscreen	2148	2010			0.5338705 in	0.1875 in			0.5338705 in	0.2125 in	0.01 in												
+Polygon	Outline	TopSilkscreen	2149	2159			0.8107514 in	0.3625 in					0.012 in	90°									(0.8107514 in,0.3625 in)(0.9357514 in,0.3625 in)(0.9357514 in,0.4375 in)(0.8107514 in,0.4375 in)		
+Pad	SquareWithHole		2150	2159			0.75 in	0.4 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			2151	2159			1 in	0.4 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	2152	2159			0.8002062 in	0.4 in			0.8062062 in	0.4 in	0.012 in												
+Line		TopSilkscreen	2153	2159			0.9372938 in	0.4 in			0.9497938 in	0.4 in	0.012 in												
+Line		TopSilkscreen	2155	2159			0.8655048 in	0.4125 in			0.8655048 in	0.3875 in	0.01 in												
+Line		TopSilkscreen	2156	2159			0.875 in	0.4 in			0.8875 in	0.4125 in	0.01 in												
+Line		TopSilkscreen	2157	2159			0.875 in	0.4 in			0.8875 in	0.3875 in	0.01 in												
+Line		TopSilkscreen	2158	2159			0.875 in	0.4 in			0.915 in	0.4 in	0.01 in												
+Group			2159														"D"	"1N5817 DO-204AL (DO-41) Tented"	"Schottky diode 20V"						
+Line		TopSilkscreen	2174	2159			0.8874807 in	0.3874056 in			0.8874807 in	0.4124056 in	0.01 in												
+Polygon	Outline	TopSilkscreen	2269	2316			3.8375 in	0.09 in					0.012 in	90°									(3.8375 in,0.09 in)(4.2125 in,0.09 in)(4.2125 in,0.31 in)(3.8375 in,0.31 in)		
+Line		TopSilkscreen	2274	2316			3.7812996 in	0.2 in			3.8312996 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2275	2316			4.2187004 in	0.2 in			4.2687004 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2276	2316			4.0625 in	0.2 in			4.1625 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2277	2316			4 in	0.2 in			4.0625 in	0.1375 in	0.012 in												
+Line		TopSilkscreen	2278	2316			4 in	0.2 in			4.0625 in	0.2625 in	0.012 in												
+Line		TopSilkscreen	2279	2316			3.9890501 in	0.1375 in			3.9890501 in	0.2625 in	0.012 in												
+Line		TopSilkscreen	2280	2316			4.0625 in	0.1375 in			4.0625 in	0.2625 in	0.012 in												
+Pad	SquareWithHole		2281	2316			3.7 in	0.2 in	0.13 in	0.13 in							"C"					0.061 in			
+Pad			2312	2316			4.35 in	0.2 in	0.13 in	0.13 in							"A"					0.061 in			
+Rectangle		TopSilkscreen	2315	2316			3.8875 in	0.0875 in	0.05 in	0.225 in															
+Group			2316														"D"	"DO-201AD"							
+Rectangle		TopSilkscreen	2317	2010			0.4625 in	0.1625 in	0.025 in	0.075 in															
+Rectangle		TopSilkscreen	2319	2159			0.825 in	0.3625 in	0.025 in	0.075 in															
+Rectangle		TopSilkscreen	2321	2127			0.425 in	0.5625 in	0.025 in	0.075 in															
+Rectangle		TopSilkscreen	2323	4			2.5125 in	0.35 in	0.0375 in	0.1 in															
+Rectangle		TopSilkscreen	2325	2130			2.5125 in	0.55 in	0.0375 in	0.1 in															
+Polygon	Outline	TopSilkscreen	2338	2352			3.1 in	0.13 in					0.012 in	90°									(3.1 in,0.13 in)(3.4 in,0.13 in)(3.4 in,0.27 in)(3.1 in,0.27 in)		
+Pad	SquareWithHole		2340	2352			3 in	0.2 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			2341	2352			3.5 in	0.2 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	2342	2352			3.0557796 in	0.2 in			3.0932796 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2343	2352			3.4067204 in	0.2 in			3.4442204 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2344	2352			3.2625 in	0.2 in			3.35 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2345	2352			3.225 in	0.2 in			3.2625 in	0.1625 in	0.012 in												
+Line		TopSilkscreen	2347	2352			3.2132654 in	0.1625 in			3.2132654 in	0.2375 in	0.012 in												
+Line		TopSilkscreen	2348	2352			3.2625 in	0.1625 in			3.2625 in	0.2375 in	0.012 in												
+Rectangle		TopSilkscreen	2349	2352			3.1375 in	0.125 in	0.0375 in	0.15 in															
+Line		TopSilkscreen	2351	2352			3.225 in	0.2 in			3.2625 in	0.2375 in	0.012 in												
+Group			2352														"D"	"DO-201AC (DO-15)"							
+Polygon	Outline	TopSilkscreen	2354	2365			3.1 in	0.53 in					0.012 in	90°									(3.1 in,0.53 in)(3.4 in,0.53 in)(3.4 in,0.67 in)(3.1 in,0.67 in)		
+Pad	SquareWithHole		2355	2365			3 in	0.6 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			2356	2365			3.5 in	0.6 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	2357	2365			3.0557796 in	0.6 in			3.0932796 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2358	2365			3.4067204 in	0.6 in			3.4442204 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2359	2365			3.2625 in	0.6 in			3.35 in	0.6 in	0.012 in												
+Line		TopSilkscreen	2360	2365			3.225 in	0.6 in			3.2625 in	0.5625 in	0.012 in												
+Line		TopSilkscreen	2361	2365			3.2132654 in	0.5625 in			3.2132654 in	0.6375 in	0.012 in												
+Line		TopSilkscreen	2362	2365			3.2625 in	0.5625 in			3.2625 in	0.6375 in	0.012 in												
+Rectangle		TopSilkscreen	2363	2365			3.1375 in	0.525 in	0.0375 in	0.15 in															
+Line		TopSilkscreen	2364	2365			3.225 in	0.6 in			3.2625 in	0.6375 in	0.012 in												
+Group			2365														"ZD"	"Zener DO-201AC (DO-15)"							
+Line		TopSilkscreen	2366	2365			3.2132654 in	0.5625 in			3.2007654 in	0.55 in	0.012 in												
+Line		TopSilkscreen	2367	2365			3.2132654 in	0.6375 in			3.2257654 in	0.65 in	0.012 in												
+Polygon	Outline	TopSilkscreen	2370	2381			3.1 in	0.7425 in					0.012 in	90°									(3.1 in,0.7425 in)(3.4 in,0.7425 in)(3.4 in,0.8825 in)(3.1 in,0.8825 in)		
+Pad	SquareWithHole		2371	2381			3 in	0.8125 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			2372	2381			3.5 in	0.8125 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	2373	2381			3.0557796 in	0.8125 in			3.0932796 in	0.8125 in	0.012 in												
+Line		TopSilkscreen	2374	2381			3.4067204 in	0.8125 in			3.4442204 in	0.8125 in	0.012 in												
+Line		TopSilkscreen	2375	2381			3.3333229 in	0.8125 in			3.3708229 in	0.8125 in	0.012 in												
+Line		TopSilkscreen	2376	2381			3.2958229 in	0.8125 in			3.3333229 in	0.775 in	0.012 in												
+Line		TopSilkscreen	2377	2381			3.2840054 in	0.775 in			3.2840054 in	0.85 in	0.012 in												
+Line		TopSilkscreen	2378	2381			3.3333229 in	0.775 in			3.3333229 in	0.85 in	0.012 in												
+Rectangle		TopSilkscreen	2379	2381			3.1375 in	0.7375 in	0.0375 in	0.15 in															
+Line		TopSilkscreen	2380	2381			3.2958229 in	0.8125 in			3.3333229 in	0.85 in	0.012 in												
+Group			2381														"D"	"Transient voltage suppression DO-201AC (DO-15)"							
+Line		TopSilkscreen	2382	2381			3.2840054 in	0.775 in			3.2715054 in	0.7625 in	0.012 in												
+Line		TopSilkscreen	2383	2381			3.2840054 in	0.85 in			3.2965054 in	0.8625 in	0.012 in												
+Line		TopSilkscreen	2384	2381			3.2348893 in	0.8125 in			3.1973893 in	0.8125 in	0.012 in												
+Line		TopSilkscreen	2385	2381			3.2723893 in	0.8125 in			3.2348893 in	0.775 in	0.012 in												
+Line		TopSilkscreen	2386	2381			3.2348893 in	0.775 in			3.2348893 in	0.85 in	0.012 in												
+Line		TopSilkscreen	2387	2381			3.2723893 in	0.8125 in			3.2348893 in	0.85 in	0.012 in												
+Pad	Rectangular	TopCopper	7334	7340			1.4372 in	1.8698819 in	1.5 mm	1 mm							"1"	"anode"							
+Pad	Rectangular	TopCopper	7335	7340			1.4372 in	1.925 in	1.5 mm	1 mm							"2"	"anode"							
+Pad	Rectangular	TopCopper	7336	7340			1.575 in	1.8698819 in	1.5 mm	1 mm							"3"	"cathode"							
+Pad	Rectangular	TopCopper	7337	7340			1.575 in	1.925 in	1.5 mm	1 mm							"4"	"cathode"							
+Line		TopSilkscreen	7338	7340			1.4372 in	1.9576481 in			1.5622 in	1.9576481 in	0.012 in												
+Line		TopSilkscreen	7339	7340			1.4372 in	1.8382403 in			1.5622 in	1.8382403 in	0.012 in												
+Group			7340														"LED"	"LED1210"							
+Line		TopSilkscreen	7341	7340			1.4875 in	1.925 in			1.525 in	1.925 in	0.007 in												
+Line		TopSilkscreen	7342	7340			1.525 in	1.925 in			1.5125 in	1.9125 in	0.007 in												
+Line		TopSilkscreen	7343	7340			1.525 in	1.925 in			1.5125 in	1.9375 in	0.007 in												
+Line		TopSilkscreen	7344	7340			1.525 in	1.9125 in			1.525 in	1.9375 in	0.007 in												
+Line		TopSilkscreen	7345	7340			1.4875 in	1.875 in			1.525 in	1.875 in	0.007 in												
+Line		TopSilkscreen	7346	7340			1.525 in	1.875 in			1.5125 in	1.8625 in	0.007 in												
+Line		TopSilkscreen	7347	7340			1.525 in	1.875 in			1.5125 in	1.8875 in	0.007 in												
+Line		TopSilkscreen	7348	7340			1.525 in	1.8875 in			1.525 in	1.8625 in	0.007 in												
+Ellipse		TopSilkscreen	7349	7340			35.5300915 mm	1.8135563 in	0.024 in	0.024 in				90°	360°										
+Pad	Rectangular	TopCopper	8679	8681			1.905 mm	0.6 in	1.6 mm	0.91 mm							"C"								
+Pad	Rectangular	TopCopper	8680	8681			5.3046 mm	0.6 in	1.6 mm	0.91 mm							"A"								
+Group			8681														"D"	"SOD123"							
+Ellipse		TopSilkscreen	8682	8681			0.8002 mm	0.548252 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	8683	8681			1.7146 mm	0.560252 in			1.7146 mm	0.548252 in	0.012 in												
+Line		TopSilkscreen	8684	8681			1.7146 mm	0.548252 in			5.495 mm	0.548252 in	0.012 in												
+Line		TopSilkscreen	8685	8681			5.495 mm	0.548252 in			5.495 mm	0.560252 in	0.012 in												
+Line		TopSilkscreen	8686	8681			1.7146 mm	16.2496 mm			1.7146 mm	16.5544 mm	0.012 in												
+Line		TopSilkscreen	8687	8681			1.7146 mm	16.5544 mm			5.495 mm	16.5544 mm	0.012 in												
+Line		TopSilkscreen	8688	8681			5.495 mm	16.5544 mm			5.495 mm	16.2496 mm	0.012 in												
+Polygon	Outline	TopSilkscreen	8689	8690			2.475 in	0.15 in					0.012 in	90°									(2.475 in,0.15 in)(2.725 in,0.15 in)(2.725 in,0.25 in)(2.475 in,0.25 in)		
+Group			8690														"D"	"DO-204AL (DO-41)"							
+Pad	SquareWithHole		8691	8690			2.4 in	0.2 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			8692	8690			2.8 in	0.2 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	8693	8690			2.45 in	0.2 in			2.475 in	0.2 in	0.012 in												
+Line		TopSilkscreen	8694	8690			2.725 in	0.2 in			2.75 in	0.2 in	0.012 in												
+Line		TopSilkscreen	8695	8690			2.6274576 in	0.2 in			2.6824576 in	0.2 in	0.01 in												
+Line		TopSilkscreen	8696	8690			2.6011165 in	0.2 in			2.6261165 in	0.175 in	0.01 in												
+Line		TopSilkscreen	8697	8690			2.6011165 in	0.2 in			2.6261165 in	0.225 in	0.01 in												
+Line		TopSilkscreen	8698	8690			2.5914808 in	0.175 in			2.5914808 in	0.225 in	0.01 in												
+Line		TopSilkscreen	8699	8690			2.6263047 in	0.175 in			2.6263047 in	0.225 in	0.01 in												
+Rectangle		TopSilkscreen	8700	8690			2.5125 in	0.15 in	0.0375 in	0.1 in															
+Line		TopSilkscreen	8701	4			2.5913258 in	0.425 in			2.5743044 in	0.425 in	0.01 in												
+Line		TopSilkscreen	8702	4			2.5743044 in	0.425 in			2.5743044 in	0.4125 in	0.01 in												
+Line		TopSilkscreen	8703	4			2.6086742 in	0.3743044 in			2.5916528 in	0.3743044 in	0.01 in												
+Line		TopSilkscreen	8704	4			2.609022 in	0.3868044 in			2.609022 in	0.3743044 in	0.01 in												
+Polygon	Outline	TopSilkscreen	8706	8717			3.1 in	0.33 in					0.012 in	90°									(3.1 in,0.33 in)(3.4 in,0.33 in)(3.4 in,0.47 in)(3.1 in,0.47 in)		
+Pad	SquareWithHole		8707	8717			3 in	0.4 in	0.088 in	0.088 in				90°			"C"	"Cathode"				0.04 in			
+Pad			8708	8717			3.5 in	0.4 in	0.088 in	0.088 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	8709	8717			3.0557796 in	0.4 in			3.0932796 in	0.4 in	0.012 in												
+Line		TopSilkscreen	8710	8717			3.4067204 in	0.4 in			3.4442204 in	0.4 in	0.012 in												
+Line		TopSilkscreen	8711	8717			3.2625 in	0.4 in			3.35 in	0.4 in	0.012 in												
+Line		TopSilkscreen	8712	8717			3.225 in	0.4 in			3.2625 in	0.3625 in	0.012 in												
+Line		TopSilkscreen	8713	8717			3.2132654 in	0.3625 in			3.2132654 in	0.4375 in	0.012 in												
+Line		TopSilkscreen	8714	8717			3.2625 in	0.3625 in			3.2625 in	0.4375 in	0.012 in												
+Rectangle		TopSilkscreen	8715	8717			3.1375 in	0.325 in	0.0375 in	0.15 in															
+Line		TopSilkscreen	8716	8717			3.225 in	0.4 in			3.2625 in	0.4375 in	0.012 in												
+Group			8717														"ZD"	"Schottky DO-201AC (DO-15)"							
+Line		TopSilkscreen	8718	8717			3.2132654 in	0.3625 in			3.2375 in	0.3625 in	0.012 in												
+Line		TopSilkscreen	8719	8717			3.2132654 in	0.4375 in			3.1875 in	0.4375 in	0.012 in												
+Line		TopSilkscreen	8720	8717			3.1875 in	0.425 in			3.1875 in	0.4375 in	0.012 in												
+Line		TopSilkscreen	8721	8717			3.2375 in	0.3625 in			3.2375 in	0.375 in	0.012 in												
+Line		TopSilkscreen	8722	2159			0.865432 in	0.3875 in			0.8727196 in	0.3875 in	0.01 in												
+Line		TopSilkscreen	8723	2159			0.8655949 in	0.4126629 in			0.8576557 in	0.4126629 in	0.01 in												
+Polygon	Outline	TopSilkscreen	8724	8725			1.8975 in	0.1465 in					0.012 in	90°									(1.8975 in,0.1465 in)(2.1025 in,0.1465 in)(2.1025 in,0.2535 in)(1.8975 in,0.2535 in)		
+Group			8725														"D"	"1N4007 DO-41"							
+Pad	SquareWithHole		8726	8725			1.8 in	0.2 in	0.075 in	0.075 in				90°			"C"	"Cathode"				0.04 in			
+Pad			8727	8725			2.2 in	0.2 in	0.075 in	0.075 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	8728	8725			1.85 in	0.2 in			1.8963235 in	0.2 in	0.012 in												
+Line		TopSilkscreen	8729	8725			2.102451 in	0.2 in			2.147549 in	0.2 in	0.012 in												
+Line		TopSilkscreen	8730	8725			2.0237811 in	0.2 in			2.0787811 in	0.2 in	0.01 in												
+Line		TopSilkscreen	8731	8725			1.99744 in	0.2 in			2.02244 in	0.175 in	0.01 in												
+Line		TopSilkscreen	8732	8725			1.99744 in	0.2 in			2.02244 in	0.225 in	0.01 in												
+Line		TopSilkscreen	8733	8725			1.9878043 in	0.175 in			1.9878043 in	0.225 in	0.01 in												
+Line		TopSilkscreen	8734	8725			2.0226282 in	0.175 in			2.0226282 in	0.225 in	0.01 in												
+Rectangle		TopSilkscreen	8735	8725			1.9247549 in	0.15 in	0.0375 in	0.1 in															
+Polygon	Outline	TopSilkscreen	8737	8746			1.267 in	0.1605 in					0.012 in	90°									(1.267 in,0.1605 in)(1.433 in,0.1605 in)(1.433 in,0.2395 in)(1.267 in,0.2395 in)		
+Pad	SquareWithHole		8738	8746			1.2 in	0.2 in	0.056 in	0.056 in				90°			"C"	"Cathode"				0.029 in			
+Pad			8739	8746			1.5 in	0.2 in	0.056 in	0.056 in				90°			"A"	"Anode"				0.029 in			
+Line		TopSilkscreen	8740	8746			1.2375 in	0.2 in			1.2625 in	0.2 in	0.012 in												
+Line		TopSilkscreen	8741	8746			1.4375 in	0.2 in			1.4625 in	0.2 in	0.012 in												
+Line		TopSilkscreen	8742	8746			1.3405048 in	0.2125 in			1.3405048 in	0.1875 in	0.01 in												
+Line		TopSilkscreen	8743	8746			1.35 in	0.2 in			1.3625 in	0.2125 in	0.01 in												
+Line		TopSilkscreen	8744	8746			1.35 in	0.2 in			1.3625 in	0.1875 in	0.01 in												
+Line		TopSilkscreen	8745	8746			1.35 in	0.2 in			1.39 in	0.2 in	0.01 in												
+Group			8746														"D"	"1N4148 DO-35 (0.3 in hole spacing)"	"Small signal diode"						
+Line		TopSilkscreen	8747	8746			1.3623178 in	0.1878943 in			1.3623178 in	0.2128943 in	0.01 in												
+Rectangle		TopSilkscreen	8748	8746			1.2875 in	0.1625 in	0.025 in	0.075 in															
+Polygon	Outline	TopSilkscreen	8750	8761			3.85 in	0.3575 in					0.012 in	90°									(3.85 in,0.3575 in)(4.225 in,0.3575 in)(4.225 in,0.5675 in)(3.85 in,0.5675 in)		
+Line		TopSilkscreen	8751	8761			3.7937996 in	0.4625 in			3.8437996 in	0.4625 in	0.012 in												
+Line		TopSilkscreen	8752	8761			4.2312004 in	0.4625 in			4.2812004 in	0.4625 in	0.012 in												
+Line		TopSilkscreen	8753	8761			4.075 in	0.4625 in			4.175 in	0.4625 in	0.012 in												
+Line		TopSilkscreen	8754	8761			4.0125 in	0.4625 in			4.075 in	0.4 in	0.012 in												
+Line		TopSilkscreen	8755	8761			4.0125 in	0.4625 in			4.075 in	0.525 in	0.012 in												
+Line		TopSilkscreen	8756	8761			4.0015501 in	0.4 in			4.0015501 in	0.525 in	0.012 in												
+Line		TopSilkscreen	8757	8761			4.075 in	0.4 in			4.075 in	0.525 in	0.012 in												
+Pad	SquareWithHole		8758	8762			3.7125 in	0.4625 in	0.15 in	0.15 in							"C"					0.079 in			
+Pad			8759	8762			4.3625 in	0.4625 in	0.15 in	0.15 in							"A"					0.079 in			
+Rectangle		TopSilkscreen	8760	8761			3.9 in	0.356171 in	0.05 in	0.2125 in															
+Group			8761														"D"	"1N5400 DO-201AD"							
+Group			8762	8761										90°											
+Polygon	Outline	TopSilkscreen	8763	8774			3.8375 in	0.595 in					0.012 in	90°									(3.8375 in,0.595 in)(4.2125 in,0.595 in)(4.2125 in,0.805 in)(3.8375 in,0.805 in)		
+Line		TopSilkscreen	8764	8774			3.7812996 in	0.7 in			3.8312996 in	0.7 in	0.012 in												
+Line		TopSilkscreen	8765	8774			4.2187004 in	0.7 in			4.2687004 in	0.7 in	0.012 in												
+Line		TopSilkscreen	8766	8774			4.0625 in	0.7 in			4.1625 in	0.7 in	0.012 in												
+Line		TopSilkscreen	8767	8774			4 in	0.7 in			4.0625 in	0.6375 in	0.012 in												
+Line		TopSilkscreen	8768	8774			4 in	0.7 in			4.0625 in	0.7625 in	0.012 in												
+Line		TopSilkscreen	8769	8774			3.9890501 in	0.6375 in			3.9890501 in	0.7625 in	0.012 in												
+Line		TopSilkscreen	8770	8774			4.0625 in	0.6375 in			4.0625 in	0.7625 in	0.012 in												
+Pad	SquareWithHole		8771	8775			3.7 in	0.7 in	0.15 in	0.15 in							"C"					0.079 in			
+Pad			8772	8775			4.35 in	0.7 in	0.15 in	0.15 in							"A"					0.079 in			
+Rectangle		TopSilkscreen	8773	8774			3.8875 in	0.593671 in	0.05 in	0.2125 in															
+Group			8774														"D"	"(DO-201, DO-27, D0-201, D0-27"							
+Group			8775	8774										90°											
+Polygon	Outline	TopSilkscreen	8776	8777			1.8975 in	0.5465 in					0.012 in	90°									(1.8975 in,0.5465 in)(2.1025 in,0.5465 in)(2.1025 in,0.6535 in)(1.8975 in,0.6535 in)		
+Group			8777														"D"	"Zener DO-41"	"Zener diode"						
+Pad	SquareWithHole		8778	8777			1.8 in	0.6 in	0.075 in	0.075 in				90°			"C"	"Cathode"				0.04 in			
+Pad			8779	8777			2.2 in	0.6 in	0.075 in	0.075 in				90°			"A"	"Anode"				0.04 in			
+Line		TopSilkscreen	8780	8777			1.85 in	0.6 in			1.8963235 in	0.6 in	0.012 in												
+Line		TopSilkscreen	8781	8777			2.102451 in	0.6 in			2.147549 in	0.6 in	0.012 in												
+Line		TopSilkscreen	8782	8777			2.0237811 in	0.6 in			2.0787811 in	0.6 in	0.01 in												
+Line		TopSilkscreen	8783	8777			1.99744 in	0.6 in			2.02244 in	0.575 in	0.01 in												
+Line		TopSilkscreen	8784	8777			1.99744 in	0.6 in			2.02244 in	0.625 in	0.01 in												
+Line		TopSilkscreen	8785	8777			1.9878043 in	0.575 in			1.9878043 in	0.625 in	0.01 in												
+Line		TopSilkscreen	8786	8777			2.0226282 in	0.575 in			2.0226282 in	0.625 in	0.01 in												
+Rectangle		TopSilkscreen	8787	8777			1.9247549 in	0.55 in	0.0375 in	0.1 in															
+Polygon	Outline	TopSilkscreen	8788	8797			1.267 in	0.5605 in					0.012 in	90°									(1.267 in,0.5605 in)(1.433 in,0.5605 in)(1.433 in,0.6395 in)(1.267 in,0.6395 in)		
+Pad	SquareWithHole		8789	8797			1.2 in	0.6 in	0.056 in	0.056 in				90°			"C"	"Cathode"				0.029 in			
+Pad			8790	8797			1.5 in	0.6 in	0.056 in	0.056 in				90°			"A"	"Anode"				0.029 in			
+Line		TopSilkscreen	8791	8797			1.2375 in	0.6 in			1.2625 in	0.6 in	0.012 in												
+Line		TopSilkscreen	8792	8797			1.4375 in	0.6 in			1.4625 in	0.6 in	0.012 in												
+Line		TopSilkscreen	8793	8797			1.3405048 in	0.6125 in			1.3405048 in	0.5875 in	0.01 in												
+Line		TopSilkscreen	8794	8797			1.35 in	0.6 in			1.3625 in	0.6125 in	0.01 in												
+Line		TopSilkscreen	8795	8797			1.35 in	0.6 in			1.3625 in	0.5875 in	0.01 in												
+Line		TopSilkscreen	8796	8797			1.35 in	0.6 in			1.39 in	0.6 in	0.01 in												
+Group			8797														"D"	"Zener DO-35 (0.3 in hole spacing)"	"Zener diode"						
+Line		TopSilkscreen	8798	8797			1.3623178 in	0.5878943 in			1.3623178 in	0.6128943 in	0.01 in												
+Rectangle		TopSilkscreen	8799	8797			1.2875 in	0.5625 in	0.025 in	0.075 in															
+Line		TopSilkscreen	8800	8797			1.340591 in	0.5875 in			1.3335199 in	0.5804289 in	0.01 in												
+Line		TopSilkscreen	8801	8797			1.340591 in	0.6130152 in			1.3476621 in	0.6200862 in	0.01 in												
+Line		TopSilkscreen	8803	8777			1.9875 in	0.575 in			1.975 in	0.5625 in	0.01 in												
+Line		TopSilkscreen	8804	8777			1.987817 in	0.625 in			2.000317 in	0.6375 in	0.01 in												
+Polygon	Outline	TopSilkscreen	8806	8815			1.267 in	0.3605 in					0.012 in	90°									(1.267 in,0.3605 in)(1.433 in,0.3605 in)(1.433 in,0.4395 in)(1.267 in,0.4395 in)		
+Pad	SquareWithHole		8807	8815			1.2 in	0.4 in	0.056 in	0.056 in				90°			"C"	"Cathode"				0.029 in			
+Pad			8808	8815			1.5 in	0.4 in	0.056 in	0.056 in				90°			"A"	"Anode"				0.029 in			
+Line		TopSilkscreen	8809	8815			1.2375 in	0.4 in			1.2625 in	0.4 in	0.012 in												
+Line		TopSilkscreen	8810	8815			1.4375 in	0.4 in			1.4625 in	0.4 in	0.012 in												
+Line		TopSilkscreen	8811	8815			1.3405048 in	0.4125 in			1.3405048 in	0.3875 in	0.01 in												
+Line		TopSilkscreen	8812	8815			1.35 in	0.4005507 in			1.3625 in	0.4130507 in	0.01 in												
+Line		TopSilkscreen	8813	8815			1.35 in	0.4 in			1.3625 in	0.3875 in	0.01 in												
+Line		TopSilkscreen	8814	8815			1.35 in	0.4 in			1.39 in	0.4 in	0.01 in												
+Group			8815														"D"	"Schottky DO-35 (0.3 in hole spacing)"	"Schottky diode"						
+Line		TopSilkscreen	8816	8815			1.3623178 in	0.3878943 in			1.3623178 in	0.4128943 in	0.01 in												
+Rectangle		TopSilkscreen	8817	8815			1.2875 in	0.3625 in	0.025 in	0.075 in															
+Line		TopSilkscreen	8818	8815			1.340591 in	0.3875 in			1.350591 in	0.3875 in	0.01 in												
+Line		TopSilkscreen	8819	8815			1.3403156 in	0.4130152 in			1.3303211 in	0.4126849 in	0.01 in												
+Pad	Rectangular	TopCopper	11031	11056			1.75 in	1.9 in	1.75 mm	4 mm							"1"	"anode"							
+Pad	Rectangular	TopCopper	11032	11056			1.9960654 in	1.9 in	1.75 mm	4 mm							"2"	"cathode"							
+Pad	Rectangular	TopCopper	11033	11056			1.8730327 in	1.9 in	1.1 mm	4 mm															
+Pad	Via		11035	11043			1.8542827 in	1.84375 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11036	11043			1.8917827 in	1.84375 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11037	11043			1.8542827 in	1.88125 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11038	11043			1.8917827 in	1.88125 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11039	11043			1.8542827 in	1.91875 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11040	11043			1.8917827 in	1.91875 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11041	11043			1.8542827 in	1.95625 in	0.031 in	0.031 in												0.014 in			
+Pad	Via		11042	11043			1.8917827 in	1.95625 in	0.031 in	0.031 in												0.014 in			
+Group			11043	11056																					
+Ellipse		TopSilkscreen	11047	11056			43.2731503 mm	1.7868584 in	0.024 in	0.024 in				270°	360°										
+Line		TopSilkscreen	11048	11056			50.7500312 mm	1.9986276 in			50.7500312 mm	2.0106276 in	0.012 in												
+Line		TopSilkscreen	11049	11056			50.7500312 mm	2.0106276 in			44.3692312 mm	2.0106276 in	0.012 in												
+Line		TopSilkscreen	11050	11056			44.3692312 mm	2.0106276 in			44.3692312 mm	1.9986276 in	0.012 in												
+Line		TopSilkscreen	11051	11056			50.7500312 mm	45.7073 mm			50.7500312 mm	45.4025 mm	0.012 in												
+Line		TopSilkscreen	11052	11056			50.7500312 mm	45.4025 mm			44.3692312 mm	45.4025 mm	0.012 in												
+Line		TopSilkscreen	11053	11056			44.3692312 mm	45.4025 mm			44.3692312 mm	45.7073 mm	0.012 in												
+Group			11056														"LED"	"Cree 2-SMD Gull Wing Tabs"	"MX6AWT"						
+Pad	Rectangular	TopCopper	11092	11094			36.83 mm	2.0875 in	1.65 mm	2.41 mm							"1"	"anode"							
+Pad	Rectangular	TopCopper	11093	11094			39.63 mm	2.0875 in	1.65 mm	2.41 mm							"2"	"cathode"							
+Group			11094														"LED"	"White LED 2-PLCC"	"LiteOn"						
+Ellipse		TopSilkscreen	11095	11094			35.7002 mm	2.0040591 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	11096	11094			36.6146 mm	2.0160591 in			36.6146 mm	2.0040591 in	0.012 in												
+Line		TopSilkscreen	11097	11094			36.6146 mm	2.0040591 in			39.8454 mm	2.0040591 in	0.012 in												
+Line		TopSilkscreen	11098	11094			39.8454 mm	2.0040591 in			39.8454 mm	2.0160591 in	0.012 in												
+Line		TopSilkscreen	11099	11094			36.6146 mm	54.8371 mm			36.6146 mm	55.1419 mm	0.012 in												
+Line		TopSilkscreen	11100	11094			36.6146 mm	55.1419 mm			39.8454 mm	55.1419 mm	0.012 in												
+Line		TopSilkscreen	11101	11094			39.8454 mm	55.1419 mm			39.8454 mm	54.8371 mm	0.012 in												
+Pad	Rectangular	TopCopper	11122	11124			39.515 mm	1.0125 in	2.65 mm	1.75 mm							"1"	"cathode"							
+Pad	Rectangular	TopCopper	11123	11124			43.815 mm	1.0125 in	2.65 mm	1.75 mm							"2"	"anode"							
+Group			11124														"D"	"DO-214AC"	"SS12-S100 Schottky"						
+Ellipse		TopSilkscreen	11125	11124			37.8852 mm	0.9420512 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	11126	11124			38.7996 mm	0.9540512 in			38.7996 mm	0.9420512 in	0.012 in												
+Line		TopSilkscreen	11127	11124			38.7996 mm	0.9420512 in			44.5304 mm	0.9420512 in	0.012 in												
+Line		TopSilkscreen	11128	11124			44.5304 mm	0.9420512 in			44.5304 mm	0.9540512 in	0.012 in												
+Line		TopSilkscreen	11129	11124			38.7996 mm	27.2021 mm			38.7996 mm	27.5069 mm	0.012 in												
+Line		TopSilkscreen	11130	11124			38.7996 mm	27.5069 mm			44.5304 mm	27.5069 mm	0.012 in												
+Line		TopSilkscreen	11131	11124			44.5304 mm	27.5069 mm			44.5304 mm	27.2021 mm	0.012 in												

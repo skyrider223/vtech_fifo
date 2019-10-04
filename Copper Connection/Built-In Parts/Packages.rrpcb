@@ -1,0 +1,65 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5502
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Package
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Pad	Rectangular	TopCopper	34	48			1.4625 in	0.1625 in	0.0787402 in	0.0708661 in				270°			"1"	"Vio"						1	
+Pad	Rectangular	TopCopper	35	48			1.4625 in	0.3625 in	0.0787402 in	0.0708661 in				270°			"2"	"GND"						1	
+Pad	Rectangular	TopCopper	38	48			1.6278543 in	0.1625 in	0.0787402 in	0.0708661 in				270°			"4"	"Vcc"						1	
+Pad	Rectangular	TopCopper	39	48			1.6279 in	0.3625 in	0.0787402 in	0.0708661 in				270°			"3"	"OUT"						1	
+Ellipse		TopSilkscreen	42	48			1.5125 in	0.1270669 in	0.025 in	0.025 in				270°	360°									1	
+Line		TopSilkscreen	43	48			1.6357512 in	0.1125 in			1.4546488 in	0.1125 in	0.012 in											1	
+Line		TopSilkscreen	44	48			1.4546488 in	0.2125 in			1.4546488 in	0.3125 in	0.012 in											1	
+Line		TopSilkscreen	45	48			1.4546488 in	0.4125 in			1.6357512 in	0.4125 in	0.012 in											1	
+Line		TopSilkscreen	46	48			1.6357512 in	0.3125 in			1.6357512 in	0.2125 in	0.012 in											1	
+Group			48														"Y"	"SG-3030JF"	"32.768 kHz"					1	
+Ellipse	Outline	TopSilkscreen	322	324			0.0550884 in	0.111 in	0.285 in	0.15 in			0.012 in	0°	180°										
+Group			324														"Q or U"	"TO-92"						1	
+Pad	SquareWithHole		326	332			0.5 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			328	332			0.6 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			329	332			0.7 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Polygon	Outline	TopSilkscreen	330	332			0.4 in	0.1 in					0.012 in										(0.4 in,0.1 in)(0.8 in,0.1 in)(0.8 in,0.275 in)(0.4 in,0.275 in)		
+Polygon		TopSilkscreen	331	332			0.4 in	0.1 in															(0.4 in,0.1 in)(0.8 in,0.1 in)(0.8 in,0.135 in)(0.4 in,0.135 in)		
+Group			332														"Q or U"	"TO-220"							
+Pad	SquareWithHole		768	324			0.1 in	0.2 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			769	324			0.2 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			770	324			0.3 in	0.2 in	0.056 in	0.056 in							"3"					0.029 in			
+Line		TopSilkscreen	771	324			0.3400884 in	0.241 in			0.0550884 in	0.241 in	0.012 in												
+Line		TopSilkscreen	774	324			0.3400884 in	0.241 in			0.3400884 in	0.189 in	0.012 in												
+Line		TopSilkscreen	775	324			0.0550884 in	0.2405501 in			0.0550884 in	0.1885501 in	0.012 in												
+Line		TopSilkscreen	6592	6603			0.9834357 in	0.1015748 in			1.2084357 in	0.1015748 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	6593	6603			0.8834357 in	0.1015748 in	5 mm	5 mm			0.012 in	90°	180°										
+Pad	SquareWithHole		6595	6604			1 in	0.2 in	0.051 in	0.051 in							"1"					0.025 in			
+Pad			6596	6604			1.192126 in	0.2 in	0.051 in	0.051 in							"2"					0.025 in			
+Line		TopSilkscreen	6597	6603			0.9834357 in	0.2983827 in			1.2084357 in	0.2983827 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	6600	6603			1.1118399 in	0.1015748 in	5 mm	5 mm			0.012 in	270°	180°										
+Group			6603	6604																					
+Group			6604														"Y"	"HC-49 Crystal"							

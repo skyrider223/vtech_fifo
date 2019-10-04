@@ -1,0 +1,160 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5576
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSilkscreen=True
+BottomSolderMask=True
+BottomSolderPaste=True
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+OriginOffsetY=0 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+YAxisIsQuadrantI=False
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(0.9500001 in,0 in)(0.95 in,0.675 in)(24.054474 mm,17.6475089 mm)(23.9945852 mm,18.4430754 mm)(23.8819649 mm,19.2329042 mm)(23.717111 mm,20.0135039 mm)(23.5007521 mm,20.7814243 mm)(23.2338446 mm,21.5332708 mm)(22.9175682 mm,22.2657201 mm)(22.553321 mm,22.9755347 mm)(22.142713 mm,23.659577 mm)(21.6875592 mm,24.3148234 mm)(21.1898716 mm,24.9383776 mm)(20.6518499 mm,25.5274833 mm)(20.0758724 mm,26.0795364 mm)(19.464485 mm,26.5920969 mm)(18.8203902 mm,27.0628991 mm)(18.1464351 mm,27.4898619 mm)(17.4455986 mm,27.8710981 mm)(16.7209786 mm,28.2049225 mm)(15.9757782 mm,28.4898595 mm)(15.2132912 mm,28.7246497 mm)(14.4368881 mm,28.9082551 mm)(13.6500007 mm,29.0398643 mm)(12.8561072 mm,29.1188955 mm)(12.0587168 mm,29.1449994 mm)(11.2613542 mm,29.1180605 mm)(10.4675439 mm,29.038198 mm)(9.6807948 mm,28.9057648 mm)(8.9045843 mm,28.7213464 mm)(8.1423436 mm,28.4857579 mm)(7.397442 mm,28.2000407 mm)(6.673172 mm,27.8654577 mm)(5.9727351 mm,27.4834878 mm)(5.2992275 mm,27.0558195 mm)(4.6556261 mm,26.584343 mm)(4.0447758 mm,26.0711426 mm)(3.4693767 mm,25.5184865 mm)(2.9319722 mm,24.9288178 mm)(2.4349378 mm,24.3047428 mm)(1.9804705 mm,23.6490201 mm)(1.5705791 mm,22.9645482 mm)(1.2070754 mm,22.2543525 mm)(0.8915662 mm,21.5215724 mm)(0.6254461 mm,20.7694468 mm)(0.4098915 mm,20.0013003 mm)(0.2458551 mm,19.2205283 mm)(0.134062 mm,18.4305821 mm)(0.0750064 mm,17.6349532 mm)(0 in,0.675 in)		
+Pad			3				12.065 mm	17.145 mm	10.5318 mm	10.5318 mm				150°								10.1 mm	TopCopper Solid,BottomCopper Solid		
+Pad			4				4.7037841 mm	12.895 mm	2.85 mm	2.85 mm				150°								2.4 mm	TopCopper Solid,BottomCopper Solid		
+Pad			9				19.4262159 mm	12.895 mm	2.85 mm	2.85 mm				30°								2.4 mm	TopCopper Solid,BottomCopper Solid		
+Pad			11				12.065 mm	25.645 mm	2.85 mm	2.85 mm				270°								2.4 mm	TopCopper Solid,BottomCopper Solid		
+Pad			17				0.225 in	0.15 in	0.065 in	0.065 in												0.035 in			
+Pad			18				0.325 in	0.15 in	0.065 in	0.065 in												0.035 in			
+Pad			19				0.425 in	0.15 in	0.065 in	0.065 in												0.035 in			
+Pad			20				0.525 in	0.15 in	0.065 in	0.065 in												0.035 in			
+Pad			21				0.625 in	0.15 in	0.065 in	0.065 in												0.035 in			
+Pad			22				0.725 in	0.15 in	0.065 in	0.065 in												0.035 in			
+Line		TopSilkscreen	42				1.6726952 mm	11.145 mm			2.0943516 mm	10.4677123 mm	0.007 in												
+Line		TopSilkscreen	43				2.0943516 mm	10.4677123 mm			2.5600806 mm	9.8199398 mm	0.007 in												
+Line		TopSilkscreen	44				2.5600806 mm	9.8199398 mm			3.0678235 mm	9.2045456 mm	0.007 in												
+Line		TopSilkscreen	45				3.0678235 mm	9.2045456 mm			3.615336 mm	8.6242501 mm	0.007 in												
+Line		TopSilkscreen	46				3.615336 mm	8.6242501 mm			4.2001979 mm	8.0816183 mm	0.007 in												
+Line		TopSilkscreen	47				4.2001979 mm	8.0816183 mm			4.8198241 mm	7.5790486 mm	0.007 in												
+Line		TopSilkscreen	48				4.8198241 mm	7.5790486 mm			5.4714756 mm	7.1187627 mm	0.007 in												
+Line		TopSilkscreen	49				5.4714756 mm	7.1187627 mm			6.1522719 mm	6.702795 mm	0.007 in												
+Line		TopSilkscreen	50				6.1522719 mm	6.702795 mm			6.8592039 mm	6.3329842 mm	0.007 in												
+Line		TopSilkscreen	51				6.8592039 mm	6.3329842 mm			7.5891466 mm	6.010965 mm	0.007 in												
+Line		TopSilkscreen	52				7.5891466 mm	6.010965 mm			8.3388737 mm	5.7381607 mm	0.007 in												
+Line		TopSilkscreen	53				8.3388737 mm	5.7381607 mm			9.105071 mm	5.5157773 mm	0.007 in												
+Line		TopSilkscreen	54				9.105071 mm	5.5157773 mm			9.884352 mm	5.3447977 mm	0.007 in												
+Line		TopSilkscreen	55				9.884352 mm	5.3447977 mm			10.6732719 mm	5.2259777 mm	0.007 in												
+Line		TopSilkscreen	56				10.6732719 mm	5.2259777 mm			11.4683435 mm	5.1598425 mm	0.007 in												
+Line		TopSilkscreen	57				11.4683435 mm	5.1598425 mm			12.2660525 mm	5.1466844 mm	0.007 in												
+Line		TopSilkscreen	58				12.2660525 mm	5.1466844 mm			13.0628728 mm	5.1865616 mm	0.007 in												
+Line		TopSilkscreen	59				13.0628728 mm	5.1865616 mm			13.8552823 mm	5.2792978 mm	0.007 in												
+Line		TopSilkscreen	60				13.8552823 mm	5.2792978 mm			14.6397783 mm	5.4244831 mm	0.007 in												
+Line		TopSilkscreen	61				14.6397783 mm	5.4244831 mm			15.4128933 mm	5.6214758 mm	0.007 in												
+Line		TopSilkscreen	62				15.4128933 mm	5.6214758 mm			16.1712097 mm	5.8694051 mm	0.007 in												
+Line		TopSilkscreen	63				16.1712097 mm	5.8694051 mm			16.9113758 mm	6.167175 mm	0.007 in												
+Line		TopSilkscreen	64				16.9113758 mm	6.167175 mm			17.6301198 mm	6.5134695 mm	0.007 in												
+Line		TopSilkscreen	65				17.6301198 mm	6.5134695 mm			18.3242647 mm	6.9067578 mm	0.007 in												
+Line		TopSilkscreen	66				18.3242647 mm	6.9067578 mm			18.9907423 mm	7.3453014 mm	0.007 in												
+Line		TopSilkscreen	67				18.9907423 mm	7.3453014 mm			19.6266065 mm	7.8271619 mm	0.007 in												
+Line		TopSilkscreen	68				19.6266065 mm	7.8271619 mm			20.2290466 mm	8.3502093 mm	0.007 in												
+Line		TopSilkscreen	69				20.2290466 mm	8.3502093 mm			20.7953998 mm	8.9121318 mm	0.007 in												
+Line		TopSilkscreen	70				20.7953998 mm	8.9121318 mm			21.3231627 mm	9.5104454 mm	0.007 in												
+Line		TopSilkscreen	71				21.3231627 mm	9.5104454 mm			21.8100023 mm	10.1425055 mm	0.007 in												
+Line		TopSilkscreen	72				21.8100023 mm	10.1425055 mm			22.2537669 mm	10.8055182 mm	0.007 in												
+Line		TopSilkscreen	73				22.2537669 mm	10.8055182 mm			22.6524947 mm	11.4965528 mm	0.007 in												
+Line		TopSilkscreen	74				22.6524947 mm	11.4965528 mm			23.0044234 mm	12.2125549 mm	0.007 in												
+Line		TopSilkscreen	75				23.0044234 mm	12.2125549 mm			23.3079974 mm	12.9503595 mm	0.007 in												
+Line		TopSilkscreen	76				23.3079974 mm	12.9503595 mm			23.5618748 mm	13.7067054 mm	0.007 in												
+Line		TopSilkscreen	77				23.5618748 mm	13.7067054 mm			23.7649334 mm	14.4782493 mm	0.007 in												
+Line		TopSilkscreen	78				23.7649334 mm	14.4782493 mm			23.9162756 mm	15.2615809 mm	0.007 in												
+Line		TopSilkscreen	79				23.9162756 mm	15.2615809 mm			24.0152324 mm	16.0532376 mm	0.007 in												
+Line		TopSilkscreen	80				24.0152324 mm	16.0532376 mm			24.0613665 mm	16.8497201 mm	0.007 in												
+Line		TopSilkscreen	81				24.0613665 mm	16.8497201 mm			24.054474 mm	17.6475079 mm	0.007 in												
+Line		TopSilkscreen	128				0.0750064 mm	17.6349522 mm			0.0689493 mm	16.8371577 mm	0.007 in												
+Line		TopSilkscreen	129				0.0689493 mm	16.8371577 mm			0.1159174 mm	16.0407239 mm	0.007 in												
+Line		TopSilkscreen	130				0.1159174 mm	16.0407239 mm			0.2157033 mm	15.2491713 mm	0.007 in												
+Line		TopSilkscreen	131				0.2157033 mm	15.2491713 mm			0.3678657 mm	14.4659986 mm	0.007 in												
+Line		TopSilkscreen	132				0.3678657 mm	14.4659986 mm			0.5717321 mm	13.6946678 mm	0.007 in												
+Line		TopSilkscreen	133				0.5717321 mm	13.6946678 mm			0.8264014 mm	12.9385882 mm	0.007 in												
+Line		TopSilkscreen	134				0.8264014 mm	12.9385882 mm			1.1307478 mm	12.2011019 mm	0.007 in												
+Line		TopSilkscreen	135				1.1307478 mm	12.2011019 mm			1.4834261 mm	11.4854687 mm	0.007 in												
+Line		TopSilkscreen	136				1.4834261 mm	11.4854687 mm			1.6726952 mm	11.145 mm	0.007 in												
+Polygon	FillClearance	TopCopper	138				0 in	0 in															(0 in,0 in)(0.9500001 in,0 in)(0.9500001 in,0.675 in)(24.0544765 mm,17.6475078 mm)(23.9945877 mm,18.4430744 mm)(23.8819674 mm,19.2329032 mm)(23.7171135 mm,20.0135029 mm)(23.5007546 mm,20.7814232 mm)(23.2338471 mm,21.5332697 mm)(22.9175707 mm,22.2657191 mm)(22.5533235 mm,22.9755337 mm)(22.1427155 mm,23.659576 mm)(21.6875617 mm,24.3148224 mm)(21.1898741 mm,24.9383766 mm)(20.6518524 mm,25.5274822 mm)(20.0758749 mm,26.0795354 mm)(19.4644875 mm,26.5920959 mm)(18.8203927 mm,27.0628981 mm)(18.1464376 mm,27.4898609 mm)(17.4456011 mm,27.8710971 mm)(16.7209811 mm,28.2049215 mm)(15.9757807 mm,28.4898585 mm)(15.2132937 mm,28.7246486 mm)(14.4368906 mm,28.9082541 mm)(13.6500032 mm,29.0398633 mm)(12.8561097 mm,29.1188945 mm)(12.0587193 mm,29.1449984 mm)(11.2613567 mm,29.1180595 mm)(10.4675464 mm,29.038197 mm)(9.6807973 mm,28.9057638 mm)(8.9045868 mm,28.7213454 mm)(8.1423461 mm,28.4857569 mm)(7.3974445 mm,28.2000397 mm)(6.6731745 mm,27.8654567 mm)(5.9727376 mm,27.4834868 mm)(5.29923 mm,27.0558184 mm)(4.6556286 mm,26.584342 mm)(4.0447783 mm,26.0711416 mm)(3.4693792 mm,25.5184855 mm)(2.9319747 mm,24.9288168 mm)(2.4349403 mm,24.3047418 mm)(1.980473 mm,23.6490191 mm)(1.5705816 mm,22.9645472 mm)(1.2070779 mm,22.2543515 mm)(0.8915687 mm,21.5215713 mm)(0.6254486 mm,20.7694458 mm)(0.409894 mm,20.0012993 mm)(0.2458576 mm,19.2205273 mm)(0.1340645 mm,18.4305811 mm)(0.0750089 mm,17.6349522 mm)(0.0000001 in,0.675 in)		
+Polygon	FillClearance	BottomCopper	139				0 in	0 in															(0 in,0 in)(0.9500001 in,0 in)(0.9500001 in,0.675 in)(24.0544765 mm,17.6475078 mm)(23.9945877 mm,18.4430744 mm)(23.8819674 mm,19.2329032 mm)(23.7171135 mm,20.0135029 mm)(23.5007546 mm,20.7814232 mm)(23.2338471 mm,21.5332697 mm)(22.9175707 mm,22.2657191 mm)(22.5533235 mm,22.9755337 mm)(22.1427155 mm,23.659576 mm)(21.6875617 mm,24.3148224 mm)(21.1898741 mm,24.9383766 mm)(20.6518524 mm,25.5274822 mm)(20.0758749 mm,26.0795354 mm)(19.4644875 mm,26.5920959 mm)(18.8203927 mm,27.0628981 mm)(18.1464376 mm,27.4898609 mm)(17.4456011 mm,27.8710971 mm)(16.7209811 mm,28.2049215 mm)(15.9757807 mm,28.4898585 mm)(15.2132937 mm,28.7246486 mm)(14.4368906 mm,28.9082541 mm)(13.6500032 mm,29.0398633 mm)(12.8561097 mm,29.1188945 mm)(12.0587193 mm,29.1449984 mm)(11.2613567 mm,29.1180595 mm)(10.4675464 mm,29.038197 mm)(9.6807973 mm,28.9057638 mm)(8.9045868 mm,28.7213454 mm)(8.1423461 mm,28.4857569 mm)(7.3974445 mm,28.2000397 mm)(6.6731745 mm,27.8654567 mm)(5.9727376 mm,27.4834868 mm)(5.29923 mm,27.0558184 mm)(4.6556286 mm,26.584342 mm)(4.0447783 mm,26.0711416 mm)(3.4693792 mm,25.5184855 mm)(2.9319747 mm,24.9288168 mm)(2.4349403 mm,24.3047418 mm)(1.980473 mm,23.6490191 mm)(1.5705816 mm,22.9645472 mm)(1.2070779 mm,22.2543515 mm)(0.8915687 mm,21.5215713 mm)(0.6254486 mm,20.7694458 mm)(0.409894 mm,20.0012993 mm)(0.2458576 mm,19.2205273 mm)(0.1340645 mm,18.4305811 mm)(0.0750089 mm,17.6349522 mm)(0.0000001 in,0.675 in)		
+Text		TopSilkscreen	141				0.42825 in	0.4 in											"v2.0"	Teeny	0.0595 in				
+Text		TopSilkscreen	142				0.0588028 in	0.7292254 in											"c David"	Teeny	0.0595 in				
+Text		TopSilkscreen	143				0.3063281 in	0.2911972 in											"RobotRoom.com"	Teeny	0.0595 in				
+Ellipse	Outline	TopSilkscreen	144				0.0411385 in	0.714554 in	0.05 in	0.05 in			0.007 in	0°	360°										
+Text		TopSilkscreen	146				0.1844063 in	0.3470657 in											"Maxon 24mm Motor Mount"	Teeny	0.0595 in				
+Text		TopSilkscreen	149				0.1117371 in	0.7792254 in											"Cook"	Teeny	0.0595 in				
+Text		TopSilkscreen	150				0.1132042 in	0.8292254 in											"2015"	Teeny	0.0595 in				
+Pad	Rectangular	TopCopper	151				0.475 in	0.05 in	0.95 in	0.1 in													TopCopper Solid		
+Pad	Rectangular	BottomCopper	152				0.475 in	0.05 in	0.95 in	0.1 in													BottomCopper Solid		
+Pad			153				0.1 in	0.1 in	0.113 in	0.113 in												0.096 in	TopCopper Solid,BottomCopper Solid		
+Pad			155				0.85 in	0.1 in	0.113 in	0.113 in												0.096 in	TopCopper Solid,BottomCopper Solid		
+Text		TopSilkscreen	9327				0.05325 in	0.175 in											"2-56"	Teeny	0.0595 in				
+Text		TopSilkscreen	9328				0.80325 in	0.175 in											"2-56"	Teeny	0.0595 in				
+Line		BottomSilkscreen	9329	9377			1.6726952 mm	11.145 mm			2.0943516 mm	10.4677123 mm	0.007 in												
+Line		BottomSilkscreen	9330	9377			2.0943516 mm	10.4677123 mm			2.5600806 mm	9.8199398 mm	0.007 in												
+Line		BottomSilkscreen	9331	9377			2.5600806 mm	9.8199398 mm			3.0678235 mm	9.2045456 mm	0.007 in												
+Line		BottomSilkscreen	9332	9377			3.0678235 mm	9.2045456 mm			3.615336 mm	8.6242501 mm	0.007 in												
+Line		BottomSilkscreen	9333	9377			3.615336 mm	8.6242501 mm			4.2001979 mm	8.0816183 mm	0.007 in												
+Line		BottomSilkscreen	9334	9377			4.2001979 mm	8.0816183 mm			4.8198241 mm	7.5790486 mm	0.007 in												
+Line		BottomSilkscreen	9335	9377			4.8198241 mm	7.5790486 mm			5.4714756 mm	7.1187627 mm	0.007 in												
+Line		BottomSilkscreen	9336	9377			5.4714756 mm	7.1187627 mm			6.1522719 mm	6.702795 mm	0.007 in												
+Line		BottomSilkscreen	9337	9377			6.1522719 mm	6.702795 mm			6.8592039 mm	6.3329842 mm	0.007 in												
+Line		BottomSilkscreen	9338	9377			6.8592039 mm	6.3329842 mm			7.5891466 mm	6.010965 mm	0.007 in												
+Line		BottomSilkscreen	9339	9377			7.5891466 mm	6.010965 mm			8.3388737 mm	5.7381607 mm	0.007 in												
+Line		BottomSilkscreen	9340	9377			8.3388737 mm	5.7381607 mm			9.105071 mm	5.5157773 mm	0.007 in												
+Line		BottomSilkscreen	9341	9377			9.105071 mm	5.5157773 mm			9.884352 mm	5.3447977 mm	0.007 in												
+Line		BottomSilkscreen	9342	9377			9.884352 mm	5.3447977 mm			10.6732719 mm	5.2259777 mm	0.007 in												
+Line		BottomSilkscreen	9343	9377			10.6732719 mm	5.2259777 mm			11.4683435 mm	5.1598425 mm	0.007 in												
+Line		BottomSilkscreen	9344	9377			11.4683435 mm	5.1598425 mm			12.2660525 mm	5.1466844 mm	0.007 in												
+Line		BottomSilkscreen	9345	9377			12.2660525 mm	5.1466844 mm			13.0628728 mm	5.1865616 mm	0.007 in												
+Line		BottomSilkscreen	9346	9377			13.0628728 mm	5.1865616 mm			13.8552823 mm	5.2792978 mm	0.007 in												
+Line		BottomSilkscreen	9347	9377			13.8552823 mm	5.2792978 mm			14.6397783 mm	5.4244831 mm	0.007 in												
+Line		BottomSilkscreen	9348	9377			14.6397783 mm	5.4244831 mm			15.4128933 mm	5.6214758 mm	0.007 in												
+Line		BottomSilkscreen	9349	9377			15.4128933 mm	5.6214758 mm			16.1712097 mm	5.8694051 mm	0.007 in												
+Line		BottomSilkscreen	9350	9377			16.1712097 mm	5.8694051 mm			16.9113758 mm	6.167175 mm	0.007 in												
+Line		BottomSilkscreen	9351	9377			16.9113758 mm	6.167175 mm			17.6301198 mm	6.5134695 mm	0.007 in												
+Line		BottomSilkscreen	9352	9377			17.6301198 mm	6.5134695 mm			18.3242647 mm	6.9067578 mm	0.007 in												
+Line		BottomSilkscreen	9353	9377			18.3242647 mm	6.9067578 mm			18.9907423 mm	7.3453014 mm	0.007 in												
+Line		BottomSilkscreen	9354	9377			18.9907423 mm	7.3453014 mm			19.6266065 mm	7.8271619 mm	0.007 in												
+Line		BottomSilkscreen	9355	9377			19.6266065 mm	7.8271619 mm			20.2290466 mm	8.3502093 mm	0.007 in												
+Line		BottomSilkscreen	9356	9377			20.2290466 mm	8.3502093 mm			20.7953998 mm	8.9121318 mm	0.007 in												
+Line		BottomSilkscreen	9357	9377			20.7953998 mm	8.9121318 mm			21.3231627 mm	9.5104454 mm	0.007 in												
+Line		BottomSilkscreen	9358	9377			21.3231627 mm	9.5104454 mm			21.8100023 mm	10.1425055 mm	0.007 in												
+Line		BottomSilkscreen	9359	9377			21.8100023 mm	10.1425055 mm			22.2537669 mm	10.8055182 mm	0.007 in												
+Line		BottomSilkscreen	9360	9377			22.2537669 mm	10.8055182 mm			22.6524947 mm	11.4965528 mm	0.007 in												
+Line		BottomSilkscreen	9361	9377			22.6524947 mm	11.4965528 mm			23.0044234 mm	12.2125549 mm	0.007 in												
+Line		BottomSilkscreen	9362	9377			23.0044234 mm	12.2125549 mm			23.3079974 mm	12.9503595 mm	0.007 in												
+Line		BottomSilkscreen	9363	9377			23.3079974 mm	12.9503595 mm			23.5618748 mm	13.7067054 mm	0.007 in												
+Line		BottomSilkscreen	9364	9377			23.5618748 mm	13.7067054 mm			23.7649334 mm	14.4782493 mm	0.007 in												
+Line		BottomSilkscreen	9365	9377			23.7649334 mm	14.4782493 mm			23.9162756 mm	15.2615809 mm	0.007 in												
+Line		BottomSilkscreen	9366	9377			23.9162756 mm	15.2615809 mm			24.0152324 mm	16.0532376 mm	0.007 in												
+Line		BottomSilkscreen	9367	9377			24.0152324 mm	16.0532376 mm			24.0613665 mm	16.8497201 mm	0.007 in												
+Line		BottomSilkscreen	9368	9377			24.0613665 mm	16.8497201 mm			24.054474 mm	17.6475079 mm	0.007 in												
+Line		BottomSilkscreen	9369	9377			0.0689493 mm	16.8371577 mm			0.1159174 mm	16.0407239 mm	0.007 in												
+Line		BottomSilkscreen	9370	9377			0.1159174 mm	16.0407239 mm			0.2157033 mm	15.2491713 mm	0.007 in												
+Line		BottomSilkscreen	9371	9377			0.2157033 mm	15.2491713 mm			0.3678657 mm	14.4659986 mm	0.007 in												
+Line		BottomSilkscreen	9372	9377			0.3678657 mm	14.4659986 mm			0.5717321 mm	13.6946678 mm	0.007 in												
+Line		BottomSilkscreen	9373	9377			0.5717321 mm	13.6946678 mm			0.8264014 mm	12.9385882 mm	0.007 in												
+Line		BottomSilkscreen	9374	9377			0.8264014 mm	12.9385882 mm			1.1307478 mm	12.2011019 mm	0.007 in												
+Line		BottomSilkscreen	9375	9377			1.1307478 mm	12.2011019 mm			1.4834261 mm	11.4854687 mm	0.007 in												
+Line		BottomSilkscreen	9376	9377			1.4834261 mm	11.4854687 mm			1.6726952 mm	11.145 mm	0.007 in												
+Group			9377																						
+Text		TopSilkscreen	9378				0.7316085 in	0.575 in											"2mm"	Teeny	0.0595 in				
+Text		TopSilkscreen	9379				0.1519852 in	0.575 in											"2mm"	Teeny	0.0595 in				
+Text		TopSilkscreen	9380				0.4417969 in	1.075 in											"2mm"	Teeny	0.0595 in				

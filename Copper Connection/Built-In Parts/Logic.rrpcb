@@ -1,0 +1,125 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5488
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Logic, IC
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Ellipse		TopSilkscreen	4	115			1.175 in	0.1 in	0.025 in	0.025 in				0°	360°									1	
+Pad	SquareWithHole		15	29			1.6 in	0.1 in	0.056 in	0.056 in							"1"	"~Clear 1"				0.029 in			
+Pad			16	29			1.6 in	0.2 in	0.056 in	0.056 in							"2"	"Data In 1"				0.029 in			
+Pad			17	29			1.6 in	0.3 in	0.056 in	0.056 in							"3"	"Clock 1"				0.029 in			
+Pad			18	29			1.6 in	0.4 in	0.056 in	0.056 in							"4"	"~Set 1"				0.029 in			
+Pad			19	29			1.6 in	0.5 in	0.056 in	0.056 in							"5"	"Out 1"				0.029 in			
+Pad			20	29			1.6 in	0.6 in	0.056 in	0.056 in							"6"	"~Out 1"				0.029 in			
+Pad			21	29			1.6 in	0.7 in	0.056 in	0.056 in							"7"	"GND"				0.029 in			
+Pad			22	29			1.9 in	0.7 in	0.056 in	0.056 in							"8"	"~Out 2"				0.029 in			
+Pad			23	29			1.9 in	0.6 in	0.056 in	0.056 in							"9"	"Out 2"				0.029 in			
+Pad			24	29			1.9 in	0.5 in	0.056 in	0.056 in							"10"	"~Set 2"				0.029 in			
+Pad			25	29			1.9 in	0.4 in	0.056 in	0.056 in							"11"	"Clock 2"				0.029 in			
+Pad			26	29			1.9 in	0.3 in	0.056 in	0.056 in							"12"	"Data In 2"				0.029 in			
+Pad			27	29			1.9 in	0.2 in	0.056 in	0.056 in							"13"	"~Clear 2"				0.029 in			
+Pad			28	29			1.9 in	0.1 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in			
+Group			29														"IC"	"7474 Dual D Flip Flop"							
+Ellipse		TopSilkscreen	30	29			1.675 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	31	29			1.7125 in	0.075 in			1.65 in	0.075 in	0.012 in												
+Line		TopSilkscreen	32	29			1.65 in	0.075 in			1.65 in	0.725 in	0.012 in												
+Line		TopSilkscreen	33	29			1.65 in	0.725 in			1.85 in	0.725 in	0.012 in												
+Line		TopSilkscreen	34	29			1.85 in	0.725 in			1.85 in	0.075 in	0.012 in												
+Line		TopSilkscreen	35	29			1.85 in	0.075 in			1.7875 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	36	29			1.7125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		69	83			0.1 in	0.1 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		2	
+Pad			70	83			0.1 in	0.2 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		2	
+Pad			71	83			0.1 in	0.3 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		2	
+Pad			72	83			0.1 in	0.4 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		2	
+Pad			73	83			0.1 in	0.5 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		2	
+Pad			74	83			0.1 in	0.6 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		2	
+Pad			75	83			0.1 in	0.7 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		2	
+Pad			76	83			0.4 in	0.7 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		2	
+Pad			77	83			0.4 in	0.6 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		2	
+Pad			78	83			0.4 in	0.5 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		2	
+Pad			79	83			0.4 in	0.4 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		2	
+Pad			80	83			0.4 in	0.3 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		2	
+Pad			81	83			0.4 in	0.2 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		2	
+Pad			82	83			0.4 in	0.1 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		2	
+Group			83														"IC"	"7400 NAND"						2	
+Ellipse		TopSilkscreen	84	83			0.175 in	0.1 in	0.025 in	0.025 in				0°	360°									2	
+Line		TopSilkscreen	85	83			0.2125 in	0.075 in			0.15 in	0.075 in	0.012 in											2	
+Line		TopSilkscreen	86	83			0.15 in	0.075 in			0.15 in	0.725 in	0.012 in											2	
+Line		TopSilkscreen	87	83			0.15 in	0.725 in			0.35 in	0.725 in	0.012 in											2	
+Line		TopSilkscreen	88	83			0.35 in	0.725 in			0.35 in	0.075 in	0.012 in											2	
+Line		TopSilkscreen	89	83			0.35 in	0.075 in			0.2875 in	0.075 in	0.012 in											2	
+Ellipse	Outline	TopSilkscreen	90	83			0.2125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°									2	
+Pad	SquareWithHole		92	115			1.1 in	0.1 in	0.056 in	0.056 in							"1"	"Input 1"				0.029 in		1	
+Pad			93	115			1.4 in	0.1 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		1	
+Pad			94	115			1.1 in	0.2 in	0.056 in	0.056 in							"2"	"Output 1"	"Inverted"			0.029 in		1	
+Pad			95	115			1.4 in	0.2 in	0.056 in	0.056 in							"13"	"Input 6"				0.029 in		1	
+Pad			96	115			1.1 in	0.3 in	0.056 in	0.056 in							"3"	"Input 2"				0.029 in		1	
+Pad			97	115			1.4 in	0.3 in	0.056 in	0.056 in							"12"	"Output 6"	"Inverted"			0.029 in		1	
+Pad			98	115			1.1 in	0.4 in	0.056 in	0.056 in							"4"	"Output 2"	"Inverted"			0.029 in		1	
+Pad			99	115			1.4 in	0.4 in	0.056 in	0.056 in							"11"	"Input 5"				0.029 in		1	
+Line		TopSilkscreen	100	115			1.15 in	0.075 in			1.15 in	0.725 in	0.012 in											1	
+Line		TopSilkscreen	101	115			1.15 in	0.725 in			1.35 in	0.725 in	0.012 in											1	
+Line		TopSilkscreen	102	115			1.35 in	0.725 in			1.35 in	0.075 in	0.012 in											1	
+Line		TopSilkscreen	103	115			1.35 in	0.075 in			1.289 in	0.075 in	0.012 in											1	
+Line		TopSilkscreen	104	115			1.15 in	0.075 in			1.2125 in	0.075 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	105	115			1.2125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°									1	
+Pad			107	115			1.1 in	0.5 in	0.056 in	0.056 in							"5"	"Input 3"				0.029 in		1	
+Pad			108	115			1.1 in	0.6 in	0.056 in	0.056 in							"6"	"Output 3"	"Inverted"			0.029 in		1	
+Pad			109	115			1.1 in	0.7 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		1	
+Pad			110	115			1.4 in	0.5 in	0.056 in	0.056 in							"10"	"Output 5"	"Inverted"			0.029 in		1	
+Pad			111	115			1.4 in	0.6 in	0.056 in	0.056 in							"9"	"Input 4"				0.029 in		1	
+Pad			112	115			1.4 in	0.7 in	0.056 in	0.056 in							"8"	"Output 4"	"Inverted"			0.029 in		1	
+Group			115														"IC"	"7414 Hex Schmitt-Trigger Inverter DIP"						1	
+Pad	SquareWithHole		7323	7339			2.1 in	0.1 in	0.056 in	0.056 in							"1"	"Out B"				0.029 in		1	
+Pad			7324	7339			2.1 in	0.2 in	0.056 in	0.056 in							"2"	"Out C"				0.029 in		1	
+Pad			7325	7339			2.1 in	0.3 in	0.056 in	0.056 in							"3"	"Out D"				0.029 in		1	
+Pad			7326	7339			2.1 in	0.4 in	0.056 in	0.056 in							"4"	"Out E"				0.029 in		1	
+Pad			7327	7339			2.1 in	0.5 in	0.056 in	0.056 in							"5"	"Out F"				0.029 in		1	
+Pad			7328	7339			2.1 in	0.6 in	0.056 in	0.056 in							"6"	"Out G"				0.029 in		1	
+Pad			7329	7339			2.1 in	0.7 in	0.056 in	0.056 in							"7"	"Out H"				0.029 in		1	
+Pad			7330	7339			2.1 in	0.8 in	0.056 in	0.056 in							"8"	"GND"				0.029 in		1	
+Pad			7331	7339			2.4 in	0.8 in	0.056 in	0.056 in							"9"	"~QH"				0.029 in		1	
+Pad			7332	7339			2.4 in	0.7 in	0.056 in	0.056 in							"10"	"~Clear"				0.029 in		1	
+Pad			7333	7339			2.4 in	0.6 in	0.056 in	0.056 in							"11"	"Shift Clock"				0.029 in		1	
+Pad			7334	7339			2.4 in	0.5 in	0.056 in	0.056 in							"12"	"Latch Clock"				0.029 in		1	
+Pad			7335	7339			2.4 in	0.4 in	0.056 in	0.056 in							"13"	"~Output Enable"				0.029 in		1	
+Pad			7336	7339			2.4 in	0.3 in	0.056 in	0.056 in							"14"	"Serial Input"				0.029 in		1	
+Pad			7337	7339			2.4 in	0.2 in	0.056 in	0.056 in							"15"	"Out A"				0.029 in		1	
+Pad			7338	7339			2.4 in	0.1 in	0.056 in	0.056 in							"16"	"Vcc"				0.029 in		1	
+Group			7339														"IC"	"74595 8-bit Serial DIP"						1	
+Ellipse		TopSilkscreen	7340	7339			2.175 in	0.1 in	0.025 in	0.025 in				0°	360°									1	
+Line		TopSilkscreen	7341	7339			2.2125 in	0.075 in			2.15 in	0.075 in	0.012 in											1	
+Line		TopSilkscreen	7342	7339			2.15 in	0.075 in			2.15 in	0.825 in	0.012 in											1	
+Line		TopSilkscreen	7343	7339			2.15 in	0.825 in			2.35 in	0.825 in	0.012 in											1	
+Line		TopSilkscreen	7344	7339			2.35 in	0.825 in			2.35 in	0.075 in	0.012 in											1	
+Line		TopSilkscreen	7345	7339			2.35 in	0.075 in			2.2875 in	0.075 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	7346	7339			2.2125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°									1	

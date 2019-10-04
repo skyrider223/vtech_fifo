@@ -1,0 +1,611 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5494
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=DIP
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(7.4000001 in,0 in)(7.4000001 in,3 in)(0 in,3 in)		
+Ellipse		TopSilkscreen	2	60			0.175 in	0.8 in	0.025 in	0.025 in				0°	360°										
+Ellipse		TopSilkscreen	3	162			0.675 in	2 in	0.025 in	0.025 in				0°	360°										
+Ellipse		TopSilkscreen	4	115			0.175 in	1.3 in	0.025 in	0.025 in				0°	360°										
+Ellipse		TopSilkscreen	5	139			0.675 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		18	60			0.1 in	0.8 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			19	60			0.4 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			20	60			0.1 in	0.9 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			21	60			0.4 in	0.9 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			22	60			0.1 in	1 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			23	60			0.4 in	1 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			24	60			0.1 in	1.1 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			25	60			0.4 in	1.1 in	0.056 in	0.056 in							"5"					0.029 in			
+Line		TopSilkscreen	26	60			0.15 in	0.775 in			0.15 in	1.125 in	0.012 in												
+Line		TopSilkscreen	27	60			0.15 in	1.125 in			0.35 in	1.125 in	0.012 in												
+Line		TopSilkscreen	29	60			0.35 in	0.775 in			0.289 in	0.775 in	0.012 in												
+Line		TopSilkscreen	30	60			0.15 in	0.775 in			0.2125 in	0.775 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	59	60			0.2125 in	0.7375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Group			60														"IC"	"DIP 8-pin"							
+Pad	SquareWithHole		92	115			0.1 in	1.3 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			93	115			0.4 in	1.3 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			94	115			0.1 in	1.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			95	115			0.4 in	1.4 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			96	115			0.1 in	1.5 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			97	115			0.4 in	1.5 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			98	115			0.1 in	1.6 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			99	115			0.4 in	1.6 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	100	115			0.15 in	1.275 in			0.15 in	1.925 in	0.012 in												
+Line		TopSilkscreen	101	115			0.15 in	1.925 in			0.35 in	1.925 in	0.012 in												
+Line		TopSilkscreen	102	115			0.35 in	1.925 in			0.35 in	1.275 in	0.012 in												
+Line		TopSilkscreen	103	115			0.35 in	1.275 in			0.289 in	1.275 in	0.012 in												
+Line		TopSilkscreen	104	115			0.15 in	1.275 in			0.2125 in	1.275 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	105	115			0.2125 in	1.2375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			107	115			0.1 in	1.7 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			108	115			0.1 in	1.8 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			109	115			0.1 in	1.9 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			110	115			0.4 in	1.7 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			111	115			0.4 in	1.8 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			112	115			0.4 in	1.9 in	0.056 in	0.056 in							"8"					0.029 in			
+Line		TopSilkscreen	113	60			0.35 in	0.775 in			0.35 in	1.125 in	0.012 in												
+Group			115														"IC"	"DIP 14-pin"							
+Pad	SquareWithHole		116	139			0.6 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			117	139			0.9 in	0.3 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			118	139			0.6 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			119	139			0.9 in	0.4 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			120	139			0.6 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			121	139			0.9 in	0.5 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			122	139			0.6 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			123	139			0.9 in	0.6 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	124	139			0.65 in	0.075 in			0.65 in	0.825 in	0.012 in												
+Line		TopSilkscreen	125	139			0.65 in	0.825 in			0.85 in	0.825 in	0.012 in												
+Line		TopSilkscreen	126	139			0.85 in	0.825 in			0.85 in	0.075 in	0.012 in												
+Line		TopSilkscreen	127	139			0.85 in	0.075 in			0.789 in	0.075 in	0.012 in												
+Line		TopSilkscreen	128	139			0.65 in	0.075 in			0.7125 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	129	139			0.7125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			130	139			0.6 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			131	139			0.6 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			132	139			0.6 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			133	139			0.9 in	0.7 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			134	139			0.9 in	0.8 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			135	139			0.6 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			137	139			0.9 in	0.1 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			138	139			0.9 in	0.2 in	0.056 in	0.056 in							"15"					0.029 in			
+Group			139														"IC"	"DIP 16-pin"							
+Pad	SquareWithHole		140	162			0.6 in	2 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			141	162			0.9 in	2.6 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			142	162			0.6 in	2.1 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			143	162			0.9 in	2.7 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			144	162			0.6 in	2.2 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			145	162			0.9 in	2.8 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			146	162			0.6 in	2.3 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			147	162			0.9 in	2.9 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	148	162			0.65 in	1.975 in			0.65 in	2.925 in	0.012 in												
+Line		TopSilkscreen	149	162			0.65 in	2.925 in			0.85 in	2.925 in	0.012 in												
+Line		TopSilkscreen	150	162			0.85 in	2.925 in			0.85 in	1.975 in	0.012 in												
+Line		TopSilkscreen	151	162			0.85 in	1.975 in			0.789 in	1.975 in	0.012 in												
+Line		TopSilkscreen	152	162			0.65 in	1.975 in			0.7125 in	1.975 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	153	162			0.7125 in	1.9375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			154	162			0.6 in	2.4 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			155	162			0.6 in	2.5 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			156	162			0.6 in	2.6 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			157	162			0.6 in	2.9 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			158	162			0.6 in	2.8 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			159	162			0.6 in	2.7 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			160	162			0.9 in	2.4 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			161	162			0.9 in	2.5 in	0.056 in	0.056 in							"15"					0.029 in			
+Group			162														"IC"	"DIP 20-pin"							
+Pad			163	162			0.9 in	2.2 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			164	162			0.9 in	2.3 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			165	162			0.9 in	2 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			166	162			0.9 in	2.1 in	0.056 in	0.056 in							"19"					0.029 in			
+Ellipse		TopSilkscreen	167	190			1.675 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		168	190			1.6 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			169	190			1.9 in	1.1 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			170	190			1.6 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			171	190			1.9 in	1.2 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			172	190			1.6 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			173	190			1.6 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			174	190			1.6 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			175	190			1.6 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	176	190			1.65 in	0.075 in			1.65 in	1.2 in	0.012 in												
+Line		TopSilkscreen	177	190			1.65 in	1.2 in			1.85 in	1.2 in	0.012 in												
+Line		TopSilkscreen	178	190			1.85 in	1.2 in			1.85 in	0.075 in	0.012 in												
+Line		TopSilkscreen	179	190			1.85 in	0.075 in			1.789 in	0.075 in	0.012 in												
+Line		TopSilkscreen	180	190			1.65 in	0.075 in			1.7125 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	181	190			1.7125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			182	190			1.6 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			183	190			1.6 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			184	190			1.6 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			185	190			1.6 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			186	190			1.6 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			187	190			1.6 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			188	190			1.9 in	0.9 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			189	190			1.9 in	1 in	0.056 in	0.056 in							"15"					0.029 in			
+Group			190														"IC"	"DIP 24-pin (0.3 in)"							
+Pad			191	190			1.9 in	0.7 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			192	190			1.9 in	0.8 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			193	190			1.9 in	0.5 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			194	190			1.9 in	0.6 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			195	190			1.9 in	0.3 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			196	190			1.9 in	0.4 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			197	190			1.9 in	0.1 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			198	190			1.9 in	0.2 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad	SquareWithHole		201	223			1.6 in	1.6 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			202	223			2.2 in	2.6 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			203	223			1.6 in	1.7 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			204	223			2.2 in	2.7 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			205	223			1.6 in	1.8 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			206	223			1.6 in	2.7 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			207	223			1.6 in	1.9 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			208	223			1.6 in	2.6 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	209	223			1.65 in	1.575 in			1.65 in	2.7 in	0.012 in												
+Line		TopSilkscreen	210	223			1.65 in	2.7 in			2.15 in	2.7 in	0.012 in												
+Line		TopSilkscreen	211	223			2.15 in	2.7 in			2.15 in	1.575 in	0.012 in												
+Line		TopSilkscreen	212	223			2.15 in	1.575 in			1.95 in	1.575 in	0.012 in												
+Line		TopSilkscreen	213	223			1.65 in	1.575 in			1.875 in	1.575 in	0.012 in												
+Pad			215	223			1.6 in	2 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			216	223			1.6 in	2.1 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			217	223			1.6 in	2.2 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			218	223			1.6 in	2.5 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			219	223			1.6 in	2.4 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			220	223			1.6 in	2.3 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			221	223			2.2 in	2.4 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			222	223			2.2 in	2.5 in	0.056 in	0.056 in							"15"					0.029 in			
+Group			223														"IC"	"DIP 24-pin (0.6 in)"							
+Pad			224	223			2.2 in	2.2 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			225	223			2.2 in	2.3 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			226	223			2.2 in	2 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			227	223			2.2 in	2.1 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			228	223			2.2 in	1.8 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			229	223			2.2 in	1.9 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			230	223			2.2 in	1.6 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			231	223			2.2 in	1.7 in	0.056 in	0.056 in							"23"					0.029 in			
+Ellipse	Outline	TopSilkscreen	232	223			1.875 in	1.5385302 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Ellipse		TopSilkscreen	233	223			1.675 in	1.6 in	0.025 in	0.025 in				0°	360°										
+Ellipse		TopSilkscreen	234	257			2.3875 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		235	257			2.3125 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			236	257			2.3125 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			237	257			2.3125 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			238	257			2.3125 in	1.3 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			239	257			2.3125 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			240	257			2.3125 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			241	257			2.3125 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			242	257			2.3125 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	243	257			2.3625 in	0.075 in			2.3625 in	1.4 in	0.012 in												
+Line		TopSilkscreen	244	257			2.3625 in	1.4 in			2.5625 in	1.4 in	0.012 in												
+Line		TopSilkscreen	245	257			2.5625 in	1.4 in			2.5625 in	0.075 in	0.012 in												
+Line		TopSilkscreen	246	257			2.5625 in	0.075 in			2.5015 in	0.075 in	0.012 in												
+Line		TopSilkscreen	247	257			2.3625 in	0.075 in			2.425 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	248	257			2.425 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			249	257			2.3125 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			250	257			2.3125 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			251	257			2.3125 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			252	257			2.3125 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			253	257			2.3125 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			254	257			2.3125 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			255	257			2.6125 in	1.3 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			256	257			2.6125 in	1.4 in	0.056 in	0.056 in							"15"					0.029 in			
+Group			257														"IC"	"DIP 28-pin (0.3 in)"							
+Pad			258	257			2.6125 in	1.1 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			259	257			2.6125 in	1.2 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			260	257			2.6125 in	0.9 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			261	257			2.6125 in	1 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			262	257			2.6125 in	0.7 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			263	257			2.6125 in	0.8 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			264	257			2.6125 in	0.5 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			265	257			2.6125 in	0.6 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad	SquareWithHole		266	287			3.4 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			268	287			3.4 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			270	287			3.4 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			271	287			3.4 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			272	287			3.4 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			273	287			3.4 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	274	287			3.45 in	0.075 in			3.45 in	1.6 in	0.012 in												
+Line		TopSilkscreen	275	287			3.45 in	1.6 in			3.95 in	1.6 in	0.012 in												
+Line		TopSilkscreen	276	287			3.95 in	1.6 in			3.95 in	0.075 in	0.012 in												
+Line		TopSilkscreen	277	287			3.95 in	0.075 in			3.75 in	0.075 in	0.012 in												
+Line		TopSilkscreen	278	287			3.45 in	0.075 in			3.675 in	0.075 in	0.012 in												
+Pad			279	287			3.4 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			280	287			3.4 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			281	287			3.4 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			282	287			3.4 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			283	287			3.4 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			284	287			3.4 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Group			287														"IC"	"DIP 32-pin"							
+Ellipse	Outline	TopSilkscreen	296	287			3.675 in	0.0385302 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Ellipse		TopSilkscreen	297	287			3.475 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad			1199	257			2.6125 in	0.3 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			1200	257			2.6125 in	0.4 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			1201	257			2.6125 in	0.1 in	0.056 in	0.056 in							"28"					0.029 in			
+Pad			1202	257			2.6125 in	0.2 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			1208	287			3.4 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			1209	287			3.4 in	1.3 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			1210	287			3.4 in	1.6 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			1211	287			3.4 in	1.5 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			1212	287			4 in	1.5 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			1213	287			4 in	1.6 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			1214	287			4 in	1.3 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			1215	287			4 in	1.4 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			1216	287			4 in	1.1 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			1217	287			4 in	1.2 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			1218	287			4 in	0.9 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			1219	287			4 in	1 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad			1220	287			4 in	0.7 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			1221	287			4 in	0.8 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			1222	287			4 in	0.5 in	0.056 in	0.056 in							"28"					0.029 in			
+Pad			1223	287			4 in	0.6 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			1224	287			4 in	0.3 in	0.056 in	0.056 in							"30"					0.029 in			
+Pad			1225	287			4 in	0.4 in	0.056 in	0.056 in							"29"					0.029 in			
+Pad			1226	287			4 in	0.1 in	0.056 in	0.056 in							"32"					0.029 in			
+Pad			1227	287			4 in	0.2 in	0.056 in	0.056 in							"31"					0.029 in			
+Pad	SquareWithHole		1229	1246			2.4 in	1.6 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			1230	1246			2.4 in	1.7 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			1231	1246			2.4 in	1.8 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			1232	1246			2.4 in	2.7 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			1233	1246			2.4 in	1.9 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			1234	1246			2.4 in	2.6 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	1235	1246			2.45 in	1.575 in			2.45 in	2.9 in	0.012 in												
+Line		TopSilkscreen	1236	1246			2.45 in	2.9 in			2.95 in	2.9 in	0.012 in												
+Line		TopSilkscreen	1237	1246			2.95 in	2.9 in			2.95 in	1.575 in	0.012 in												
+Line		TopSilkscreen	1238	1246			2.95 in	1.575 in			2.75 in	1.575 in	0.012 in												
+Line		TopSilkscreen	1239	1246			2.45 in	1.575 in			2.675 in	1.575 in	0.012 in												
+Pad			1240	1246			2.4 in	2 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			1241	1246			2.4 in	2.1 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			1242	1246			2.4 in	2.2 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			1243	1246			2.4 in	2.5 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			1244	1246			2.4 in	2.4 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			1245	1246			2.4 in	2.3 in	0.056 in	0.056 in							"8"					0.029 in			
+Group			1246														"IC"	"DIP 28-pin (0.6 in)"							
+Ellipse	Outline	TopSilkscreen	1247	1246			2.675 in	1.5385302 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Ellipse		TopSilkscreen	1248	1246			2.475 in	1.6 in	0.025 in	0.025 in				0°	360°										
+Pad			1249	1246			2.4 in	2.9 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			1250	1246			2.4 in	2.8 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			1253	1246			3 in	2.6 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			1254	1246			3 in	2.7 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			1255	1246			3 in	2.4 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			1256	1246			3 in	2.5 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			1257	1246			3 in	2.2 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			1258	1246			3 in	2.3 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			1259	1246			3 in	2 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			1260	1246			3 in	2.1 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad			1261	1246			3 in	1.8 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			1262	1246			3 in	1.9 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			1263	1246			3 in	1.6 in	0.056 in	0.056 in							"28"					0.029 in			
+Pad			1264	1246			3 in	1.7 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			1269	1246			3 in	2.8 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			1270	1246			3 in	2.9 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad	SquareWithHole		1273	1290			4.2 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			1274	1290			4.2 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			1275	1290			4.2 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			1276	1290			4.2 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			1277	1290			4.2 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			1278	1290			4.2 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Line		TopSilkscreen	1279	1290			4.25 in	0.075 in			4.25 in	2 in	0.012 in												
+Line		TopSilkscreen	1280	1290			4.25 in	2 in			4.75 in	2 in	0.012 in												
+Line		TopSilkscreen	1281	1290			4.75 in	2 in			4.75 in	0.075 in	0.012 in												
+Line		TopSilkscreen	1282	1290			4.75 in	0.075 in			4.55 in	0.075 in	0.012 in												
+Line		TopSilkscreen	1283	1290			4.25 in	0.075 in			4.475 in	0.075 in	0.012 in												
+Pad			1284	1290			4.2 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			1285	1290			4.2 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			1286	1290			4.2 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			1287	1290			4.2 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			1288	1290			4.2 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			1289	1290			4.2 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Group			1290														"IC"	"DIP 40-pin"							
+Ellipse	Outline	TopSilkscreen	1291	1290			4.475 in	0.0385302 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Ellipse		TopSilkscreen	1292	1290			4.275 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad			1293	1290			4.2 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			1294	1290			4.2 in	1.3 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			1295	1290			4.2 in	1.6 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			1296	1290			4.2 in	1.5 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			1297	1290			4.2 in	1.8 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			1298	1290			4.2 in	1.7 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			1299	1290			4.2 in	2 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			1300	1290			4.2 in	1.9 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			1301	1290			4.8 in	1.9 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			1302	1290			4.8 in	2 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			1303	1290			4.8 in	1.7 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			1304	1290			4.8 in	1.8 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad			1305	1290			4.8 in	1.5 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			1306	1290			4.8 in	1.6 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			1307	1290			4.8 in	1.3 in	0.056 in	0.056 in							"28"					0.029 in			
+Pad			1308	1290			4.8 in	1.4 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			1309	1290			4.8 in	1.1 in	0.056 in	0.056 in							"30"					0.029 in			
+Pad			1310	1290			4.8 in	1.2 in	0.056 in	0.056 in							"29"					0.029 in			
+Pad			1311	1290			4.8 in	0.9 in	0.056 in	0.056 in							"32"					0.029 in			
+Pad			1312	1290			4.8 in	1 in	0.056 in	0.056 in							"31"					0.029 in			
+Pad			1313	1290			4.8 in	0.7 in	0.056 in	0.056 in							"34"					0.029 in			
+Pad			1314	1290			4.8 in	0.8 in	0.056 in	0.056 in							"33"					0.029 in			
+Pad			1315	1290			4.8 in	0.5 in	0.056 in	0.056 in							"36"					0.029 in			
+Pad			1316	1290			4.8 in	0.6 in	0.056 in	0.056 in							"35"					0.029 in			
+Pad			1317	1290			4.8 in	0.3 in	0.056 in	0.056 in							"38"					0.029 in			
+Pad			1318	1290			4.8 in	0.4 in	0.056 in	0.056 in							"37"					0.029 in			
+Pad			1319	1290			4.8 in	0.1 in	0.056 in	0.056 in							"40"					0.029 in			
+Pad			1320	1290			4.8 in	0.2 in	0.056 in	0.056 in							"39"					0.029 in			
+Pad	SquareWithHole		8763	8767			0.1 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8764	8767			0.1 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8765	8767			0.4 in	0.2 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8766	8767			0.4 in	0.1 in	0.056 in	0.056 in							"4"					0.029 in			
+Group			8767														"IC"	"DIP 4-pin"							
+Ellipse		TopSilkscreen	8768	8767			0.175 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	8769	8767			0.2125 in	0.075 in			0.15 in	0.075 in	0.012 in												
+Line		TopSilkscreen	8770	8767			0.15 in	0.075 in			0.15 in	0.225 in	0.012 in												
+Line		TopSilkscreen	8771	8767			0.15 in	0.225 in			0.35 in	0.225 in	0.012 in												
+Line		TopSilkscreen	8772	8767			0.35 in	0.225 in			0.35 in	0.075 in	0.012 in												
+Line		TopSilkscreen	8773	8767			0.35 in	0.075 in			0.2875 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	8774	8767			0.2125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		8775	8781			0.1 in	0.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8776	8781			0.1 in	0.5 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8777	8781			0.1 in	0.6 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8778	8781			0.4 in	0.6 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			8779	8781			0.4 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			8780	8781			0.4 in	0.4 in	0.056 in	0.056 in							"6"					0.029 in			
+Group			8781														"IC"	"DIP 6-pin"							
+Ellipse		TopSilkscreen	8782	8781			0.175 in	0.4 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	8783	8781			0.2125 in	0.375 in			0.15 in	0.375 in	0.012 in												
+Line		TopSilkscreen	8784	8781			0.15 in	0.375 in			0.15 in	0.625 in	0.012 in												
+Line		TopSilkscreen	8785	8781			0.15 in	0.625 in			0.35 in	0.625 in	0.012 in												
+Line		TopSilkscreen	8786	8781			0.35 in	0.625 in			0.35 in	0.375 in	0.012 in												
+Line		TopSilkscreen	8787	8781			0.35 in	0.375 in			0.2875 in	0.375 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	8788	8781			0.2125 in	0.3375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		8789	8807			0.6 in	1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8790	8807			0.6 in	1.1 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8791	8807			0.6 in	1.2 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8792	8807			0.6 in	1.3 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			8793	8807			0.6 in	1.4 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			8794	8807			0.6 in	1.5 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			8795	8807			0.6 in	1.6 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			8796	8807			0.6 in	1.7 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			8797	8807			0.6 in	1.8 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			8798	8807			0.9 in	1.8 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			8799	8807			0.9 in	1.7 in	0.056 in	0.056 in							"11"					0.029 in			
+Pad			8800	8807			0.9 in	1.6 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			8801	8807			0.9 in	1.5 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			8802	8807			0.9 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			8803	8807			0.9 in	1.3 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			8804	8807			0.9 in	1.2 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			8805	8807			0.9 in	1.1 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			8806	8807			0.9 in	1 in	0.056 in	0.056 in							"18"					0.029 in			
+Group			8807														"IC"	"DIP 18-pin"							
+Ellipse		TopSilkscreen	8808	8807			0.675 in	1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	8809	8807			0.7125 in	0.975 in			0.65 in	0.975 in	0.012 in												
+Line		TopSilkscreen	8810	8807			0.65 in	0.975 in			0.65 in	1.825 in	0.012 in												
+Line		TopSilkscreen	8811	8807			0.65 in	1.825 in			0.85 in	1.825 in	0.012 in												
+Line		TopSilkscreen	8812	8807			0.85 in	1.825 in			0.85 in	0.975 in	0.012 in												
+Line		TopSilkscreen	8813	8807			0.85 in	0.975 in			0.7875 in	0.975 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	8814	8807			0.7125 in	0.9375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		8815	8837			1.1 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8816	8837			1.1 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8817	8837			1.1 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8818	8837			1.1 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			8819	8837			1.1 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			8820	8837			1.1 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			8821	8837			1.1 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			8822	8837			1.1 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			8823	8837			1.1 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			8824	8837			1.1 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			8825	8837			1.1 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Pad			8826	8837			1.4 in	1.1 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			8827	8837			1.4 in	1 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			8828	8837			1.4 in	0.9 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			8829	8837			1.4 in	0.8 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			8830	8837			1.4 in	0.7 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			8831	8837			1.4 in	0.6 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			8832	8837			1.4 in	0.5 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			8833	8837			1.4 in	0.4 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			8834	8837			1.4 in	0.3 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			8835	8837			1.4 in	0.2 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			8836	8837			1.4 in	0.1 in	0.056 in	0.056 in							"22"					0.029 in			
+Group			8837														"IC"	"DIP 22-pin (0.3 in)"							
+Ellipse		TopSilkscreen	8838	8837			1.175 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	8839	8837			1.2125 in	0.075 in			1.15 in	0.075 in	0.012 in												
+Line		TopSilkscreen	8840	8837			1.15 in	0.075 in			1.15 in	1.125 in	0.012 in												
+Line		TopSilkscreen	8841	8837			1.15 in	1.125 in			1.35 in	1.125 in	0.012 in												
+Line		TopSilkscreen	8842	8837			1.35 in	1.125 in			1.35 in	0.075 in	0.012 in												
+Line		TopSilkscreen	8843	8837			1.35 in	0.075 in			1.2875 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	8844	8837			1.2125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		8845	8867			1.0875 in	1.3 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8846	8867			1.0875 in	1.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8847	8867			1.0875 in	1.5 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8848	8867			1.0875 in	1.6 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			8849	8867			1.0875 in	1.7 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			8850	8867			1.0875 in	1.8 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			8851	8867			1.0875 in	1.9 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			8852	8867			1.0875 in	2 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			8853	8867			1.0875 in	2.1 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			8854	8867			1.0875 in	2.2 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			8855	8867			1.0875 in	2.3 in	0.056 in	0.056 in							"11"					0.029 in			
+Pad			8856	8867			1.4875 in	2.3 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			8857	8867			1.4875 in	2.2 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			8858	8867			1.4875 in	2.1 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			8859	8867			1.4875 in	2 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			8860	8867			1.4875 in	1.9 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			8861	8867			1.4875 in	1.8 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			8862	8867			1.4875 in	1.7 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			8863	8867			1.4875 in	1.6 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			8864	8867			1.4875 in	1.5 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			8865	8867			1.4875 in	1.4 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			8866	8867			1.4875 in	1.3 in	0.056 in	0.056 in							"22"					0.029 in			
+Group			8867														"IC"	"DIP 22-pin (0.4)"							
+Ellipse		TopSilkscreen	8868	8867			1.1625 in	1.3 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	8869	8867			1.25 in	1.275 in			1.1375 in	1.275 in	0.012 in												
+Line		TopSilkscreen	8870	8867			1.1375 in	1.275 in			1.1375 in	2.325 in	0.012 in												
+Line		TopSilkscreen	8871	8867			1.1375 in	2.325 in			1.4375 in	2.325 in	0.012 in												
+Line		TopSilkscreen	8872	8867			1.4375 in	2.325 in			1.4375 in	1.275 in	0.012 in												
+Line		TopSilkscreen	8873	8867			1.4375 in	1.275 in			1.325 in	1.275 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	8874	8867			1.25 in	1.2375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		8911	8939			2.8 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8912	8939			2.8 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8913	8939			2.8 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8914	8939			2.8 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			8915	8939			2.8 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			8916	8939			2.8 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			8917	8939			2.8 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			8918	8939			2.8 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			8919	8939			2.8 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			8920	8939			2.8 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			8921	8939			2.8 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Pad			8922	8939			2.8 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			8923	8939			2.8 in	1.3 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			8924	8939			2.8 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			8925	8939			3.2 in	1.4 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			8926	8939			3.2 in	1.3 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			8927	8939			3.2 in	1.2 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			8928	8939			3.2 in	1.1 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			8929	8939			3.2 in	1 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			8930	8939			3.2 in	0.9 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			8931	8939			3.2 in	0.8 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			8932	8939			3.2 in	0.7 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			8933	8939			3.2 in	0.6 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad			8934	8939			3.2 in	0.5 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			8935	8939			3.2 in	0.4 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			8936	8939			3.2 in	0.3 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			8937	8939			3.2 in	0.2 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			8938	8939			3.2 in	0.1 in	0.056 in	0.056 in							"28"					0.029 in			
+Group			8939														"IC"	"DIP 28-pin (0.4 in)"							
+Ellipse		TopSilkscreen	8940	8939			2.875 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	8941	8939			2.9625 in	0.075 in			2.85 in	0.075 in	0.012 in												
+Line		TopSilkscreen	8942	8939			2.85 in	0.075 in			2.85 in	1.425 in	0.012 in												
+Line		TopSilkscreen	8943	8939			2.85 in	1.425 in			3.15 in	1.425 in	0.012 in												
+Line		TopSilkscreen	8944	8939			3.15 in	1.425 in			3.15 in	0.075 in	0.012 in												
+Line		TopSilkscreen	8945	8939			3.15 in	0.075 in			3.0375 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	8946	8939			2.9625 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		8983	9031			5 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			8984	9031			5 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			8985	9031			5 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			8986	9031			5 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			8987	9031			5 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			8988	9031			5 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			8989	9031			5 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			8990	9031			5 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			8991	9031			5 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			8992	9031			5 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			8993	9031			5 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Pad			8994	9031			5 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			8995	9031			5 in	1.3 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			8996	9031			5 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			8997	9031			5 in	1.5 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			8998	9031			5 in	1.6 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			8999	9031			5 in	1.7 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			9000	9031			5 in	1.8 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			9001	9031			5 in	1.9 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			9002	9031			5 in	2 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			9003	9031			5 in	2.1 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			9004	9031			5 in	2.2 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			9005	9031			5 in	2.3 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad			9006	9031			5 in	2.4 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			9007	9031			5.6 in	2.4 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			9008	9031			5.6 in	2.3 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			9009	9031			5.6 in	2.2 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			9010	9031			5.6 in	2.1 in	0.056 in	0.056 in							"28"					0.029 in			
+Pad			9011	9031			5.6 in	2 in	0.056 in	0.056 in							"29"					0.029 in			
+Pad			9012	9031			5.6 in	1.9 in	0.056 in	0.056 in							"30"					0.029 in			
+Pad			9013	9031			5.6 in	1.8 in	0.056 in	0.056 in							"31"					0.029 in			
+Pad			9014	9031			5.6 in	1.7 in	0.056 in	0.056 in							"32"					0.029 in			
+Pad			9015	9031			5.6 in	1.6 in	0.056 in	0.056 in							"33"					0.029 in			
+Pad			9016	9031			5.6 in	1.5 in	0.056 in	0.056 in							"34"					0.029 in			
+Pad			9017	9031			5.6 in	1.4 in	0.056 in	0.056 in							"35"					0.029 in			
+Pad			9018	9031			5.6 in	1.3 in	0.056 in	0.056 in							"36"					0.029 in			
+Pad			9019	9031			5.6 in	1.2 in	0.056 in	0.056 in							"37"					0.029 in			
+Pad			9020	9031			5.6 in	1.1 in	0.056 in	0.056 in							"38"					0.029 in			
+Pad			9021	9031			5.6 in	1 in	0.056 in	0.056 in							"39"					0.029 in			
+Pad			9022	9031			5.6 in	0.9 in	0.056 in	0.056 in							"40"					0.029 in			
+Pad			9023	9031			5.6 in	0.8 in	0.056 in	0.056 in							"41"					0.029 in			
+Pad			9024	9031			5.6 in	0.7 in	0.056 in	0.056 in							"42"					0.029 in			
+Pad			9025	9031			5.6 in	0.6 in	0.056 in	0.056 in							"43"					0.029 in			
+Pad			9026	9031			5.6 in	0.5 in	0.056 in	0.056 in							"44"					0.029 in			
+Pad			9027	9031			5.6 in	0.4 in	0.056 in	0.056 in							"45"					0.029 in			
+Pad			9028	9031			5.6 in	0.3 in	0.056 in	0.056 in							"46"					0.029 in			
+Pad			9029	9031			5.6 in	0.2 in	0.056 in	0.056 in							"47"					0.029 in			
+Pad			9030	9031			5.6 in	0.1 in	0.056 in	0.056 in							"48"					0.029 in			
+Group			9031														"IC"	"DIP 48-pin"							
+Ellipse		TopSilkscreen	9032	9031			5.075 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	9033	9031			5.2625 in	0.075 in			5.05 in	0.075 in	0.012 in												
+Line		TopSilkscreen	9034	9031			5.05 in	0.075 in			5.05 in	2.425 in	0.012 in												
+Line		TopSilkscreen	9035	9031			5.05 in	2.425 in			5.55 in	2.425 in	0.012 in												
+Line		TopSilkscreen	9036	9031			5.55 in	2.425 in			5.55 in	0.075 in	0.012 in												
+Line		TopSilkscreen	9037	9031			5.55 in	0.075 in			5.3375 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	9038	9031			5.2625 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		9095	9147			5.8 in	0.1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			9096	9147			5.8 in	0.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Pad			9097	9147			5.8 in	0.3 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			9098	9147			5.8 in	0.4 in	0.056 in	0.056 in							"4"					0.029 in			
+Pad			9099	9147			5.8 in	0.5 in	0.056 in	0.056 in							"5"					0.029 in			
+Pad			9100	9147			5.8 in	0.6 in	0.056 in	0.056 in							"6"					0.029 in			
+Pad			9101	9147			5.8 in	0.7 in	0.056 in	0.056 in							"7"					0.029 in			
+Pad			9102	9147			5.8 in	0.8 in	0.056 in	0.056 in							"8"					0.029 in			
+Pad			9103	9147			5.8 in	0.9 in	0.056 in	0.056 in							"9"					0.029 in			
+Pad			9104	9147			5.8 in	1 in	0.056 in	0.056 in							"10"					0.029 in			
+Pad			9105	9147			5.8 in	1.1 in	0.056 in	0.056 in							"11"					0.029 in			
+Pad			9106	9147			5.8 in	1.2 in	0.056 in	0.056 in							"12"					0.029 in			
+Pad			9107	9147			5.8 in	1.3 in	0.056 in	0.056 in							"13"					0.029 in			
+Pad			9108	9147			5.8 in	1.4 in	0.056 in	0.056 in							"14"					0.029 in			
+Pad			9109	9147			5.8 in	1.5 in	0.056 in	0.056 in							"15"					0.029 in			
+Pad			9110	9147			5.8 in	1.6 in	0.056 in	0.056 in							"16"					0.029 in			
+Pad			9111	9147			5.8 in	1.7 in	0.056 in	0.056 in							"17"					0.029 in			
+Pad			9112	9147			5.8 in	1.8 in	0.056 in	0.056 in							"18"					0.029 in			
+Pad			9113	9147			5.8 in	1.9 in	0.056 in	0.056 in							"19"					0.029 in			
+Pad			9114	9147			5.8 in	2 in	0.056 in	0.056 in							"20"					0.029 in			
+Pad			9115	9147			5.8 in	2.1 in	0.056 in	0.056 in							"21"					0.029 in			
+Pad			9116	9147			5.8 in	2.2 in	0.056 in	0.056 in							"22"					0.029 in			
+Pad			9117	9147			5.8 in	2.3 in	0.056 in	0.056 in							"23"					0.029 in			
+Pad			9118	9147			5.8 in	2.4 in	0.056 in	0.056 in							"24"					0.029 in			
+Pad			9119	9147			5.8 in	2.5 in	0.056 in	0.056 in							"25"					0.029 in			
+Pad			9120	9147			5.8 in	2.6 in	0.056 in	0.056 in							"26"					0.029 in			
+Pad			9121	9147			6.4 in	2.6 in	0.056 in	0.056 in							"27"					0.029 in			
+Pad			9122	9147			6.4 in	2.5 in	0.056 in	0.056 in							"28"					0.029 in			
+Pad			9123	9147			6.4 in	2.4 in	0.056 in	0.056 in							"29"					0.029 in			
+Pad			9124	9147			6.4 in	2.3 in	0.056 in	0.056 in							"30"					0.029 in			
+Pad			9125	9147			6.4 in	2.2 in	0.056 in	0.056 in							"31"					0.029 in			
+Pad			9126	9147			6.4 in	2.1 in	0.056 in	0.056 in							"32"					0.029 in			
+Pad			9127	9147			6.4 in	2 in	0.056 in	0.056 in							"33"					0.029 in			
+Pad			9128	9147			6.4 in	1.9 in	0.056 in	0.056 in							"34"					0.029 in			
+Pad			9129	9147			6.4 in	1.8 in	0.056 in	0.056 in							"35"					0.029 in			
+Pad			9130	9147			6.4 in	1.7 in	0.056 in	0.056 in							"36"					0.029 in			
+Pad			9131	9147			6.4 in	1.6 in	0.056 in	0.056 in							"37"					0.029 in			
+Pad			9132	9147			6.4 in	1.5 in	0.056 in	0.056 in							"38"					0.029 in			
+Pad			9133	9147			6.4 in	1.4 in	0.056 in	0.056 in							"39"					0.029 in			
+Pad			9134	9147			6.4 in	1.3 in	0.056 in	0.056 in							"40"					0.029 in			
+Pad			9135	9147			6.4 in	1.2 in	0.056 in	0.056 in							"41"					0.029 in			
+Pad			9136	9147			6.4 in	1.1 in	0.056 in	0.056 in							"42"					0.029 in			
+Pad			9137	9147			6.4 in	1 in	0.056 in	0.056 in							"43"					0.029 in			
+Pad			9138	9147			6.4 in	0.9 in	0.056 in	0.056 in							"44"					0.029 in			
+Pad			9139	9147			6.4 in	0.8 in	0.056 in	0.056 in							"45"					0.029 in			
+Pad			9140	9147			6.4 in	0.7 in	0.056 in	0.056 in							"46"					0.029 in			
+Pad			9141	9147			6.4 in	0.6 in	0.056 in	0.056 in							"47"					0.029 in			
+Pad			9142	9147			6.4 in	0.5 in	0.056 in	0.056 in							"48"					0.029 in			
+Pad			9143	9147			6.4 in	0.4 in	0.056 in	0.056 in							"49"					0.029 in			
+Pad			9144	9147			6.4 in	0.3 in	0.056 in	0.056 in							"50"					0.029 in			
+Pad			9145	9147			6.4 in	0.2 in	0.056 in	0.056 in							"51"					0.029 in			
+Pad			9146	9147			6.4 in	0.1 in	0.056 in	0.056 in							"52"					0.029 in			
+Group			9147														"IC"	"DIP 52-pin"							
+Ellipse		TopSilkscreen	9148	9147			5.875 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	9149	9147			6.0625 in	0.075 in			5.85 in	0.075 in	0.012 in												
+Line		TopSilkscreen	9150	9147			5.85 in	0.075 in			5.85 in	2.625 in	0.012 in												
+Line		TopSilkscreen	9151	9147			5.85 in	2.625 in			6.35 in	2.625 in	0.012 in												
+Line		TopSilkscreen	9152	9147			6.35 in	2.625 in			6.35 in	0.075 in	0.012 in												
+Line		TopSilkscreen	9153	9147			6.35 in	0.075 in			6.1375 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	9154	9147			6.0625 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										

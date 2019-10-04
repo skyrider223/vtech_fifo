@@ -1,0 +1,298 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=3.0.5838
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.5 in
+HoleDiameterMinimum=0.014 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=-
+InnerLayerUpperConnectionLabel=+
+LicenseNumber=1100
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+Revision=N4
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+Website=http://www.robotroom.com/BipolarHBridge.html
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	1.2 in					0.007 in										(0 in,1.2 in)(1.3 in,1.2 in)(1.3 in,2.5 in)(0 in,2.5 in)		
+Rectangle	Outline	TopSilkscreen	2	4			0.375 in	2.15 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	3	4			0.375 in	2.15 in	0.05 in	0.1 in			0.012 in												
+Group			4														"D3"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"						
+Rectangle	Outline	TopSilkscreen	9	22			0.8 in	2.365 in	0.15 in	0.07 in			0.012 in												
+Pad			10	22			0.75 in	2.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			11	22			1 in	2.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	12	22			0.784918 in	2.4 in			0.797418 in	2.4 in	0.012 in												
+Line		TopSilkscreen	13	22			0.9521477 in	2.4 in			0.9646477 in	2.4 in	0.012 in												
+Group			22														"R3"	"1 kΩ Resistor 1/8 W"	"Limits current to transistor base"						
+Pad			567				0.1 in	2.1 in	0.065 in	0.065 in												0.035 in			
+Pad			568				0.1 in	1.8 in	0.065 in	0.065 in												0.035 in			
+Pad			569				0.1 in	1.7 in	0.065 in	0.065 in												0.035 in			
+Pad			570				0.1 in	2 in	0.065 in	0.065 in												0.035 in			
+Pad			571				0.1 in	1.9 in	0.065 in	0.065 in												0.035 in			
+Point		TopCopper	572				0.25 in	2.075 in																	
+Point		BottomCopper	574				0.3 in	1.9 in																	
+Point		TopCopper	575				0.35 in	1.7 in																	
+Point		TopCopper	576				0.4 in	1.65 in																	
+Point		BottomCopper	578				1.1 in	1.5 in																	
+Point		BottomCopper	579				0.75 in	2.2 in																	
+Point		BottomCopper	580				0.75 in	1.6 in																	
+Point		BottomCopper	581				0.75 in	2 in																	
+Point		BottomCopper	583				0.75 in	1.8 in																	
+Point		TopCopper	587				0.575 in	1.9 in																	
+Pad			588				0.1 in	2.4 in	0.15 in	0.15 in												0.089 in			
+Point		TopCopper	591				0.6 in	1.6 in																	
+Point		BottomCopper	592				0.2 in	1.5 in																	
+Pad			596				0.1 in	1.6 in	0.065 in	0.065 in												0.035 in			
+Pad			660				1.2 in	1.3 in	0.15 in	0.15 in												0.089 in			
+Pad			663				1.2 in	2.4 in	0.15 in	0.15 in												0.089 in			
+Point		TopCopper	697				0.5 in	2.075 in																	
+Pad			704				0.1 in	1.3 in	0.15 in	0.15 in												0.089 in			
+Pad			728				0.3 in	1.3 in	0.056 in	0.056 in												0.029 in			
+Pad			729				0.3 in	1.4 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	731				0.3 in	1.5 in																	
+Point		TopCopper	738				0.4 in	2.125 in																	
+Pad			739				0.3 in	2.4 in	0.056 in	0.056 in												0.029 in			
+Pad			740				0.3 in	2.3 in	0.056 in	0.056 in												0.029 in			
+Point		TopCopper	756				0.25 in	1.9 in																	
+Text		TopSilkscreen	761	22			0.775 in	2.3 in											"R3"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	762	1576			0.425 in	2.3 in											"R4"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	763	1990			0.875 in	2.09 in											"D4"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	764	2061			0.5483333 in	1.9783333 in											"Q4"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	765	2041			0.8883333 in	1.9783333 in											"Q3"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	766				0.353 in	1.86 in											"PNP"	Anytime	0.051 in				
+Text		TopSilkscreen	767	2049			0.5466667 in	1.78 in											"Q2"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	768	2029			0.8916667 in	1.78 in											"Q1"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	771	2018			0.55 in	1.675 in											"D1"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	772	2007			0.875 in	1.675 in											"D2"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	773				1.05 in	1.9 in											"NPN"	Anytime	0.051 in				
+Pad	Rectangular	BottomCopper	776				1.2 in	2 in	0.08 in	0.08 in															
+Text		TopSilkscreen	777				0.15 in	1.875 in											"+V"	Anytime	0.051 in				
+Text		TopSilkscreen	778				0.15 in	1.675 in											"P2"	Anytime	0.051 in				
+Text		TopSilkscreen	799				0.15 in	1.975 in											"N3"	Anytime	0.051 in				
+Text		TopSilkscreen	801				0.15 in	1.775 in											"N1"	Anytime	0.051 in				
+Text		TopSilkscreen	802				0.15 in	2.075 in											"P4"	Anytime	0.051 in				
+Pad	Rectangular	BottomCopper	834				1.2 in	1.8 in	0.08 in	0.08 in															
+Trace		BottomCopper	862		776	834							0.05 in												
+Text		BottomCopper	864				0.2066667 in	1.4116667 in						90°					"GND"	Anytime	0.051 in				
+Text		TopSilkscreen	865				0.2125 in	2.375 in						90°					"+V"	Anytime	0.051 in				
+Text		TopSilkscreen	866				0.375 in	1.275 in											"BJT H-Bridge Rev N4"	Anytime	0.051 in				
+Text		BottomCopper	867				0.35 in	1.275 in											"c 2009-2013 D.Cook"	Anytime	0.051 in				
+Ellipse	Outline	BottomCopper	868				0.995 in	1.27 in	0.06 in	0.06 in			0.006 in	270°	360°										
+Text		BottomCopper	870				0.325 in	1.675 in											"Dec 22 '09"	Anytime	0.051 in				
+Text		TopSilkscreen	905				0.675 in	1.725 in											"Motor"	Anytime	0.051 in				
+Text		TopSilkscreen	906				0.15 in	1.575 in											"GND"	Anytime	0.051 in				
+Pad	Circular	BottomCopper	907				1.1 in	1.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	908				1.1 in	2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	909				1 in	2.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	910				1 in	2 in	0.08 in	0.08 in															
+Text		TopSilkscreen	911				0.7633333 in	2.075 in						180°					"+"	Anytime	0.051 in				
+Pad	Circular	BottomCopper	912				1 in	1.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	913				1 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	914				0.75 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	915				0.65 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	918				0.75 in	2.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	919				0.65 in	2.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	921				0.5 in	2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	922				0.5 in	1.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	923				0.4 in	1.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	924				0.4 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	925				0.4 in	2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	926				0.4 in	2.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	927				0.3 in	2.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	928				0.3 in	2.3 in	0.08 in	0.08 in															
+Trace		BottomCopper	929		739	928							0.05 in												
+Pad	Rectangular	BottomCopper	930				0.3 in	2 in	0.08 in	0.08 in															
+Trace		BottomCopper	931		574	930							0.05 in												
+Pad	Rectangular	BottomCopper	932				0.3 in	1.8 in	0.08 in	0.08 in															
+Trace		BottomCopper	933		574	932							0.05 in												
+Pad	Circular	BottomCopper	934				0.3 in	1.4 in	0.08 in	0.08 in															
+Trace		BottomCopper	935		728	729							0.05 in												
+Pad	Circular	BottomCopper	936				0.3 in	1.3 in	0.08 in	0.08 in															
+Trace		TopCopper	939		570	572							0.025 in												
+Trace		BottomCopper	940		571	574							0.05 in												
+Trace		TopCopper	943		575	576							0.025 in												
+Trace		TopCopper	945		587	591							0.025 in												
+Trace		BottomCopper	947		596	592							0.05 in												
+Trace		BottomCopper	948		592	731							0.05 in												
+Trace		BottomCopper	949		731	578							0.05 in												
+Trace		TopCopper	950		576	1580							0.025 in												
+Trace		TopCopper	952		697	10							0.025 in												
+Trace		BottomCopper	953		2019	932							0.05 in												
+Trace		TopCopper	957		738	1572							0.025 in												
+Trace		BottomCopper	958		731	729							0.05 in												
+Trace		BottomCopper	959		739	740							0.025 in												
+Trace		BottomCopper	961		930	928							0.05 in												
+Trace		BottomCopper	965		834	2009							0.05 in												
+Trace		BottomCopper	966		2071	581							0.05 in												
+Trace		BottomCopper	967		1970	579							0.05 in												
+Trace		BottomCopper	968		579	581							0.05 in												
+Trace		BottomCopper	969		1991	579							0.05 in												
+Trace		BottomCopper	970		2072	583							0.05 in												
+Trace		BottomCopper	971		2020	580							0.05 in												
+Trace		BottomCopper	973		580	583							0.05 in												
+Trace		BottomCopper	974		580	2008							0.05 in												
+Trace		BottomCopper	975		2032	583							0.05 in												
+Trace		BottomCopper	976		581	2044							0.05 in												
+Trace		BottomCopper	978		2052	583							0.05 in												
+Trace		TopCopper	980		1588	591							0.025 in												
+Trace		TopCopper	981		2031	1589							0.025 in												
+Trace		BottomCopper	982		2043	11							0.025 in												
+Trace		TopCopper	983		1581	2051							0.025 in												
+Trace		BottomCopper	984		1573	2063							0.025 in												
+Trace		BottomCopper	985		740	930							0.05 in												
+Trace		BottomCopper	986		1992	776							0.05 in												
+Trace		TopCopper	987		569	575							0.025 in												
+Trace		TopCopper	988		567	2075							0.025 in												
+Trace		TopCopper	989		572	697							0.025 in												
+Trace		TopCopper	990		568	756							0.025 in												
+Trace		TopCopper	991		756	587							0.025 in												
+Pad	Circular	BottomCopper	1029				0.1 in	1.6 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	1030				0.1 in	1.7 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	1031				0.1 in	1.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	1032				0.1 in	1.9 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	1033				0.1 in	2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	1034				0.1 in	2.1 in	0.08 in	0.08 in															
+Text		BottomCopper	1238				0.225 in	1.875 in						90°					"+"	Anytime	0.051 in				
+Pad	Circular	TopCopper	1521				0.1 in	2.1 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	1527				0.1 in	2 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	1530				0.1 in	1.9 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	1554				0.1 in	1.8 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	1555				0.1 in	1.7 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	1556				0.1 in	1.6 in	0.08 in	0.08 in															
+Trace		BottomCopper	1558		729	934							0.05 in												
+Trace		BottomCopper	1559		581	2064							0.05 in												
+Text		TopSilkscreen	1564				0.2 in	1.4 in						90°					"GND"	Anytime	0.051 in				
+Line		TopSilkscreen	1565				0.3 in	1.325 in			0.3 in	1.375 in	0.012 in												
+Line		TopSilkscreen	1566				0.3 in	2.325 in			0.3 in	2.375 in	0.012 in												
+Rectangle	Outline	TopSilkscreen	1571	1576			0.45 in	2.365 in	0.15 in	0.07 in			0.012 in												
+Pad			1572	1576			0.4 in	2.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			1573	1576			0.65 in	2.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	1574	1576			0.434918 in	2.4 in			0.447418 in	2.4 in	0.012 in												
+Line		TopSilkscreen	1575	1576			0.6021477 in	2.4 in			0.6146477 in	2.4 in	0.012 in												
+Group			1576														"R4"	"1 kΩ Resistor 1/8 W"	"Limits current to transistor base"						
+Rectangle	Outline	TopSilkscreen	1579	1584			0.45 in	1.365 in	0.15 in	0.07 in			0.012 in												
+Pad			1580	1584			0.4 in	1.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			1581	1584			0.65 in	1.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	1582	1584			0.434918 in	1.4 in			0.447418 in	1.4 in	0.012 in												
+Line		TopSilkscreen	1583	1584			0.6021477 in	1.4 in			0.6146477 in	1.4 in	0.012 in												
+Group			1584														"R2"	"1 kΩ Resistor 1/8 W"	"Limits current to transistor base"						
+Rectangle	Outline	TopSilkscreen	1587	1592			0.8 in	1.365 in	0.15 in	0.07 in			0.012 in												
+Pad			1588	1592			0.75 in	1.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			1589	1592			1 in	1.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	1590	1592			0.784918 in	1.4 in			0.797418 in	1.4 in	0.012 in												
+Line		TopSilkscreen	1591	1592			0.9521477 in	1.4 in			0.9646477 in	1.4 in	0.012 in												
+Group			1592														"R1"	"1 kΩ Resistor 1/8 W"	"Limits current to transistor base"						
+Text		TopSilkscreen	1593	1584			0.425 in	1.4566667 in											"R2"	Anytime	0.051 in		GroupSchematicId		
+Text		TopSilkscreen	1594	1592			0.775 in	1.4566667 in											"R1"	Anytime	0.051 in		GroupSchematicId		
+Pad	SquareWithHole		1969	4			0.3 in	2.2 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			1970	4			0.7 in	2.2 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Line		TopSilkscreen	1972	4			0.35 in	2.2 in			0.375 in	2.2 in	0.012 in												
+Line		TopSilkscreen	1978	4			0.625 in	2.2 in			0.65 in	2.2 in	0.012 in												
+Line		TopSilkscreen	1981	4			0.48 in	2.2 in			0.555 in	2.2 in	0.01 in												
+Line		TopSilkscreen	1982	4			0.48 in	2.2 in			0.505 in	2.175 in	0.01 in												
+Line		TopSilkscreen	1983	4			0.48 in	2.2 in			0.505 in	2.225 in	0.01 in												
+Line		TopSilkscreen	1984	4			0.4788835 in	2.175 in			0.4788835 in	2.225 in	0.01 in												
+Rectangle	Outline	TopSilkscreen	1988	1990			0.875 in	2.15 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	1989	1990			0.875 in	2.15 in	0.05 in	0.1 in			0.012 in												
+Group			1990														"D4"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"						
+Pad	SquareWithHole		1991	1990			0.8 in	2.2 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			1992	1990			1.2 in	2.2 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Line		TopSilkscreen	1993	1990			0.85 in	2.2 in			0.875 in	2.2 in	0.012 in												
+Line		TopSilkscreen	1994	1990			1.125 in	2.2 in			1.15 in	2.2 in	0.012 in												
+Line		TopSilkscreen	1995	1990			0.98 in	2.2 in			1.055 in	2.2 in	0.01 in												
+Line		TopSilkscreen	1996	1990			0.98 in	2.2 in			1.005 in	2.175 in	0.01 in												
+Line		TopSilkscreen	1997	1990			0.98 in	2.2 in			1.005 in	2.225 in	0.01 in												
+Line		TopSilkscreen	1998	1990			0.9788835 in	2.175 in			0.9788835 in	2.225 in	0.01 in												
+Text		TopSilkscreen	1999	4			0.5633333 in	2.09 in											"D3"	Anytime	0.051 in		GroupSchematicId		
+Trace		BottomCopper	2004		2009	578							0.05 in												
+Rectangle	Outline	TopSilkscreen	2005	2007			0.875 in	1.55 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	2006	2007			0.875 in	1.55 in	0.05 in	0.1 in			0.012 in												
+Group			2007														"D2"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"						
+Pad	SquareWithHole		2008	2007			0.8 in	1.6 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			2009	2007			1.2 in	1.6 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Line		TopSilkscreen	2010	2007			0.85 in	1.6 in			0.875 in	1.6 in	0.012 in												
+Line		TopSilkscreen	2011	2007			1.125 in	1.6 in			1.15 in	1.6 in	0.012 in												
+Line		TopSilkscreen	2012	2007			0.98 in	1.6 in			1.055 in	1.6 in	0.01 in												
+Line		TopSilkscreen	2013	2007			0.98 in	1.6 in			1.005 in	1.575 in	0.01 in												
+Line		TopSilkscreen	2014	2007			0.98 in	1.6 in			1.005 in	1.625 in	0.01 in												
+Line		TopSilkscreen	2015	2007			0.9788835 in	1.575 in			0.9788835 in	1.625 in	0.01 in												
+Rectangle	Outline	TopSilkscreen	2016	2018			0.375 in	1.55 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	2017	2018			0.375 in	1.55 in	0.05 in	0.1 in			0.012 in												
+Group			2018														"D1"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"						
+Pad	SquareWithHole		2019	2018			0.3 in	1.6 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			2020	2018			0.7 in	1.6 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Line		TopSilkscreen	2021	2018			0.35 in	1.6 in			0.375 in	1.6 in	0.012 in												
+Line		TopSilkscreen	2022	2018			0.625 in	1.6 in			0.65 in	1.6 in	0.012 in												
+Line		TopSilkscreen	2023	2018			0.48 in	1.6 in			0.555 in	1.6 in	0.01 in												
+Line		TopSilkscreen	2024	2018			0.48 in	1.6 in			0.505 in	1.575 in	0.01 in												
+Line		TopSilkscreen	2025	2018			0.48 in	1.6 in			0.505 in	1.625 in	0.01 in												
+Line		TopSilkscreen	2026	2018			0.4788835 in	1.575 in			0.4788835 in	1.625 in	0.01 in												
+Text		BottomCopper	2027				0.325 in	1.875 in											"Feb 1 '13"	Anytime	0.051 in				
+Ellipse	Outline	TopSilkscreen	2028	2029			0.965 in	1.739 in	0.273 in	0.15 in			0.012 in	180°	180°										
+Group			2029											180°			"Q1"	"ZTX1049A TO-92"	"NPN medium power transistor"						
+Pad	SquareWithHole		2030	2029			1.2 in	1.8 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			2031	2029			1.1 in	1.8 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			2032	2029			1 in	1.8 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Line		TopSilkscreen	2033	2029			0.965 in	1.759 in			1.238 in	1.759 in	0.012 in												
+Line		TopSilkscreen	2034	2029			0.965 in	1.759 in			0.965 in	1.811 in	0.012 in												
+Line		TopSilkscreen	2035	2029			1.238 in	1.759 in			1.238 in	1.811 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2040	2041			0.965 in	1.939 in	0.273 in	0.15 in			0.012 in	180°	180°										
+Group			2041											180°			"Q3"	"ZTX1049A TO-92"	"NPN medium power transistor"						
+Pad	SquareWithHole		2042	2041			1.2 in	2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			2043	2041			1.1 in	2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			2044	2041			1 in	2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Line		TopSilkscreen	2045	2041			0.965 in	1.959 in			1.238 in	1.959 in	0.012 in												
+Line		TopSilkscreen	2046	2041			0.965 in	1.959 in			0.965 in	2.011 in	0.012 in												
+Line		TopSilkscreen	2047	2041			1.238 in	1.959 in			1.238 in	2.011 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2048	2049			0.262 in	1.711 in	0.273 in	0.15 in			0.012 in	0°	180°										
+Group			2049														"Q2"	"ZTX968 TO-92"	"PNP medium power transistor"						
+Pad	SquareWithHole		2050	2049			0.3 in	1.8 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			2051	2049			0.4 in	1.8 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			2052	2049			0.5 in	1.8 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Line		TopSilkscreen	2053	2049			0.535 in	1.841 in			0.262 in	1.841 in	0.012 in												
+Line		TopSilkscreen	2054	2049			0.535 in	1.841 in			0.535 in	1.789 in	0.012 in												
+Line		TopSilkscreen	2055	2049			0.262 in	1.841 in			0.262 in	1.789 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2060	2061			0.262 in	1.911 in	0.273 in	0.15 in			0.012 in	0°	180°										
+Group			2061														"Q4"	"ZTX968 TO-92"	"PNP medium power transistor"						
+Pad	SquareWithHole		2062	2061			0.3 in	2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			2063	2061			0.4 in	2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			2064	2061			0.5 in	2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Line		TopSilkscreen	2065	2061			0.535 in	2.041 in			0.262 in	2.041 in	0.012 in												
+Line		TopSilkscreen	2066	2061			0.535 in	2.041 in			0.535 in	1.989 in	0.012 in												
+Line		TopSilkscreen	2067	2061			0.262 in	2.041 in			0.262 in	1.989 in	0.012 in												
+Polygon	Outline	TopSilkscreen	2070	2073			0.625 in	1.7875 in					0.012 in										(0.875 in,2.0125 in)(0.625 in,2.0125 in)(0.625 in,1.7875 in)(0.875 in,1.7875 in)		
+Pad	SquareWithHole		2071	2073			0.75 in	1.95 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			2072	2073			0.75 in	1.85 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			2073											90°			"J1"	"Header 2 pin 22-23-2021"	"Molex KK"						
+Rectangle		TopSilkscreen	2074	2073			0.625 in	1.85 in	0.025 in	0.1 in															
+Point		TopCopper	2075				0.175 in	2.125 in																	
+Trace		TopCopper	2076		2075	738							0.025 in												
+Text		BottomCopper	2077				0.215 in	2.39 in						90°					"+V"	Anytime	0.051 in				
+Pad	Circular	BottomCopper	2078				0.75 in	1.85 in	0.09 in	0.08 in															
+Rectangle	FillClearance	BottomCopper	2079				0 in	1.2 in	1.3 in	1.3 in															
+Rectangle	FillClearance	TopCopper	2080				0 in	1.2 in	1.3 in	1.3 in															
+Note		TopCopper	2081				0.025 in	1.45 in	0.08 in	0.08 in									"Uncheck 'Show Pours' in the View menu to make it easier to view the circuit."				Note		
+Note		TopCopper	2082				0.3066667 in	1.3166667 in	0.08 in	0.08 in									"Add a wire (as shown by line) between these two holes to make a loop for convenient connection by a multimeter test probe. Do the same for the +V test point on the other end of the board."				Note		
+Text		TopSilkscreen	2083				0.875 in	2.3 in											"1kΩ"	Anytime	0.051 in				
+Text		TopSilkscreen	2084				0.525 in	2.3 in											"1kΩ"	Anytime	0.051 in				
+Text		TopSilkscreen	2085				0.5216667 in	1.4566667 in											"1kΩ"	Anytime	0.051 in				
+Text		TopSilkscreen	2086				0.8766667 in	1.455 in											"1kΩ"	Anytime	0.051 in				

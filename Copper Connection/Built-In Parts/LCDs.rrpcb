@@ -1,0 +1,65 @@
+ApplicationVersion=1.5.4839
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+Categories=LCD
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=2.1
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TraceClearanceDefault=0.015 in
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	Name	Description	Text	FontName	FontHeight	HoleDiameter	Data	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)	
+Pad			4098	4389			0.2 in	0.6 in	0.065 in	0.065 in							"2"	"Vdd"				0.035 in		
+Pad			4103	4389			0.2 in	0.7 in	0.065 in	0.065 in							"3"	"V0"	"Contrast"			0.035 in		
+Pad			4104	4389			0.2 in	0.8 in	0.065 in	0.065 in							"4"	"RS"				0.035 in		
+Pad			4105	4389			0.2 in	0.9 in	0.065 in	0.065 in							"5"	"R/W"				0.035 in		
+Pad			4106	4389			0.2 in	1 in	0.065 in	0.065 in							"6"	"E"	"Enable"			0.035 in		
+Pad			4107	4389			0.2 in	1.1 in	0.065 in	0.065 in							"7"	"DB0"				0.035 in		
+Pad			4108	4389			0.2 in	1.2 in	0.065 in	0.065 in							"8"	"DB1"				0.035 in		
+Pad			4109	4389			0.2 in	0.5 in	0.065 in	0.065 in							"1"	"Vss"				0.035 in		
+Pad			4110	4389			3.1528 in	0.6 in	0.065 in	0.065 in							"10"	"DB3"				0.035 in		
+Pad			4112	4389			3.1528 in	0.7 in	0.065 in	0.065 in							"11"	"DB4"				0.035 in		
+Pad			4113	4389			3.1528 in	0.8 in	0.065 in	0.065 in							"12"	"DB5"				0.035 in		
+Pad			4116	4389			3.1528 in	0.9 in	0.065 in	0.065 in							"13"	"DB6"				0.035 in		
+Pad			4117	4389			3.1528 in	1 in	0.065 in	0.065 in							"14"	"DB7"				0.035 in		
+Pad			4118	4389			3.1528 in	1.1 in	0.065 in	0.065 in							"15"	"LED+"				0.035 in		
+Pad			4119	4389			3.1528 in	1.2 in	0.065 in	0.065 in							"16"	"LED-"				0.035 in		
+Pad			4120	4389			3.1528 in	0.5 in	0.065 in	0.065 in							"9"	"DB2"				0.035 in		
+Text		TopSilkscreen	4136	4390			2.9528 in	1.1790532 in											"LED-"	Anytime	0.051 in			
+Text		TopSilkscreen	4204	4390			2.9528 in	1.0790532 in											"LED+"	Anytime	0.051 in			
+Text		TopSilkscreen	4217	4390			2.9778 in	0.9790532 in											"DB7"	Anytime	0.051 in			
+Text		TopSilkscreen	4226	4390			2.9778 in	0.8790532 in											"DB6"	Anytime	0.051 in			
+Text		TopSilkscreen	4227	4390			2.9778 in	0.7790532 in											"DB5"	Anytime	0.051 in			
+Text		TopSilkscreen	4228	4390			2.9778 in	0.6790532 in											"DB4"	Anytime	0.051 in			
+Text		TopSilkscreen	4229	4390			2.9778 in	0.5790532 in											"DB3"	Anytime	0.051 in			
+Text		TopSilkscreen	4230	4390			2.9778 in	0.4790532 in											"DB2"	Anytime	0.051 in			
+Text		TopSilkscreen	4231	4390			0.2778 in	1.1790532 in											"DB1"	Anytime	0.051 in			
+Text		TopSilkscreen	4232	4390			0.2778 in	1.0790532 in											"DB0"	Anytime	0.051 in			
+Text		TopSilkscreen	4233	4390			0.2778 in	0.9790532 in											"E"	Anytime	0.051 in			
+Text		TopSilkscreen	4234	4390			0.2778 in	0.8790532 in											"R/W"	Anytime	0.051 in			
+Text		TopSilkscreen	4235	4390			0.2778 in	0.7790532 in											"RS"	Anytime	0.051 in			
+Text		TopSilkscreen	4236	4390			0.2778 in	0.6790532 in											"Contrast"	Anytime	0.051 in			
+Text		TopSilkscreen	4237	4390			0.2778 in	0.5790532 in											"VDD"	Anytime	0.051 in			
+Text		TopSilkscreen	4238	4390			0.2778 in	0.4790532 in											"VSS"	Anytime	0.051 in			
+Rectangle	Outline	TopSilkscreen	4388	4390			0.1212819 in	0.1413386 in	79 mm	36 mm			0.012 in											
+Group			4389	4390																				
+Group			4390														"LCD"	"Character LCD Newhaven NHD‐0420H1Z"						

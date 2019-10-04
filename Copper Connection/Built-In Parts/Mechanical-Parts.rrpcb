@@ -1,0 +1,46 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5565
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Mechanical
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Pad			5	25			0.2362205 in	0.2559055 in	0.106 in	0.106 in												0.089 in			
+Pad			6	25			0.9448394 in	0.2559055 in	0.106 in	0.106 in												0.089 in			
+Ellipse	Outline	TopSilkscreen	10	25			0.7775165 in	0.0885827 in	8.5 mm	8.5 mm			0.012 in	270°	180°										
+Ellipse	Outline	TopSilkscreen	11	25			0.0688976 in	0.0885827 in	8.5 mm	8.5 mm			0.012 in	90°	180°										
+Line		TopSilkscreen	12	25			0.2361992 in	0.0885827 in			0.9448606 in	0.0885827 in	0.012 in												
+Line		TopSilkscreen	13	25			0.2361992 in	0.4232283 in			0.2952544 in	0.4232283 in	0.012 in												
+Line		TopSilkscreen	21	25			0.2952543 in	0.0885827 in			0.2952543 in	0.5413386 in	0.012 in												
+Line		TopSilkscreen	22	25			0.2952543 in	0.5413386 in			0.8858055 in	0.5413386 in	0.012 in												
+Line		TopSilkscreen	23	25			0.8858055 in	0.5413386 in			0.8858055 in	0.0885827 in	0.012 in												
+Line		TopSilkscreen	24	25			0.9448606 in	0.4232283 in			0.8858055 in	0.4232283 in	0.012 in												
+Group			25														"MP"	"Pololu Sanyo 12GN Motor Bracket"							

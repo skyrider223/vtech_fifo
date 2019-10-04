@@ -1,0 +1,127 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.6.5425
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+OriginOffsetY=1.3 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+SolderMaskShowOnOpen=True
+TentedVias=False
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+Website=http://www.robotroom.com/Silkscreen-and-Solder-Mask-1.html
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	-0.3 in					0.007 in										(0 in,-0.3 in)(2.9 in,-0.3 in)(2.9 in,1.3 in)(0 in,1.3 in)		
+Text		TopSilkscreen	2				0.1 in	-0.25 in											"Solder Mask Examples"	Anytime	0.102 in				
+Pad			3				1.2 in	0.05 in	0.065 in	0.065 in												0.035 in			
+Pad	Via		4				0.775 in	0.05 in	0.048 in	0.048 in												0.02 in			
+Text		TopSilkscreen	5				0.7125718 in	0.15 in											"Via"	Anytime	0.0595 in				
+Text		TopSilkscreen	6				0.975 in	0.15 in											"Pad w/hole"	Anytime	0.0595 in				
+Text		TopSilkscreen	7				1.5089799 in	0.15 in											"Circular Pad"	Anytime	0.0595 in				
+Pad	Circular	TopCopper	8				1.7839799 in	0.05 in	0.065 in	0.065 in															
+Text		TopSilkscreen	9				2.15 in	0.15 in											"Rectangular Pad"	Anytime	0.0595 in				
+Pad	Rectangular	TopCopper	10				2.475 in	0.05 in	0.1 in	0.065 in				90°											
+Rectangle		TopCopper	11				2.425 in	0.35 in	0.1 in	0.065 in															
+Text		TopSilkscreen	12				2.3 in	0.475 in											"Rectangle"	Anytime	0.0595 in				
+Ellipse		TopCopper	13				1.75 in	0.35 in	0.065 in	0.065 in				0°	360°										
+Text		TopSilkscreen	14				1.65 in	0.475 in											"Circle"	Anytime	0.0595 in				
+Point		TopCopper	15				0.65 in	0.4 in																	
+Point		TopCopper	16				0.875 in	0.4 in																	
+Trace		TopCopper	17		15	16							0.012 in												
+Text		TopSilkscreen	18				0.65 in	0.475 in											"Trace"	Anytime	0.0595 in				
+Text		TopSilkscreen	19				0.1 in	0.075 in											"Exposed:"	Anytime	0.0595 in				
+Text		TopSilkscreen	20				0.1 in	0.425 in											"Covered:"	Anytime	0.0595 in				
+Polygon		TopCopper	21				1.1 in	0.3 in															(1.1 in,0.375 in)(1.225 in,0.3 in)(1.325 in,0.325 in)(1.325 in,0.4 in)(1.2 in,0.4 in)		
+Text		TopSilkscreen	22				1.075 in	0.475 in											"Polygon"	Anytime	0.0595 in				
+Text		TopSilkscreen	23				0.1 in	0.75 in											"Uncovered:"	Anytime	0.0595 in				
+Point		TopCopper	24				0.65 in	0.7 in																	
+Point		TopCopper	25				0.85 in	0.7 in																	
+Trace		TopCopper	34		24	25							0.012 in												
+Point		TopCopper	40				0.65 in	0.8 in																	
+Point		TopCopper	43				0.825 in	0.8 in																	
+Trace		TopCopper	50		43	40							0.012 in												
+Text		TopSilkscreen	51				0.625 in	0.875 in											"Contact"	Anytime	0.0595 in				
+Ellipse	FillKeepOut	TopSolderMask	53				0.6908791 in	0.6654726 in	0.175 in	0.175 in				0°	360°										
+Text		TopSilkscreen	55				0.1 in	-0.125 in											"See http://www.robotroom.com/Silkscreen-and-Solder-Mask-1.html"	Anytime	0.051 in				
+Pad	Rectangular	TopCopper	56				0.725 in	0.7625 in	0.012 in	0.08 in															
+Pad	Rectangular	TopCopper	57				0.75 in	0.7375 in	0.012 in	0.08 in															
+Pad	Rectangular	TopCopper	58				0.775 in	0.7625 in	0.012 in	0.08 in															
+Pad	Rectangular	TopCopper	59				0.8 in	0.7375 in	0.012 in	0.08 in															
+Pad	Rectangular	TopCopper	60				0.825 in	0.7625 in	0.012 in	0.08 in															
+Pad	Rectangular	TopCopper	61				0.85 in	0.7375 in	0.012 in	0.08 in															
+Note		TopSilkscreen	62				0.9125 in	0.65 in	0.212766 in	0.212766 in									"This is actually a combination of traces and rectangular pads.
+The 'fingers' are pads so that the Design Rule Check doesn't think the finger traces are unintentionally disconnected."				Note		
+Text		TopSilkscreen	63				0.1 in	1.075 in											"Partial:"	Anytime	0.0595 in				
+Text		TopSilkscreen	81				0.6 in	1.225 in											"PowerPad"	Anytime	0.0595 in				
+Pad	Rectangular	TopCopper	82	90			32.385 mm	26.035 mm	2.2 mm	0.5 mm							"1"								
+Pad	Rectangular	TopCopper	83	90			32.385 mm	27.305 mm	2.2 mm	0.5 mm							"2"								
+Pad	Rectangular	TopCopper	84	90			32.385 mm	28.575 mm	2.2 mm	0.5 mm							"3"								
+Pad	Rectangular	TopCopper	85	90			32.385 mm	29.845 mm	2.2 mm	0.5 mm							"4"								
+Pad	Rectangular	TopCopper	86	90			38.135 mm	29.845 mm	2.2 mm	0.5 mm							"5"								
+Pad	Rectangular	TopCopper	87	90			38.135 mm	28.575 mm	2.2 mm	0.5 mm							"6"								
+Pad	Rectangular	TopCopper	88	90			38.135 mm	27.305 mm	2.2 mm	0.5 mm							"7"								
+Pad	Rectangular	TopCopper	89	90			38.135 mm	26.035 mm	2.2 mm	0.5 mm							"8"								
+Group			90	110																					
+Ellipse		TopSilkscreen	91	90			34.3994 mm	25.8826 mm	0.024 in	0.024 in				0°	360°										
+Pad	Rectangular	TopCopper	92	90			35.26 mm	27.94 mm	2.49 mm	3 mm															
+Line		TopSilkscreen	93	90			34.81625 mm	25.4802 mm			33.9422 mm	25.4802 mm	0.012 in												
+Line		TopSilkscreen	94	90			33.9422 mm	25.4802 mm			33.9422 mm	30.3998 mm	0.012 in												
+Line		TopSilkscreen	95	90			33.9422 mm	30.3998 mm			36.5778 mm	30.3998 mm	0.012 in												
+Line		TopSilkscreen	96	90			36.5778 mm	30.3998 mm			36.5778 mm	25.4802 mm	0.012 in												
+Line		TopSilkscreen	97	90			36.5778 mm	25.4802 mm			35.70375 mm	25.4802 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	98	90			34.81625 mm	25.03645 mm	0.8875 mm	0.8875 mm			0.012 in	180°	180°										
+Rectangle		TopCopper	100	110			1.330315 in	1.0037402 in	2.94 mm	4.89 mm															
+Pad	Via		103	109			1.4177165 in	1.0409449 in	0.028811 in	0.028811 in												0.3 mm			
+Pad	Via		104	109			1.4177165 in	1.1590551 in	0.028811 in	0.028811 in												0.3 mm			
+Pad	Via		105	109			1.3586614 in	1.1590551 in	0.028811 in	0.028811 in												0.3 mm			
+Pad	Via		106	109			1.4177165 in	1.1 in	0.028811 in	0.028811 in												0.3 mm			
+Pad	Via		107	109			1.3586614 in	1.1 in	0.028811 in	0.028811 in												0.3 mm			
+Pad	Via		108	109			1.3586614 in	1.0409449 in	0.028811 in	0.028811 in												0.3 mm			
+Group			109	110																					
+Group			110														"IC1"	"SO-8 PowerPad"	"With vias"						
+Note		TopSilkscreen	112				0.975 in	1 in	0.212766 in	0.212766 in									"This is actually a combination of a pad in the middle with a larger filled rectangle. Use X-Ray Vision->All to see better.
+
+The pad exposes through solder mask to allow the chip to be solder to it. The larger rectangle has solder mask over it, to avoid solder bridges with the pins, but to still be large enough to act as a heatsink."				Note		
+Pad	Rectangular	TopCopper	113	121			16.51 mm	26.035 mm	2.2 mm	0.5 mm							"1"								
+Pad	Rectangular	TopCopper	114	121			16.51 mm	27.305 mm	2.2 mm	0.5 mm							"2"								
+Pad	Rectangular	TopCopper	115	121			16.51 mm	28.575 mm	2.2 mm	0.5 mm							"3"								
+Pad	Rectangular	TopCopper	116	121			16.51 mm	29.845 mm	2.2 mm	0.5 mm							"4"								
+Pad	Rectangular	TopCopper	117	121			22.26 mm	29.845 mm	2.2 mm	0.5 mm							"5"								
+Pad	Rectangular	TopCopper	118	121			22.26 mm	28.575 mm	2.2 mm	0.5 mm							"6"								
+Pad	Rectangular	TopCopper	119	121			22.26 mm	27.305 mm	2.2 mm	0.5 mm							"7"								
+Pad	Rectangular	TopCopper	120	121			22.26 mm	26.035 mm	2.2 mm	0.5 mm							"8"								
+Group			121	131																					
+Ellipse		TopSilkscreen	122	121			18.5244 mm	25.8826 mm	0.024 in	0.024 in				0°	360°										
+Pad	Rectangular	TopCopper	123	121			19.385 mm	27.94 mm	2.49 mm	3 mm															
+Line		TopSilkscreen	124	121			18.94125 mm	25.4802 mm			18.0672 mm	25.4802 mm	0.012 in												
+Line		TopSilkscreen	125	121			18.0672 mm	25.4802 mm			18.0672 mm	30.3998 mm	0.012 in												
+Line		TopSilkscreen	126	121			18.0672 mm	30.3998 mm			20.7028 mm	30.3998 mm	0.012 in												
+Line		TopSilkscreen	127	121			20.7028 mm	30.3998 mm			20.7028 mm	25.4802 mm	0.012 in												
+Line		TopSilkscreen	128	121			20.7028 mm	25.4802 mm			19.82875 mm	25.4802 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	129	121			18.94125 mm	25.03645 mm	0.8875 mm	0.8875 mm			0.012 in	180°	180°										
+Rectangle		TopCopper	130	131			0.705315 in	1.0037402 in	2.94 mm	4.89 mm															
+Group			131														"IC2"	"SO-8 PowerPad"							
+Text		TopSilkscreen	132				1.2 in	1.225 in											"With Vias"	Anytime	0.0595 in				

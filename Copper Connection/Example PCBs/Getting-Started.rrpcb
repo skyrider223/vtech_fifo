@@ -1,0 +1,61 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5490
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSilkscreen=False
+BottomSolderMask=True
+BottomSolderPaste=True
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.5 in
+HoleDiameterMinimum=0.014 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=-
+InnerLayerUpperConnectionLabel=+
+LicenseNumber=1100
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+Website=http://www.robotroom.com/CopperConnection/Getting-Started.html
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	2 in					0.007 in										(0 in,2 in)(0.8 in,2 in)(0.8 in,2.5 in)(0 in,2.5 in)		
+Ellipse	Outline	TopSilkscreen	13	17			0.4875 in	2.1375 in	0.225 in	0.225 in			0.012 in	300°	300°										
+Line		TopSilkscreen	15	17			0.654363 in	2.3478185 in			0.544363 in	2.3478185 in	0.012 in												
+Group			17											90°			"LED1"	"Blue LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		22	17			0.6 in	2.3 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			29	17			0.6 in	2.2 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Rectangle	Outline	TopSilkscreen	30	35			0.25 in	2.165 in	0.15 in	0.07 in			0.012 in												
+Pad			31	35			0.2 in	2.2 in	0.048 in	0.048 in							"1"					0.02 in			
+Pad			32	35			0.45 in	2.2 in	0.048 in	0.048 in							"2"					0.02 in			
+Line		TopSilkscreen	33	35			0.234918 in	2.2 in			0.247418 in	2.2 in	0.012 in												
+Line		TopSilkscreen	34	35			0.4021477 in	2.2 in			0.4146477 in	2.2 in	0.012 in												
+Group			35														"R1"	"100 Ω Resistor 1/8 W"	"0.25 in lead spacing"						
+Pad			36				0.1 in	2.2 in	0.056 in	0.056 in												0.029 in			
+Pad			37				0.1 in	2.3 in	0.056 in	0.056 in												0.029 in			
+Pad			38				0.34 in	2.3426 in	0.142 in	0.142 in												0.125 in			
+Trace		TopCopper	39		36	31							0.012 in												
+Text		TopSilkscreen	44				0.525 in	2.0625 in											"Blue"	Anytime	0.0595 in				
+Text		TopSilkscreen	45				0.2375 in	2.0875 in											"100Ω"	Anytime	0.0595 in				
+Text		TopSilkscreen	46				0.025 in	2.2375 in						90°					"+5V"	Tiny	0.0595 in				
+Text		TopSilkscreen	47				0.025 in	2.275 in											"⏚"	Anytime	0.0595 in				
+Trace		BottomCopper	50		37	51							0.04 in												
+Point		BottomCopper	51				0.2 in	2.45 in																	
+Trace		BottomCopper	52		51	53							0.04 in												
+Point		BottomCopper	53				0.475 in	2.45 in																	
+Trace		TopCopper	56		32	29							0.012 in												
+Trace		BottomCopper	58		53	22							0.04 in												

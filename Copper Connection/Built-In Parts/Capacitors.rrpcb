@@ -1,0 +1,648 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5488
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Capacitor
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(12.2 in,0 in)(12.2 in,5.2 in)(0 in,5.2 in)		
+Text		TopSilkscreen	3	1793			3.075 in	0.425 in											"mm"	Anytime	0.0595 in				
+Trace		BottomCopper	4	1793	1780	1782							0.025 in												
+Line		TopSilkscreen	5	22			0.175 in	0.75 in			0.325 in	0.75 in	0.012 in												
+Text		TopSilkscreen	6	1793			74.2 mm	7.12 mm											"+"	Anytime	0.0595 in				
+Pad	Circular	BottomCopper	7	1793			3.1181102 in	0.2311024 in	0.08 in	0.08 in															
+Text		TopSilkscreen	8	1793			3.055176 in	0.138354 in											"3.5"	Anytime	0.0595 in				
+Trace		BottomCopper	9	1793	1761	1780							0.025 in												
+Ellipse	Outline	TopSilkscreen	10	22			0.15 in	0.75 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	11	22			0.3 in	0.75 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Line		TopSilkscreen	12	23			1.275 in	0.75 in			1.425 in	0.75 in	0.012 in												
+Pad			13	22			0.2 in	0.8 in	0.056 in	0.056 in							"1"					0.029 in			
+Ellipse	Outline	TopSilkscreen	14	23			1.25 in	0.75 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Pad			15	22			0.3 in	0.8 in	0.056 in	0.056 in							"2"					0.029 in			
+Ellipse	Outline	TopSilkscreen	16	23			1.4 in	0.75 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Line		TopSilkscreen	17	22			0.175 in	0.85 in			0.325 in	0.85 in	0.012 in												
+Pad	SquareWithHole		18	23			1.3 in	0.8 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			19	23			1.4 in	0.8 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	20	23			1.275 in	0.85 in			1.425 in	0.85 in	0.012 in												
+Text		TopSilkscreen	21	23			1.225 in	0.75 in											"+"	Tiny	0.0595 in				
+Group			22														"C"	"Capacitor 0.1 in"							
+Group			23														"C"	"Capacitor 0.1 in polarized"							
+Line		TopSilkscreen	28	44			0.775 in	0.55 in			1.025 in	0.55 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	33	44			0.75 in	0.55 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	36	44			1 in	0.55 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad	SquareWithHole		37	44			0.8 in	0.6 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			41	44			1 in	0.6 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	42	44			0.775 in	0.65 in			1.025 in	0.65 in	0.012 in												
+Text		TopSilkscreen	43	44			0.725 in	0.55 in											"+"	Tiny	0.0595 in				
+Group			44														"C"	"Capacitor 0.1 in or 0.2 in polarized"							
+Pad			45	44			0.9 in	0.6 in	0.056 in	0.056 in												0.029 in			
+Line		TopSilkscreen	47	54			0.175 in	0.55 in			0.425 in	0.55 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	48	54			0.15 in	0.55 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	49	54			0.4 in	0.55 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad			50	54			0.2 in	0.6 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			51	54			0.4 in	0.6 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	52	54			0.175 in	0.65 in			0.425 in	0.65 in	0.012 in												
+Group			54														"C"	"Capacitor 0.1 in or 0.2 in"							
+Pad			55	54			0.3 in	0.6 in	0.056 in	0.056 in												0.029 in			
+Pad			1761	1793			79.2310893 mm	5.8699998 mm	0.056 in	0.056 in							"-"					0.029 in			
+Pad			1780	1793			78.7 mm	0.3 in	0.056 in	0.056 in							"-"					0.029 in			
+Pad	Circular	BottomCopper	1781	1793			3.0984252 in	0.3 in	0.08 in	0.08 in															
+Pad			1782	1793			81.2 mm	0.3 in	0.056 in	0.056 in							"-"					0.029 in			
+Pad	SquareWithHole		1783	1793			3 in	0.3 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad	Rectangular	BottomCopper	1784	1793			3 in	0.3 in	0.08 in	2.032 mm															
+Pad	Circular	BottomCopper	1785	1793			3.1968504 in	0.3 in	0.08 in	0.08 in															
+Ellipse	Outline	TopSilkscreen	1786	1793			2.9015748 in	0.1031496 in	10 mm	10 mm			0.012 in	0°	360°										
+Text		TopSilkscreen	1790	1793			3.0375666 in	0.3474208 in											"2.5"	Anytime	0.0595 in				
+Text		TopSilkscreen	1792	1793			3.225 in	0.35 in											"5"	Anytime	0.0595 in				
+Group			1793														"C"	"Bulk capacitor 2.5, 3.5, or 5 mm"							
+Ellipse	Outline	TopSilkscreen	1796	54			0.3 in	0.55 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Ellipse	Outline	TopSilkscreen	1803	44			0.9 in	0.55 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Ellipse	Outline	TopSilkscreen	1804	1809			2.9409449 in	0.6015748 in	5 mm	5 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1805	1809			76.2 mm	17.78 mm	0.056 in	0.056 in							"+"					0.029 in			
+Pad			1806	1809			78.2 mm	17.78 mm	0.056 in	0.056 in							"-"					0.029 in			
+Text		TopSilkscreen	1808	1809			74.7 mm	15.28 mm											"+"	Tiny	0.0595 in				
+Group			1809														"C"	"Radial capacitor 5 mm dia, 2 mm lead spacing"							
+Ellipse	Outline	TopSilkscreen	1810	1816			2.9251968 in	0.8909449 in	6.3 mm	6.3 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1811	1816			76.2 mm	25.78 mm	0.056 in	0.056 in							"+"					0.029 in			
+Pad			1812	1816			78.7 mm	25.78 mm	0.056 in	0.056 in							"-"					0.029 in			
+Text		TopSilkscreen	1813	1816			74.0785093 mm	22.6923437 mm											"+"	Anytime	0.0595 in				
+Group			1816														"C"	"Radial capacitor 6.3 mm dia, 2.5 mm lead spacing"							
+Ellipse	Outline	TopSilkscreen	1817	1825			2.9114173 in	1.1724409 in	8 mm	8 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1818	1825			76.2 mm	33.78 mm	0.065 in	0.065 in							"+"					0.035 in			
+Pad			1819	1825			79.7 mm	33.78 mm	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	1820	1825			74.0865927 mm	29.882131 mm											"+"	Anytime	0.0595 in				
+Group			1825														"C"	"Radial capacitor 8 mm dia, 3.5 mm lead spacing"							
+Ellipse	Outline	TopSilkscreen	1826	1830			2.9015748 in	1.5267716 in	10 mm	10 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1827	1830			76.2 mm	43.78 mm	0.065 in	0.065 in							"+"					0.035 in			
+Pad			1828	1830			81.2 mm	43.78 mm	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	1829	1830			73.95 mm	38.7799994 mm											"+"	Anytime	0.0595 in				
+Group			1830														"C"	"Radial capacitor 10 mm dia, 5 mm lead spacing"							
+Ellipse	Outline	TopSilkscreen	1833	1837			2.8523622 in	1.95 in	12.5 mm	12.5 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1834	1837			76.2 mm	55.78 mm	0.065 in	0.065 in							"+"					0.035 in			
+Pad			1835	1837			81.2 mm	55.78 mm	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	1836	1837			72.95 mm	50.5299996 mm											"+"	Anytime	0.0595 in				
+Group			1837														"C"	"Radial capacitor 12.5 mm dia, 5 mm lead spacing"							
+Ellipse	Outline	TopSilkscreen	1840	1844			2.8190945 in	2.4988189 in	16 mm	16 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1841	1844			75.855 mm	71.47 mm	0.075 in	0.075 in							"+"					0.04 in			
+Pad			1842	1844			83.355 mm	71.47 mm	0.075 in	0.075 in							"-"					0.04 in			
+Text		TopSilkscreen	1843	1844			72.2643871 mm	64.8684678 mm											"+"	Anytime	0.0595 in				
+Group			1844														"C"	"Radial capacitor 16 mm dia, 7.5 mm lead spacing"							
+Ellipse	Outline	TopSilkscreen	1847	1851			2.7797244 in	3.1594488 in	18 mm	18 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1848	1852			75.855 mm	89.25 mm	0.075 in	0.075 in							"+"					0.04 in			
+Pad			1849	1852			83.355 mm	89.25 mm	0.075 in	0.075 in							"-"					0.04 in			
+Text		TopSilkscreen	1850	1851			71.8549994 mm	82.2499991 mm											"+"	Anytime	0.0595 in				
+Group			1851														"C"	"Radial capacitor 18 mm dia, 7.5 mm lead spacing"							
+Group			1852	1851																					
+Pad	Rectangular	TopCopper	1855	1901			103.995 mm	8.0611722 mm	2.6 mm	1.6 mm							"+"								
+Pad	Rectangular	TopCopper	1857	1903			104.095 mm	13.565 mm	3 mm	1.6 mm							"+"								
+Pad	Rectangular	TopCopper	1859	1905			104.095 mm	20.065 mm	3.5 mm	1.6 mm							"+"								
+Pad	Rectangular	TopCopper	1861	1907			103.695 mm	28.065 mm	4 mm	1.6 mm							"+"								
+Pad	Rectangular	TopCopper	1863	1910			103.52 mm	37.065 mm	3.5 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1864	1910			110.02 mm	37.065 mm	3.5 mm	2.5 mm							"-"								
+Pad	Rectangular	TopCopper	1866	1913			103.795 mm	47.065 mm	4 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1868	1914			103.645 mm	58.065 mm	4.3 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1870	1901			107.595 mm	8.0688278 mm	2.6 mm	1.6 mm							"-"								
+Pad	Rectangular	TopCopper	1871	1903			108.495 mm	13.565 mm	3 mm	1.6 mm							"-"								
+Pad	Rectangular	TopCopper	1872	1905			109.495 mm	20.065 mm	3.5 mm	1.6 mm							"-"								
+Pad	Rectangular	TopCopper	1873	1907			109.795 mm	28.065 mm	4 mm	1.6 mm							"-"								
+Pad	Rectangular	TopCopper	1874	1913			111.795 mm	47.065 mm	4 mm	2.5 mm							"-"								
+Pad	Rectangular	TopCopper	1875	1914			111.945 mm	58.065 mm	4.3 mm	2.5 mm							"-"								
+Polygon	Outline	TopSilkscreen	1893	1901			103.795 mm	6.065 mm					0.012 in										(104.795 mm,6.065 mm)(107.795 mm,6.065 mm)(107.795 mm,10.065 mm)(104.795 mm,10.065 mm)(103.795 mm,9.065 mm)(103.795 mm,7.065 mm)		
+Group			1901														"C"	"Aluminum SMD 0405"							
+Polygon	Outline	TopSilkscreen	1902	1903			103.795 mm	11.065 mm					0.012 in										(103.795 mm,12.065 mm)(104.795 mm,11.065 mm)(108.795 mm,11.065 mm)(108.795 mm,16.0649998 mm)(104.795 mm,16.065 mm)(103.795 mm,15.065 mm)		
+Group			1903														"C"	"Aluminum SMD 0505"							
+Polygon	Outline	TopSilkscreen	1904	1905			103.795 mm	17.065 mm					0.012 in										(103.795 mm,18.065 mm)(104.795 mm,17.065 mm)(109.7949998 mm,17.065 mm)(109.795 mm,23.065 mm)(104.795 mm,23.065 mm)(103.795 mm,22.065 mm)		
+Group			1905														"C"	"Aluminum SMD 0605"							
+Polygon	Outline	TopSilkscreen	1906	1907			102.795 mm	24.065 mm					0.012 in										(104.795 mm,24.065 mm)(110.745 mm,24.065 mm)(110.745 mm,32.065 mm)(104.795 mm,32.065 mm)(102.795 mm,30.065 mm)(102.795 mm,26.065 mm)		
+Group			1907														"C"	"Aluminum SMD 0807"							
+Polygon	Outline	TopSilkscreen	1908	1910			102.795 mm	33.065 mm					0.012 in										(104.795 mm,33.065 mm)(110.745 mm,33.065 mm)(110.745 mm,41.065 mm)(104.795 mm,41.065 mm)(102.795 mm,39.065 mm)(102.795 mm,35.065 mm)		
+Group			1910															"Aluminum SMD 0810"							
+Polygon	Outline	TopSilkscreen	1911	1913			102.795 mm	42.065 mm					0.012 in										(102.795 mm,44.065 mm)(104.795 mm,42.065 mm)(112.795 mm,42.065 mm)(112.795 mm,52.0649997 mm)(104.795 mm,52.065 mm)(102.795 mm,50.065 mm)		
+Polygon	Outline	TopSilkscreen	1912	1914			102.795 mm	53.065 mm					0.012 in										(102.795 mm,55.065 mm)(104.795 mm,53.065 mm)(112.795 mm,53.065 mm)(112.795 mm,63.0649997 mm)(104.795 mm,63.065 mm)(102.795 mm,61.065 mm)		
+Group			1913														"C"	"Aluminum SMD 1010"							
+Group			1914														"C"	"Aluminum SMD 1012"							
+Pad	Rectangular	TopCopper	1915	1918			103.55 mm	69.105 mm	4.3 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1916	1918			111.85 mm	69.105 mm	4.3 mm	2.5 mm							"-"								
+Polygon	Outline	TopSilkscreen	1917	1918			102.7 mm	64.105 mm					0.012 in										(102.7 mm,66.105 mm)(104.7 mm,64.105 mm)(112.7 mm,64.105 mm)(112.7 mm,74.1049997 mm)(104.7 mm,74.105 mm)(102.7 mm,72.105 mm)		
+Group			1918														"C"	"Aluminum SMD 1014"							
+Pad	Rectangular	TopCopper	1919	1922			103.955 mm	80.795 mm	4.3 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1920	1922			112.255 mm	80.795 mm	4.3 mm	2.5 mm							"-"								
+Polygon	Outline	TopSilkscreen	1921	1922			103.105 mm	75.795 mm					0.012 in										(103.105 mm,77.795 mm)(105.105 mm,75.795 mm)(113.105 mm,75.795 mm)(113.105 mm,85.7949997 mm)(105.105 mm,85.795 mm)(103.105 mm,83.795 mm)		
+Group			1922														"C"	"Aluminum SMD 1014"							
+Pad	Rectangular	TopCopper	1923	1927			104.575 mm	93.99 mm	5.5 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1924	1927			114.075 mm	93.99 mm	5.5 mm	2.5 mm							"-"								
+Polygon	Outline	TopSilkscreen	1925	1927			103.0749998 mm	87.74 mm					0.012 in										(103.0749998 mm,89.74 mm)(105.0749998 mm,87.74 mm)(115.5749998 mm,87.74 mm)(115.5750002 mm,100.24 mm)(105.0749996 mm,100.24 mm)(103.0749998 mm,98.24 mm)		
+Group			1927														"C"	"Aluminum SMD 1213"							
+Pad	Rectangular	TopCopper	1934	1937			104.575 mm	107.49 mm	5.5 mm	2.5 mm							"+"								
+Pad	Rectangular	TopCopper	1935	1937			114.075 mm	107.49 mm	5.5 mm	2.5 mm							"-"								
+Polygon	Outline	TopSilkscreen	1936	1937			103.0749998 mm	101.24 mm					0.012 in										(103.0749998 mm,103.24 mm)(105.0749998 mm,101.24 mm)(115.5749998 mm,101.24 mm)(115.5750002 mm,113.74 mm)(105.0749996 mm,113.74 mm)(103.0749998 mm,111.74 mm)		
+Group			1937														"C"	"Aluminum SMD 1216"							
+Pad	SquareWithHole		1939	1959			131.315 mm	7.97 mm	0.065 in	0.065 in							"+"					0.035 in			
+Pad			1940	1959			144.315 mm	7.97 mm	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	1941	1959			130.815 mm	5.47 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	1943	1959			132.815 mm	5.72 mm			142.815 mm	5.72 mm	0.012 in												
+Line		TopSilkscreen	1944	1959			132.815 mm	10.22 mm			142.815 mm	10.22 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	1945	1959			132.315 mm	5.72 mm	1 mm	4.5 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	1946	1959			142.315 mm	5.72 mm	1 mm	4.5 mm			0.012 in	0°	360°										
+Pad	SquareWithHole		1955	1990			131.315 mm	29.97 mm	0.075 in	0.075 in							"+"					0.04 in			
+Pad			1956	1990			157.315 mm	29.97 mm	0.075 in	0.075 in							"-"					0.04 in			
+Group			1959														"C"	"Axial capacitor 4.5 mm dia, 10 mm length"							
+Pad	SquareWithHole		1960	1967			131.315 mm	13.97 mm	0.065 in	0.065 in							"+"					0.035 in			
+Pad			1961	1967			144.315 mm	13.97 mm	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	1962	1967			130.815 mm	11.47 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	1963	1967			132.815 mm	10.97 mm			142.815 mm	10.97 mm	0.012 in												
+Line		TopSilkscreen	1964	1967			132.815 mm	16.97 mm			142.815 mm	16.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	1965	1967			132.315 mm	10.97 mm	1 mm	6 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	1966	1967			142.315 mm	10.97 mm	1 mm	6 mm			0.012 in	0°	360°										
+Group			1967														"C"	"Axial capacitor 6 mm dia, 10 mm length"							
+Pad	SquareWithHole		1970	1977			131.315 mm	21.97 mm	0.065 in	0.065 in							"+"					0.035 in			
+Pad			1971	1977			144.315 mm	21.97 mm	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	1972	1977			130.815 mm	19.47 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	1973	1977			132.315 mm	17.97 mm			143.315 mm	17.97 mm	0.012 in												
+Line		TopSilkscreen	1974	1977			132.315 mm	25.97 mm			143.315 mm	25.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	1975	1977			131.815 mm	17.97 mm	1 mm	8 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	1976	1977			142.815 mm	17.97 mm	1 mm	8 mm			0.012 in	0°	360°										
+Group			1977														"C"	"Axial capacitor 8 mm dia, 11 mm length"							
+Text		TopSilkscreen	1982	1990			130.9332936 mm	27.47 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	1983	1990			135.315 mm	26.72 mm			153.315 mm	26.72 mm	0.012 in												
+Line		TopSilkscreen	1984	1990			135.315 mm	33.22 mm			153.315 mm	33.22 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	1985	1990			134.815 mm	26.72 mm	1 mm	6.5 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	1989	1990			152.815 mm	26.72 mm	1 mm	6.5 mm			0.012 in	0°	360°										
+Group			1990														"C"	"Axial capacitor 6.5 mm dia, 18 mm length"							
+Pad	SquareWithHole		1991	1998			131.315 mm	39.97 mm	0.075 in	0.075 in							"+"					0.04 in			
+Pad			1992	1998			157.315 mm	39.97 mm	0.075 in	0.075 in							"-"					0.04 in			
+Text		TopSilkscreen	1993	1998			130.9293732 mm	37.3937512 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	1994	1998			135.315 mm	35.97 mm			153.315 mm	35.97 mm	0.012 in												
+Line		TopSilkscreen	1995	1998			135.315 mm	43.97 mm			153.315 mm	43.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	1996	1998			134.815 mm	35.97 mm	1 mm	8 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	1997	1998			152.815 mm	35.97 mm	1 mm	8 mm			0.012 in	0°	360°										
+Group			1998														"C"	"Axial capacitor 8 mm dia, 18 mm length"							
+Pad	SquareWithHole		2000	2007			131.315 mm	51.97 mm	0.075 in	0.075 in							"+"					0.04 in			
+Pad			2001	2007			157.315 mm	51.97 mm	0.075 in	0.075 in							"-"					0.04 in			
+Text		TopSilkscreen	2002	2007			130.9293732 mm	49.4318756 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2003	2007			135.315 mm	46.97 mm			153.315 mm	46.97 mm	0.012 in												
+Line		TopSilkscreen	2004	2007			135.315 mm	56.97 mm			153.315 mm	56.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2005	2007			134.815 mm	46.97 mm	1 mm	10 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2006	2007			152.815 mm	46.97 mm	1 mm	10 mm			0.012 in	0°	360°										
+Group			2007														"C"	"Axial capacitor 10 mm dia, 18 mm length"							
+Pad	SquareWithHole		2009	2016			131.315 mm	63.97 mm	0.088 in	0.088 in							"+"					0.04 in			
+Pad			2010	2016			161.315 mm	63.97 mm	0.088 in	0.088 in							"-"					0.04 in			
+Text		TopSilkscreen	2011	2016			130.9442226 mm	61.4053887 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2012	2016			133.815 mm	58.97 mm			158.815 mm	58.97 mm	0.012 in												
+Line		TopSilkscreen	2013	2016			133.815 mm	68.97 mm			158.815 mm	68.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2014	2016			133.315 mm	58.97 mm	1 mm	10 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2015	2016			158.315 mm	58.97 mm	1 mm	10 mm			0.012 in	0°	360°										
+Group			2016														"C"	"Axial capacitor 10 mm dia, 25 mm length"							
+Pad	SquareWithHole		2019	2026			131.315 mm	75.97 mm	0.088 in	0.088 in							"+"					0.04 in			
+Pad			2020	2026			167.315 mm	75.97 mm	0.088 in	0.088 in							"-"					0.04 in			
+Text		TopSilkscreen	2021	2026			130.9442226 mm	73.4053887 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2022	2026			134.315 mm	70.97 mm			164.315 mm	70.97 mm	0.012 in												
+Line		TopSilkscreen	2023	2026			134.315 mm	80.97 mm			164.315 mm	80.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2024	2026			133.815 mm	70.97 mm	1 mm	10 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2025	2026			163.815 mm	70.97 mm	1 mm	10 mm			0.012 in	0°	360°										
+Group			2026														"C"	"Axial capacitor 10 mm dia, 30 mm length"							
+Pad	SquareWithHole		2031	2038			131.315 mm	89.97 mm	0.075 in	0.075 in							"+"					0.04 in			
+Pad			2032	2038			167.315 mm	89.97 mm	0.075 in	0.075 in							"-"					0.04 in			
+Text		TopSilkscreen	2033	2038			130.815 mm	87.47 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2034	2038			134.315 mm	83.72 mm			164.315 mm	83.72 mm	0.012 in												
+Line		TopSilkscreen	2035	2038			134.315 mm	96.22 mm			164.315 mm	96.22 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2036	2038			133.815 mm	83.72 mm	1 mm	12.5 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2037	2038			163.815 mm	83.72 mm	1 mm	12.5 mm			0.012 in	0°	360°										
+Group			2038														"C"	"Axial capacitor 12.5 mm dia, 30 mm length"							
+Pad	SquareWithHole		2041	2048			173.315 mm	13.97 mm	0.088 in	0.088 in							"+"					0.04 in			
+Pad			2042	2048			209.315 mm	13.97 mm	0.088 in	0.088 in							"-"					0.04 in			
+Text		TopSilkscreen	2043	2048			172.9332936 mm	11.4305688 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2044	2048			176.315 mm	6.47 mm			206.315 mm	6.47 mm	0.012 in												
+Line		TopSilkscreen	2045	2048			176.315 mm	21.47 mm			206.315 mm	21.47 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2046	2048			175.815 mm	6.47 mm	1 mm	15 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2047	2048			205.815 mm	6.47 mm	1 mm	15 mm			0.012 in	0°	360°										
+Group			2048														"C"	"Axial capacitor 15 mm dia, 30 mm length"							
+Pad	SquareWithHole		2051	2058			173.315 mm	31.97 mm	0.088 in	0.088 in							"+"					0.04 in			
+Pad			2052	2058			209.315 mm	31.97 mm	0.088 in	0.088 in							"-"					0.04 in			
+Text		TopSilkscreen	2053	2058			172.9332936 mm	29.4305688 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2054	2058			176.315 mm	22.97 mm			206.315 mm	22.97 mm	0.012 in												
+Line		TopSilkscreen	2055	2058			176.315 mm	40.97 mm			206.315 mm	40.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2056	2058			175.815 mm	22.97 mm	1 mm	18 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2057	2058			205.815 mm	22.97 mm	1 mm	18 mm			0.012 in	0°	360°										
+Group			2058														"C"	"Axial capacitor 18 mm dia, 30 mm length"							
+Pad	SquareWithHole		2061	2068			173.315 mm	51.97 mm	0.088 in	0.088 in							"+"					0.04 in			
+Pad			2062	2068			217.315 mm	51.97 mm	0.088 in	0.088 in							"-"					0.04 in			
+Text		TopSilkscreen	2063	2068			172.9332936 mm	49.47 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2064	2068			176.315 mm	42.97 mm			214.315 mm	42.97 mm	0.012 in												
+Line		TopSilkscreen	2065	2068			176.315 mm	60.97 mm			214.315 mm	60.97 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2066	2068			175.815 mm	42.97 mm	1 mm	18 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2067	2068			213.815 mm	42.97 mm	1 mm	18 mm			0.012 in	0°	360°										
+Group			2068														"C"	"Axial capacitor 18 mm dia, 38 mm length"							
+Pad	SquareWithHole		2072	2079			173.315 mm	71.97 mm	0.088 in	0.088 in							"+"					0.04 in			
+Pad			2073	2079			217.315 mm	71.97 mm	0.088 in	0.088 in							"-"					0.04 in			
+Text		TopSilkscreen	2074	2079			172.9332936 mm	69.3911376 mm											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2075	2079			176.315 mm	61.47 mm			214.315 mm	61.47 mm	0.012 in												
+Line		TopSilkscreen	2076	2079			176.315 mm	82.47 mm			214.315 mm	82.47 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2077	2079			175.815 mm	61.47 mm	1 mm	21 mm			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2078	2079			213.815 mm	61.47 mm	1 mm	21 mm			0.012 in	0°	360°										
+Group			2079														"C"	"Axial capacitor 21 mm dia, 38 mm length"							
+Ellipse	Outline	TopSilkscreen	2080	2087			9.3244094 in	0.3561024 in	0.05 in	0.15 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2081	2087			9.0244094 in	0.3561024 in	0.05 in	0.15 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2082	2087			8.9494094 in	0.4311024 in	0.065 in	0.065 in							"+"					0.035 in			
+Pad			2083	2087			9.4494094 in	0.4311024 in	0.065 in	0.065 in							"-"					0.035 in			
+Text		TopSilkscreen	2084	2087			8.9343091 in	0.3473027 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2085	2087			9.0494094 in	0.3561024 in			9.3494094 in	0.3561024 in	0.012 in												
+Line		TopSilkscreen	2086	2087			9.0494094 in	0.5061024 in			9.3494094 in	0.5061024 in	0.012 in												
+Group			2087														"C"	"Axial capacitor 0.5 in lead spacing"							
+Ellipse	Outline	TopSilkscreen	2088	2095			9.3994094 in	0.6311024 in	0.05 in	0.2 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2089	2095			9.0494094 in	0.6311024 in	0.05 in	0.2 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2090	2095			8.9494094 in	0.7311024 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2091	2095			9.5494094 in	0.7311024 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2092	2095			8.9343091 in	0.6389694 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2093	2095			9.0744094 in	0.6311024 in			9.4244094 in	0.6311024 in	0.012 in												
+Line		TopSilkscreen	2094	2095			9.0744094 in	0.8311024 in			9.4244094 in	0.8311024 in	0.012 in												
+Group			2095														"C"	"Axial capacitor 0.6 in lead spacing"							
+Ellipse	Outline	TopSilkscreen	2096	2103			9.5119094 in	0.8936024 in	0.05 in	0.2 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2097	2103			9.0369094 in	0.8936024 in	0.05 in	0.2 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2098	2103			8.9494094 in	0.9936024 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2099	2103			9.6494094 in	0.9936024 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2100	2103			8.9345668 in	0.8936024 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2101	2103			9.0619094 in	0.8936024 in			9.5369094 in	0.8936024 in	0.012 in												
+Line		TopSilkscreen	2102	2103			9.0619094 in	1.0936024 in			9.5369094 in	1.0936024 in	0.012 in												
+Group			2103														"C"	"Axial capacitor 0.7 in lead spacing"							
+Ellipse	Outline	TopSilkscreen	2104	2111			9.5994094 in	1.1811024 in	0.05 in	0.3 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2105	2111			9.0494094 in	1.1811024 in	0.05 in	0.3 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2106	2111			8.9494094 in	1.3311024 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2107	2111			9.7494094 in	1.3311024 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2108	2111			8.9350931 in	1.2311024 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2109	2111			9.0744094 in	1.1811024 in			9.6244094 in	1.1811024 in	0.012 in												
+Line		TopSilkscreen	2110	2111			9.0744094 in	1.4811024 in			9.6244094 in	1.4811024 in	0.012 in												
+Group			2111														"C"	"Axial capacitor 0.8 in lead spacing"							
+Line		TopSilkscreen	2112	2111			9.0494094 in	1.3311024 in			9.0119094 in	1.3311024 in	0.012 in												
+Line		TopSilkscreen	2113	2111			9.6869094 in	1.3311024 in			9.6494094 in	1.3311024 in	0.012 in												
+Line		TopSilkscreen	2114	2103			9.0119094 in	0.9936024 in			9.0619094 in	0.9936024 in	0.012 in												
+Line		TopSilkscreen	2115	2103			9.5619094 in	0.9936024 in			9.5869094 in	0.9936024 in	0.012 in												
+Line		TopSilkscreen	2116	2095			9.0119094 in	0.7311024 in			9.0744094 in	0.7311024 in	0.012 in												
+Line		TopSilkscreen	2117	2095			9.4494094 in	0.7311024 in			9.4869094 in	0.7311024 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2118	2125			9.6994094 in	1.5311024 in	0.05 in	0.4 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2119	2125			9.0494094 in	1.5311024 in	0.05 in	0.4 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2120	2125			8.9494094 in	1.7311024 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2121	2125			9.8494094 in	1.7311024 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2122	2125			8.934689 in	1.6311024 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2123	2125			9.0744094 in	1.5311024 in			9.7244094 in	1.5311024 in	0.012 in												
+Line		TopSilkscreen	2124	2125			9.0744094 in	1.9311024 in			9.7244094 in	1.9311024 in	0.012 in												
+Group			2125														"C"	"Axial capacitor 0.9 in lead spacing"							
+Line		TopSilkscreen	2126	2125			9.0744094 in	1.7311024 in			9.0119094 in	1.7311024 in	0.012 in												
+Line		TopSilkscreen	2127	2125			9.7869094 in	1.7311024 in			9.7494094 in	1.7311024 in	0.012 in												
+Line		TopSilkscreen	2128	2087			8.9994094 in	0.4311024 in			9.0494094 in	0.4311024 in	0.012 in												
+Line		TopSilkscreen	2129	2087			9.3744094 in	0.4311024 in			9.3994094 in	0.4311024 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2130	2137			11.1358267 in	0.3590552 in	0.05 in	0.5 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2131	2137			10.2358267 in	0.3590552 in	0.05 in	0.5 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2132	2137			10.1108267 in	0.6090552 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2133	2137			11.3108267 in	0.6090552 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2134	2137			10.0961063 in	0.5090552 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2135	2137			10.2608267 in	0.3590552 in			11.1608267 in	0.3590552 in	0.012 in												
+Line		TopSilkscreen	2136	2137			10.2608267 in	0.8590552 in			11.1608267 in	0.8590552 in	0.012 in												
+Group			2137														"C"	"Axial capacitor 1.2 in lead spacing"							
+Line		TopSilkscreen	2138	2137			10.2608267 in	0.6090552 in			10.1733267 in	0.6090552 in	0.012 in												
+Line		TopSilkscreen	2139	2137			11.2483267 in	0.6090552 in			11.1858267 in	0.6090552 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2140	2147			11.3108267 in	0.9783465 in	0.05 in	0.6 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2141	2147			10.2608267 in	0.9783465 in	0.05 in	0.6 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2142	2147			10.1108267 in	1.2783465 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2143	2147			11.5108267 in	1.2783465 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2144	2147			10.0961063 in	1.1783465 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2145	2147			10.2858267 in	0.9783465 in			11.3358267 in	0.9783465 in	0.012 in												
+Line		TopSilkscreen	2146	2147			10.2858267 in	1.5783465 in			11.3358267 in	1.5783465 in	0.012 in												
+Group			2147														"C"	"Axial capacitor 1.4 in lead spacing"							
+Line		TopSilkscreen	2148	2147			10.2858267 in	1.2783465 in			10.1733267 in	1.2783465 in	0.012 in												
+Line		TopSilkscreen	2149	2147			11.4483267 in	1.2783465 in			11.3608267 in	1.2783465 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2150	2157			11.6786417 in	1.7157481 in	0.05 in	0.7 in			0.012 in	0°	360°										
+Ellipse	Outline	TopSilkscreen	2151	2157			10.2536417 in	1.7157481 in	0.05 in	0.7 in			0.012 in	0°	360°										
+Pad	SquareWithHole		2152	2157			10.0911417 in	2.0657481 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2153	2157			11.8911417 in	2.0657481 in	0.08 in	0.08 in							"-"					0.035 in			
+Text		TopSilkscreen	2154	2157			10.0764213 in	1.9657481 in											"+"	Anytime	0.0595 in				
+Line		TopSilkscreen	2155	2157			10.2786417 in	1.7157481 in			11.7036417 in	1.7157481 in	0.012 in												
+Line		TopSilkscreen	2156	2157			10.2786417 in	2.4157481 in			11.7036417 in	2.4157481 in	0.012 in												
+Group			2157														"C"	"Axial capacitor 1.8 in lead spacing"							
+Line		TopSilkscreen	2158	2157			10.2786417 in	2.0657481 in			10.1536417 in	2.0657481 in	0.012 in												
+Line		TopSilkscreen	2159	2157			11.8286417 in	2.0657481 in			11.7286417 in	2.0657481 in	0.012 in												
+Line		TopSilkscreen	2160	1990			5.228937 in	1.1799213 in			5.3273622 in	1.1799213 in	0.012 in												
+Line		TopSilkscreen	2161	1990			6.0557086 in	1.1799213 in			6.1344488 in	1.1799213 in	0.012 in												
+Line		TopSilkscreen	2163	1998			5.228937 in	1.5736221 in			5.3273622 in	1.5736221 in	0.012 in												
+Line		TopSilkscreen	2164	1998			6.1344488 in	1.5736221 in			6.0557086 in	1.5736221 in	0.012 in												
+Line		TopSilkscreen	2166	2007			5.228937 in	2.046063 in			5.3273622 in	2.046063 in	0.012 in												
+Line		TopSilkscreen	2167	2007			6.1344488 in	2.046063 in			6.0557086 in	2.046063 in	0.012 in												
+Line		TopSilkscreen	2169	2016			5.228937 in	2.518504 in			5.268307 in	2.518504 in	0.012 in												
+Line		TopSilkscreen	2170	2016			6.2919291 in	2.518504 in			6.272244 in	2.518504 in	0.012 in												
+Line		TopSilkscreen	2172	2026			5.228937 in	2.9909449 in			5.2879921 in	2.9909449 in	0.012 in												
+Line		TopSilkscreen	2173	2026			6.5281496 in	2.9909449 in			6.4887795 in	2.9909449 in	0.012 in												
+Line		TopSilkscreen	2175	2038			5.228937 in	3.542126 in			5.2879921 in	3.542126 in	0.012 in												
+Line		TopSilkscreen	2176	2038			6.5281496 in	3.542126 in			6.4887795 in	3.542126 in	0.012 in												
+Line		TopSilkscreen	2178	2048			6.8824803 in	0.55 in			6.9415354 in	0.55 in	0.012 in												
+Line		TopSilkscreen	2179	2048			8.1816929 in	0.55 in			8.1423228 in	0.55 in	0.012 in												
+Line		TopSilkscreen	2181	2058			6.8824803 in	1.2586615 in			6.9415354 in	1.2586615 in	0.012 in												
+Line		TopSilkscreen	2182	2058			8.1816929 in	1.2586615 in			8.1423228 in	1.2586615 in	0.012 in												
+Line		TopSilkscreen	2184	2068			6.8824803 in	2.046063 in			6.9415354 in	2.046063 in	0.012 in												
+Line		TopSilkscreen	2185	2068			8.4966535 in	2.046063 in			8.4572834 in	2.046063 in	0.012 in												
+Line		TopSilkscreen	2187	2079			6.8824803 in	2.8334646 in			6.9415354 in	2.8334646 in	0.012 in												
+Line		TopSilkscreen	2188	2079			8.4966535 in	2.8334646 in			8.4572834 in	2.8334646 in	0.012 in												
+Line		TopSilkscreen	2189	2195			0.175 in	1.95 in			0.4 in	1.95 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2190	2195			0.15 in	1.95 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2191	2195			0.375 in	1.95 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad			2192	2195			0.2 in	2 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2193	2195			0.3771654 in	2 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2194	2195			0.175 in	2.05 in			0.4 in	2.05 in	0.012 in												
+Group			2195														"C"	"Capacitor 4.5 mm"							
+Line		TopSilkscreen	2197	2203			0.175 in	2.35 in			0.4271654 in	2.35 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2198	2203			0.15 in	2.35 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2199	2203			0.4 in	2.35 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad			2200	2203			0.2 in	2.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2201	2203			0.4 in	2.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2202	2203			0.175 in	2.45 in			0.4271654 in	2.45 in	0.012 in												
+Group			2203														"C"	"Capacitor 0.2 in"							
+Line		TopSilkscreen	2205	2211			0.175 in	1.15 in			0.35 in	1.15 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2206	2211			0.15 in	1.15 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2207	2211			0.325 in	1.15 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad			2208	2211			0.2 in	1.2 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2209	2211			0.325 in	1.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2210	2211			0.175 in	1.25 in			0.35 in	1.25 in	0.012 in												
+Group			2211														"C"	"Capacitor 0.125 in"							
+Line		TopSilkscreen	2213	2219			0.1478346 in	2.925 in			0.4978346 in	2.925 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2214	2219			0.125 in	2.925 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2215	2219			0.475 in	2.925 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad			2216	2219			0.2 in	3 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2217	2219			0.45 in	3 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2218	2219			0.1478346 in	3.075 in			0.4978346 in	3.075 in	0.012 in												
+Group			2219														"C"	"Capacitor 0.25 in"							
+Line		TopSilkscreen	2221	2227			0.15 in	2.625 in			0.45 in	2.625 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2222	2227			0.125 in	2.625 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2223	2227			0.425 in	2.625 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad			2224	2227			0.2 in	2.7 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2225	2227			0.4 in	2.7 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2226	2227			0.15 in	2.775 in			0.45 in	2.775 in	0.012 in												
+Group			2227														"C"	"Capacitor 0.2 in (large)"							
+Line		TopSilkscreen	2229	2235			0.15 in	2.125 in			0.425 in	2.125 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2230	2235			0.125 in	2.125 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2231	2235			0.4 in	2.125 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad			2232	2235			0.2 in	2.2 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2233	2235			0.3771654 in	2.2 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2234	2235			0.15 in	2.275 in			0.425 in	2.275 in	0.012 in												
+Group			2235														"C"	"Capacitor 4.5 mm (large)"							
+Line		TopSilkscreen	2236	2242			0.15 in	1.325 in			0.375 in	1.325 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2237	2242			0.125 in	1.325 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2238	2242			0.35 in	1.325 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad			2239	2242			0.2 in	1.4 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2240	2242			0.325 in	1.4 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2241	2242			0.15 in	1.475 in			0.375 in	1.475 in	0.012 in												
+Group			2242														"C"	"Capacitor 0.125 in (large)"							
+Line		TopSilkscreen	2245	2251			0.15 in	0.925 in			0.35 in	0.925 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2246	2251			0.125 in	0.925 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2247	2251			0.325 in	0.925 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad			2248	2251			0.2 in	1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2249	2251			0.3 in	1 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2250	2251			0.15 in	1.075 in			0.35 in	1.075 in	0.012 in												
+Group			2251														"C"	"Capacitor 0.1 in (large)"							
+Line		TopSilkscreen	2257	2263			0.15 in	3.2 in			0.55 in	3.2 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2258	2263			0.125 in	3.2 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2259	2263			0.525 in	3.2 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad			2260	2263			0.2 in	3.3 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2261	2263			0.5 in	3.3 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2262	2263			0.15 in	3.4 in			0.55 in	3.4 in	0.012 in												
+Group			2263														"C"	"Capacitor 0.3 in"							
+Line		TopSilkscreen	2265	2271			0.15 in	3.5 in			0.625 in	3.5 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2266	2271			0.125 in	3.5 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2267	2271			0.6 in	3.5 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad			2268	2271			0.2 in	3.6 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			2269	2271			0.575 in	3.6 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	2270	2271			0.15 in	3.7 in			0.625 in	3.7 in	0.012 in												
+Group			2271														"C"	"Capacitor 0.375 in"							
+Line		TopSilkscreen	2273	2279			0.15 in	3.8 in			0.65 in	3.8 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2274	2279			0.1228346 in	3.8 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2275	2279			0.625 in	3.8 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad			2276	2279			0.2 in	3.9 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			2277	2279			0.6 in	3.9 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	2278	2279			0.15 in	4 in			0.65 in	4 in	0.012 in												
+Group			2279														"C"	"Capacitor 0.4 in"							
+Line		TopSilkscreen	2281	2287			0.125 in	4.075 in			0.775 in	4.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2282	2287			0.1 in	4.075 in	0.05 in	0.25 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2283	2287			0.75 in	4.075 in	0.05 in	0.25 in			0.012 in	270°	180°										
+Pad			2284	2287			0.2 in	4.2 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			2285	2287			0.7 in	4.2 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	2286	2287			0.125 in	4.325 in			0.775 in	4.325 in	0.012 in												
+Group			2287														"C"	"Capacitor 0.5 in"							
+Line		TopSilkscreen	2289	2295			0.125 in	4.375 in			0.875 in	4.375 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2290	2295			0.1 in	4.375 in	0.05 in	0.25 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2291	2295			0.85 in	4.375 in	0.05 in	0.25 in			0.012 in	270°	180°										
+Pad			2292	2295			0.2 in	4.5 in	0.08 in	0.08 in							"1"					0.035 in			
+Pad			2293	2295			0.8 in	4.5 in	0.08 in	0.08 in							"2"					0.035 in			
+Line		TopSilkscreen	2294	2295			0.125 in	4.625 in			0.875 in	4.625 in	0.012 in												
+Group			2295														"C"	"Capacitor 0.6 in"							
+Line		TopSilkscreen	2297	2303			0.125 in	4.675 in			1.075 in	4.675 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2298	2303			0.1 in	4.675 in	0.05 in	0.25 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2299	2303			1.05 in	4.675 in	0.05 in	0.25 in			0.012 in	270°	180°										
+Pad			2300	2303			0.2 in	4.8 in	0.1 in	0.1 in							"1"					0.046 in			
+Pad			2301	2303			1 in	4.8 in	0.1 in	0.1 in							"2"					0.046 in			
+Line		TopSilkscreen	2302	2303			0.125 in	4.925 in			1.075 in	4.925 in	0.012 in												
+Group			2303														"C"	"Capacitor 0.8 in"							
+Line		TopSilkscreen	2305	2311			0.15 in	1.725 in			0.4 in	1.725 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2306	2311			0.125 in	1.725 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2307	2311			0.375 in	1.725 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad			2308	2311			0.2 in	1.8 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2309	2311			0.35 in	1.8 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2310	2311			0.15 in	1.875 in			0.4 in	1.875 in	0.012 in												
+Group			2311														"C"	"Capacitor 0.15 in (large)"							
+Line		TopSilkscreen	2312	2318			0.175 in	1.55 in			0.3771654 in	1.55 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2313	2318			0.15 in	1.55 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2314	2318			0.35 in	1.55 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad			2315	2318			0.2 in	1.6 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			2316	2318			0.35 in	1.6 in	0.056 in	0.056 in							"2"					0.029 in			
+Line		TopSilkscreen	2317	2318			0.175 in	1.65 in			0.3771654 in	1.65 in	0.012 in												
+Group			2318														"C"	"Capacitor 1.5 in"							
+Line		TopSilkscreen	2321	2327			1.275 in	1.95 in			1.5 in	1.95 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2322	2327			1.25 in	1.95 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2323	2327			1.475 in	1.95 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2324	2327			1.3 in	2 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2325	2327			1.4771654 in	2 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2326	2327			1.275 in	2.05 in			1.5 in	2.05 in	0.012 in												
+Group			2327														"C"	"Capacitor 4.5 mm polarized"							
+Line		TopSilkscreen	2328	2334			1.275 in	2.35 in			1.5271654 in	2.35 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2329	2334			1.25 in	2.35 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2330	2334			1.5 in	2.35 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2331	2334			1.3 in	2.4 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2332	2334			1.5 in	2.4 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2333	2334			1.275 in	2.45 in			1.5271654 in	2.45 in	0.012 in												
+Group			2334														"C"	"Capacitor 0.2 in polarized"							
+Line		TopSilkscreen	2335	2341			1.275 in	1.15 in			1.45 in	1.15 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2336	2341			1.25 in	1.15 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2337	2341			1.425 in	1.15 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2338	2341			1.3 in	1.2 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2339	2341			1.425 in	1.2 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2340	2341			1.275 in	1.25 in			1.45 in	1.25 in	0.012 in												
+Group			2341														"C"	"Capacitor 0.125 in polarized"							
+Line		TopSilkscreen	2342	2348			1.2478346 in	2.925 in			1.5978346 in	2.925 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2343	2348			1.225 in	2.925 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2344	2348			1.575 in	2.925 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2345	2348			1.3 in	3 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2346	2348			1.55 in	3 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2347	2348			1.2478346 in	3.075 in			1.5978346 in	3.075 in	0.012 in												
+Group			2348														"C"	"Capacitor 0.25 in polarized"							
+Line		TopSilkscreen	2349	2355			1.25 in	2.625 in			1.55 in	2.625 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2350	2355			1.225 in	2.625 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2351	2355			1.525 in	2.625 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2352	2355			1.3 in	2.7 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2353	2355			1.5 in	2.7 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2354	2355			1.25 in	2.775 in			1.55 in	2.775 in	0.012 in												
+Group			2355														"C"	"Capacitor 0.2 in polarized (large)"							
+Line		TopSilkscreen	2356	2362			1.25 in	2.125 in			1.525 in	2.125 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2357	2362			1.225 in	2.125 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2358	2362			1.5 in	2.125 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2359	2362			1.3 in	2.2 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2360	2362			1.4771654 in	2.2 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2361	2362			1.25 in	2.275 in			1.525 in	2.275 in	0.012 in												
+Group			2362														"C"	"Capacitor 4.5 mm polarized (large)"							
+Line		TopSilkscreen	2363	2369			1.25 in	1.325 in			1.475 in	1.325 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2364	2369			1.225 in	1.325 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2365	2369			1.45 in	1.325 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2366	2369			1.3 in	1.4 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2367	2369			1.425 in	1.4 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2368	2369			1.25 in	1.475 in			1.475 in	1.475 in	0.012 in												
+Group			2369														"C"	"Capacitor 0.125 in polarized (large)"							
+Line		TopSilkscreen	2370	2376			1.25 in	0.925 in			1.45 in	0.925 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2371	2376			1.225 in	0.925 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2372	2376			1.425 in	0.925 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2373	2376			1.3 in	1 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2374	2376			1.4 in	1 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2375	2376			1.25 in	1.075 in			1.45 in	1.075 in	0.012 in												
+Group			2376														"C"	"Capacitor 0.1 in polarized (large)"							
+Line		TopSilkscreen	2377	2383			1.25 in	3.2 in			1.65 in	3.2 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2378	2383			1.225 in	3.2 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2379	2383			1.625 in	3.2 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2380	2383			1.3 in	3.3 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2381	2383			1.6 in	3.3 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2382	2383			1.25 in	3.4 in			1.65 in	3.4 in	0.012 in												
+Group			2383														"C"	"Capacitor 0.3 in polarized"							
+Line		TopSilkscreen	2384	2390			1.25 in	3.5 in			1.725 in	3.5 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2385	2390			1.225 in	3.5 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2386	2390			1.7 in	3.5 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2387	2390			1.3 in	3.6 in	0.065 in	0.065 in							"+"					0.035 in			
+Pad			2388	2390			1.675 in	3.6 in	0.065 in	0.065 in							"-"					0.035 in			
+Line		TopSilkscreen	2389	2390			1.25 in	3.7 in			1.725 in	3.7 in	0.012 in												
+Group			2390														"C"	"Capacitor 0.375 in polarized"							
+Line		TopSilkscreen	2391	2397			1.25 in	3.8 in			1.75 in	3.8 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2392	2397			1.225 in	3.8 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2393	2397			1.725 in	3.8 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2394	2397			1.3 in	3.9 in	0.065 in	0.065 in							"+"					0.035 in			
+Pad			2395	2397			1.7 in	3.9 in	0.065 in	0.065 in							"-"					0.035 in			
+Line		TopSilkscreen	2396	2397			1.25 in	4 in			1.75 in	4 in	0.012 in												
+Group			2397														"C"	"Capacitor 0.4 in polarized"							
+Line		TopSilkscreen	2398	2404			1.225 in	4.075 in			1.875 in	4.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2399	2404			1.2 in	4.075 in	0.05 in	0.25 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2400	2404			1.85 in	4.075 in	0.05 in	0.25 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2401	2404			1.3 in	4.2 in	0.065 in	0.065 in							"+"					0.035 in			
+Pad			2402	2404			1.8 in	4.2 in	0.065 in	0.065 in							"-"					0.035 in			
+Line		TopSilkscreen	2403	2404			1.225 in	4.325 in			1.875 in	4.325 in	0.012 in												
+Group			2404														"C"	"Capacitor 0.5 in polarized"							
+Line		TopSilkscreen	2412	2418			1.225 in	4.675 in			2.175 in	4.675 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2413	2418			1.2 in	4.675 in	0.05 in	0.25 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2414	2418			2.15 in	4.675 in	0.05 in	0.25 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2415	2418			1.3 in	4.8 in	0.1 in	0.1 in							"+"					0.046 in			
+Pad			2416	2418			2.1 in	4.8 in	0.1 in	0.1 in							"-"					0.046 in			
+Line		TopSilkscreen	2417	2418			1.225 in	4.925 in			2.175 in	4.925 in	0.012 in												
+Group			2418														"C"	"Capacitor 0.8 in polarized"							
+Line		TopSilkscreen	2419	2425			1.25 in	1.725 in			1.5 in	1.725 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2420	2425			1.225 in	1.725 in	0.05 in	0.15 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2421	2425			1.475 in	1.725 in	0.05 in	0.15 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2422	2425			1.3 in	1.8 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2423	2425			1.45 in	1.8 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2424	2425			1.25 in	1.875 in			1.5 in	1.875 in	0.012 in												
+Group			2425														"C"	"Capacitor 0.15 in polarized (large)"							
+Line		TopSilkscreen	2426	2432			1.275 in	1.55 in			1.4771654 in	1.55 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2427	2432			1.25 in	1.55 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2428	2432			1.45 in	1.55 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2429	2432			1.3 in	1.6 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2430	2432			1.45 in	1.6 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2431	2432			1.275 in	1.65 in			1.4771654 in	1.65 in	0.012 in												
+Group			2432														"C"	"Capacitor 1.5 in polarized"							
+Line		TopSilkscreen	2433	2439			1.225 in	4.375 in			1.975 in	4.375 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2434	2439			1.2 in	4.375 in	0.05 in	0.25 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2435	2439			1.95 in	4.375 in	0.05 in	0.25 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2436	2439			1.3 in	4.5 in	0.08 in	0.08 in							"+"					0.035 in			
+Pad			2437	2439			1.9 in	4.5 in	0.08 in	0.08 in							"-"					0.035 in			
+Line		TopSilkscreen	2438	2439			1.225 in	4.625 in			1.975 in	4.625 in	0.012 in												
+Group			2439														"C"	"Capacitor 0.6 in polarized"							
+Text		TopSilkscreen	2440	2376			1.2 in	0.925 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2441	2341			1.225 in	1.15 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2442	2369			1.2 in	1.325 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2443	2432			1.2271654 in	1.55 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2444	2425			1.2 in	1.725 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2445	2327			1.225 in	1.95 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2446	2362			1.2 in	2.125 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2447	2334			1.225 in	2.35 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2448	2355			1.2 in	2.625 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2449	2348			1.1978346 in	2.925 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2450	2383			1.2 in	3.2 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2451	2390			1.2 in	3.5 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2452	2397			1.2 in	3.8 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2453	2404			1.175 in	4.075 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2454	2439			1.175 in	4.375 in											"+"	Tiny	0.068 in				
+Text		TopSilkscreen	2455	2418			1.175 in	4.675 in											"+"	Tiny	0.068 in				
+Line		TopSilkscreen	2473	2480			1.675 in	0.9375 in			1.825 in	0.9375 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2474	2480			1.65 in	0.9375 in	0.05 in	0.125 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2475	2480			1.8 in	0.9375 in	0.05 in	0.125 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2476	2480			1.7 in	1 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2477	2480			1.8 in	1 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2478	2480			1.675 in	1.0625 in			1.825 in	1.0625 in	0.012 in												
+Text		TopSilkscreen	2479	2480			1.625 in	0.9375 in											"+"	Tiny	0.0595 in				
+Group			2480														"C"	"Capacitor 0.1 in tantalum"							
+Line		TopSilkscreen	2490	2496			1.675 in	1.3375 in			1.85 in	1.3375 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2491	2496			1.65 in	1.3375 in	0.05 in	0.125 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2492	2496			1.825 in	1.3375 in	0.05 in	0.125 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2493	2496			1.7 in	1.4 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2494	2496			1.825 in	1.4 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2495	2496			1.675 in	1.4625 in			1.85 in	1.4625 in	0.012 in												
+Group			2496														"C"	"Capacitor 0.125 in tantalum"							
+Text		TopSilkscreen	2497	2496			1.625 in	1.3375 in											"+"	Tiny	0.068 in				
+Line		TopSilkscreen	2500	2506			1.675 in	1.7 in			1.875 in	1.7 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2501	2506			1.65 in	1.7 in	0.05 in	0.2 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2502	2506			1.85 in	1.7 in	0.05 in	0.2 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2503	2506			1.7 in	1.8 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2504	2506			1.85 in	1.8 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2505	2506			1.675 in	1.9 in			1.875 in	1.9 in	0.012 in												
+Group			2506														"C"	"Capacitor 0.15 in tantalum"							
+Text		TopSilkscreen	2507	2506			1.625 in	1.7 in											"+"	Tiny	0.068 in				
+Line		TopSilkscreen	2509	2515			1.875 in	2.55 in			2.125 in	2.55 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2510	2515			1.85 in	2.55 in	0.05 in	0.3 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2511	2515			2.1 in	2.55 in	0.05 in	0.3 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2512	2515			1.9 in	2.7 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			2513	2515			2.1 in	2.7 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	2514	2515			1.875 in	2.85 in			2.125 in	2.85 in	0.012 in												
+Group			2515														"C"	"Capacitor 0.2 in tantalum"							
+Text		TopSilkscreen	2516	2515			1.825 in	2.55 in											"+"	Tiny	0.068 in				
+Line		TopSilkscreen	2518	2524			1.875 in	3.15 in			2.175 in	3.15 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2519	2524			1.85 in	3.15 in	0.05 in	0.3 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	2520	2524			2.15 in	3.15 in	0.05 in	0.3 in			0.012 in	270°	180°										
+Pad	SquareWithHole		2521	2524			1.9 in	3.3 in	0.065 in	0.065 in							"+"					0.035 in			
+Pad			2522	2524			2.15 in	3.3 in	0.065 in	0.065 in							"-"					0.035 in			
+Line		TopSilkscreen	2523	2524			1.875 in	3.45 in			2.175 in	3.45 in	0.012 in												
+Group			2524														"C"	"Capacitor 0.25 in tantalum"							
+Text		TopSilkscreen	2525	2524			1.825 in	3.15 in											"+"	Tiny	0.068 in				

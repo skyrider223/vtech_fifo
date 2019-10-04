@@ -1,0 +1,156 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5741
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Switch
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Group			9														"SW"	"E-Switch 600SP1S2M1 or Molex KK header 2 pin"	"Switch on board or connector"						
+Pad	SquareWithHole		843	9			1 in	0.9 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			847	9			1.1 in	0.9 in	0.065 in	0.065 in							"2"	"Common"				0.035 in			
+Pad			848	9			1.2 in	0.9 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad	Circular	BottomCopper	857	9			1.2 in	0.9 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	858	9			1.1 in	0.9 in	0.08 in	0.08 in															
+Polygon	Outline	TopSilkscreen	859	9			0.825 in	0.75 in					0.012 in										(0.825 in,0.75 in)(1.375 in,0.75 in)(1.375 in,1.05 in)(0.825 in,1.05 in)		
+Polygon	Outline	TopSilkscreen	862	886			0.9375 in	1.175 in					0.012 in										(0.9375 in,1.425 in)(0.9375 in,1.175 in)(1.1625 in,1.175 in)(1.1625 in,1.425 in)		
+Polygon		TopSilkscreen	863	886			1 in	1.175 in															(1 in,1.175 in)(1.1 in,1.175 in)(1.1 in,1.2 in)(1 in,1.2 in)		
+Pad	SquareWithHole		864	870			0.3 in	0.9 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			866	870			0.4 in	0.9 in	0.065 in	0.065 in							"2"	"Common"				0.035 in			
+Pad			867	870			0.5 in	0.9 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad	Circular	BottomCopper	868	870			0.5 in	0.9 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	869	870			0.4 in	0.9 in	0.08 in	0.08 in															
+Group			870														"SW"	"E-Switch 600SP1S2M1"							
+Pad	Rectangular	BottomCopper	871	870			0.3 in	0.9 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	872	9			1 in	0.9 in	0.08 in	0.08 in															
+Pad	SquareWithHole		873	878			0.3 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			874	878			0.4 in	1.3 in	0.065 in	0.065 in							"2"	"Common"				0.035 in			
+Pad			875	878			0.5 in	1.3 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad	Circular	BottomCopper	876	878			0.5 in	1.3 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	877	878			0.4 in	1.3 in	0.08 in	0.08 in															
+Group			878														"SW"	"E-Switch EG1218"							
+Pad	Rectangular	BottomCopper	879	878			0.3 in	1.3 in	0.08 in	0.08 in															
+Polygon	Outline	TopSilkscreen	880	878			0.1715 in	1.2215 in					0.012 in										(0.1715 in,1.2215 in)(0.6285 in,1.2215 in)(0.6285 in,1.3785 in)(0.1715 in,1.3785 in)		
+Pad	SquareWithHole		881	886			1.0035 in	1.3035 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			882	886			1.1035 in	1.3035 in	0.065 in	0.065 in							"2"	"Common"				0.035 in			
+Pad			883	886			1.2035 in	1.3035 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad	Circular	BottomCopper	884	886			1.2035 in	1.3035 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	885	886			1.1035 in	1.3035 in	0.08 in	0.08 in															
+Group			886														"SW"	"E-Switch EG1218 or  or Molex KK header 2 pin"	"Switch on board or connector"						
+Pad	Rectangular	BottomCopper	887	886			1.0035 in	1.3035 in	0.08 in	0.08 in															
+Polygon	Outline	TopSilkscreen	888	886			0.875 in	1.225 in					0.012 in										(0.875 in,1.225 in)(1.332 in,1.225 in)(1.332 in,1.382 in)(0.875 in,1.382 in)		
+Polygon	Outline	TopSilkscreen	889	870			0.125 in	0.75 in					0.012 in										(0.125 in,0.75 in)(0.675 in,0.75 in)(0.675 in,1.05 in)(0.125 in,1.05 in)		
+Polygon	Outline	TopSilkscreen	890	9			0.925 in	0.775 in					0.012 in										(0.925 in,1.025 in)(0.925 in,0.775 in)(1.15 in,0.775 in)(1.15 in,1.025 in)		
+Polygon		TopSilkscreen	891	9			0.9875 in	0.775 in															(0.9875 in,0.775 in)(1.0875 in,0.775 in)(1.0875 in,0.8 in)(0.9875 in,0.8 in)		
+Pad			1312	1342			1.7 in	0.57 in	0.13 in	0.13 in							"4"					0.079 in			
+Pad			1313	1342			1.7 in	0.385 in	0.13 in	0.13 in							"5"	"Common"				0.079 in			
+Pad			1314	1342			1.7 in	0.2 in	0.13 in	0.13 in							"6"					0.079 in			
+Pad	SquareWithHole		1315	1342			1.89 in	0.57 in	0.13 in	0.13 in							"1"					0.079 in			
+Pad			1316	1342			1.89 in	0.385 in	0.13 in	0.13 in							"2"	"Common"				0.079 in			
+Pad			1317	1342			1.89 in	0.2 in	0.13 in	0.13 in							"3"					0.079 in			
+Polygon	Outline	TopSilkscreen	1338	1342			1.545 in	0.135 in					0.012 in										(1.545 in,0.135 in)(2.045 in,0.135 in)(2.045 in,0.635 in)(1.545 in,0.635 in)		
+Ellipse	Outline	TopSilkscreen	1340	1342			1.77 in	0.238313 in	0.05 in	0.05 in			0.012 in	180°	180°										
+Ellipse	Outline	TopSilkscreen	1341	1342			1.67 in	0.26 in	0.25 in	0.25 in			0.012 in	180°	360°										
+Group			1342														"SW"	"DPDT toggle solder lug"							
+Pad			2205	2266			2.95 in	1.9 in	0.09 in	0.09 in							"coil"					0.043 in		1	
+Pad			2212	2266			2.8 in	1.4 in	0.15 in	0.15 in							"C"	"common"				0.078 in		1	
+Pad			2213	2266			3.15 in	2 in	0.15 in	0.15 in							"C"	"common"				0.078 in		1	
+Pad			2214	2266			3.35 in	1.9 in	0.09 in	0.09 in							"coil"					0.043 in		1	
+Pad			2215	2266			3.5 in	1.3 in	0.15 in	0.15 in							"NO"	"normally open"				0.081 in		1	
+Pad			2216	2266			3.5 in	1 in	0.15 in	0.15 in							"NC"	"normally closed"				0.081 in		1	
+Polygon	Outline	TopSilkscreen	2265	2266			2.625 in	0.9 in					0.01 in										(3.692 in,0.9 in)(2.625 in,0.9 in)(2.625 in,1.59 in)(2.715 in,1.59 in)(2.715 in,2.156 in)(3.495 in,2.156 in)(3.495 in,1.4 in)(3.692 in,1.4 in)	1	
+Group			2266														"K"	"T90 Series PCB Relay"						1	
+Pad			3209	3931			2.9 in	0.3 in	0.115 in	0.115 in							"NC"	"Normally closed"				0.052 in			
+Pad			3210	3931			2.6 in	0.3 in	0.115 in	0.115 in							"NO"	"Normally open"				0.052 in			
+Pad	SquareWithHole		3211	3931			2.3 in	0.3 in	0.115 in	0.115 in							"COM"	"Common"				0.052 in			
+Text		TopSilkscreen	3313	3931			2.28725 in	0.375 in											"C"	Anytime	0.051 in				
+Text		TopSilkscreen	3327	3931			2.868125 in	0.375 in											"NC"	Anytime	0.051 in				
+Text		TopSilkscreen	3354	3931			2.568125 in	0.375 in											"NO"	Anytime	0.051 in				
+Polygon	Outline	TopSilkscreen	3930	3931			2.2 in	0.175 in					0.012 in										(2.2 in,0.175 in)(3 in,0.175 in)(3 in,0.425 in)(2.2 in,0.425 in)		
+Group			3931														"SW"	"Snap action subminiature"							
+Pad			6878	6931			1.7 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Pad			6880	6931			1.9 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Line		TopSilkscreen	6908	6931			1.7 in	0.85 in			1.9 in	0.85 in	0.012 in												
+Line		TopSilkscreen	6909	6931			1.7 in	0.95 in			1.9 in	0.95 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	6928	6931			1.65 in	0.85 in	0.1 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	6929	6931			1.85 in	0.85 in	0.1 in	0.1 in			0.012 in	270°	180°										
+Ellipse	Outline	TopSilkscreen	6930	6931			1.7 in	0.8671532 in	0.2 in	0.2 in			0.012 in	45°	90°										
+Group			6931														"F"	"Circuit Breaker 0.2 in"	"Also PPTC"						
+Group			6932														"SW"	"Pushbutton Multichoice"							
+Pad	SquareWithHole		6933	6932			0.4 in	0.2 in	0.088 in	0.088 in							"1"					0.04 in			
+Pad			6934	6932			0.4 in	0.5 in	0.088 in	0.088 in												0.04 in			
+Pad			6935	6932			0.6 in	0.5 in	0.088 in	0.088 in							"2"					0.04 in			
+Pad			6936	6932			0.6 in	0.2 in	0.088 in	0.088 in												0.04 in			
+Pad			6937	6932			0.3637796 in	0.35 in	0.088 in	0.088 in												0.04 in			
+Pad			6938	6932			0.6 in	0.35 in	0.088 in	0.088 in												0.04 in			
+Pad	SquareWithHole		6939	6932			0.4999898 in	0.35 in	0.075 in	0.075 in												0.04 in			
+Polygon	Outline	TopSilkscreen	6940	6932			0.35 in	0.275 in					0.012 in										(0.35 in,0.275 in)(0.65 in,0.275 in)(0.65 in,0.425 in)(0.35 in,0.425 in)		
+Pad	SquareWithHole		6942	6950			1 in	0.2 in	0.088 in	0.088 in							"1"					0.04 in			
+Pad			6943	6950			1 in	0.5 in	0.088 in	0.088 in												0.04 in			
+Pad			6944	6950			1.2 in	0.5 in	0.088 in	0.088 in							"2"					0.04 in			
+Pad			6945	6950			1.2 in	0.2 in	0.088 in	0.088 in												0.04 in			
+Polygon	Outline	TopSilkscreen	6949	6950			0.95 in	0.275 in					0.012 in										(0.95 in,0.275 in)(1.25 in,0.275 in)(1.25 in,0.425 in)(0.95 in,0.425 in)		
+Group			6950														"SW"	"Pushbutton"							
+Pad	SquareWithHole		6951	6958			2.3 in	0.6 in	0.1 in	0.1 in							"1"	"Common"				0.046 in			
+Pad			6952	6958			2.5 in	0.6 in	0.1 in	0.1 in							"2"	"Normally open"				0.046 in			
+Pad			6953	6958			2.7 in	0.6 in	0.1 in	0.1 in							"3"	"Normally closed"				0.046 in			
+Text		TopSilkscreen	6954	6958			2.2621795 in	0.6628205 in											"COM"	Anytime	0.051 in				
+Text		TopSilkscreen	6955	6958			2.6692308 in	0.6653846 in											"NC"	Anytime	0.051 in				
+Text		TopSilkscreen	6956	6958			2.4653846 in	0.6660256 in											"NO"	Anytime	0.051 in				
+Polygon	Outline	TopSilkscreen	6957	6958			2.2480315 in	0.4818898 in					0.012 in										(2.2480315 in,0.4818898 in)(2.7519685 in,0.4818898 in)(2.7519685 in,0.7181102 in)(2.2480315 in,0.7181102 in)		
+Group			6958														"SW"	"Snap action ultra miniature"							
+Pad	Rectangular	TopCopper	8867	8874			1.635 in	1.2771654 in	0.081 in	0.0511811 in														1	
+Pad	Rectangular	TopCopper	8868	8874			1.635 in	1.1 in	0.081 in	0.0511811 in														1	
+Pad	Rectangular	TopCopper	8869	8874			1.9475 in	1.1 in	0.081 in	0.0511811 in														1	
+Pad	Rectangular	TopCopper	8870	8874			1.9475 in	1.2772 in	0.081 in	0.0511811 in														1	
+Rectangle	Outline	TopSilkscreen	8871	8874			1.6731397 in	1.0704898 in	6 mm	6 mm			0.012 in											1	
+Ellipse	Outline	TopSilkscreen	8872	8874			1.7223523 in	1.1197024 in	3.5 mm	3.5 mm			0.012 in	0°	360°									1	
+Group			8874														"SW"	"SMT tactile switch pushbutton"	"PTS645 series"					2	
+Pad	Rectangular	TopCopper	9068	9072			44.1325 mm	1.625 in	0.8 mm	1.7 mm							"1"							2	
+Pad	Rectangular	TopCopper	9069	9072			47.5325008 mm	1.625 in	0.8 mm	1.7 mm							"2"							2	
+Line		TopSilkscreen	9070	9072			1.745374 in	1.5757874 in			47.3325008 mm	40.025 mm	0.008 in											2	
+Line		TopSilkscreen	9071	9072			1.745374 in	1.6742126 in			47.3325008 mm	42.525 mm	0.008 in											2	
+Group			9072														"SW"	"Omron B3U pushbutton"						2	
+Pad	Rectangular	TopCopper	9073	9092			43.18 mm	1.45 in	2.4 mm	1.6 mm							"1"							1	
+Pad	Rectangular	TopCopper	9074	9092			48.58 mm	1.45 in	2.4 mm	1.6 mm							"2"							1	
+Line		TopSilkscreen	9082	9092			1.688189 in	1.3811024 in			48.88 mm	35.0799988 mm	0.008 in											1	
+Line		TopSilkscreen	9083	9092			1.688189 in	1.5188977 in			48.88 mm	38.5799987 mm	0.008 in											1	
+Line		TopSilkscreen	9086	9092			1.925 in	1.3811023 in			1.925 in	1.4061023 in	0.008 in											1	
+Line		TopSilkscreen	9087	9092			1.6875 in	1.3811023 in			1.6875 in	1.4061023 in	0.008 in											1	
+Line		TopSilkscreen	9088	9092			1.6875 in	1.4938977 in			1.6875 in	1.5188977 in	0.008 in											1	
+Line		TopSilkscreen	9089	9092			1.925 in	1.4938977 in			1.925 in	1.5188977 in	0.008 in											1	
+Rectangle		TopSilkscreen	9090	9092			1.75 in	1.4224409 in	2.8029966 mm	1.4 mm														1	
+Group			9092														"SW"	"6 mm x 3.5 mm pushbutton"	"Panasonic EVQ"					1	
+Pad			9093	9100			2.1622047 in	0.8858268 in	0.065 in	0.065 in												0.035 in		2	
+Pad			9094	9100			2.3622047 in	0.8858268 in	0.065 in	0.065 in												0.035 in		2	
+Line		TopSilkscreen	9095	9100			2.1622047 in	0.8358268 in			2.3622047 in	0.8358268 in	0.012 in											2	
+Line		TopSilkscreen	9096	9100			2.1622047 in	0.9358268 in			2.3622047 in	0.9358268 in	0.012 in											2	
+Ellipse	Outline	TopSilkscreen	9097	9100			2.1122047 in	0.8358268 in	0.1 in	0.1 in			0.012 in	90°	180°									2	
+Ellipse	Outline	TopSilkscreen	9098	9100			2.3122047 in	0.8358268 in	0.1 in	0.1 in			0.012 in	270°	180°									2	
+Ellipse	Outline	TopSilkscreen	9099	9100			2.1622047 in	0.85298 in	0.2 in	0.2 in			0.012 in	45°	90°									2	
+Group			9100														"F"	"Circuit Breaker 0.2 in larger holes"	"Also PPTC"					2	

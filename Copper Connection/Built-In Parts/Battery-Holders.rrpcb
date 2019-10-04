@@ -1,0 +1,58 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.6.5298
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+Categories=Battery
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TraceClearanceDefault=0.015 in
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Rectangle	Outline	TopSilkscreen	4448	4457			0.1 in	1.4925 in	1.36 in	0.64 in			0.012 in											1	
+Pad			4449	4457			0.2 in	1.5335 in	0.11 in	0.11 in												0.093 in		1	
+Pad	SquareWithHole		4450	4457			0.2 in	1.8125 in	0.1 in	0.1 in							"+"					0.046 in		1	
+Pad			4451	4457			1.36 in	1.8125 in	0.1 in	0.1 in							"-"					0.046 in		1	
+Pad			4454	4457			0.475 in	1.8125 in	0.142 in	0.142 in								"(screw)"				0.125 in		1	
+Pad			4455	4457			1.085 in	1.8125 in	0.142 in	0.142 in								"(screw)"				0.125 in		1	
+Group			4457														"BT"	"Keystone 108 1/2 AA cell holder"						1	
+Ellipse	Outline	TopSilkscreen	6433	6456			0.3007044 in	0.1211614 in	14.8 mm	14.8 mm			0.012 in	270°	360°										
+Pad	Rectangular	TopCopper	6449	6456			0.8964876 in	0.4125 in	4.3 mm	3.3 mm				270°			"-"	"GND"							
+Pad	Rectangular	TopCopper	6450	6456			0.275 in	0.4125 in	3.66 mm	3.3 mm				270°			"+"	"Positive"							
+Pad			6452	6456			0.4511552 in	0.4125 in	0.09 in	0.09 in				270°				"(not connected)"				0.052 in			
+Pad			6453	6456			0.7464308 in	0.4125 in	0.062 in	0.062 in				270°								0.04 in			
+Group			6456														"BT"	"CR1220 coin cell holder"	"Harwin S8411-45-R"						
+Pad			6457	6573			0.2375 in	1.0375 in	0.075 in	0.075 in							"+"					0.04 in		1	
+Pad			6458	6573			0.2375 in	1.1375 in	0.075 in	0.075 in							"+"					0.04 in		1	
+Pad			6459	6573			1.2975 in	1.0875 in	0.075 in	0.075 in							"-"					0.04 in		1	
+Polygon	Outline	TopSilkscreen	6557	6573			0.3275 in	0.7725 in					0.012 in										(0.46 in,0.7725 in)(0.4349702 in,0.7993613 in)(0.4152619 in,0.8238178 in)(0.3973484 in,0.849618 in)(0.3813212 in,0.8766304 in)(0.3672619 in,0.9047174 in)(0.3552421 in,0.9337358 in)(0.3453231 in,0.9635377 in)(0.3375554 in,0.9939713 in)(0.3319786 in,1.0248815 in)(0.3286211 in,1.0561108 in)(0.3275 in,1.0875 in)(0.3286211 in,1.1188892 in)(0.3319786 in,1.1501185 in)(0.3375554 in,1.1810287 in)(0.3453231 in,1.2114623 in)(0.3552421 in,1.2412642 in)(0.3672619 in,1.2702826 in)(0.3813212 in,1.2983696 in)(0.3973484 in,1.325382 in)(0.4152619 in,1.3511822 in)(0.4349702 in,1.3756387 in)(0.456373 in,1.398627 in)(1.078627 in,1.398627 in)(1.1000298 in,1.3756387 in)(1.1197381 in,1.3511822 in)(1.1376516 in,1.325382 in)(1.1536788 in,1.2983696 in)(1.1677381 in,1.2702826 in)(1.1797579 in,1.2412642 in)(1.1896769 in,1.2114623 in)(1.1974446 in,1.1810287 in)(1.2030214 in,1.1501185 in)(1.2063789 in,1.1188892 in)(1.2075 in,1.0875 in)(1.2063789 in,1.0561108 in)(1.2030214 in,1.0248815 in)(1.1974446 in,0.9939713 in)(1.1896769 in,0.9635377 in)(1.1797579 in,0.9337358 in)(1.1677381 in,0.9047174 in)(1.1536788 in,0.8766304 in)(1.1376516 in,0.849618 in)(1.1197381 in,0.8238178 in)(1.1000298 in,0.7993613 in)(1.078627 in,0.7725 in)	1	
+Line		TopSilkscreen	6565	6573			0.2 in	0.95 in			0.2 in	1.225 in	0.012 in											1	
+Line		TopSilkscreen	6566	6573			0.2 in	1.225 in			0.35 in	1.225 in	0.012 in											1	
+Line		TopSilkscreen	6567	6573			0.2 in	0.95 in			0.35 in	0.95 in	0.012 in											1	
+Line		TopSilkscreen	6568	6573			1.1875 in	0.95 in			1.3375 in	0.95 in	0.012 in											1	
+Line		TopSilkscreen	6569	6573			1.3375 in	0.95 in			1.3375 in	1.225 in	0.012 in											1	
+Line		TopSilkscreen	6570	6573			1.3375 in	1.225 in			1.1875 in	1.225 in	0.012 in											1	
+Text		TopSilkscreen	6572	6573			0.4125 in	1.05 in											"+"	Anytime	0.102 in			1	
+Group			6573														"BT"	"BU2032 coin cell holder"						1	

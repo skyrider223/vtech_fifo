@@ -1,0 +1,236 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5493
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=SMD-2
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Pad	Rectangular	TopCopper	19	21			5.285 mm	0.175 in	1.25 mm	1.1 mm							"1"								
+Pad	Rectangular	TopCopper	20	21			6.985 mm	0.175 in	1.25 mm	1.1 mm							"2"								
+Group			21															"Chip 1608 EIA 0603"							
+Pad	Rectangular	TopCopper	31	33			19.25 mm	0.0885827 in	1.25 mm	1.1 mm							"1"								
+Pad	Rectangular	TopCopper	32	33			20.95 mm	0.0885827 in	1.25 mm	1.1 mm							"2"								
+Group			33															"Molded 1608 EIA 0603"							
+Ellipse		TopSilkscreen	34	33			18.3202 mm	0.0426566 in	0.5 mm	0.5 mm				0°	360°										
+Line		TopSilkscreen	35	33			19.2346 mm	0.0581058 in			19.2346 mm	0.0461058 in	0.008 in												
+Line		TopSilkscreen	36	33			19.2346 mm	0.0461058 in			20.9654 mm	0.0461058 in	0.008 in												
+Line		TopSilkscreen	37	33			20.9654 mm	0.0461058 in			20.9654 mm	0.0581058 in	0.008 in												
+Line		TopSilkscreen	38	33			19.2346 mm	3.0416359 mm			19.2346 mm	3.3464359 mm	0.008 in												
+Line		TopSilkscreen	39	33			19.2346 mm	3.3464359 mm			20.9654 mm	3.3464359 mm	0.008 in												
+Line		TopSilkscreen	40	33			20.9654 mm	3.3464359 mm			20.9654 mm	3.0416359 mm	0.008 in												
+Pad	Rectangular	TopCopper	51	53			5.15 mm	0.3 in	1.35 mm	1.55 mm							"1"								
+Pad	Rectangular	TopCopper	52	53			7.15 mm	0.3 in	1.35 mm	1.55 mm							"2"								
+Group			53															"Chip 2012 EIA 0805"							
+Pad	Rectangular	TopCopper	63	65			19.1 mm	0.3 in	1.35 mm	1.55 mm							"1"								
+Pad	Rectangular	TopCopper	64	65			21.1 mm	0.3 in	1.35 mm	1.55 mm							"2"								
+Group			65															"Molded 2012 EIA 0805"							
+Ellipse		TopSilkscreen	66	65			18.1202 mm	0.243146 in	0.5 mm	0.5 mm				0°	360°										
+Line		TopSilkscreen	67	65			19.0346 mm	0.2565257 in			19.0346 mm	0.2445257 in	0.008 in												
+Line		TopSilkscreen	68	65			19.0346 mm	0.2445257 in			21.1654 mm	0.2445257 in	0.008 in												
+Line		TopSilkscreen	69	65			21.1654 mm	0.2445257 in			21.1654 mm	0.2565257 in	0.008 in												
+Line		TopSilkscreen	70	65			19.0346 mm	8.6541584 mm			19.0346 mm	8.9589584 mm	0.008 in												
+Line		TopSilkscreen	71	65			19.0346 mm	8.9589584 mm			21.1654 mm	8.9589584 mm	0.008 in												
+Line		TopSilkscreen	72	65			21.1654 mm	8.9589584 mm			21.1654 mm	8.6541584 mm	0.008 in												
+Pad	Rectangular	TopCopper	83	85			4.55 mm	0.5 in	1.65 mm	1.9 mm							"1"								
+Pad	Rectangular	TopCopper	84	85			7.75 mm	0.5 in	1.65 mm	1.9 mm							"2"								
+Group			85															"Chip 3216 EIA 1206"							
+Line		TopSilkscreen	86	85			5.6798 mm	0.4685984 in			6.6202 mm	0.4685984 in	0.012 in												
+Line		TopSilkscreen	87	85			5.6798 mm	13.4976 mm			6.6202 mm	13.4976 mm	0.012 in												
+Pad	Rectangular	TopCopper	97	99			18.5 mm	0.5 in	1.65 mm	1.9 mm							"1"								
+Pad	Rectangular	TopCopper	98	99			21.7 mm	0.5 in	1.65 mm	1.9 mm							"2"								
+Group			99															"Molded 3216 EIA 1206"							
+Ellipse		TopSilkscreen	100	99			17.3702 mm	0.4265984 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	101	99			18.2846 mm	0.4385984 in			18.2846 mm	0.4265984 in	0.012 in												
+Line		TopSilkscreen	102	99			18.2846 mm	0.4265984 in			21.9154 mm	0.4265984 in	0.012 in												
+Line		TopSilkscreen	103	99			21.9154 mm	0.4265984 in			21.9154 mm	0.4385984 in	0.012 in												
+Line		TopSilkscreen	104	99			18.2846 mm	14.2596 mm			18.2846 mm	14.5644 mm	0.012 in												
+Line		TopSilkscreen	105	99			18.2846 mm	14.5644 mm			21.9154 mm	14.5644 mm	0.012 in												
+Line		TopSilkscreen	106	99			21.9154 mm	14.5644 mm			21.9154 mm	14.2596 mm	0.012 in												
+Pad	Rectangular	TopCopper	127	129			18.5 mm	0.725 in	1.65 mm	2.8 mm							"1"								
+Pad	Rectangular	TopCopper	128	129			21.7 mm	0.725 in	1.65 mm	2.8 mm							"2"								
+Group			129															"Molded 3225 EIA 1210"							
+Ellipse		TopSilkscreen	130	129			17.3702 mm	0.6338819 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	131	129			18.2846 mm	0.6458819 in			18.2846 mm	0.6338819 in	0.012 in												
+Line		TopSilkscreen	132	129			18.2846 mm	0.6338819 in			21.9154 mm	0.6338819 in	0.012 in												
+Line		TopSilkscreen	133	129			21.9154 mm	0.6338819 in			21.9154 mm	0.6458819 in	0.012 in												
+Line		TopSilkscreen	134	129			18.2846 mm	20.4246 mm			18.2846 mm	20.7294 mm	0.012 in												
+Line		TopSilkscreen	135	129			18.2846 mm	20.7294 mm			21.9154 mm	20.7294 mm	0.012 in												
+Line		TopSilkscreen	136	129			21.9154 mm	20.7294 mm			21.9154 mm	20.4246 mm	0.012 in												
+Pad	Rectangular	TopCopper	146	148			4.55 mm	0.725 in	1.65 mm	2.8 mm							"1"								
+Pad	Rectangular	TopCopper	147	148			7.75 mm	0.725 in	1.65 mm	2.8 mm							"2"								
+Group			148															"Chip 3225 EIA 1210"							
+Line		TopSilkscreen	149	148			5.6798 mm	0.6758819 in			6.6202 mm	0.6758819 in	0.012 in												
+Line		TopSilkscreen	150	148			5.6798 mm	19.6626001 mm			6.6202 mm	19.6626001 mm	0.012 in												
+Pad	Rectangular	TopCopper	151	153			3.9 mm	0.9357244 in	1.85 mm	2.3 mm							"1"								
+Pad	Rectangular	TopCopper	152	153			8.4 mm	0.9357244 in	1.85 mm	2.3 mm							"2"								
+Group			153															"Chip 4520 EIA 1808"							
+Line		TopSilkscreen	154	153			5.1298 mm	0.8964488 in			7.1702 mm	0.8964488 in	0.012 in												
+Line		TopSilkscreen	155	153			5.1298 mm	24.765 mm			7.1702 mm	24.765 mm	0.012 in												
+Pad	Rectangular	TopCopper	156	158			17.85 mm	0.9357244 in	1.85 mm	2.3 mm							"1"								
+Pad	Rectangular	TopCopper	157	158			22.35 mm	0.9357244 in	1.85 mm	2.3 mm							"2"								
+Group			158															"Molded 4520 EIA 1808"							
+Ellipse		TopSilkscreen	159	158			16.6202 mm	0.8544488 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	160	158			17.5346 mm	0.8664488 in			17.5346 mm	0.8544488 in	0.012 in												
+Line		TopSilkscreen	161	158			17.5346 mm	0.8544488 in			22.6654 mm	0.8544488 in	0.012 in												
+Line		TopSilkscreen	162	158			22.6654 mm	0.8544488 in			22.6654 mm	0.8664488 in	0.012 in												
+Line		TopSilkscreen	163	158			17.5346 mm	25.527 mm			17.5346 mm	25.8318 mm	0.012 in												
+Line		TopSilkscreen	164	158			17.5346 mm	25.8318 mm			22.6654 mm	25.8318 mm	0.012 in												
+Line		TopSilkscreen	165	158			22.6654 mm	25.8318 mm			22.6654 mm	25.527 mm	0.012 in												
+Pad	Rectangular	TopCopper	166	168			18 mm	1.15 in	1.8 mm	3.6 mm							"1"								
+Pad	Rectangular	TopCopper	167	168			22.2 mm	1.15 in	1.8 mm	3.6 mm							"2"								
+Group			168															"Molded 4532 EIA 1812"							
+Ellipse		TopSilkscreen	169	168			16.7952 mm	1.0431339 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	170	168			17.7096 mm	1.0551339 in			17.7096 mm	1.0431339 in	0.012 in												
+Line		TopSilkscreen	171	168			17.7096 mm	1.0431339 in			22.4904 mm	1.0431339 in	0.012 in												
+Line		TopSilkscreen	172	168			22.4904 mm	1.0431339 in			22.4904 mm	1.0551339 in	0.012 in												
+Line		TopSilkscreen	173	168			17.7096 mm	31.6196 mm			17.7096 mm	31.9244 mm	0.012 in												
+Line		TopSilkscreen	174	168			17.7096 mm	31.9244 mm			22.4904 mm	31.9244 mm	0.012 in												
+Line		TopSilkscreen	175	168			22.4904 mm	31.9244 mm			22.4904 mm	31.6196 mm	0.012 in												
+Pad	Rectangular	TopCopper	176	178			4.05 mm	1.15 in	1.8 mm	3.6 mm							"1"								
+Pad	Rectangular	TopCopper	177	178			8.25 mm	1.15 in	1.8 mm	3.6 mm							"2"								
+Group			178															"Chip 4532 EIA 1812"							
+Line		TopSilkscreen	179	178			5.2548 mm	1.0851339 in			7.0452 mm	1.0851339 in	0.012 in												
+Line		TopSilkscreen	180	178			5.2548 mm	30.8576005 mm			7.0452 mm	30.8576005 mm	0.012 in												
+Pad	Rectangular	TopCopper	181	183			4 mm	1.5 in	1.8 mm	6.9 mm							"1"								
+Pad	Rectangular	TopCopper	182	183			8.3 mm	1.5 in	1.8 mm	6.9 mm							"2"								
+Group			183															"Chip 4564 EIA 1825"							
+Line		TopSilkscreen	184	183			5.2048 mm	1.3701732 in			7.0952 mm	1.3701732 in	0.012 in												
+Line		TopSilkscreen	185	183			5.2048 mm	41.3976 mm			7.0952 mm	41.3976 mm	0.012 in												
+Pad	Rectangular	TopCopper	186	188			17.95 mm	1.5 in	1.8 mm	6.9 mm							"1"								
+Pad	Rectangular	TopCopper	187	188			22.25 mm	1.5 in	1.8 mm	6.9 mm							"2"								
+Group			188															"Molded 4564 EIA 1825"							
+Ellipse		TopSilkscreen	189	188			16.7452 mm	1.3281732 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	190	188			17.6596 mm	1.3401732 in			17.6596 mm	1.3281732 in	0.012 in												
+Line		TopSilkscreen	191	188			17.6596 mm	1.3281732 in			22.5404 mm	1.3281732 in	0.012 in												
+Line		TopSilkscreen	192	188			22.5404 mm	1.3281732 in			22.5404 mm	1.3401732 in	0.012 in												
+Line		TopSilkscreen	193	188			17.6596 mm	42.1596 mm			17.6596 mm	42.4644 mm	0.012 in												
+Line		TopSilkscreen	194	188			17.6596 mm	42.4644 mm			22.5404 mm	42.4644 mm	0.012 in												
+Line		TopSilkscreen	195	188			22.5404 mm	42.4644 mm			22.5404 mm	42.1596 mm	0.012 in												
+Pad	Rectangular	TopCopper	196	198			17.25 mm	1.8557323 in	2.1 mm	5.5 mm							"1"								
+Pad	Rectangular	TopCopper	197	198			22.95 mm	1.8557323 in	2.1 mm	5.5 mm							"2"								
+Group			198															"Molded 5650 EIA 2220"							
+Ellipse		TopSilkscreen	199	198			15.8952 mm	1.7114646 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	200	198			16.8096 mm	1.7234646 in			16.8096 mm	1.7114646 in	0.012 in												
+Line		TopSilkscreen	201	198			16.8096 mm	1.7114646 in			23.3904 mm	1.7114646 in	0.012 in												
+Line		TopSilkscreen	202	198			23.3904 mm	1.7114646 in			23.3904 mm	1.7234646 in	0.012 in												
+Line		TopSilkscreen	203	198			16.8096 mm	50.4952 mm			16.8096 mm	50.8 mm	0.012 in												
+Line		TopSilkscreen	204	198			16.8096 mm	50.8 mm			23.3904 mm	50.8 mm	0.012 in												
+Line		TopSilkscreen	205	198			23.3904 mm	50.8 mm			23.3904 mm	50.4952 mm	0.012 in												
+Pad	Rectangular	TopCopper	206	208			3.3 mm	1.8557323 in	2.1 mm	5.5 mm							"1"								
+Pad	Rectangular	TopCopper	207	208			9 mm	1.8557323 in	2.1 mm	5.5 mm							"2"								
+Group			208															"Chip 5650 EIA 2220"							
+Line		TopSilkscreen	209	208			4.6548 mm	1.7534646 in			7.6452 mm	1.7534646 in	0.012 in												
+Line		TopSilkscreen	210	208			4.6548 mm	49.7332002 mm			7.6452 mm	49.7332002 mm	0.012 in												
+Pad	Rectangular	TopCopper	211	213			3.3 mm	2.2440945 in	2.1 mm	6.9 mm							"1"								
+Pad	Rectangular	TopCopper	212	213			9 mm	2.2440945 in	2.1 mm	6.9 mm							"2"								
+Group			213															"Chip 5664 EIA 2225"							
+Line		TopSilkscreen	214	213			4.6548 mm	2.1142677 in			7.6452 mm	2.1142677 in	0.012 in												
+Line		TopSilkscreen	215	213			4.6548 mm	60.2976 mm			7.6452 mm	60.2976 mm	0.012 in												
+Pad	Rectangular	TopCopper	216	218			17.25 mm	2.2440945 in	2.1 mm	6.9 mm							"1"								
+Pad	Rectangular	TopCopper	217	218			22.95 mm	2.2440945 in	2.1 mm	6.9 mm							"2"								
+Group			218															"Molded 5664 EIA 2225"							
+Ellipse		TopSilkscreen	219	218			15.8952 mm	2.0722677 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	220	218			16.8096 mm	2.0842677 in			16.8096 mm	2.0722677 in	0.012 in												
+Line		TopSilkscreen	221	218			16.8096 mm	2.0722677 in			23.3904 mm	2.0722677 in	0.012 in												
+Line		TopSilkscreen	222	218			23.3904 mm	2.0722677 in			23.3904 mm	2.0842677 in	0.012 in												
+Line		TopSilkscreen	223	218			16.8096 mm	61.0596 mm			16.8096 mm	61.3644 mm	0.012 in												
+Line		TopSilkscreen	224	218			16.8096 mm	61.3644 mm			23.3904 mm	61.3644 mm	0.012 in												
+Line		TopSilkscreen	225	218			23.3904 mm	61.3644 mm			23.3904 mm	61.0596 mm	0.012 in												
+Pad	Rectangular	TopCopper	245	247			32.3 mm	0.3346457 in	1.95 mm	1.5 mm							"1"								
+Pad	Rectangular	TopCopper	246	247			35.05 mm	0.3346457 in	1.95 mm	1.5 mm							"2"								
+Group			247														"C"	"Tantalum A EIA 3216"							
+Ellipse		TopSilkscreen	248	247			31.0202 mm	0.2691181 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	249	247			31.9346 mm	0.2811181 in			31.9346 mm	0.2691181 in	0.012 in												
+Line		TopSilkscreen	250	247			31.9346 mm	0.2691181 in			35.4154 mm	0.2691181 in	0.012 in												
+Line		TopSilkscreen	251	247			35.4154 mm	0.2691181 in			35.4154 mm	0.2811181 in	0.012 in												
+Line		TopSilkscreen	252	247			31.9346 mm	9.8596 mm			31.9346 mm	10.1644 mm	0.012 in												
+Line		TopSilkscreen	253	247			31.9346 mm	10.1644 mm			35.4154 mm	10.1644 mm	0.012 in												
+Line		TopSilkscreen	254	247			35.4154 mm	10.1644 mm			35.4154 mm	9.8596 mm	0.012 in												
+Pad	Rectangular	TopCopper	255	257			32.5 mm	0.125 in	1.55 mm	1.8 mm							"1"								
+Pad	Rectangular	TopCopper	256	257			34.85 mm	0.125 in	1.55 mm	1.8 mm							"2"								
+Group			257														"C"	"Tantalum R EIA 2012"							
+Ellipse		TopSilkscreen	258	257			31.4202 mm	0.0535669 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	259	257			32.3346 mm	0.0655669 in			32.3346 mm	0.0535669 in	0.012 in												
+Line		TopSilkscreen	260	257			32.3346 mm	0.0535669 in			35.0154 mm	0.0535669 in	0.012 in												
+Line		TopSilkscreen	261	257			35.0154 mm	0.0535669 in			35.0154 mm	0.0655669 in	0.012 in												
+Line		TopSilkscreen	262	257			32.3346 mm	4.6845994 mm			32.3346 mm	4.9893994 mm	0.012 in												
+Line		TopSilkscreen	263	257			32.3346 mm	4.9893994 mm			35.0154 mm	4.9893994 mm	0.012 in												
+Line		TopSilkscreen	264	257			35.0154 mm	4.9893994 mm			35.0154 mm	4.6845994 mm	0.012 in												
+Pad	Rectangular	TopCopper	265	267			32.15 mm	0.55 in	1.95 mm	2.5 mm							"1"								
+Pad	Rectangular	TopCopper	266	267			35.2 mm	0.55 in	1.95 mm	2.5 mm							"2"								
+Group			267														"C"	"Tantalum B EIA 3528"							
+Ellipse		TopSilkscreen	268	267			30.8702 mm	0.4647874 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	269	267			31.7846 mm	0.4767874 in			31.7846 mm	0.4647874 in	0.012 in												
+Line		TopSilkscreen	270	267			31.7846 mm	0.4647874 in			35.5654 mm	0.4647874 in	0.012 in												
+Line		TopSilkscreen	271	267			35.5654 mm	0.4647874 in			35.5654 mm	0.4767874 in	0.012 in												
+Line		TopSilkscreen	272	267			31.7846 mm	15.8295996 mm			31.7846 mm	16.1343996 mm	0.012 in												
+Line		TopSilkscreen	273	267			31.7846 mm	16.1343996 mm			35.5654 mm	16.1343996 mm	0.012 in												
+Line		TopSilkscreen	274	267			35.5654 mm	16.1343996 mm			35.5654 mm	15.8295996 mm	0.012 in												
+Pad	Rectangular	TopCopper	275	277			31.15 mm	0.8059055 in	2.55 mm	2.5 mm							"1"								
+Pad	Rectangular	TopCopper	276	277			36.2 mm	0.8059055 in	2.55 mm	2.5 mm							"2"								
+Group			277														"C"	"Tantalum C EIA 6032"							
+Ellipse		TopSilkscreen	278	277			29.5702 mm	0.7206929 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	279	277			30.4846 mm	0.7326929 in			30.4846 mm	0.7206929 in	0.012 in												
+Line		TopSilkscreen	280	277			30.4846 mm	0.7206929 in			36.8654 mm	0.7206929 in	0.012 in												
+Line		TopSilkscreen	281	277			36.8654 mm	0.7206929 in			36.8654 mm	0.7326929 in	0.012 in												
+Line		TopSilkscreen	282	277			30.4846 mm	22.3295996 mm			30.4846 mm	22.6343996 mm	0.012 in												
+Line		TopSilkscreen	283	277			30.4846 mm	22.6343996 mm			36.8654 mm	22.6343996 mm	0.012 in												
+Line		TopSilkscreen	284	277			36.8654 mm	22.6343996 mm			36.8654 mm	22.3295996 mm	0.012 in												
+Pad	Rectangular	TopCopper	285	287			30.5 mm	1.081496 in	2.55 mm	2.7 mm							"1"								
+Pad	Rectangular	TopCopper	286	287			36.85 mm	1.081496 in	2.55 mm	2.7 mm							"2"								
+Group			287														"C"	"Tantalum D EIA 7343"							
+Ellipse		TopSilkscreen	288	287			28.9202 mm	0.9923464 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	289	287			29.8346 mm	1.0043464 in			29.8346 mm	0.9923464 in	0.012 in												
+Line		TopSilkscreen	290	287			29.8346 mm	0.9923464 in			37.5154 mm	0.9923464 in	0.012 in												
+Line		TopSilkscreen	291	287			37.5154 mm	0.9923464 in			37.5154 mm	1.0043464 in	0.012 in												
+Line		TopSilkscreen	292	287			29.8346 mm	29.4295996 mm			29.8346 mm	29.7343996 mm	0.012 in												
+Line		TopSilkscreen	293	287			29.8346 mm	29.7343996 mm			37.5154 mm	29.7343996 mm	0.012 in												
+Line		TopSilkscreen	294	287			37.5154 mm	29.7343996 mm			37.5154 mm	29.4295996 mm	0.012 in												
+Pad	Rectangular	TopCopper	295	297			30.5 mm	1.3767716 in	2.55 mm	4.4 mm							"1"								
+Pad	Rectangular	TopCopper	296	297			36.85 mm	1.3767716 in	2.55 mm	4.4 mm							"2"								
+Group			297														"C"	"Tantalum E EIA 7260"							
+Ellipse		TopSilkscreen	298	297			28.9202 mm	1.2541574 in	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	299	297			29.8346 mm	1.2661574 in			29.8346 mm	1.2541574 in	0.012 in												
+Line		TopSilkscreen	300	297			29.8346 mm	1.2541574 in			37.5154 mm	1.2541574 in	0.012 in												
+Line		TopSilkscreen	301	297			37.5154 mm	1.2541574 in			37.5154 mm	1.2661574 in	0.012 in												
+Line		TopSilkscreen	302	297			29.8346 mm	37.7795996 mm			29.8346 mm	38.0843996 mm	0.012 in												
+Line		TopSilkscreen	303	297			29.8346 mm	38.0843996 mm			37.5154 mm	38.0843996 mm	0.012 in												
+Line		TopSilkscreen	304	297			37.5154 mm	38.0843996 mm			37.5154 mm	37.7795996 mm	0.012 in												
+Pad	Rectangular	TopCopper	2313	2324			1.7384843 in	0.125 in	5.6 mm	2.1 mm							"1"								
+Pad	Rectangular	TopCopper	2314	2324			2.1125 in	0.125 in	5.6 mm	2.1 mm							"2"								
+Line		TopSilkscreen	2318	2324			1.7010827 in	5.525 mm			54.6075012 mm	5.525 mm	0.012 in												
+Line		TopSilkscreen	2319	2324			54.6382393 mm	1.9050001 mm			54.6380012 mm	0.0324803 in	0.012 in												
+Line		TopSilkscreen	2320	2324			54.6075012 mm	0.0324803 in			1.7010827 in	0.0324803 in	0.012 in												
+Line		TopSilkscreen	2321	2324			54.6380012 mm	5.5184524 mm			54.6380012 mm	0.1747422 in	0.012 in												
+Line		TopSilkscreen	2322	2324			43.2050012 mm	1.905 mm			43.2047631 mm	0.0324803 in	0.012 in												
+Line		TopSilkscreen	2323	2324			43.2050012 mm	5.5335714 mm			43.2047631 mm	0.1753374 in	0.012 in												
+Group			2324														"Y"	"HC-49 SMD crystal"							
+Pad	Rectangular	TopCopper	2328	2330			5.715 mm	0.075 in	0.9 mm	0.7 mm							"1"								
+Pad	Rectangular	TopCopper	2329	2330			7.015 mm	0.075 in	0.9 mm	0.7 mm							"2"								
+Group			2330															"Chip 1005 EIA 0402"							

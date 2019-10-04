@@ -1,0 +1,774 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5741
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Connector
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(8.9999999 in,0 in)(9 in,4.6 in)(0.0000001 in,4.6 in)		
+Pad	SquareWithHole		3	10			0.9 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			4	10			1 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			5	10			1.1 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			6	10			1.2 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in			
+Polygon	Outline	TopSilkscreen	7	17			1.9375 in	0.075 in					0.012 in										(1.9375 in,0.325 in)(1.9375 in,0.075 in)(2.5625 in,0.075 in)(2.5625 in,0.325 in)		
+Pad	SquareWithHole		8	17			2 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			9	17			2.1 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			10														"J"	"Header Molex KK 4-pin 22-23-2041"							
+Pad			11	17			2.2 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Polygon	Outline	TopSilkscreen	12	18			0.1375 in	0.075 in					0.012 in										(0.1375 in,0.325 in)(0.1375 in,0.075 in)(0.3625 in,0.075 in)(0.3625 in,0.325 in)		
+Pad	SquareWithHole		13	18			0.2 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Polygon		TopSilkscreen	14	10			0.9 in	0.075 in															(0.9 in,0.075 in)(1.2 in,0.075 in)(1.2 in,0.1 in)(0.9 in,0.1 in)		
+Pad			15	18			0.3 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			16	17			2.3 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in			
+Group			17														"J"	"Header Molex KK 6-pin 22-23-2061"							
+Group			18														"J"	"Header Molex KK 2-pin 22-23-2021"							
+Polygon		TopSilkscreen	19	18			0.2 in	0.075 in															(0.2 in,0.075 in)(0.3 in,0.075 in)(0.3 in,0.1 in)(0.2 in,0.1 in)		
+Polygon		TopSilkscreen	20	17			2 in	0.075 in															(2 in,0.075 in)(2.5 in,0.075 in)(2.5 in,0.1 in)(2 in,0.1 in)		
+Polygon	Outline	TopSilkscreen	21	26			0.4375 in	0.075 in					0.012 in										(0.4375 in,0.325 in)(0.4375 in,0.075 in)(0.7625 in,0.075 in)(0.7625 in,0.325 in)		
+Pad	SquareWithHole		22	26			0.5 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			23	26			0.6 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			24	26			0.7 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			25	17			2.4 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in			
+Group			26														"J"	"Header Molex KK 3-pin 22-23-2031"							
+Polygon		TopSilkscreen	27	26			0.5 in	0.075 in															(0.5 in,0.075 in)(0.7 in,0.075 in)(0.7 in,0.1 in)(0.5 in,0.1 in)		
+Pad			28	17			2.5 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in			
+Polygon	Outline	TopSilkscreen	29	34			1.3375 in	0.075 in					0.012 in										(1.3375 in,0.325 in)(1.3375 in,0.075 in)(1.8625 in,0.075 in)(1.8625 in,0.325 in)		
+Pad	SquareWithHole		30	34			1.4 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			31	34			1.5 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			32	34			1.6 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			33	34			1.7 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in			
+Group			34														"J"	"Header Molex KK 5-pin 22-23-2051"							
+Polygon		TopSilkscreen	35	34			1.4 in	0.075 in															(1.4 in,0.075 in)(1.8 in,0.075 in)(1.8 in,0.1 in)(1.4 in,0.1 in)		
+Pad			36	34			1.8 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			113	1457			0.3 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in			
+Pad			193	1457			0.2 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			1146	1159			2.275 in	3.1 in	0.14 in	0.14 in							"2"					0.07 in		1	
+Pad			1147	1159			2.65 in	3.1 in	0.14 in	0.14 in							"3"					0.07 in		1	
+Pad			1148	1159			3.025 in	3.1 in	0.14 in	0.14 in							"4"					0.07 in		1	
+Ellipse	Outline	BottomCopper	1153	1159			2.995 in	3.07 in	0.06 in	0.06 in			0.02 in	270°	360°									1	
+Pad			1155	1159			1.9 in	3.1 in	0.14 in	0.14 in							"1"					0.07 in		1	
+Rectangle	Outline	TopSilkscreen	1157	1159			1.6725 in	2.79 in	1.58 in	0.62 in			0.012 in											1	
+Group			1159														"J"	"Molex Barrier Terminal Block Strip 4 position 38720-6304"	"0.375 spacing, #6-32 screws"					1	
+Group			1457														"J"	"Header 2 pin square WM6402"	"Often used with jumpers"						
+Polygon	Outline	TopSilkscreen	1458	1457			0.15 in	1.25 in					0.012 in										(0.15 in,1.25 in)(0.35 in,1.25 in)(0.35 in,1.35 in)(0.15 in,1.35 in)		
+Pad			1460	1469			0.3 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		1461	1469			0.2 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Polygon	Outline	TopSilkscreen	1464	10			0.8375 in	0.075 in					0.012 in										(0.8375 in,0.325 in)(0.8375 in,0.075 in)(1.2625 in,0.075 in)(1.2625 in,0.325 in)		
+Polygon	Outline	TopSilkscreen	1466	1469			0.1375 in	0.5475 in					0.012 in										(0.3625 in,0.5475 in)(0.1375 in,0.5475 in)(0.1375 in,0.6725 in)(0.2 in,0.6725 in)(0.2 in,0.8725 in)(0.3 in,0.8725 in)(0.3 in,0.6725 in)(0.3625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	1468	1469			0.1375 in	0.3725 in					0.008 in										(0.1375 in,0.3725 in)(0.3625 in,0.3725 in)(0.3625 in,0.5475 in)(0.1375 in,0.5475 in)		
+Group			1469														"J"	"Header Molex KK 2-pin R/A 22-05-3021"							
+Polygon	Outline	TopSilkscreen	1470	1475			2.6375 in	0.075 in					0.012 in										(2.6375 in,0.325 in)(2.6375 in,0.075 in)(3.3625 in,0.075 in)(3.3625 in,0.325 in)		
+Pad	SquareWithHole		1471	1475			2.7 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			1472	1475			2.8 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			1473	1475			2.9 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			1474	1475			3 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in			
+Group			1475														"J"	"Header Molex KK 7-pin 22-23-2071"							
+Polygon		TopSilkscreen	1476	1475			2.7 in	0.075 in															(2.7 in,0.075 in)(3.3 in,0.075 in)(3.3 in,0.1 in)(2.7 in,0.1 in)		
+Pad			1477	1475			3.1 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			1478	1475			3.2 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in			
+Pad			1479	1475			3.3 in	0.2 in	0.075 in	0.075 in							"7"					0.04 in			
+Pad			1481	1485			0.7 in	0.4475 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			1482	1485			0.6 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Polygon	Outline	TopSilkscreen	1483	1485			0.4375 in	0.5475 in					0.012 in										(0.7625 in,0.5475 in)(0.4375 in,0.5475 in)(0.4375 in,0.6725 in)(0.5 in,0.6725 in)(0.5 in,0.8725 in)(0.7 in,0.8725 in)(0.7 in,0.6725 in)(0.7625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	1484	1485			0.4375 in	0.3725 in					0.008 in										(0.4375 in,0.3725 in)(0.7625 in,0.3725 in)(0.7625 in,0.5475 in)(0.4375 in,0.5475 in)		
+Group			1485														"J"	"Header Molex KK 3-pin R/A 22-05-3031"							
+Pad	SquareWithHole		1486	1485			0.5 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			1488	1492			1.2 in	0.4475 in	0.075 in	0.075 in							"4"					0.04 in			
+Pad			1489	1492			1.1 in	0.4475 in	0.075 in	0.075 in							"3"					0.04 in			
+Polygon	Outline	TopSilkscreen	1490	1492			0.8375 in	0.5475 in					0.012 in										(1.2625 in,0.5475 in)(0.8375 in,0.5475 in)(0.8375 in,0.6725 in)(0.9 in,0.6725 in)(0.9 in,0.8725 in)(1.2 in,0.8725 in)(1.2 in,0.6725 in)(1.2625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	1491	1492			0.8375 in	0.3725 in					0.008 in										(0.8375 in,0.3725 in)(1.2625 in,0.3725 in)(1.2625 in,0.5475 in)(0.8375 in,0.5475 in)		
+Group			1492														"J"	"Header Molex KK 4-pin R/A 22-05-3041"							
+Pad			1493	1492			1 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		1494	1492			0.9 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			1496	1500			1.8 in	0.4475 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			1497	1500			1.7 in	0.4475 in	0.075 in	0.075 in							"4"					0.04 in			
+Polygon	Outline	TopSilkscreen	1498	1500			1.3375 in	0.5475 in					0.012 in										(1.8625 in,0.5475 in)(1.3375 in,0.5475 in)(1.3375 in,0.6725 in)(1.4 in,0.6725 in)(1.4 in,0.8725 in)(1.8 in,0.8725 in)(1.8 in,0.6725 in)(1.8625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	1499	1500			1.3375 in	0.3725 in					0.008 in										(1.3375 in,0.3725 in)(1.8625 in,0.3725 in)(1.8625 in,0.5475 in)(1.3375 in,0.5475 in)		
+Group			1500														"J"	"Header Molex KK 5-pin R/A 22-05-3051"							
+Pad			1501	1500			1.6 in	0.4475 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			1502	1500			1.5 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		1503	1500			1.4 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			1505	1509			2.5 in	0.4475 in	0.075 in	0.075 in							"6"					0.04 in			
+Pad			1506	1509			2.4 in	0.4475 in	0.075 in	0.075 in							"5"					0.04 in			
+Polygon	Outline	TopSilkscreen	1507	1509			1.9375 in	0.5475 in					0.012 in										(2.5625 in,0.5475 in)(1.9375 in,0.5475 in)(1.9375 in,0.6725 in)(2 in,0.6725 in)(2 in,0.8725 in)(2.5 in,0.8725 in)(2.5 in,0.6725 in)(2.5625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	1508	1509			1.9375 in	0.3725 in					0.008 in										(1.9375 in,0.3725 in)(2.5625 in,0.3725 in)(2.5625 in,0.5475 in)(1.9375 in,0.5475 in)		
+Group			1509														"J"	"Header Molex KK 6-pin R/A 22-05-3061"							
+Pad			1510	1509			2.3 in	0.4475 in	0.075 in	0.075 in							"4"					0.04 in			
+Pad			1511	1509			2.2 in	0.4475 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			1512	1509			2.1 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		1513	1509			2 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			1515	1519			3.3 in	0.4475 in	0.075 in	0.075 in							"7"					0.04 in			
+Pad			1516	1519			3.2 in	0.4475 in	0.075 in	0.075 in							"6"					0.04 in			
+Polygon	Outline	TopSilkscreen	1517	1519			2.6375 in	0.5475 in					0.012 in										(3.3625 in,0.5475 in)(2.6375 in,0.5475 in)(2.6375 in,0.6725 in)(2.7 in,0.6725 in)(2.7 in,0.8725 in)(3.3 in,0.8725 in)(3.3 in,0.6725 in)(3.3625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	1518	1519			2.6375 in	0.3725 in					0.008 in										(2.6375 in,0.3725 in)(3.3625 in,0.3725 in)(3.3625 in,0.5475 in)(2.6375 in,0.5475 in)		
+Group			1519														"J"	"Header Molex KK 7-pin R/A 22-05-3071"							
+Pad			1520	1519			3.1 in	0.4475 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			1521	1519			3 in	0.4475 in	0.075 in	0.075 in							"4"					0.04 in			
+Pad			1522	1519			2.9 in	0.4475 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			1523	1519			2.8 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		1524	1519			2.7 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			3809	3832			1.06 in	3.019 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			3810	3832			0.951 in	3.019 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			3811	3832			0.842 in	3.019 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			3812	3832			0.733 in	3.019 in	0.065 in	0.065 in							"2"					0.035 in			
+Pad	SquareWithHole		3813	3832			0.624 in	3.019 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			3814	3832			1.006 in	3.131 in	0.065 in	0.065 in							"9"					0.035 in			
+Pad			3815	3832			0.896 in	3.131 in	0.065 in	0.065 in							"8"					0.035 in			
+Pad			3816	3832			0.788 in	3.131 in	0.065 in	0.065 in							"7"					0.035 in			
+Pad			3817	3832			0.678 in	3.131 in	0.065 in	0.065 in							"6"					0.035 in			
+Pad			3818	3832			1.334 in	3.075 in	0.18 in	0.18 in												0.125 in			
+Pad			3819	3832			0.35 in	3.075 in	0.18 in	0.18 in												0.125 in			
+Line		TopSilkscreen	3820	3832			1.453 in	2.954 in			1.453 in	3.444 in	0.012 in												
+Line		TopSilkscreen	3821	3832			0.231 in	3.444 in			1.453 in	3.444 in	0.012 in												
+Line		TopSilkscreen	3822	3832			0.231 in	3.444 in			0.231 in	2.954 in	0.012 in												
+Line		TopSilkscreen	3823	3832			1.453 in	2.954 in			0.231 in	2.954 in	0.012 in												
+Line		TopSilkscreen	3827	3832			1.16 in	3.444 in			0.524 in	3.444 in	0.012 in												
+Polygon	Outline	TopSilkscreen	3829	3832			0.2295 in	2.954 in					0.012 in										(0.2295 in,2.954 in)(1.4545 in,2.954 in)(1.4545 in,3.442189 in)(0.2295 in,3.442189 in)		
+Polygon	Outline	TopSilkscreen	3830	3832			0.52055 in	3.4427795 in					0.012 in										(0.52055 in,3.4427795 in)(1.16345 in,3.4427795 in)(1.16345 in,3.679 in)(0.52055 in,3.679 in)		
+Group			3832														"J"	"DE9 (DB9) female right angle 1734348-1"							
+Polygon	Outline	TopSilkscreen	3833	3838			3.4375 in	0.075 in					0.012 in										(3.4375 in,0.325 in)(3.4375 in,0.075 in)(4.2625 in,0.075 in)(4.2625 in,0.325 in)		
+Pad	SquareWithHole		3834	3838			3.5 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			3835	3838			3.6 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			3836	3838			3.7 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			3837	3838			3.8 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in			
+Group			3838														"J"	"Header Molex KK 8-pin 22-23-2081"							
+Polygon		TopSilkscreen	3839	3838			3.5 in	0.075 in															(3.5 in,0.075 in)(4.2 in,0.075 in)(4.2 in,0.1 in)(3.5 in,0.1 in)		
+Pad			3840	3838			3.9 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			3841	3838			4 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in			
+Pad			3842	3838			4.1 in	0.2 in	0.075 in	0.075 in							"7"					0.04 in			
+Pad			3843	3847			4.1 in	0.4475 in	0.075 in	0.075 in							"7"					0.04 in			
+Pad			3844	3847			4 in	0.4475 in	0.075 in	0.075 in							"6"					0.04 in			
+Polygon	Outline	TopSilkscreen	3845	3847			3.4375 in	0.5475 in					0.012 in										(4.2625 in,0.5475 in)(3.4375 in,0.5475 in)(3.4375 in,0.6725 in)(3.5086207 in,0.6725 in)(3.5086207 in,0.8725 in)(4.1913793 in,0.8725 in)(4.1913793 in,0.6725 in)(4.2625 in,0.6725 in)		
+Polygon	Outline	TopSilkscreen	3846	3847			3.4375 in	0.3725 in					0.008 in										(3.4375 in,0.3725 in)(4.2625 in,0.3725 in)(4.2625 in,0.5475 in)(3.4375 in,0.5475 in)		
+Group			3847														"J"	"Header Molex KK 8-pin R/A 22-05-3081"							
+Pad			3848	3847			3.9 in	0.4475 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			3849	3847			3.8 in	0.4475 in	0.075 in	0.075 in							"4"					0.04 in			
+Pad			3850	3847			3.7 in	0.4475 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			3851	3847			3.6 in	0.4475 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		3852	3847			3.5 in	0.4475 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			3853	3838			4.2 in	0.2 in	0.075 in	0.075 in							"8"					0.04 in			
+Polygon	Outline	TopSilkscreen	3855	3860			4.3375 in	0.075 in					0.012 in										(4.3375 in,0.325 in)(4.3375 in,0.075 in)(5.2625 in,0.075 in)(5.2625 in,0.325 in)		
+Pad	SquareWithHole		3856	3860			4.4 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			3857	3860			4.5 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			3858	3860			4.6 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			3859	3860			4.7 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in			
+Group			3860														"J"	"Header Molex KK 9-pin 22-23-2091"							
+Polygon		TopSilkscreen	3861	3860			4.4 in	0.075 in															(4.4 in,0.075 in)(5.2 in,0.075 in)(5.2 in,0.1 in)(4.4 in,0.1 in)		
+Pad			3862	3860			4.8 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			3863	3860			4.9 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in			
+Pad			3864	3860			5 in	0.2 in	0.075 in	0.075 in							"7"					0.04 in			
+Pad			3865	3860			5.1 in	0.2 in	0.075 in	0.075 in							"8"					0.04 in			
+Pad			3866	3860			5.2 in	0.2 in	0.075 in	0.075 in							"9"					0.04 in			
+Pad			3868	3847			4.2 in	0.45 in	0.075 in	0.075 in							"8"					0.04 in			
+Pad			3870	3874			5 in	0.45 in	0.075 in	0.075 in							"7"					0.04 in			
+Pad			3871	3874			4.9 in	0.45 in	0.075 in	0.075 in							"6"					0.04 in			
+Polygon	Outline	TopSilkscreen	3872	3874			4.3375 in	0.55 in					0.012 in										(5.2625 in,0.55 in)(4.3375 in,0.55 in)(4.3375 in,0.675 in)(4.4172414 in,0.675 in)(4.4172414 in,0.875 in)(5.1827586 in,0.875 in)(5.1827586 in,0.675 in)(5.2625 in,0.675 in)		
+Polygon	Outline	TopSilkscreen	3873	3874			4.3375 in	0.375 in					0.008 in										(4.3375 in,0.375 in)(5.2625 in,0.375 in)(5.2625 in,0.55 in)(4.3375 in,0.55 in)		
+Group			3874														"J"	"Header Molex KK 9-pin R/A 22-05-3091"							
+Pad			3875	3874			4.8 in	0.45 in	0.075 in	0.075 in							"5"					0.04 in			
+Pad			3876	3874			4.7 in	0.45 in	0.075 in	0.075 in							"4"					0.04 in			
+Pad			3877	3874			4.6 in	0.45 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			3878	3874			4.5 in	0.45 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad	SquareWithHole		3879	3874			4.4 in	0.45 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			3880	3874			5.1 in	0.4525 in	0.075 in	0.075 in							"8"					0.04 in			
+Pad			3881	3874			5.2 in	0.4525 in	0.075 in	0.075 in							"9"					0.04 in			
+Text		TopSilkscreen	3940				1.675 in	1 in											"Dual Inline Shroud (odd/even)"	Anytime	0.0595 in				
+Text		TopSilkscreen	3941				7.5443898 in	1.0225 in											"Choose ""New Land Pattern..."""	Anytime	0.0595 in				
+Text		TopSilkscreen	3942				7.5443898 in	1.1225 in											"in the menu for the Part tool"	Anytime	0.0595 in				
+Text		TopSilkscreen	3943				7.5443898 in	1.2225 in											"to make your own custom headers."	Anytime	0.0595 in				
+Text		TopSilkscreen	3944				7.5443898 in	1.3225 in											"If no exact match, tweak"	Anytime	0.0595 in				
+Text		TopSilkscreen	3945				7.5443898 in	1.4225 in											"after placing part."	Anytime	0.0595 in				
+Pad	SquareWithHole		3946	3952			1.8 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			3947	3952			1.8 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			3948	3952			1.8 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			3949	3952			1.9 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in			
+Pad			3950	3952			1.9 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			3951	3952			1.9 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in			
+Group			3952														"J"	"Header Ribbon 6-pin Shroud"							
+Polygon	Outline	TopSilkscreen	3953	3952			1.675 in	1.1 in					0.012 in										(1.675 in,1.1 in)(2.025 in,1.1 in)(2.025 in,1.7 in)(1.675 in,1.7 in)		
+Pad	SquareWithHole		3954	3964			2.2 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			3955	3964			2.2 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			3956	3964			2.2 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			3957	3964			2.2 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in			
+Pad			3958	3964			2.2 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in			
+Pad			3959	3964			2.3 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in			
+Pad			3960	3964			2.3 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in			
+Pad			3961	3964			2.3 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in			
+Pad			3962	3964			2.3 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			3963	3964			2.3 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in			
+Group			3964														"J"	"Header Ribbon 10-pin Shroud"							
+Polygon	Outline	TopSilkscreen	3965	3964			2.075 in	1.1 in					0.012 in										(2.075 in,1.1 in)(2.425 in,1.1 in)(2.425 in,1.9 in)(2.075 in,1.9 in)		
+Pad	SquareWithHole		3966	3980			2.6 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			3967	3980			2.6 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			3968	3980			2.6 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			3969	3980			2.6 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in			
+Pad			3970	3980			2.6 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in			
+Pad			3971	3980			2.6 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in			
+Pad			3972	3980			2.6 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in			
+Pad			3973	3980			2.7 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in			
+Pad			3974	3980			2.7 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in			
+Pad			3975	3980			2.7 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in			
+Pad			3976	3980			2.7 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in			
+Pad			3977	3980			2.7 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in			
+Pad			3978	3980			2.7 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			3979	3980			2.7 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in			
+Group			3980														"J"	"Header Ribbon 14-pin Shroud"							
+Polygon	Outline	TopSilkscreen	3981	3980			2.475 in	1.1 in					0.012 in										(2.475 in,1.1 in)(2.825 in,1.1 in)(2.825 in,2.1 in)(2.475 in,2.1 in)		
+Pad	SquareWithHole		4000	4016			3 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			4001	4016			3 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			4002	4016			3 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			4003	4016			3 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in			
+Pad			4004	4016			3 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in			
+Pad			4005	4016			3 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in			
+Pad			4006	4016			3 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in			
+Pad			4007	4016			3 in	2 in	0.065 in	0.065 in							"15"					0.035 in			
+Pad			4008	4016			3.1 in	2 in	0.065 in	0.065 in							"16"					0.035 in			
+Pad			4009	4016			3.1 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in			
+Pad			4010	4016			3.1 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in			
+Pad			4011	4016			3.1 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in			
+Pad			4012	4016			3.1 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in			
+Pad			4013	4016			3.1 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in			
+Pad			4014	4016			3.1 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			4015	4016			3.1 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in			
+Group			4016														"J"	"Header Ribbon 16-pin Shroud"							
+Polygon	Outline	TopSilkscreen	4017	4016			2.875 in	1.1 in					0.012 in										(2.875 in,1.1 in)(3.225 in,1.1 in)(3.225 in,2.2 in)(2.875 in,2.2 in)		
+Pad	SquareWithHole		4018	4038			3.4 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			4019	4038			3.4 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			4020	4038			3.4 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			4021	4038			3.4 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in			
+Pad			4022	4038			3.4 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in			
+Pad			4023	4038			3.4 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in			
+Pad			4024	4038			3.4 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in			
+Pad			4025	4038			3.4 in	2 in	0.065 in	0.065 in							"15"					0.035 in			
+Pad			4026	4038			3.4 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in			
+Pad			4027	4038			3.4 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in			
+Pad			4028	4038			3.5 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in			
+Pad			4029	4038			3.5 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in			
+Pad			4030	4038			3.5 in	2 in	0.065 in	0.065 in							"16"					0.035 in			
+Pad			4031	4038			3.5 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in			
+Pad			4032	4038			3.5 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in			
+Pad			4033	4038			3.5 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in			
+Pad			4034	4038			3.5 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in			
+Pad			4035	4038			3.5 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in			
+Pad			4036	4038			3.5 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			4037	4038			3.5 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in			
+Group			4038														"J"	"Header Ribbon 20-pin Shroud"							
+Polygon	Outline	TopSilkscreen	4039	4038			3.275 in	1.1 in					0.012 in										(3.275 in,1.1 in)(3.625 in,1.1 in)(3.625 in,2.4 in)(3.275 in,2.4 in)		
+Text		TopSilkscreen	4040				0.15 in	1.5 in											"Single Inline"	Anytime	0.0595 in				
+Pad	SquareWithHole		4047	4050			0.3 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			4048	4050			0.3 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in			
+Pad			4049	4050			0.3 in	1.9 in	0.065 in	0.065 in							"3"					0.035 in			
+Group			4050														"J"	"Single Inline (SIP) 3-pin"							
+Polygon	Outline	TopSilkscreen	4051	4050			0.25 in	1.65 in					0.012 in										(0.25 in,1.65 in)(0.35 in,1.65 in)(0.35 in,1.95 in)(0.25 in,1.95 in)		
+Line		TopSilkscreen	4052	4050			0.35 in	1.75 in			0.25 in	1.75 in	0.012 in												
+Pad	SquareWithHole		4053	4057			0.5 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			4054	4057			0.5 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in			
+Pad			4055	4057			0.5 in	1.9 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			4056	4057			0.5 in	2 in	0.065 in	0.065 in							"4"					0.035 in			
+Group			4057														"J"	"Single Inline (SIP) 4-pin"							
+Polygon	Outline	TopSilkscreen	4058	4057			0.45 in	1.65 in					0.012 in										(0.45 in,1.65 in)(0.55 in,1.65 in)(0.55 in,2.05 in)(0.45 in,2.05 in)		
+Line		TopSilkscreen	4059	4057			0.55 in	1.75 in			0.45 in	1.75 in	0.012 in												
+Pad	SquareWithHole		4060	4065			0.7 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			4061	4065			0.7 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in			
+Pad			4062	4065			0.7 in	1.9 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			4063	4065			0.7 in	2 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			4064	4065			0.7 in	2.1 in	0.065 in	0.065 in							"5"					0.035 in			
+Group			4065														"J"	"Single Inline (SIP) 5-pin"							
+Polygon	Outline	TopSilkscreen	4066	4065			0.65 in	1.65 in					0.012 in										(0.65 in,1.65 in)(0.75 in,1.65 in)(0.75 in,2.15 in)(0.65 in,2.15 in)		
+Line		TopSilkscreen	4067	4065			0.75 in	1.75 in			0.65 in	1.75 in	0.012 in												
+Pad	SquareWithHole		4068	4074			0.9 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			4069	4074			0.9 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in			
+Pad			4070	4074			0.9 in	1.9 in	0.065 in	0.065 in							"3"					0.035 in			
+Pad			4071	4074			0.9 in	2 in	0.065 in	0.065 in							"4"					0.035 in			
+Pad			4072	4074			0.9 in	2.1 in	0.065 in	0.065 in							"5"					0.035 in			
+Pad			4073	4074			0.9 in	2.2 in	0.065 in	0.065 in							"6"					0.035 in			
+Group			4074														"J"	"Single Inline (SIP) 6-pin"							
+Polygon	Outline	TopSilkscreen	4075	4074			0.85 in	1.65 in					0.012 in										(0.85 in,1.65 in)(0.95 in,1.65 in)(0.95 in,2.25 in)(0.85 in,2.25 in)		
+Line		TopSilkscreen	4076	4074			0.95 in	1.75 in			0.85 in	1.75 in	0.012 in												
+Pad			4077	4103			7.0443898 in	2.7475 in	0.056 in	0.056 in												0.039 in		1	
+Pad			4078	4103			7.2443898 in	2.7075 in	0.056 in	0.056 in												0.039 in		1	
+Pad			4079	4103			7.2443898 in	2.7875 in	0.056 in	0.056 in												0.039 in		1	
+Pad			4080	4103			7.0443898 in	2.6475 in	0.1105 in	0.1105 in												0.0935 in		1	
+Pad			4081	4103			7.1693898 in	2.6475 in	0.1105 in	0.1105 in												0.0935 in		1	
+Pad			4082	4103			7.1693898 in	2.8475 in	0.1105 in	0.1105 in												0.0935 in		1	
+Pad			4083	4103			7.0443898 in	2.8475 in	0.1105 in	0.1105 in												0.0935 in		1	
+Ellipse		TopCopper	4084	4086			7.0788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4085	4086			7.0788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Group			4086	4103													"2"							1	
+Ellipse		TopCopper	4087	4089			7.0788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4088	4089			7.0788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Group			4089	4103													"1"							1	
+Ellipse		TopCopper	4090	4092			7.1288898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4091	4092			7.1288898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Group			4092	4103													"3"							1	
+Ellipse		TopCopper	4093	4095			7.1788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4094	4095			7.1788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Group			4095	4103													"5"							1	
+Ellipse		TopCopper	4096	4098			7.1288898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4097	4098			7.1288898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Group			4098	4103													"4"							1	
+Ellipse		TopCopper	4099	4101			7.1788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4100	4101			7.1788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Group			4101	4103													"6"							1	
+Rectangle	FillKeepOut	TopCopper	4102	4103			7.0943898 in	2.7225 in	0.1 in	0.05 in														1	
+Group			4103														"J"	"TC2030"	"Tag-Connect"					1	
+Pad			4104	4126			7.4443898 in	2.7475 in	0.056 in	0.056 in												0.039 in		1	
+Pad			4105	4126			7.6443898 in	2.7075 in	0.056 in	0.056 in												0.039 in		1	
+Pad			4106	4126			7.6443898 in	2.7875 in	0.056 in	0.056 in												0.039 in		1	
+Ellipse		TopCopper	4107	4109			7.4788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4108	4109			7.4788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Group			4109	4126													"2"							1	
+Ellipse		TopCopper	4110	4112			7.4788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4111	4112			7.4788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Group			4112	4126													"1"							1	
+Ellipse		TopCopper	4113	4115			7.5288898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4114	4115			7.5288898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Group			4115	4126													"3"							1	
+Ellipse		TopCopper	4116	4118			7.5788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4117	4118			7.5788898 in	2.757 in	0.031 in	0.031 in				0°	360°									1	
+Group			4118	4126													"5"							1	
+Ellipse		TopCopper	4119	4121			7.5288898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4120	4121			7.5288898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Group			4121	4126													"4"							1	
+Ellipse		TopCopper	4122	4124			7.5788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Ellipse	FillKeepOut	TopSolderMask	4123	4124			7.5788898 in	2.707 in	0.031 in	0.031 in				0°	360°									1	
+Group			4124	4126													"6"							1	
+Rectangle	FillKeepOut	TopCopper	4125	4126			7.4943898 in	2.7225 in	0.1 in	0.05 in														1	
+Group			4126														"J"	"TC2030 NL"	"Tag-Connect"					1	
+Pad			10159	10177			7.9181103 in	1.785 in	0.16 in	0.16 in				270°			"2"	"barrel"				0.125 in		1	
+Pad			10160	10177			7.6818898 in	1.785 in	0.19 in	0.19 in				270°			"1"	"center pin"				0.15 in		1	
+Pad			10161	10177			7.8 in	1.6 in	0.16 in	0.16 in				270°			"3"	"connect"				0.125 in		1	
+Line		TopSilkscreen	10167	10177			8.0755103 in	1.6114017 in			8.0755103 in	1.9614017 in	0.012 in											1	
+Line		TopSilkscreen	10169	10177			8.2155103 in	1.9614017 in			8.2155103 in	1.6114017 in	0.012 in											1	
+Line		TopSilkscreen	10170	10177			7.7056103 in	1.6114 in			7.6530103 in	1.6114 in	0.012 in											1	
+Line		TopSilkscreen	10171	10177			7.6530103 in	1.8975 in			7.6530103 in	1.9614017 in	0.012 in											1	
+Line		TopSilkscreen	10172	10177			7.6530103 in	1.9614 in			8.2155103 in	1.9614 in	0.012 in											1	
+Line		TopSilkscreen	10174	10177			8.2155102 in	1.6114 in			7.8931103 in	1.6114 in	0.012 in											1	
+Line		TopSilkscreen	10175	10177			7.6530102 in	1.6114017 in			7.6530103 in	1.6725 in	0.012 in											1	
+Group			10177														"J"	"2.1 mm barrel jack PJ-202A"	"for power plug"					1	
+Pad	Rectangular	TopCopper	10315	10320			7.6718898 in	2.3395 in	0.16 in	0.13 in				90°			"1"	"center pin"						1	
+Pad	Rectangular	TopCopper	10316	10320			8.0318898 in	2.6225 in	0.25 in	0.15 in				90°			"2"							1	
+Pad	Rectangular	TopCopper	10317	10320			8.0318898 in	2.0995 in	0.25 in	0.13 in				90°			"3"							1	
+Pad			10318	10320			8.1798898 in	2.3695 in	0.087 in	0.087 in				90°								0.07 in		1	
+Rectangle	Outline	TopSilkscreen	10319	10320			7.7278898 in	2.1945 in	0.57 in	0.35 in			0.012 in	90°										1	
+Group			10320														"J"	"2.1 mm ID 5.5 mm OD barrel jack"	"Switchcraft RASM722PX for power plug"					1	
+Polygon	Outline	TopSilkscreen	10361	10366			5.3375 in	0.075 in					0.012 in										(5.3375 in,0.325 in)(5.3375 in,0.075 in)(6.375 in,0.075 in)(6.375 in,0.325 in)	1	
+Pad	SquareWithHole		10362	10366			5.4 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			10363	10366			5.5 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Pad			10364	10366			5.6 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in		1	
+Pad			10365	10366			5.7 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in		1	
+Group			10366														"J"	"Header Molex KK 10-pin 22-23-2101"						1	
+Polygon		TopSilkscreen	10367	10366			5.4 in	0.075 in															(5.4 in,0.075 in)(6.3 in,0.075 in)(6.3 in,0.1 in)(5.4 in,0.1 in)	1	
+Pad			10368	10366			5.8 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in		1	
+Pad			10369	10366			5.9 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in		1	
+Pad			10370	10366			6 in	0.2 in	0.075 in	0.075 in							"7"					0.04 in		1	
+Pad			10371	10366			6.1 in	0.2 in	0.075 in	0.075 in							"8"					0.04 in		1	
+Pad			10372	10366			6.2 in	0.2 in	0.075 in	0.075 in							"9"					0.04 in		1	
+Pad			10373	10366			6.3 in	0.2 in	0.075 in	0.075 in							"10"					0.04 in		1	
+Polygon	Outline	TopSilkscreen	10375	10380			6.4375 in	0.075 in					0.012 in										(6.4375 in,0.325 in)(6.4375 in,0.075 in)(7.575 in,0.075 in)(7.575 in,0.325 in)	1	
+Pad	SquareWithHole		10376	10380			6.5 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			10377	10380			6.6 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Pad			10378	10380			6.7 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in		1	
+Pad			10379	10380			6.8 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in		1	
+Group			10380														"J"	"Header Molex KK 11-pin 22-23-2111"						1	
+Polygon		TopSilkscreen	10381	10380			6.5 in	0.075 in															(6.5 in,0.075 in)(7.5 in,0.075 in)(7.5 in,0.1 in)(6.5 in,0.1 in)	1	
+Pad			10382	10380			6.9 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in		1	
+Pad			10383	10380			7 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in		1	
+Pad			10384	10380			7.1 in	0.2 in	0.075 in	0.075 in							"7"					0.04 in		1	
+Pad			10385	10380			7.2 in	0.2 in	0.075 in	0.075 in							"8"					0.04 in		1	
+Pad			10386	10380			7.3 in	0.2 in	0.075 in	0.075 in							"9"					0.04 in		1	
+Pad			10387	10380			7.4 in	0.2 in	0.075 in	0.075 in							"10"					0.04 in		1	
+Pad			10388	10380			7.5 in	0.2 in	0.075 in	0.075 in							"11"					0.04 in		1	
+Polygon	Outline	TopSilkscreen	10390	10395			7.6375 in	0.075 in					0.012 in										(7.6375 in,0.325 in)(7.6375 in,0.075 in)(8.875 in,0.075 in)(8.875 in,0.325 in)	1	
+Pad	SquareWithHole		10391	10395			7.7 in	0.2 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			10392	10395			7.8 in	0.2 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Pad			10393	10395			7.9 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in		1	
+Pad			10394	10395			8 in	0.2 in	0.075 in	0.075 in							"4"					0.04 in		1	
+Group			10395														"J"	"Header Molex KK 12-pin 22-23-2121"						1	
+Polygon		TopSilkscreen	10396	10395			7.7 in	0.075 in															(7.7 in,0.075 in)(8.8 in,0.075 in)(8.8 in,0.1 in)(7.7 in,0.1 in)	1	
+Pad			10397	10395			8.1 in	0.2 in	0.075 in	0.075 in							"5"					0.04 in		1	
+Pad			10398	10395			8.2 in	0.2 in	0.075 in	0.075 in							"6"					0.04 in		1	
+Pad			10399	10395			8.3 in	0.2 in	0.075 in	0.075 in							"7"					0.04 in		1	
+Pad			10400	10395			8.4 in	0.2 in	0.075 in	0.075 in							"8"					0.04 in		1	
+Pad			10401	10395			8.5 in	0.2 in	0.075 in	0.075 in							"9"					0.04 in		1	
+Pad			10402	10395			8.6 in	0.2 in	0.075 in	0.075 in							"10"					0.04 in		1	
+Pad			10403	10395			8.7 in	0.2 in	0.075 in	0.075 in							"11"					0.04 in		1	
+Pad			10404	10395			8.8 in	0.2 in	0.075 in	0.075 in							"12"					0.04 in		1	
+Pad			10406	10410			6 in	0.45 in	0.075 in	0.075 in							"7"					0.04 in		1	
+Pad			10407	10410			5.9 in	0.45 in	0.075 in	0.075 in							"6"					0.04 in		1	
+Polygon	Outline	TopSilkscreen	10408	10410			5.3375 in	0.55 in					0.012 in										(6.35 in,0.55 in)(5.3375 in,0.55 in)(5.3375 in,0.675 in)(5.4172414 in,0.675 in)(5.4172414 in,0.875 in)(6.275 in,0.875 in)(6.275 in,0.675 in)(6.35 in,0.675 in)	1	
+Polygon	Outline	TopSilkscreen	10409	10410			5.3375 in	0.375 in					0.008 in										(5.3375 in,0.375 in)(6.35 in,0.375 in)(6.35 in,0.55 in)(5.3375 in,0.55 in)	1	
+Group			10410														"J"	"Header Molex KK 10-pin R/A 22-05-3101"						1	
+Pad			10411	10410			5.8 in	0.45 in	0.075 in	0.075 in							"5"					0.04 in		1	
+Pad			10412	10410			5.7 in	0.45 in	0.075 in	0.075 in							"4"					0.04 in		1	
+Pad			10413	10410			5.6 in	0.45 in	0.075 in	0.075 in							"3"					0.04 in		1	
+Pad			10414	10410			5.5 in	0.45 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Pad	SquareWithHole		10415	10410			5.4 in	0.45 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			10416	10410			6.1 in	0.4525 in	0.075 in	0.075 in							"8"					0.04 in		1	
+Pad			10417	10410			6.2 in	0.4525 in	0.075 in	0.075 in							"9"					0.04 in		1	
+Pad			10418	10410			6.3 in	0.45 in	0.075 in	0.075 in							"10"					0.04 in		1	
+Pad			10420	10424			7.1 in	0.45 in	0.075 in	0.075 in							"7"					0.04 in		1	
+Pad			10421	10424			7 in	0.45 in	0.075 in	0.075 in							"6"					0.04 in		1	
+Polygon	Outline	TopSilkscreen	10422	10424			6.4375 in	0.55 in					0.012 in										(7.575 in,0.55 in)(6.4375 in,0.55 in)(6.4375 in,0.675 in)(6.5172414 in,0.675 in)(6.5172414 in,0.875 in)(7.475 in,0.875 in)(7.475 in,0.675 in)(7.575 in,0.675 in)	1	
+Polygon	Outline	TopSilkscreen	10423	10424			6.4375 in	0.375 in					0.008 in										(6.4375 in,0.375 in)(7.575 in,0.375 in)(7.575 in,0.55 in)(6.4375 in,0.55 in)	1	
+Group			10424														"J"	"Header Molex KK 11-pin R/A 22-05-3111"						1	
+Pad			10425	10424			6.9 in	0.45 in	0.075 in	0.075 in							"5"					0.04 in		1	
+Pad			10426	10424			6.8 in	0.45 in	0.075 in	0.075 in							"4"					0.04 in		1	
+Pad			10427	10424			6.7 in	0.45 in	0.075 in	0.075 in							"3"					0.04 in		1	
+Pad			10428	10424			6.6 in	0.45 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Pad	SquareWithHole		10429	10424			6.5 in	0.45 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			10430	10424			7.2 in	0.4525 in	0.075 in	0.075 in							"8"					0.04 in		1	
+Pad			10431	10424			7.3 in	0.4525 in	0.075 in	0.075 in							"9"					0.04 in		1	
+Pad			10432	10424			7.4 in	0.45 in	0.075 in	0.075 in							"10"					0.04 in		1	
+Pad			10433	10424			7.5 in	0.45 in	0.075 in	0.075 in							"11"					0.04 in		1	
+Pad			10435	10439			8.3 in	0.45 in	0.075 in	0.075 in							"7"					0.04 in		1	
+Pad			10436	10439			8.2 in	0.45 in	0.075 in	0.075 in							"6"					0.04 in		1	
+Polygon	Outline	TopSilkscreen	10437	10439			7.6375 in	0.55 in					0.012 in										(8.875 in,0.55 in)(7.6375 in,0.55 in)(7.6375 in,0.675 in)(7.7172414 in,0.675 in)(7.7172414 in,0.875 in)(8.775 in,0.875 in)(8.775 in,0.675 in)(8.875 in,0.675 in)	1	
+Polygon	Outline	TopSilkscreen	10438	10439			7.6375 in	0.375 in					0.008 in										(7.6375 in,0.375 in)(8.875 in,0.375 in)(8.875 in,0.55 in)(7.6375 in,0.55 in)	1	
+Group			10439														"J"	"Header Molex KK 12-pin R/A 22-05-3121"						1	
+Pad			10440	10439			8.1 in	0.45 in	0.075 in	0.075 in							"5"					0.04 in		1	
+Pad			10441	10439			8 in	0.45 in	0.075 in	0.075 in							"4"					0.04 in		1	
+Pad			10442	10439			7.9 in	0.45 in	0.075 in	0.075 in							"3"					0.04 in		1	
+Pad			10443	10439			7.8 in	0.45 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Pad	SquareWithHole		10444	10439			7.7 in	0.45 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			10445	10439			8.4 in	0.4525 in	0.075 in	0.075 in							"8"					0.04 in		1	
+Pad			10446	10439			8.5 in	0.4525 in	0.075 in	0.075 in							"9"					0.04 in		1	
+Pad			10447	10439			8.6 in	0.45 in	0.075 in	0.075 in							"10"					0.04 in		1	
+Pad			10448	10439			8.7 in	0.45 in	0.075 in	0.075 in							"11"					0.04 in		1	
+Pad			10449	10439			8.8 in	0.45 in	0.075 in	0.075 in							"12"					0.04 in		1	
+Pad	SquareWithHole		10539	10563			3.8 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10540	10563			3.8 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10541	10563			3.8 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10542	10563			3.8 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10543	10563			3.8 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10544	10563			3.8 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10545	10563			3.8 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10546	10563			3.8 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10547	10563			3.8 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10548	10563			3.8 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10549	10563			3.8 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10550	10563			3.8 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10551	10563			3.9 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10552	10563			3.9 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10553	10563			3.9 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10554	10563			3.9 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10555	10563			3.9 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10556	10563			3.9 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10557	10563			3.9 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10558	10563			3.9 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10559	10563			3.9 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10560	10563			3.9 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10561	10563			3.9 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10562	10563			3.9 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10563														"J"	"Header Ribbon 24-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10564	10563			3.675 in	1.1 in					0.012 in										(3.675 in,1.1 in)(4.025 in,1.1 in)(4.025 in,2.6 in)(3.675 in,2.6 in)	1	
+Pad	SquareWithHole		10591	10617			4.2 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10592	10617			4.2 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10593	10617			4.2 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10594	10617			4.2 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10595	10617			4.2 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10596	10617			4.2 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10597	10617			4.2 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10598	10617			4.2 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10599	10617			4.2 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10600	10617			4.2 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10601	10617			4.2 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10602	10617			4.2 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10603	10617			4.2 in	2.5 in	0.065 in	0.065 in							"25"					0.035 in		1	
+Pad			10604	10617			4.3 in	2.5 in	0.065 in	0.065 in							"26"					0.035 in		1	
+Pad			10605	10617			4.3 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10606	10617			4.3 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10607	10617			4.3 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10608	10617			4.3 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10609	10617			4.3 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10610	10617			4.3 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10611	10617			4.3 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10612	10617			4.3 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10613	10617			4.3 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10614	10617			4.3 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10615	10617			4.3 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10616	10617			4.3 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10617														"J"	"Header Ribbon 26-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10618	10617			4.075 in	1.1 in					0.012 in										(4.075 in,1.1 in)(4.425 in,1.1 in)(4.425 in,2.7 in)(4.075 in,2.7 in)	1	
+Pad	SquareWithHole		10647	10677			4.6 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10648	10677			4.6 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10649	10677			4.6 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10650	10677			4.6 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10651	10677			4.6 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10652	10677			4.6 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10653	10677			4.6 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10654	10677			4.6 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10655	10677			4.6 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10656	10677			4.6 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10657	10677			4.6 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10658	10677			4.6 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10659	10677			4.6 in	2.5 in	0.065 in	0.065 in							"25"					0.035 in		1	
+Pad			10660	10677			4.6 in	2.6 in	0.065 in	0.065 in							"27"					0.035 in		1	
+Pad			10661	10677			4.6 in	2.7 in	0.065 in	0.065 in							"29"					0.035 in		1	
+Pad			10662	10677			4.7 in	2.7 in	0.065 in	0.065 in							"30"					0.035 in		1	
+Pad			10663	10677			4.7 in	2.6 in	0.065 in	0.065 in							"28"					0.035 in		1	
+Pad			10664	10677			4.7 in	2.5 in	0.065 in	0.065 in							"26"					0.035 in		1	
+Pad			10665	10677			4.7 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10666	10677			4.7 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10667	10677			4.7 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10668	10677			4.7 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10669	10677			4.7 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10670	10677			4.7 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10671	10677			4.7 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10672	10677			4.7 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10673	10677			4.7 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10674	10677			4.7 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10675	10677			4.7 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10676	10677			4.7 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10677														"J"	"Header Ribbon 30-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10678	10677			4.475 in	1.1 in					0.012 in										(4.475 in,1.1 in)(4.825 in,1.1 in)(4.825 in,2.9 in)(4.475 in,2.9 in)	1	
+Pad	SquareWithHole		10679	10713			5 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10680	10713			5 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10681	10713			5 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10682	10713			5 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10683	10713			5 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10684	10713			5 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10685	10713			5 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10686	10713			5 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10687	10713			5 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10688	10713			5 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10689	10713			5 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10690	10713			5 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10691	10713			5 in	2.5 in	0.065 in	0.065 in							"25"					0.035 in		1	
+Pad			10692	10713			5 in	2.6 in	0.065 in	0.065 in							"27"					0.035 in		1	
+Pad			10693	10713			5 in	2.7 in	0.065 in	0.065 in							"29"					0.035 in		1	
+Pad			10694	10713			5 in	2.8 in	0.065 in	0.065 in							"31"					0.035 in		1	
+Pad			10695	10713			5 in	2.9 in	0.065 in	0.065 in							"33"					0.035 in		1	
+Pad			10696	10713			5.1 in	2.9 in	0.065 in	0.065 in							"34"					0.035 in		1	
+Pad			10697	10713			5.1 in	2.8 in	0.065 in	0.065 in							"32"					0.035 in		1	
+Pad			10698	10713			5.1 in	2.7 in	0.065 in	0.065 in							"30"					0.035 in		1	
+Pad			10699	10713			5.1 in	2.6 in	0.065 in	0.065 in							"28"					0.035 in		1	
+Pad			10700	10713			5.1 in	2.5 in	0.065 in	0.065 in							"26"					0.035 in		1	
+Pad			10701	10713			5.1 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10702	10713			5.1 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10703	10713			5.1 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10704	10713			5.1 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10705	10713			5.1 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10706	10713			5.1 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10707	10713			5.1 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10708	10713			5.1 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10709	10713			5.1 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10710	10713			5.1 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10711	10713			5.1 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10712	10713			5.1 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10713														"J"	"Header Ribbon 34-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10714	10713			4.875 in	1.1 in					0.012 in										(4.875 in,1.1 in)(5.225 in,1.1 in)(5.225 in,3.1 in)(4.875 in,3.1 in)	1	
+Pad	SquareWithHole		10715	10755			5.4 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10716	10755			5.4 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10717	10755			5.4 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10718	10755			5.4 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10719	10755			5.4 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10720	10755			5.4 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10721	10755			5.4 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10722	10755			5.4 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10723	10755			5.4 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10724	10755			5.4 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10725	10755			5.4 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10726	10755			5.4 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10727	10755			5.4 in	2.5 in	0.065 in	0.065 in							"25"					0.035 in		1	
+Pad			10728	10755			5.4 in	2.6 in	0.065 in	0.065 in							"27"					0.035 in		1	
+Pad			10729	10755			5.4 in	2.7 in	0.065 in	0.065 in							"29"					0.035 in		1	
+Pad			10730	10755			5.4 in	2.8 in	0.065 in	0.065 in							"31"					0.035 in		1	
+Pad			10731	10755			5.4 in	2.9 in	0.065 in	0.065 in							"33"					0.035 in		1	
+Pad			10732	10755			5.4 in	3 in	0.065 in	0.065 in							"35"					0.035 in		1	
+Pad			10733	10755			5.4 in	3.1 in	0.065 in	0.065 in							"37"					0.035 in		1	
+Pad			10734	10755			5.4 in	3.2 in	0.065 in	0.065 in							"39"					0.035 in		1	
+Pad			10735	10755			5.5 in	3.2 in	0.065 in	0.065 in							"40"					0.035 in		1	
+Pad			10736	10755			5.5 in	3.1 in	0.065 in	0.065 in							"38"					0.035 in		1	
+Pad			10737	10755			5.5 in	3 in	0.065 in	0.065 in							"36"					0.035 in		1	
+Pad			10738	10755			5.5 in	2.9 in	0.065 in	0.065 in							"34"					0.035 in		1	
+Pad			10739	10755			5.5 in	2.8 in	0.065 in	0.065 in							"32"					0.035 in		1	
+Pad			10740	10755			5.5 in	2.7 in	0.065 in	0.065 in							"30"					0.035 in		1	
+Pad			10741	10755			5.5 in	2.6 in	0.065 in	0.065 in							"28"					0.035 in		1	
+Pad			10742	10755			5.5 in	2.5 in	0.065 in	0.065 in							"26"					0.035 in		1	
+Pad			10743	10755			5.5 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10744	10755			5.5 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10745	10755			5.5 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10746	10755			5.5 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10747	10755			5.5 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10748	10755			5.5 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10749	10755			5.5 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10750	10755			5.5 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10751	10755			5.5 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10752	10755			5.5 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10753	10755			5.5 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10754	10755			5.5 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10755														"J"	"Header Ribbon 40-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10756	10755			5.275 in	1.1 in					0.012 in										(5.275 in,1.1 in)(5.625 in,1.1 in)(5.625 in,3.4 in)(5.275 in,3.4 in)	1	
+Pad	SquareWithHole		10757	10807			5.8 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10758	10807			5.8 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10759	10807			5.8 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10760	10807			5.8 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10761	10807			5.8 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10762	10807			5.8 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10763	10807			5.8 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10764	10807			5.8 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10765	10807			5.8 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10766	10807			5.8 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10767	10807			5.8 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10768	10807			5.8 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10769	10807			5.8 in	2.5 in	0.065 in	0.065 in							"25"					0.035 in		1	
+Pad			10770	10807			5.8 in	2.6 in	0.065 in	0.065 in							"27"					0.035 in		1	
+Pad			10771	10807			5.8 in	2.7 in	0.065 in	0.065 in							"29"					0.035 in		1	
+Pad			10772	10807			5.8 in	2.8 in	0.065 in	0.065 in							"31"					0.035 in		1	
+Pad			10773	10807			5.8 in	2.9 in	0.065 in	0.065 in							"33"					0.035 in		1	
+Pad			10774	10807			5.8 in	3 in	0.065 in	0.065 in							"35"					0.035 in		1	
+Pad			10775	10807			5.8 in	3.1 in	0.065 in	0.065 in							"37"					0.035 in		1	
+Pad			10776	10807			5.8 in	3.2 in	0.065 in	0.065 in							"39"					0.035 in		1	
+Pad			10777	10807			5.8 in	3.3 in	0.065 in	0.065 in							"41"					0.035 in		1	
+Pad			10778	10807			5.8 in	3.4 in	0.065 in	0.065 in							"43"					0.035 in		1	
+Pad			10779	10807			5.8 in	3.5 in	0.065 in	0.065 in							"45"					0.035 in		1	
+Pad			10780	10807			5.8 in	3.6 in	0.065 in	0.065 in							"47"					0.035 in		1	
+Pad			10781	10807			5.8 in	3.7 in	0.065 in	0.065 in							"49"					0.035 in		1	
+Pad			10782	10807			5.9 in	3.7 in	0.065 in	0.065 in							"50"					0.035 in		1	
+Pad			10783	10807			5.9 in	3.6 in	0.065 in	0.065 in							"48"					0.035 in		1	
+Pad			10784	10807			5.9 in	3.5 in	0.065 in	0.065 in							"46"					0.035 in		1	
+Pad			10785	10807			5.9 in	3.4 in	0.065 in	0.065 in							"44"					0.035 in		1	
+Pad			10786	10807			5.9 in	3.3 in	0.065 in	0.065 in							"42"					0.035 in		1	
+Pad			10787	10807			5.9 in	3.2 in	0.065 in	0.065 in							"40"					0.035 in		1	
+Pad			10788	10807			5.9 in	3.1 in	0.065 in	0.065 in							"38"					0.035 in		1	
+Pad			10789	10807			5.9 in	3 in	0.065 in	0.065 in							"36"					0.035 in		1	
+Pad			10790	10807			5.9 in	2.9 in	0.065 in	0.065 in							"34"					0.035 in		1	
+Pad			10791	10807			5.9 in	2.8 in	0.065 in	0.065 in							"32"					0.035 in		1	
+Pad			10792	10807			5.9 in	2.7 in	0.065 in	0.065 in							"30"					0.035 in		1	
+Pad			10793	10807			5.9 in	2.6 in	0.065 in	0.065 in							"28"					0.035 in		1	
+Pad			10794	10807			5.9 in	2.5 in	0.065 in	0.065 in							"26"					0.035 in		1	
+Pad			10795	10807			5.9 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10796	10807			5.9 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10797	10807			5.9 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10798	10807			5.9 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10799	10807			5.9 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10800	10807			5.9 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10801	10807			5.9 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10802	10807			5.9 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10803	10807			5.9 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10804	10807			5.9 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10805	10807			5.9 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10806	10807			5.9 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10807														"J"	"Header Ribbon 50-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10808	10807			5.675 in	1.1 in					0.012 in										(5.675 in,1.1 in)(6.025 in,1.1 in)(6.025 in,3.9 in)(5.675 in,3.9 in)	1	
+Pad	SquareWithHole		10809	10869			6.2 in	1.3 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10810	10869			6.2 in	1.4 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10811	10869			6.2 in	1.5 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10812	10869			6.2 in	1.6 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10813	10869			6.2 in	1.7 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10814	10869			6.2 in	1.8 in	0.065 in	0.065 in							"11"					0.035 in		1	
+Pad			10815	10869			6.2 in	1.9 in	0.065 in	0.065 in							"13"					0.035 in		1	
+Pad			10816	10869			6.2 in	2 in	0.065 in	0.065 in							"15"					0.035 in		1	
+Pad			10817	10869			6.2 in	2.1 in	0.065 in	0.065 in							"17"					0.035 in		1	
+Pad			10818	10869			6.2 in	2.2 in	0.065 in	0.065 in							"19"					0.035 in		1	
+Pad			10819	10869			6.2 in	2.3 in	0.065 in	0.065 in							"21"					0.035 in		1	
+Pad			10820	10869			6.2 in	2.4 in	0.065 in	0.065 in							"23"					0.035 in		1	
+Pad			10821	10869			6.2 in	2.5 in	0.065 in	0.065 in							"25"					0.035 in		1	
+Pad			10822	10869			6.2 in	2.6 in	0.065 in	0.065 in							"27"					0.035 in		1	
+Pad			10823	10869			6.2 in	2.7 in	0.065 in	0.065 in							"29"					0.035 in		1	
+Pad			10824	10869			6.2 in	2.8 in	0.065 in	0.065 in							"31"					0.035 in		1	
+Pad			10825	10869			6.2 in	2.9 in	0.065 in	0.065 in							"33"					0.035 in		1	
+Pad			10826	10869			6.2 in	3 in	0.065 in	0.065 in							"35"					0.035 in		1	
+Pad			10827	10869			6.2 in	3.1 in	0.065 in	0.065 in							"37"					0.035 in		1	
+Pad			10828	10869			6.2 in	3.2 in	0.065 in	0.065 in							"39"					0.035 in		1	
+Pad			10829	10869			6.2 in	3.3 in	0.065 in	0.065 in							"41"					0.035 in		1	
+Pad			10830	10869			6.2 in	3.4 in	0.065 in	0.065 in							"43"					0.035 in		1	
+Pad			10831	10869			6.2 in	3.5 in	0.065 in	0.065 in							"45"					0.035 in		1	
+Pad			10832	10869			6.2 in	3.6 in	0.065 in	0.065 in							"47"					0.035 in		1	
+Pad			10833	10869			6.2 in	3.7 in	0.065 in	0.065 in							"49"					0.035 in		1	
+Pad			10834	10869			6.2 in	3.8 in	0.065 in	0.065 in							"51"					0.035 in		1	
+Pad			10835	10869			6.2 in	3.9 in	0.065 in	0.065 in							"53"					0.035 in		1	
+Pad			10836	10869			6.2 in	4 in	0.065 in	0.065 in							"55"					0.035 in		1	
+Pad			10837	10869			6.2 in	4.1 in	0.065 in	0.065 in							"57"					0.035 in		1	
+Pad			10838	10869			6.2 in	4.2 in	0.065 in	0.065 in							"59"					0.035 in		1	
+Pad			10839	10869			6.3 in	4.2 in	0.065 in	0.065 in							"60"					0.035 in		1	
+Pad			10840	10869			6.3 in	4.1 in	0.065 in	0.065 in							"58"					0.035 in		1	
+Pad			10841	10869			6.3 in	4 in	0.065 in	0.065 in							"56"					0.035 in		1	
+Pad			10842	10869			6.3 in	3.9 in	0.065 in	0.065 in							"54"					0.035 in		1	
+Pad			10843	10869			6.3 in	3.8 in	0.065 in	0.065 in							"52"					0.035 in		1	
+Pad			10844	10869			6.3 in	3.7 in	0.065 in	0.065 in							"50"					0.035 in		1	
+Pad			10845	10869			6.3 in	3.6 in	0.065 in	0.065 in							"48"					0.035 in		1	
+Pad			10846	10869			6.3 in	3.5 in	0.065 in	0.065 in							"46"					0.035 in		1	
+Pad			10847	10869			6.3 in	3.4 in	0.065 in	0.065 in							"44"					0.035 in		1	
+Pad			10848	10869			6.3 in	3.3 in	0.065 in	0.065 in							"42"					0.035 in		1	
+Pad			10849	10869			6.3 in	3.2 in	0.065 in	0.065 in							"40"					0.035 in		1	
+Pad			10850	10869			6.3 in	3.1 in	0.065 in	0.065 in							"38"					0.035 in		1	
+Pad			10851	10869			6.3 in	3 in	0.065 in	0.065 in							"36"					0.035 in		1	
+Pad			10852	10869			6.3 in	2.9 in	0.065 in	0.065 in							"34"					0.035 in		1	
+Pad			10853	10869			6.3 in	2.8 in	0.065 in	0.065 in							"32"					0.035 in		1	
+Pad			10854	10869			6.3 in	2.7 in	0.065 in	0.065 in							"30"					0.035 in		1	
+Pad			10855	10869			6.3 in	2.6 in	0.065 in	0.065 in							"28"					0.035 in		1	
+Pad			10856	10869			6.3 in	2.5 in	0.065 in	0.065 in							"26"					0.035 in		1	
+Pad			10857	10869			6.3 in	2.4 in	0.065 in	0.065 in							"24"					0.035 in		1	
+Pad			10858	10869			6.3 in	2.3 in	0.065 in	0.065 in							"22"					0.035 in		1	
+Pad			10859	10869			6.3 in	2.2 in	0.065 in	0.065 in							"20"					0.035 in		1	
+Pad			10860	10869			6.3 in	2.1 in	0.065 in	0.065 in							"18"					0.035 in		1	
+Pad			10861	10869			6.3 in	2 in	0.065 in	0.065 in							"16"					0.035 in		1	
+Pad			10862	10869			6.3 in	1.9 in	0.065 in	0.065 in							"14"					0.035 in		1	
+Pad			10863	10869			6.3 in	1.8 in	0.065 in	0.065 in							"12"					0.035 in		1	
+Pad			10864	10869			6.3 in	1.7 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Pad			10865	10869			6.3 in	1.6 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10866	10869			6.3 in	1.5 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10867	10869			6.3 in	1.4 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10868	10869			6.3 in	1.3 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10869														"J"	"Header Ribbon 60-pin Shroud"						1	
+Polygon	Outline	TopSilkscreen	10870	10869			6.075 in	1.1 in					0.012 in										(6.075 in,1.1 in)(6.425 in,1.1 in)(6.425 in,4.4 in)(6.075 in,4.4 in)	1	
+Pad	SquareWithHole		10882	10890			1.1 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10883	10890			1.1 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Pad			10884	10890			1.1 in	1.9 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10885	10890			1.1 in	2 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10886	10890			1.1 in	2.1 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10887	10890			1.1 in	2.2 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10888	10890			1.1 in	2.3 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10889	10890			1.1 in	2.4 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Group			10890														"J"	"Single Inline (SIP) 8-pin"						1	
+Polygon	Outline	TopSilkscreen	10891	10890			1.05 in	1.65 in					0.012 in										(1.05 in,1.65 in)(1.15 in,1.65 in)(1.15 in,2.45 in)(1.05 in,2.45 in)	1	
+Line		TopSilkscreen	10892	10890			1.15 in	1.75 in			1.05 in	1.75 in	0.012 in											1	
+Pad	SquareWithHole		10893	10903			1.3 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10894	10903			1.3 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Pad			10895	10903			1.3 in	1.9 in	0.065 in	0.065 in							"3"					0.035 in		1	
+Pad			10896	10903			1.3 in	2 in	0.065 in	0.065 in							"4"					0.035 in		1	
+Pad			10897	10903			1.3 in	2.1 in	0.065 in	0.065 in							"5"					0.035 in		1	
+Pad			10898	10903			1.3 in	2.2 in	0.065 in	0.065 in							"6"					0.035 in		1	
+Pad			10899	10903			1.3 in	2.3 in	0.065 in	0.065 in							"7"					0.035 in		1	
+Pad			10900	10903			1.3 in	2.4 in	0.065 in	0.065 in							"8"					0.035 in		1	
+Pad			10901	10903			1.3 in	2.5 in	0.065 in	0.065 in							"9"					0.035 in		1	
+Pad			10902	10903			1.3 in	2.6 in	0.065 in	0.065 in							"10"					0.035 in		1	
+Group			10903														"J"	"Single Inline (SIP) 10-pin"						1	
+Polygon	Outline	TopSilkscreen	10904	10903			1.25 in	1.65 in					0.012 in										(1.25 in,1.65 in)(1.35 in,1.65 in)(1.35 in,2.65 in)(1.25 in,2.65 in)	1	
+Line		TopSilkscreen	10905	10903			1.35 in	1.75 in			1.25 in	1.75 in	0.012 in											1	
+Pad	SquareWithHole		10906	10908			0.1 in	1.7 in	0.065 in	0.065 in							"1"					0.035 in		1	
+Pad			10907	10908			0.1 in	1.8 in	0.065 in	0.065 in							"2"					0.035 in		1	
+Group			10908														"J"	"Single Inline (SIP) 2-pin"						1	
+Polygon	Outline	TopSilkscreen	10909	10908			0.05 in	1.65 in					0.012 in										(0.05 in,1.65 in)(0.15 in,1.65 in)(0.15 in,1.85 in)(0.05 in,1.85 in)	1	
+Pad			10910	10916			2.275 in	3.85 in	0.14 in	0.14 in							"2"					0.07 in		1	
+Pad			10911	10916			2.65 in	3.85 in	0.14 in	0.14 in							"3"					0.07 in		1	
+Pad			10914	10916			1.9 in	3.85 in	0.14 in	0.14 in							"1"					0.07 in		1	
+Rectangle	Outline	TopSilkscreen	10915	10916			1.6725 in	3.54 in	1.205 in	0.62 in			0.012 in											1	
+Group			10916														"J"	"Molex Barrier Terminal Block Strip 3 position 38720-6303"	"0.375 spacing, #6-32 screws"					1	

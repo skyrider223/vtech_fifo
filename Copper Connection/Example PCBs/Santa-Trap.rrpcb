@@ -1,0 +1,930 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=3.0.5838
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+OriginOffsetY=1.9 in
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0.05 in					0.007 in										(0 in,0.05 in)(4.3 in,0.05 in)(4.3 in,1.9 in)(0 in,1.9 in)		
+Polygon	Outline	TopSilkscreen	2	8			1.75 in	0.7125 in					0.012 in										(1.85 in,0.7125 in)(1.85 in,0.9625 in)(1.75 in,0.9625 in)(1.75 in,0.7125 in)	1	
+Pad			3	8			1.8 in	0.6375 in	0.056 in	0.065 in							"1"					0.029 in		1	
+Pad			4	8			1.8 in	1.0375 in	0.056 in	0.065 in							"2"					0.029 in		1	
+Line		TopSilkscreen	5	8			1.8 in	0.6875 in			1.8 in	0.7125 in	0.012 in											1	
+Line		TopSilkscreen	6	8			1.8 in	0.9625 in			1.8 in	0.9875 in	0.012 in											1	
+Group			8											270°			"R20"	"33kΩ"	"0.4 in lead spacing"					1	
+Group			9														"SW1"	"E-Switch 600SP1S2M1 or Molex KK header 2 pin"	"Switch on board or connector"					2	
+Pad	SquareWithHole		15	29			3.3 in	0.7375 in	0.056 in	0.056 in							"1"	"~Clear 1"				0.029 in			
+Pad			16	29			3.3 in	0.8375 in	0.056 in	0.056 in							"2"	"Data In 1"				0.029 in			
+Pad			17	29			3.3 in	0.9375 in	0.056 in	0.056 in							"3"	"Clock 1"				0.029 in			
+Pad			18	29			3.3 in	1.0375 in	0.056 in	0.056 in							"4"	"~Set 1"				0.029 in			
+Pad			19	29			3.3 in	1.1375 in	0.056 in	0.056 in							"5"	"Out 1"				0.029 in			
+Pad			20	29			3.3 in	1.2375 in	0.056 in	0.056 in							"6"	"~Out 1"				0.029 in			
+Pad			21	29			3.3 in	1.3375 in	0.056 in	0.056 in							"7"	"GND"				0.029 in			
+Pad			22	29			3.6 in	1.3375 in	0.056 in	0.056 in							"8"	"~Out 2"				0.029 in			
+Pad			23	29			3.6 in	1.2375 in	0.056 in	0.056 in							"9"	"Out 2"				0.029 in			
+Pad			24	29			3.6 in	1.1375 in	0.056 in	0.056 in							"10"	"~Set 2"				0.029 in			
+Pad			25	29			3.6 in	1.0375 in	0.056 in	0.056 in							"11"	"Clock 2"				0.029 in			
+Pad			26	29			3.6 in	0.9375 in	0.056 in	0.056 in							"12"	"Data In 2"				0.029 in			
+Pad			27	29			3.6 in	0.8375 in	0.056 in	0.056 in							"13"	"~Clear 2"				0.029 in			
+Pad			28	29			3.6 in	0.7375 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in			
+Group			29														"IC30"	"7474 Dual D Flip Flop"							
+Ellipse		TopSilkscreen	30	29			3.375 in	0.7375 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	31	29			3.4125 in	0.7125 in			3.35 in	0.7125 in	0.012 in												
+Line		TopSilkscreen	32	29			3.35 in	0.7125 in			3.35 in	1.3625 in	0.012 in												
+Line		TopSilkscreen	33	29			3.35 in	1.3625 in			3.55 in	1.3625 in	0.012 in												
+Line		TopSilkscreen	34	29			3.55 in	1.3625 in			3.55 in	0.7125 in	0.012 in												
+Line		TopSilkscreen	35	29			3.55 in	0.7125 in			3.4875 in	0.7125 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	36	29			3.4125 in	0.675 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		53	61			1.3 in	0.7375 in	0.056 in	0.056 in							"1"	"anode 1 (+)"				0.029 in			
+Pad			54	61			1.3 in	0.8375 in	0.056 in	0.056 in							"2"	"cathode 1 (-)"				0.029 in			
+Pad			55	61			1.3 in	0.9375 in	0.056 in	0.056 in							"3"	"anode 2 (+)"				0.029 in			
+Pad			56	61			1.3 in	1.0375 in	0.056 in	0.056 in							"4"	"cathode 2 (-)"				0.029 in			
+Pad			57	61			1.6 in	1.0375 in	0.056 in	0.056 in							"5"	"GND"				0.029 in			
+Pad			58	61			1.6 in	0.9375 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in			
+Pad			59	61			1.6 in	0.8375 in	0.056 in	0.056 in							"7"	"Out 1"				0.029 in			
+Pad			60	61			1.6 in	0.7375 in	0.056 in	0.056 in							"8"	"Vcc"				0.029 in			
+Group			61														"IC10"	"Dual optocoupler 2631"							
+Ellipse		TopSilkscreen	62	61			1.375 in	0.7375 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	63	61			1.4125 in	0.7125 in			1.35 in	0.7125 in	0.012 in												
+Line		TopSilkscreen	64	61			1.35 in	0.7125 in			1.35 in	1.0625 in	0.012 in												
+Line		TopSilkscreen	65	61			1.35 in	1.0625 in			1.55 in	1.0625 in	0.012 in												
+Line		TopSilkscreen	66	61			1.55 in	1.0625 in			1.55 in	0.7125 in	0.012 in												
+Line		TopSilkscreen	67	61			1.55 in	0.7125 in			1.4875 in	0.7125 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	68	61			1.4125 in	0.675 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		69	83			2.4 in	0.7375 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in			
+Pad			70	83			2.4 in	0.8375 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in			
+Pad			71	83			2.4 in	0.9375 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in			
+Pad			72	83			2.4 in	1.0375 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in			
+Pad			73	83			2.4 in	1.1375 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in			
+Pad			74	83			2.4 in	1.2375 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in			
+Pad			75	83			2.4 in	1.3375 in	0.056 in	0.056 in							"7"	"GND"				0.029 in			
+Pad			76	83			2.7 in	1.3375 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in			
+Pad			77	83			2.7 in	1.2375 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in			
+Pad			78	83			2.7 in	1.1375 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in			
+Pad			79	83			2.7 in	1.0375 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in			
+Pad			80	83			2.7 in	0.9375 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in			
+Pad			81	83			2.7 in	0.8375 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in			
+Pad			82	83			2.7 in	0.7375 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in			
+Group			83														"IC20"	"7400 NAND"							
+Ellipse		TopSilkscreen	84	83			2.475 in	0.7375 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	85	83			2.5125 in	0.7125 in			2.45 in	0.7125 in	0.012 in												
+Line		TopSilkscreen	86	83			2.45 in	0.7125 in			2.45 in	1.3625 in	0.012 in												
+Line		TopSilkscreen	87	83			2.45 in	1.3625 in			2.65 in	1.3625 in	0.012 in												
+Line		TopSilkscreen	88	83			2.65 in	1.3625 in			2.65 in	0.7125 in	0.012 in												
+Line		TopSilkscreen	89	83			2.65 in	0.7125 in			2.5875 in	0.7125 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	90	83			2.5125 in	0.675 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Polygon	Outline	TopSilkscreen	91	96			1.95 in	0.7125 in					0.012 in										(2.05 in,0.7125 in)(2.05 in,0.9625 in)(1.95 in,0.9625 in)(1.95 in,0.7125 in)	1	
+Pad			92	96			2 in	0.6375 in	0.056 in	0.065 in							"1"					0.029 in		1	
+Pad			93	96			2 in	1.0375 in	0.056 in	0.065 in							"2"					0.029 in		1	
+Line		TopSilkscreen	94	96			2 in	0.6875 in			2 in	0.7125 in	0.012 in											1	
+Line		TopSilkscreen	95	96			2 in	0.9625 in			2 in	0.9875 in	0.012 in											1	
+Group			96											270°			"R21"	"33kΩ"	"0.4 in lead spacing"					1	
+Point		BottomCopper	97				1.6 in	0.5375 in																1	
+Trace		BottomCopper	98		60	97							0.04 in											1	
+Point		BottomCopper	99				2.7 in	0.5375 in																1	
+Trace		BottomCopper	100		97	7393							0.04 in											1	
+Trace		BottomCopper	102		99	82							0.04 in											1	
+Point		BottomCopper	103				3.6 in	0.5375 in																1	
+Trace		BottomCopper	104		99	7503							0.04 in											1	
+Trace		BottomCopper	106		103	28							0.04 in											1	
+Trace		BottomCopper	120		3	7393							0.04 in											1	
+Trace		BottomCopper	121		7393	7574							0.04 in											1	
+Point		BottomCopper	122				2 in	0.5375 in																1	
+Trace		BottomCopper	123		92	122							0.04 in											1	
+Trace		BottomCopper	124		122	7399							0.04 in											1	
+Trace		BottomCopper	126		59	129							0.025 in											1	
+Point		BottomCopper	129				2 in	0.8375 in																1	
+Trace		BottomCopper	132		129	93							0.025 in											1	
+Trace		TopCopper	138		4	7031							0.025 in											1	
+Point		TopCopper	145				1.3 in	1.1381857 in																1	
+Pad	Circular	BottomCopper	155				1.6 in	0.2125 in	0.08 in	0.08 in														5	
+Polygon	Outline	TopSilkscreen	213	218			2.15 in	0.7125 in					0.012 in										(2.25 in,0.7125 in)(2.25 in,0.9625 in)(2.15 in,0.9625 in)(2.15 in,0.7125 in)	1	
+Pad			214	218			2.2 in	0.6375 in	0.056 in	0.065 in							"1"					0.029 in		1	
+Pad			215	218			2.2 in	1.0375 in	0.056 in	0.065 in							"2"					0.029 in		1	
+Line		TopSilkscreen	216	218			2.2 in	0.6875 in			2.2 in	0.7125 in	0.012 in											1	
+Line		TopSilkscreen	217	218			2.2 in	0.9625 in			2.2 in	0.9875 in	0.012 in											1	
+Group			218											270°			"R22"	"33kΩ"	"0.4 in lead spacing"					1	
+Trace		BottomCopper	220		214	7399							0.04 in											1	
+Text		TopSilkscreen	255				1 in	1.8125001 in											"Stop"	Anytime	0.0595 in			1	
+Point		BottomCopper	263				2.325 in	0.8875 in																1	
+Trace		BottomCopper	264		215	263							0.025 in											1	
+Trace		BottomCopper	280		129	69							0.025 in											1	
+Trace		BottomCopper	282		70	263							0.025 in											1	
+Trace		BottomCopper	288		73	7626							0.025 in											1	
+Trace		BottomCopper	292		79	78							0.025 in											1	
+Trace		BottomCopper	296		74	77							0.025 in											1	
+Trace		BottomCopper	300		17	16							0.04 in											1	
+Trace		BottomCopper	304		28	27							0.04 in											1	
+Trace		BottomCopper	306		27	26							0.04 in											1	
+Trace		BottomCopper	308		26	25							0.04 in											1	
+Trace		BottomCopper	310		25	24							0.04 in											1	
+Point		BottomCopper	313				2.95 in	1.0375 in																1	
+Trace		BottomCopper	314		313	7608							0.025 in											1	
+Trace		BottomCopper	320		71	80							0.025 in											1	
+Trace		BottomCopper	322		81	80							0.025 in											1	
+Ellipse		TopSilkscreen	601	615			2.925 in	0.7375 in	0.025 in	0.025 in				0°	360°									3	
+Pad	SquareWithHole		602	615			2.85 in	0.7375 in	0.056 in	0.056 in							"1"	"PB5"	"PCINT5/~RESET/ADC0/dW"			0.029 in		3	
+Pad			603	615			3.15 in	0.7375 in	0.056 in	0.056 in							"8"	"Vcc"				0.029 in		3	
+Pad			604	615			2.85 in	0.8375 in	0.056 in	0.056 in							"2"	"PB3"	"PCINT3/XTAL1/CLKI/~OC1B/ADC3"			0.029 in		3	
+Pad			605	615			3.15 in	0.8375 in	0.056 in	0.056 in							"7"	"PB2"	"SCK/USCK/SCL/ADC1/T0/INT0/PCINT2"			0.029 in		3	
+Pad			606	615			2.85 in	0.9375 in	0.056 in	0.056 in							"3"	"PB4"	"PCINT4/XTAL2/CLKO/OC1B/ADC2"			0.029 in		3	
+Pad			607	615			3.15 in	0.9375 in	0.056 in	0.056 in							"6"	"PB1"	"MISO/DO/AIN1/OC0B/OC1A/PCINT1"			0.029 in		3	
+Pad			608	615			2.85 in	1.0375 in	0.056 in	0.056 in							"4"	"GND"				0.029 in		3	
+Pad			609	615			3.15 in	1.0375 in	0.056 in	0.056 in							"5"	"PB0"	"MOSI/DI/SDA/AIN0/OC0A/~OC1A/AREF/PCINT0"			0.029 in		3	
+Line		TopSilkscreen	610	615			2.9 in	0.7125 in			2.9 in	1.0625 in	0.012 in											3	
+Line		TopSilkscreen	611	615			2.9 in	1.0625 in			3.1 in	1.0625 in	0.012 in											3	
+Line		TopSilkscreen	612	615			3.1 in	0.7125 in			3.039 in	0.7125 in	0.012 in											3	
+Line		TopSilkscreen	613	615			2.9 in	0.7125 in			2.9625 in	0.7125 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	614	615			2.9625 in	0.675 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
+Group			615														"IC40"	"ATtiny 24/45/85 DIP 8-pin"						3	
+Line		TopSilkscreen	616	615			3.1 in	0.7125 in			3.1 in	1.0625 in	0.012 in											3	
+Pad	SquareWithHole		843	9			3.15 in	0.2625 in	0.065 in	0.065 in							"1"					0.035 in		2	
+Pad			847	9			3.25 in	0.2625 in	0.065 in	0.065 in							"2"	"Common"				0.035 in		2	
+Pad			848	9			3.35 in	0.2625 in	0.065 in	0.065 in							"3"					0.035 in		2	
+Pad	Circular	BottomCopper	857	9			3.35 in	0.2625 in	0.08 in	0.08 in														2	
+Pad	Circular	BottomCopper	858	9			3.25 in	0.2625 in	0.08 in	0.08 in														2	
+Polygon	Outline	TopSilkscreen	859	9			2.975 in	0.1125 in					0.012 in										(2.975 in,0.1125 in)(3.525 in,0.1125 in)(3.525 in,0.4125 in)(2.975 in,0.4125 in)	2	
+Pad	Rectangular	BottomCopper	872	9			3.15 in	0.2625 in	0.08 in	0.08 in														2	
+Polygon	Outline	TopSilkscreen	890	9			3.075 in	0.1375 in					0.012 in										(3.075 in,0.3875 in)(3.075 in,0.1375 in)(3.3 in,0.1375 in)(3.3 in,0.3875 in)	2	
+Polygon		TopSilkscreen	891	9			3.1375 in	0.1375 in															(3.1375 in,0.1375 in)(3.2375 in,0.1375 in)(3.2375 in,0.1625 in)(3.1375 in,0.1625 in)	2	
+Group			922														"Q30"	"ZTX1049A TO-92"	"NPN medium power transistor"					9	
+Pad	SquareWithHole		923	922			1.55 in	1.3 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in		8	
+Pad			924	922			1.65 in	1.3 in	0.056 in	0.056 in							"2"	"Base"				0.029 in		8	
+Pad			925	922			1.75 in	1.3 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in		8	
+Ellipse	Outline	TopSilkscreen	999	922			1.504992 in	1.2125239 in	0.285 in	0.15 in			0.012 in	0°	180°									9	
+Line		TopSilkscreen	1000	922			1.789992 in	1.3425239 in			1.504992 in	1.3425239 in	0.012 in											9	
+Line		TopSilkscreen	1001	922			1.789992 in	1.3425239 in			1.789992 in	1.2905239 in	0.012 in											9	
+Line		TopSilkscreen	1002	922			1.504992 in	1.342074 in			1.504992 in	1.290074 in	0.012 in											9	
+Polygon	Outline	TopSilkscreen	2128	2130			3.15 in	1.5125 in					0.012 in										(3.25 in,1.5125 in)(3.25 in,1.7625 in)(3.15 in,1.7625 in)(3.15 in,1.5125 in)	7	
+Group			2130											270°			"ZD1"	"Zener diode 6.2V"						7	
+Pad	SquareWithHole		2131	2130			3.2 in	1.4375 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in		7	
+Pad			2132	2130			3.2 in	1.8375 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in		7	
+Line		TopSilkscreen	2133	2130			3.2 in	1.4875 in			3.2 in	1.5125 in	0.012 in											7	
+Line		TopSilkscreen	2134	2130			3.2 in	1.7625 in			3.2 in	1.7875 in	0.012 in											7	
+Line		TopSilkscreen	2135	2130			3.2 in	1.6684849 in			3.2 in	1.7234849 in	0.01 in											7	
+Line		TopSilkscreen	2136	2130			3.2 in	1.6386165 in			3.225 in	1.6636165 in	0.01 in											7	
+Line		TopSilkscreen	2137	2130			3.2 in	1.6386165 in			3.175 in	1.6636165 in	0.01 in											7	
+Line		TopSilkscreen	2138	2130			3.225 in	1.6289808 in			3.175 in	1.6289808 in	0.01 in											7	
+Line		TopSilkscreen	2142	2130			3.225 in	1.6638248 in			3.175 in	1.6638248 in	0.01 in											7	
+Line		TopSilkscreen	2143	2130			3.175 in	1.628935 in			3.1643934 in	1.6395416 in	0.01 in											7	
+Line		TopSilkscreen	2144	2130			3.2357456 in	1.6179701 in			3.225139 in	1.6285767 in	0.01 in											7	
+Trace		BottomCopper	2214		215	7025							0.025 in											1	
+Polygon	Outline	TopSilkscreen	2215	2220			0.875 in	0.5875 in					0.012 in	90°									(0.875 in,0.5875 in)(1.125 in,0.5875 in)(1.125 in,0.6875 in)(0.875 in,0.6875 in)	1	
+Pad			2216	2220			0.8 in	0.6375 in	0.056 in	0.065 in				90°			"1"					0.029 in		1	
+Pad			2217	2220			1.2 in	0.6375 in	0.056 in	0.065 in				90°			"2"					0.029 in		1	
+Line		TopSilkscreen	2218	2220			0.85 in	0.6375 in			0.875 in	0.6375 in	0.012 in											1	
+Line		TopSilkscreen	2219	2220			1.125 in	0.6375 in			1.15 in	0.6375 in	0.012 in											1	
+Group			2220														"R11"	"1000Ω"	"0.4 in lead spacing"					1	
+Polygon	Outline	TopSilkscreen	2221	2226			0.275 in	0.5875 in					0.012 in	90°									(0.275 in,0.5875 in)(0.525 in,0.5875 in)(0.525 in,0.6875 in)(0.275 in,0.6875 in)	1	
+Pad			2222	2226			0.2 in	0.6375 in	0.056 in	0.065 in				90°			"1"					0.029 in		1	
+Pad			2223	2226			0.6 in	0.6375 in	0.056 in	0.065 in				90°			"2"					0.029 in		1	
+Line		TopSilkscreen	2224	2226			0.25 in	0.6375 in			0.275 in	0.6375 in	0.012 in											1	
+Line		TopSilkscreen	2225	2226			0.525 in	0.6375 in			0.55 in	0.6375 in	0.012 in											1	
+Group			2226														"R10"	"220Ω"	"0.4 in lead spacing"					1	
+Rectangle		TopSilkscreen	2325	2130			3.15 in	1.55 in	0.1 in	0.0375 in				270°										7	
+Trace		BottomCopper	2354		53	2217							0.025 in											1	
+Trace		BottomCopper	2356		2216	10274							0.025 in											1	
+Trace		BottomCopper	2358		10274	2223							0.025 in											1	
+Text		TopSilkscreen	2368				0.275 in	1.8125001 in											"Go"	Anytime	0.0595 in			1	
+Polygon	Outline	TopSilkscreen	2382	2387			0.875 in	1.0875 in					0.012 in	90°									(0.875 in,1.0875 in)(1.125 in,1.0875 in)(1.125 in,1.1875 in)(0.875 in,1.1875 in)	1	
+Pad			2383	2387			0.8 in	1.1375 in	0.056 in	0.065 in				90°			"1"					0.029 in		1	
+Pad			2384	2387			1.2 in	1.1375 in	0.056 in	0.065 in				90°			"2"					0.029 in		1	
+Line		TopSilkscreen	2385	2387			0.85 in	1.1375 in			0.875 in	1.1375 in	0.012 in											1	
+Line		TopSilkscreen	2386	2387			1.125 in	1.1375 in			1.15 in	1.1375 in	0.012 in											1	
+Group			2387														"R13"	"1000Ω"	"0.4 in lead spacing"					1	
+Polygon	Outline	TopSilkscreen	2388	2393			0.275 in	1.0875 in					0.012 in	90°									(0.275 in,1.0875 in)(0.525 in,1.0875 in)(0.525 in,1.1875 in)(0.275 in,1.1875 in)	1	
+Pad			2389	2393			0.2 in	1.1375 in	0.056 in	0.065 in				90°			"1"					0.029 in		1	
+Pad			2390	2393			0.6 in	1.1375 in	0.056 in	0.065 in				90°			"2"					0.029 in		1	
+Line		TopSilkscreen	2391	2393			0.25 in	1.1375 in			0.275 in	1.1375 in	0.012 in											1	
+Line		TopSilkscreen	2392	2393			0.525 in	1.1375 in			0.55 in	1.1375 in	0.012 in											1	
+Group			2393														"R12"	"220Ω"	"0.4 in lead spacing"					1	
+Trace		BottomCopper	2395		2383	10292							0.025 in											1	
+Trace		BottomCopper	2396		10292	2390							0.025 in											1	
+Point		BottomCopper	2398				1.2 in	0.9875 in																1	
+Trace		BottomCopper	2399		55	2398							0.025 in											1	
+Trace		BottomCopper	2401		2398	2384							0.025 in											1	
+Point		BottomCopper	2402				1.3 in	1.2 in																1	
+Trace		BottomCopper	2405		2402	7307							0.025 in											1	
+Point		BottomCopper	2406				0.5 in	0.5375 in																1	
+Trace		BottomCopper	2407		2222	2406							0.04 in											1	
+Trace		BottomCopper	2409		2406	7074							0.04 in											1	
+Trace		BottomCopper	2411		2222	2389							0.04 in											1	
+Trace		TopCopper	2450		19	607							0.025 in											1	
+Polygon	Outline	TopSilkscreen	2457	2460			0.0375 in	1.5375 in					0.012 in										(0.0375 in,1.7875 in)(0.0375 in,1.5375 in)(0.2625 in,1.5375 in)(0.2625 in,1.7875 in)	1	
+Pad	SquareWithHole		2458	2460			0.1 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			2459	2460			0.2 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			2460														"J10"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	2461	2460			0.1 in	1.5375 in															(0.1 in,1.5375 in)(0.2 in,1.5375 in)(0.2 in,1.5625 in)(0.1 in,1.5625 in)	1	
+Polygon	Outline	TopSilkscreen	2462	2465			0.3375 in	1.5375 in					0.012 in										(0.3375 in,1.7875 in)(0.3375 in,1.5375 in)(0.5625 in,1.5375 in)(0.5625 in,1.7875 in)	1	
+Pad	SquareWithHole		2463	2465			0.4 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			2464	2465			0.5 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			2465														"J11"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	2466	2465			0.4 in	1.5375 in															(0.4 in,1.5375 in)(0.5 in,1.5375 in)(0.5 in,1.5625 in)(0.4 in,1.5625 in)	1	
+Polygon	Outline	TopSilkscreen	2467	2470			0.8375 in	1.5375 in					0.012 in										(0.8375 in,1.7875 in)(0.8375 in,1.5375 in)(1.0625 in,1.5375 in)(1.0625 in,1.7875 in)	1	
+Pad	SquareWithHole		2468	2470			0.9 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			2469	2470			1 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			2470														"J12"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	2471	2470			0.9 in	1.5375 in															(0.9 in,1.5375 in)(1 in,1.5375 in)(1 in,1.5625 in)(0.9 in,1.5625 in)	1	
+Polygon	Outline	TopSilkscreen	2472	2475			1.1375 in	1.5375 in					0.012 in										(1.1375 in,1.7875 in)(1.1375 in,1.5375 in)(1.3625 in,1.5375 in)(1.3625 in,1.7875 in)	1	
+Pad	SquareWithHole		2473	2475			1.2 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			2474	2475			1.3 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			2475														"J13"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	2476	2475			1.2 in	1.5375 in															(1.2 in,1.5375 in)(1.3 in,1.5375 in)(1.3 in,1.5625 in)(1.2 in,1.5625 in)	1	
+Point		BottomCopper	2485				1.2 in	1.5625 in																1	
+Point		BottomCopper	2487				0.95 in	1.5625 in																1	
+Trace		BottomCopper	2490		2487	2468							0.025 in											1	
+Trace		BottomCopper	2492		2473	2485							0.025 in											1	
+Trace		BottomCopper	2493		2485	2487							0.025 in											1	
+Point		TopCopper	2496				1.3 in	1.35 in																1	
+Point		TopCopper	2498				1 in	1.35 in																1	
+Trace		TopCopper	2499		2496	2498							0.04 in											1	
+Trace		TopCopper	2501		2498	2469							0.04 in											1	
+Point		TopCopper	2502				0.5 in	1.35 in																1	
+Trace		TopCopper	2503		2498	2502							0.04 in											1	
+Trace		TopCopper	2505		2502	2464							0.04 in											1	
+Polygon	Outline	TopSilkscreen	2518	2523			2.45 in	1.6625 in					0.012 in	90°									(2.45 in,1.6625 in)(2.7 in,1.6625 in)(2.7 in,1.7625 in)(2.45 in,1.7625 in)	1	
+Pad			2519	2523			2.375 in	1.7125 in	0.056 in	0.065 in				90°			"1"					0.029 in		1	
+Pad			2520	2523			2.775 in	1.7125 in	0.056 in	0.065 in				90°			"2"					0.029 in		1	
+Line		TopSilkscreen	2521	2523			2.425 in	1.7125 in			2.45 in	1.7125 in	0.012 in											1	
+Line		TopSilkscreen	2522	2523			2.7 in	1.7125 in			2.725 in	1.7125 in	0.012 in											1	
+Group			2523														"R30"	"1000Ω"	"0.4 in lead spacing"					1	
+Polygon	Outline	TopSilkscreen	2524	2529			2.45 in	1.5125 in					0.012 in	270°									(2.7 in,1.6125 in)(2.45 in,1.6125 in)(2.45 in,1.5125 in)(2.7 in,1.5125 in)	1	
+Pad			2525	2529			2.775 in	1.5625 in	0.056 in	0.065 in				270°			"1"					0.029 in		1	
+Pad			2526	2529			2.375 in	1.5625 in	0.056 in	0.065 in				270°			"2"					0.029 in		1	
+Line		TopSilkscreen	2527	2529			2.725 in	1.5625 in			2.7 in	1.5625 in	0.012 in											1	
+Line		TopSilkscreen	2528	2529			2.45 in	1.5625 in			2.425 in	1.5625 in	0.012 in											1	
+Group			2529											180°			"R31"	"1000Ω"	"0.4 in lead spacing"					1	
+Polygon	Outline	TopSilkscreen	2532	2535			1.5875 in	1.5375 in					0.012 in										(1.5875 in,1.7875 in)(1.5875 in,1.5375 in)(1.8125 in,1.5375 in)(1.8125 in,1.7875 in)	1	
+Pad	SquareWithHole		2533	2535			1.65 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			2534	2535			1.75 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			2535														"J30"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	2536	2535			1.65 in	1.5375 in															(1.65 in,1.5375 in)(1.75 in,1.5375 in)(1.75 in,1.5625 in)(1.65 in,1.5625 in)	1	
+Polygon	Outline	TopSilkscreen	2537	2540			1.8875 in	1.5375 in					0.012 in										(1.8875 in,1.7875 in)(1.8875 in,1.5375 in)(2.1125 in,1.5375 in)(2.1125 in,1.7875 in)	1	
+Pad	SquareWithHole		2538	2540			1.95 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			2539	2540			2.05 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			2540														"J31"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	2541	2540			1.95 in	1.5375 in															(1.95 in,1.5375 in)(2.05 in,1.5375 in)(2.05 in,1.5625 in)(1.95 in,1.5625 in)	1	
+Pad			2738				3.7 in	0.3125 in	0.16 in	0.16 in												0.125 in		4	
+Pad			2813				0.7 in	0.3 in	0.16 in	0.16 in												0.125 in		4	
+Point		TopCopper	6974				0.225 in	1.35 in																1	
+Trace		TopCopper	6975		6974	2459							0.04 in											1	
+Trace		TopCopper	6977		6974	2502							0.04 in											1	
+Group			6989														"SW10"	"Pushbutton Multichoice"						1	
+Pad	SquareWithHole		6990	6989			0.2 in	0.1125 in	0.088 in	0.088 in							"1"					0.04 in		1	
+Pad			6991	6989			0.2 in	0.4125 in	0.088 in	0.088 in												0.04 in		1	
+Pad			6992	6989			0.4 in	0.4125 in	0.088 in	0.088 in							"2"					0.04 in		1	
+Pad			6993	6989			0.4 in	0.1125 in	0.088 in	0.088 in												0.04 in		1	
+Pad			6994	6989			0.1637796 in	0.2625 in	0.088 in	0.088 in												0.04 in		1	
+Pad			6995	6989			0.4 in	0.2625 in	0.088 in	0.088 in												0.04 in		1	
+Pad	SquareWithHole		6996	6989			0.2999898 in	0.2625 in	0.075 in	0.075 in												0.04 in		1	
+Polygon	Outline	TopSilkscreen	6997	6989			0.15 in	0.1875 in					0.012 in										(0.15 in,0.1875 in)(0.45 in,0.1875 in)(0.45 in,0.3375 in)(0.15 in,0.3375 in)	1	
+Group			6998														"SW12"	"Pushbutton Multichoice"						1	
+Pad	SquareWithHole		6999	6998			0.95 in	0.1125 in	0.088 in	0.088 in							"1"					0.04 in		1	
+Pad			7000	6998			0.95 in	0.4125 in	0.088 in	0.088 in												0.04 in		1	
+Pad			7001	6998			1.15 in	0.4125 in	0.088 in	0.088 in							"2"					0.04 in		1	
+Pad			7002	6998			1.15 in	0.1125 in	0.088 in	0.088 in												0.04 in		1	
+Pad			7003	6998			0.9137796 in	0.2625 in	0.088 in	0.088 in												0.04 in		1	
+Pad			7004	6998			1.15 in	0.2625 in	0.088 in	0.088 in												0.04 in		1	
+Pad	SquareWithHole		7005	6998			1.0499898 in	0.2625 in	0.075 in	0.075 in												0.04 in		1	
+Polygon	Outline	TopSilkscreen	7006	6998			0.9 in	0.1875 in					0.012 in										(0.9 in,0.1875 in)(1.2 in,0.1875 in)(1.2 in,0.3375 in)(0.9 in,0.3375 in)	1	
+Trace		BottomCopper	7008		6990	6994							0.025 in											1	
+Trace		BottomCopper	7009		6994	6996							0.025 in											1	
+Trace		TopCopper	7010		6992	6995							0.04 in											1	
+Trace		TopCopper	7017		7004	7001							0.04 in											1	
+Trace		BottomCopper	7019		6999	7003							0.025 in											1	
+Trace		BottomCopper	7020		7003	7005							0.025 in											1	
+Line		TopSilkscreen	7022	7028			2.075 in	1.0875 in			2.225 in	1.0875 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	7023	7028			2.05 in	1.0875 in	0.05 in	0.1 in			0.012 in	90°	180°									1	
+Ellipse	Outline	TopSilkscreen	7024	7028			2.2 in	1.0875 in	0.05 in	0.1 in			0.012 in	270°	180°									1	
+Pad			7025	7028			2.1 in	1.1375 in	0.056 in	0.056 in							"1"					0.029 in		1	
+Pad			7026	7028			2.2 in	1.1375 in	0.056 in	0.056 in							"2"					0.029 in		1	
+Line		TopSilkscreen	7027	7028			2.075 in	1.1875 in			2.225 in	1.1875 in	0.012 in											1	
+Group			7028														"C22"	"0.1 µF"						1	
+Point		TopCopper	7031				1.8 in	0.9375 in																1	
+Trace		TopCopper	7032		7031	58							0.025 in											1	
+Trace		TopCopper	7033		7031	7379							0.025 in											1	
+Trace		TopCopper	7035		145	10471							0.04 in											1	
+Trace		BottomCopper	7041		56	2402							0.025 in											1	
+Trace		BottomCopper	7043		54	10275							0.025 in											1	
+Line		TopSilkscreen	7048	7054			1.375 in	0.5625 in			1.525 in	0.5625 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	7049	7054			1.35 in	0.5625 in	0.05 in	0.1 in			0.012 in	90°	180°									1	
+Ellipse	Outline	TopSilkscreen	7050	7054			1.5 in	0.5625 in	0.05 in	0.1 in			0.012 in	270°	180°									1	
+Pad			7051	7054			1.4 in	0.6125 in	0.056 in	0.056 in							"1"					0.029 in		1	
+Pad			7052	7054			1.5 in	0.6125 in	0.056 in	0.056 in							"2"					0.029 in		1	
+Line		TopSilkscreen	7053	7054			1.375 in	0.6625 in			1.525 in	0.6625 in	0.012 in											1	
+Group			7054														"C10"	"0.1 µF"						1	
+Trace		BottomCopper	7055		7399	7078							0.04 in											1	
+Line		TopSilkscreen	7056	7062			2.475 in	0.5625 in			2.625 in	0.5625 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	7057	7062			2.45 in	0.5625 in	0.05 in	0.1 in			0.012 in	90°	180°									1	
+Ellipse	Outline	TopSilkscreen	7058	7062			2.6 in	0.5625 in	0.05 in	0.1 in			0.012 in	270°	180°									1	
+Pad			7059	7062			2.5 in	0.6125 in	0.056 in	0.056 in							"1"					0.029 in		1	
+Pad			7060	7062			2.6 in	0.6125 in	0.056 in	0.056 in							"2"					0.029 in		1	
+Line		TopSilkscreen	7061	7062			2.475 in	0.6625 in			2.625 in	0.6625 in	0.012 in											1	
+Group			7062														"C20"	"0.1 µF"						1	
+Line		TopSilkscreen	7063	7069			3.375 in	0.5625 in			3.525 in	0.5625 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	7064	7069			3.35 in	0.5625 in	0.05 in	0.1 in			0.012 in	90°	180°									1	
+Ellipse	Outline	TopSilkscreen	7065	7069			3.5 in	0.5625 in	0.05 in	0.1 in			0.012 in	270°	180°									1	
+Pad			7066	7069			3.4 in	0.6125 in	0.056 in	0.056 in							"1"					0.029 in		1	
+Pad			7067	7069			3.5 in	0.6125 in	0.056 in	0.056 in							"2"					0.029 in		1	
+Line		TopSilkscreen	7068	7069			3.375 in	0.6625 in			3.525 in	0.6625 in	0.012 in											1	
+Group			7069														"C30"	"0.1 µF"						1	
+Point		BottomCopper	7070				1.4 in	0.8875 in																1	
+Trace		BottomCopper	7071		2485	7266							0.025 in											1	
+Trace		BottomCopper	7073		7070	54							0.025 in											1	
+Point		BottomCopper	7074				1.4 in	0.5375 in																1	
+Trace		BottomCopper	7075		7074	97							0.04 in											1	
+Trace		BottomCopper	7077		7074	7051							0.04 in											1	
+Point		BottomCopper	7078				2.5 in	0.5375 in																1	
+Trace		BottomCopper	7079		7078	99							0.04 in											1	
+Trace		BottomCopper	7081		7078	7059							0.04 in											1	
+Point		BottomCopper	7082				3.4 in	0.5375 in																1	
+Trace		BottomCopper	7083		7082	103							0.04 in											1	
+Trace		BottomCopper	7085		7082	7066							0.04 in											1	
+Point		TopCopper	7088				1.5 in	1.0375 in																1	
+Trace		TopCopper	7091		7088	7052							0.04 in											1	
+Point		TopCopper	7092				2.65 in	1.425 in																1	
+Trace		TopCopper	7093		7060	7514							0.04 in											1	
+Point		TopCopper	7095				3.5 in	1.3375 in																1	
+Trace		TopCopper	7096		7067	7095							0.04 in											1	
+Trace		TopCopper	7098		7095	21							0.04 in											1	
+Polygon	Outline	TopSilkscreen	7113	7116			3.3375 in	1.5375 in					0.012 in										(3.3375 in,1.7875 in)(3.3375 in,1.5375 in)(3.5625 in,1.5375 in)(3.5625 in,1.7875 in)	1	
+Pad	SquareWithHole		7114	7116			3.4 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		1	
+Pad			7115	7116			3.5 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		1	
+Group			7116														"J1"	"Header Molex KK 2-pin 22-23-2021"						1	
+Polygon		TopSilkscreen	7117	7116			3.4 in	1.5375 in															(3.4 in,1.5375 in)(3.5 in,1.5375 in)(3.5 in,1.5625 in)(3.4 in,1.5625 in)	1	
+Point		BottomCopper	7145				1.65 in	1.4375 in																1	
+Trace		BottomCopper	7146		2533	7145							0.04 in											1	
+Polygon		TopSilkscreen	7152	7161			0.825 in	0.825 in						70°									(0.8897343 in,0.9623229 in)(0.8888096 in,0.9617024 in)(0.8884643 in,0.9618607 in)(0.8755099 in,0.9571457 in)(0.8753472 in,0.9568025 in)(0.871537 in,0.9554157 in)(0.8713742 in,0.9550726 in)(0.8690882 in,0.9542405 in)(0.8689254 in,0.9538974 in)(0.8671473 in,0.9532502 in)(0.8665678 in,0.9524714 in)(0.8645357 in,0.9517318 in)(0.864373 in,0.9513886 in)(0.863103 in,0.9509264 in)(0.8622694 in,0.9500552 in)(0.8607454 in,0.9495005 in)(0.8601658 in,0.9487217 in)(0.8586418 in,0.948167 in)(0.8580622 in,0.9473882 in)(0.8570462 in,0.9470184 in)(0.8555419 in,0.9456191 in)(0.8547799 in,0.9453417 in)(0.8535296 in,0.9440349 in)(0.8527676 in,0.9437576 in)(0.8515173 in,0.9424507 in)(0.8510093 in,0.9422658 in)(0.8493422 in,0.9405233 in)(0.8488342 in,0.9403384 in)(0.8474211 in,0.9386884 in)(0.8469131 in,0.9385035 in)(0.8457541 in,0.936946 in)(0.845246 in,0.9367611 in)(0.8439243 in,0.9348604 in)(0.8434162 in,0.9346755 in)(0.8429279 in,0.933646 in)(0.8421659 in,0.9333686 in)(0.8388713 in,0.9281946 in)(0.8386173 in,0.9281021 in)(0.8380378 in,0.9273234 in)(0.838129 in,0.9270727 in)(0.8368787 in,0.9257658 in)(0.8365335 in,0.9259241 in)(0.835954 in,0.9251453 in)(0.8351401 in,0.9234296 in)(0.8321192 in,0.9175034 in)(0.8308171 in,0.9147581 in)(0.8303486 in,0.912884 in)(0.8290466 in,0.9101387 in)(0.8276015 in,0.9062057 in)(0.8276927 in,0.905955 in)(0.8261046 in,0.9008343 in)(0.8261244 in,0.8999897 in)(0.8260529 in,0.8993959 in)(0.8257274 in,0.8987095 in)(0.8251553 in,0.8939586 in)(0.8253378 in,0.8934571 in)(0.825032 in,0.8919262 in)(0.8252145 in,0.8914248 in)(0.825 in,0.8896432 in)(0.8251825 in,0.8891418 in)(0.8251308 in,0.8877033 in)(0.8254119 in,0.8829791 in)(0.8255229 in,0.8818838 in)(0.8258682 in,0.8817255 in)(0.8259274 in,0.8791918 in)(0.8265662 in,0.8774368 in)(0.8264034 in,0.8770937 in)(0.8311484 in,0.8640568 in)(0.8315849 in,0.8636479 in)(0.8314222 in,0.8633047 in)(0.8317872 in,0.8623019 in)(0.8321325 in,0.8621436 in)(0.83268 in,0.8606393 in)(0.8330252 in,0.8604811 in)(0.8334815 in,0.8592275 in)(0.8343545 in,0.8584096 in)(0.8347195 in,0.8574067 in)(0.8350648 in,0.8572485 in)(0.8356123 in,0.8557443 in)(0.8367591 in,0.8541742 in)(0.8371043 in,0.8540159 in)(0.8375605 in,0.8527625 in)(0.838251 in,0.8524459 in)(0.838616 in,0.8514431 in)(0.8393978 in,0.8508759 in)(0.8396716 in,0.8501237 in)(0.8409811 in,0.8488969 in)(0.8411636 in,0.8483954 in)(0.8415089 in,0.8482372 in)(0.8418739 in,0.8472343 in)(0.8425644 in,0.8469178 in)(0.8452747 in,0.8442133 in)(0.8459653 in,0.8438968 in)(0.8468383 in,0.8430788 in)(0.847112 in,0.8423267 in)(0.8478025 in,0.8420102 in)(0.8484215 in,0.8410998 in)(0.849112 in,0.8407833 in)(0.8492945 in,0.8402818 in)(0.8504216 in,0.8395565 in)(0.8506041 in,0.8390551 in)(0.8516398 in,0.8385803 in)(0.8518223 in,0.8380788 in)(0.8544217 in,0.8364696 in)(0.8546042 in,0.8359682 in)(0.8579853 in,0.8337918 in)(0.8582393 in,0.8338842 in)(0.8591123 in,0.8330663 in)(0.8593663 in,0.8331587 in)(0.8598028 in,0.8327497 in)(0.8618744 in,0.8318002 in)(0.8623109 in,0.8313912 in)(0.8625649 in,0.8314837 in)(0.8630014 in,0.8310747 in)(0.8654182 in,0.8299669 in)(0.8660175 in,0.8299011 in)(0.8661087 in,0.8296504 in)(0.8670532 in,0.8294263 in)(0.8687795 in,0.8286351 in)(0.8720496 in,0.827554 in)(0.8723036 in,0.8276464 in)(0.8741927 in,0.8271983 in)(0.8752284 in,0.8267235 in)(0.8761729 in,0.8264994 in)(0.8770262 in,0.8265261 in)(0.8776255 in,0.8264603 in)(0.878316 in,0.8261438 in)(0.8792605 in,0.8259197 in)(0.8825109 in,0.8256831 in)(0.8831101 in,0.8256173 in)(0.8838007 in,0.8253008 in)(0.8844 in,0.825235 in)(0.884908 in,0.8254199 in)(0.8885035 in,0.825025 in)(0.8890116 in,0.82521 in)(0.8916626 in,0.8250391 in)(0.8921707 in,0.8252241 in)(0.8931152 in,0.825 in)(0.8938772 in,0.8252773 in)(0.8956751 in,0.8250799 in)(0.8964371 in,0.8253573 in)(0.8984889 in,0.8252523 in)(0.8995049 in,0.8256221 in)(0.9007035 in,0.8254905 in)(0.9019735 in,0.8259528 in)(0.9031721 in,0.8258212 in)(0.9046961 in,0.8263759 in)(0.9061487 in,0.8263367 in)(0.9074186 in,0.8267989 in)(0.9098872 in,0.8271296 in)(0.9116653 in,0.8277768 in)(0.9120106 in,0.8276185 in)(0.9130266 in,0.8279883 in)(0.9133719 in,0.8278301 in)(0.9142967 in,0.8284506 in)(0.9146419 in,0.8282923 in)(0.916928 in,0.8291244 in)(0.9172732 in,0.8289661 in)(0.9220994 in,0.8307227 in)(0.9229526 in,0.8307494 in)(0.9231154 in,0.8310925 in)(0.9241315 in,0.8314623 in)(0.9252387 in,0.8315815 in)(0.9254015 in,0.8319246 in)(0.9266716 in,0.8323868 in)(0.9272708 in,0.8323211 in)(0.9274336 in,0.8326642 in)(0.9297197 in,0.8334962 in)(0.9298824 in,0.8338394 in)(0.9302277 in,0.8336811 in)(0.9320057 in,0.8343283 in)(0.9409478 in,0.8390026 in)(0.9429799 in,0.8397422 in)(0.9431427 in,0.8400853 in)(0.9441586 in,0.8404551 in)(0.9452462 in,0.8414188 in)(0.9467702 in,0.8419735 in)(0.9476038 in,0.8428448 in)(0.9493818 in,0.8434919 in)(0.9495446 in,0.8438351 in)(0.9510686 in,0.8443898 in)(0.9516481 in,0.8451685 in)(0.9534262 in,0.8458157 in)(0.9547678 in,0.8468719 in)(0.9557838 in,0.8472417 in)(0.9559466 in,0.8475848 in)(0.9577246 in,0.848232 in)(0.960245 in,0.8500011 in)(0.9617691 in,0.8505558 in)(0.9623486 in,0.8513346 in)(0.9641266 in,0.8519817 in)(0.9642894 in,0.8523249 in)(0.9658134 in,0.8528796 in)(0.966393 in,0.8536584 in)(0.968425 in,0.854398 in)(0.9695125 in,0.8553617 in)(0.9705285 in,0.8557314 in)(0.9706913 in,0.8560746 in)(0.9724694 in,0.8567218 in)(0.9749897 in,0.8584909 in)(0.9765138 in,0.8590456 in)(0.9770933 in,0.8598244 in)(0.9791254 in,0.860564 in)(0.9792881 in,0.8609071 in)(0.9805582 in,0.8613694 in)(0.9813917 in,0.8622406 in)(0.9831698 in,0.8628878 in)(0.9842573 in,0.8638514 in)(0.9855274 in,0.8643137 in)(0.9856901 in,0.8646569 in)(0.9872141 in,0.8652116 in)(0.9880477 in,0.8660828 in)(0.9898258 in,0.86673 in)(0.9899885 in,0.8670731 in)(0.9912585 in,0.8675354 in)(0.9920921 in,0.8684066 in)(0.9938701 in,0.8690538 in)(0.9940329 in,0.8693969 in)(0.9953029 in,0.8698592 in)(0.9963904 in,0.8708229 in)(0.9981685 in,0.87147 in)(1.0006889 in,0.8732391 in)(1.0022129 in,0.8737938 in)(1.0047333 in,0.8755629 in)(1.0062574 in,0.8761177 in)(1.0068369 in,0.8768964 in)(1.0088689 in,0.877636 in)(1.0090317 in,0.8779792 in)(1.0100477 in,0.878349 in)(1.0111353 in,0.8793127 in)(1.0129133 in,0.8799598 in)(1.0154337 in,0.881729 in)(1.0169577 in,0.8822836 in)(1.0175373 in,0.8830624 in)(1.0195693 in,0.883802 in)(1.019732 in,0.8841452 in)(1.0210021 in,0.8846075 in)(1.0218356 in,0.8854786 in)(1.0236137 in,0.8861257 in)(1.0249553 in,0.8871819 in)(1.0259713 in,0.8875517 in)(1.026134 in,0.8878948 in)(1.0279121 in,0.888542 in)(1.0284916 in,0.8893208 in)(1.0302697 in,0.8899679 in)(1.0304325 in,0.8903111 in)(1.0319565 in,0.8908658 in)(1.032536 in,0.8916446 in)(1.0343141 in,0.8922918 in)(1.0344769 in,0.8926349 in)(1.0357469 in,0.8930972 in)(1.0368344 in,0.8940608 in)(1.0386125 in,0.894708 in)(1.0397 in,0.8956717 in)(1.040716 in,0.8960415 in)(1.0408789 in,0.8963847 in)(1.0426569 in,0.8970318 in)(1.0451772 in,0.8988009 in)(1.0467013 in,0.8993556 in)(1.0472808 in,0.9001344 in)(1.0493129 in,0.900874 in)(1.0504004 in,0.9018377 in)(1.0514164 in,0.9022075 in)(1.0515792 in,0.9025506 in)(1.0533573 in,0.9031978 in)(1.0544448 in,0.9041615 in)(1.0557149 in,0.9046237 in)(1.0558776 in,0.9049669 in)(1.0574017 in,0.9055216 in)(1.0582352 in,0.9063928 in)(1.0600133 in,0.90704 in)(1.060176 in,0.9073832 in)(1.061446 in,0.9078454 in)(1.0622796 in,0.9087167 in)(1.0640576 in,0.9093638 in)(1.0653992 in,0.9104199 in)(1.0664152 in,0.9107897 in)(1.066578 in,0.9111329 in)(1.068356 in,0.9117801 in)(1.0708763 in,0.9135491 in)(1.0724004 in,0.9141039 in)(1.0729799 in,0.9148826 in)(1.074758 in,0.9155298 in)(1.0749208 in,0.915873 in)(1.0764448 in,0.9164277 in)(1.0770243 in,0.9172065 in)(1.0790564 in,0.9179461 in)(1.0801439 in,0.9189097 in)(1.08116 in,0.9192796 in)(1.0813227 in,0.9196227 in)(1.0831008 in,0.9202699 in)(1.0856212 in,0.922039 in)(1.0871452 in,0.9225937 in)(1.0877247 in,0.9233725 in)(1.0897567 in,0.924112 in)(1.0899196 in,0.9244552 in)(1.0911896 in,0.9249175 in)(1.0920231 in,0.9257887 in)(1.0938012 in,0.9264359 in)(1.0948887 in,0.9273996 in)(1.0961587 in,0.9278618 in)(1.0963215 in,0.928205 in)(1.0978456 in,0.9287597 in)(1.0986791 in,0.9296309 in)(1.1004572 in,0.9302781 in)(1.1006199 in,0.9306212 in)(1.10189 in,0.9310835 in)(1.1027235 in,0.9319547 in)(1.1045016 in,0.9326019 in)(1.1058431 in,0.9336579 in)(1.1068592 in,0.9340277 in)(1.1070219 in,0.9343709 in)(1.1088 in,0.935018 in)(1.1113203 in,0.9367871 in)(1.1128443 in,0.9373418 in)(1.1134239 in,0.9381206 in)(1.1152019 in,0.9387678 in)(1.1153647 in,0.9391109 in)(1.1168888 in,0.9396656 in)(1.1174683 in,0.9404444 in)(1.1195003 in,0.941184 in)(1.1196631 in,0.9415272 in)(1.1206792 in,0.941897 in)(1.1217667 in,0.9428607 in)(1.1235448 in,0.9435078 in)(1.1260651 in,0.9452769 in)(1.1275892 in,0.9458317 in)(1.1281687 in,0.9466104 in)(1.1302008 in,0.94735 in)(1.1303635 in,0.9476932 in)(1.1316335 in,0.9481554 in)(1.1324671 in,0.9490267 in)(1.1342451 in,0.9496738 in)(1.1355867 in,0.95073 in)(1.1366027 in,0.9510998 in)(1.1367655 in,0.9514429 in)(1.1385435 in,0.9520901 in)(1.1393771 in,0.9529613 in)(1.1424252 in,0.9540707 in)(1.1428419 in,0.9545063 in)(1.1431674 in,0.9551927 in)(1.1449455 in,0.9558398 in)(1.1462871 in,0.956896 in)(1.1473031 in,0.9572658 in)(1.1474658 in,0.9576089 in)(1.1492439 in,0.9582561 in)(1.1503314 in,0.9592198 in)(1.1513475 in,0.9595896 in)(1.1515102 in,0.9599327 in)(1.1532883 in,0.9605799 in)(1.1558086 in,0.962349 in)(1.1573326 in,0.9629037 in)(1.1579122 in,0.9636825 in)(1.1599442 in,0.9644221 in)(1.1610318 in,0.9653858 in)(1.1620478 in,0.9657556 in)(1.1622106 in,0.9660988 in)(1.1639886 in,0.9667459 in)(1.1650762 in,0.9677096 in)(1.1663462 in,0.9681718 in)(1.1680848 in,0.9705081 in)(1.168573 in,0.9715376 in)(1.1698234 in,0.9728445 in)(1.1703116 in,0.9738739 in)(1.1713992 in,0.9748376 in)(1.171308 in,0.9750884 in)(1.1727211 in,0.9767383 in)(1.1724473 in,0.9774904 in)(1.1741266 in,0.9823605 in)(1.1740354 in,0.9826112 in)(1.1745039 in,0.9844852 in)(1.1743214 in,0.9849866 in)(1.1746469 in,0.985673 in)(1.1746592 in,0.9888006 in)(1.1743139 in,0.9889589 in)(1.1744569 in,0.9901466 in)(1.1738182 in,0.9919016 in)(1.1739809 in,0.9922447 in)(1.1727947 in,0.9955039 in)(1.1724495 in,0.9956621 in)(1.1719019 in,0.9971664 in)(1.1715567 in,0.9973246 in)(1.1711917 in,0.9983275 in)(1.1705012 in,0.998644 in)(1.1701362 in,0.9996468 in)(1.1694456 in,0.9999633 in)(1.1691718 in,1.0007155 in)(1.1674258 in,1.0023514 in)(1.1667353 in,1.0026679 in)(1.1654258 in,1.0038948 in)(1.1588659 in,1.0069016 in)(1.1579213 in,1.0071256 in)(1.1574133 in,1.0069408 in)(1.1563776 in,1.0074155 in)(1.1542345 in,1.0077712 in)(1.1537265 in,1.0075863 in)(1.1513294 in,1.0078495 in)(1.1505674 in,1.0075722 in)(1.1493688 in,1.0077038 in)(1.1492061 in,1.0073606 in)(1.1474996 in,1.0073074 in)(1.1473368 in,1.0069642 in)(1.1478843 in,1.0054599 in)(1.1477215 in,1.0051167 in)(1.1483603 in,1.0033618 in)(1.1481975 in,1.0030186 in)(1.1501581 in,1.0031645 in)(1.1509201 in,1.0034418 in)(1.1517734 in,1.0034685 in)(1.1528092 in,1.0029937 in)(1.1546982 in,1.0025456 in)(1.1555515 in,1.0025722 in)(1.1561507 in,1.0025064 in)(1.1568412 in,1.0021899 in)(1.1590756 in,1.0015835 in)(1.1593296 in,1.0016759 in)(1.1597661 in,1.001267 in)(1.1604566 in,1.0009504 in)(1.1620202 in,0.999816 in)(1.1622027 in,0.9993146 in)(1.1660203 in,0.9967292 in)(1.166294 in,0.995977 in)(1.1666393 in,0.9958188 in)(1.167278 in,0.9940638 in)(1.1678058 in,0.9934041 in)(1.167643 in,0.993061 in)(1.168008 in,0.9920581 in)(1.1683533 in,0.9919 in)(1.168992 in,0.990145 in)(1.1695198 in,0.9894853 in)(1.169357 in,0.9891421 in)(1.169722 in,0.9881393 in)(1.1696703 in,0.9867009 in)(1.1695075 in,0.9863577 in)(1.1693842 in,0.9843254 in)(1.1697295 in,0.9841671 in)(1.1693522 in,0.9820423 in)(1.1695347 in,0.9815409 in)(1.1694632 in,0.980947 in)(1.1691377 in,0.9802607 in)(1.1672364 in,0.9775812 in)(1.1669824 in,0.9774888 in)(1.1645927 in,0.9737798 in)(1.1635052 in,0.9728161 in)(1.1630885 in,0.9723805 in)(1.1627629 in,0.9716943 in)(1.1619294 in,0.9708231 in)(1.1614214 in,0.9706382 in)(1.1608419 in,0.9698594 in)(1.1590638 in,0.9692122 in)(1.1584842 in,0.9684334 in)(1.1569602 in,0.9678787 in)(1.1561266 in,0.9670075 in)(1.1548566 in,0.9665453 in)(1.1546939 in,0.9662021 in)(1.1536778 in,0.9658323 in)(1.1525903 in,0.9648686 in)(1.1510662 in,0.9643139 in)(1.1504867 in,0.9635351 in)(1.1484546 in,0.9627955 in)(1.1473671 in,0.9618318 in)(1.1463511 in,0.961462 in)(1.1439935 in,0.9600361 in)(1.1419614 in,0.9592965 in)(1.1417986 in,0.9589533 in)(1.1405286 in,0.9584911 in)(1.1396754 in,0.9584644 in)(1.1389848 in,0.9587809 in)(1.1391475 in,0.9591241 in)(1.1386913 in,0.9603776 in)(1.1391081 in,0.9608133 in)(1.1395964 in,0.9618427 in)(1.1394854 in,0.962938 in)(1.1391204 in,0.9639408 in)(1.1394459 in,0.9646271 in)(1.1394385 in,0.9685993 in)(1.1396012 in,0.9689425 in)(1.139542 in,0.9714762 in)(1.139177 in,0.972479 in)(1.1393199 in,0.9736668 in)(1.1388637 in,0.9749203 in)(1.1389673 in,0.9777973 in)(1.1386023 in,0.9788001 in)(1.1387453 in,0.9799878 in)(1.1383803 in,0.9809907 in)(1.1383925 in,0.9841182 in)(1.1381188 in,0.9848703 in)(1.1383851 in,0.9880904 in)(1.1382026 in,0.9885918 in)(1.1385083 in,0.9901227 in)(1.1382346 in,0.9908748 in)(1.1383061 in,0.9914687 in)(1.1386317 in,0.9921551 in)(1.1387032 in,0.9927489 in)(1.1385207 in,0.9932503 in)(1.1387549 in,0.9941874 in)(1.1392432 in,0.9952168 in)(1.1390607 in,0.9957183 in)(1.1397832 in,0.9976848 in)(1.1414109 in,1.0011163 in)(1.1429348 in,1.001671 in)(1.1437684 in,1.0025423 in)(1.1450384 in,1.0030045 in)(1.1456377 in,1.0029387 in)(1.1458004 in,1.0032818 in)(1.1453442 in,1.0045354 in)(1.145507 in,1.0048786 in)(1.1449595 in,1.0063828 in)(1.145031 in,1.0069767 in)(1.1424909 in,1.0060522 in)(1.1414033 in,1.0050885 in)(1.1401333 in,1.0046263 in)(1.1399706 in,1.0042831 in)(1.1384465 in,1.0037284 in)(1.137613 in,1.0028572 in)(1.1358349 in,1.00221 in)(1.1356722 in,1.0018668 in)(1.1344021 in,1.0014046 in)(1.1335686 in,1.0005334 in)(1.1317905 in,0.9998862 in)(1.1304489 in,0.99883 in)(1.1294329 in,0.9984602 in)(1.1292702 in,0.9981171 in)(1.1272381 in,0.9973775 in)(1.1270753 in,0.9970343 in)(1.1260593 in,0.9966645 in)(1.1252258 in,0.9957933 in)(1.1234478 in,0.9951461 in)(1.1209273 in,0.993377 in)(1.1194034 in,0.9928223 in)(1.1188237 in,0.9920436 in)(1.1167917 in,0.991304 in)(1.1157041 in,0.9903403 in)(1.1146882 in,0.9899705 in)(1.1145254 in,0.9896274 in)(1.1127473 in,0.9889802 in)(1.110227 in,0.9872111 in)(1.1087029 in,0.9866564 in)(1.1081234 in,0.9858776 in)(1.1060913 in,0.985138 in)(1.1059286 in,0.9847949 in)(1.1046585 in,0.9843326 in)(1.103825 in,0.9834614 in)(1.1020469 in,0.9828142 in)(1.1009594 in,0.9818505 in)(1.0996893 in,0.9813883 in)(1.0995266 in,0.9810451 in)(1.0980026 in,0.9804904 in)(1.097169 in,0.9796192 in)(1.0953909 in,0.978972 in)(1.0952282 in,0.9786289 in)(1.0939582 in,0.9781666 in)(1.0931246 in,0.9772954 in)(1.0913466 in,0.9766482 in)(1.0911838 in,0.9763051 in)(1.0899138 in,0.9758428 in)(1.0890803 in,0.9749716 in)(1.0870482 in,0.974232 in)(1.0859606 in,0.9732683 in)(1.0849446 in,0.9728985 in)(1.0847818 in,0.9725553 in)(1.0830038 in,0.9719081 in)(1.0819163 in,0.9709445 in)(1.0820075 in,0.9706938 in)(1.0819557 in,0.9692553 in)(1.0817929 in,0.9689121 in)(1.0817412 in,0.9674737 in)(1.0832653 in,0.9680284 in)(1.083428 in,0.9683716 in)(1.084698 in,0.9688338 in)(1.0855514 in,0.9688605 in)(1.0852061 in,0.9690187 in)(1.0855316 in,0.9697051 in)(1.0875637 in,0.9704447 in)(1.0884884 in,0.9710652 in)(1.0888337 in,0.9709069 in)(1.0898498 in,0.9712767 in)(1.0889964 in,0.9712501 in)(1.0891592 in,0.9715932 in)(1.08983 in,0.9721213 in)(1.091862 in,0.9728609 in)(1.0920249 in,0.9732041 in)(1.0923701 in,0.9730458 in)(1.0933861 in,0.9734156 in)(1.0927868 in,0.9734814 in)(1.0929496 in,0.9738246 in)(1.0939656 in,0.9741944 in)(1.0942912 in,0.9748807 in)(1.0960692 in,0.9755279 in)(1.0962319 in,0.975871 in)(1.09801 in,0.9765182 in)(1.0983355 in,0.9772045 in)(1.1003676 in,0.9779441 in)(1.1012924 in,0.9785647 in)(1.1016377 in,0.9784064 in)(1.1023997 in,0.9786838 in)(1.1026339 in,0.9796208 in)(1.10492 in,0.9804529 in)(1.1052653 in,0.9802946 in)(1.1045945 in,0.9797665 in)(1.1046858 in,0.9795158 in)(1.1041259 in,0.9778925 in)(1.1033122 in,0.9761767 in)(1.1034947 in,0.9756752 in)(1.1030064 in,0.9746458 in)(1.1024861 in,0.9713332 in)(1.1026686 in,0.9708318 in)(1.1024024 in,0.9676119 in)(1.1025849 in,0.9671104 in)(1.1022988 in,0.9647349 in)(1.1024813 in,0.9642335 in)(1.1023185 in,0.9638904 in)(1.1026835 in,0.9628875 in)(1.1024493 in,0.9619505 in)(1.1029055 in,0.9606969 in)(1.1027822 in,0.9586646 in)(1.1031275 in,0.9585064 in)(1.103024 in,0.9556294 in)(1.1034802 in,0.9543759 in)(1.103357 in,0.9523436 in)(1.1037022 in,0.9521853 in)(1.103579 in,0.9501531 in)(1.1038527 in,0.949401 in)(1.1038009 in,0.9479625 in)(1.1036381 in,0.9476193 in)(1.1037689 in,0.9456795 in)(1.1033202 in,0.9429608 in)(1.1032487 in,0.942367 in)(1.1034312 in,0.9418655 in)(1.1031968 in,0.9409285 in)(1.1027086 in,0.939899 in)(1.1027283 in,0.9390544 in)(1.1019145 in,0.9373386 in)(1.1014977 in,0.936903 in)(1.101589 in,0.9366523 in)(1.1005213 in,0.934844 in)(1.0995052 in,0.9344742 in)(1.0996162 in,0.9333789 in)(1.0978381 in,0.9327318 in)(1.0974928 in,0.93289 in)(1.0954608 in,0.9321504 in)(1.0960601 in,0.9320846 in)(1.0955718 in,0.9310551 in)(1.0935398 in,0.9303155 in)(1.0931944 in,0.9304738 in)(1.0921069 in,0.9295101 in)(1.0919442 in,0.9291669 in)(1.0912734 in,0.9286389 in)(1.0897493 in,0.9280842 in)(1.0888961 in,0.9280575 in)(1.0887334 in,0.9277144 in)(1.0869553 in,0.9270672 in)(1.0878085 in,0.9270938 in)(1.0876457 in,0.9267508 in)(1.086975 in,0.9262227 in)(1.0859589 in,0.9258529 in)(1.0856136 in,0.9260112 in)(1.0857764 in,0.9263542 in)(1.0853596 in,0.9259187 in)(1.0848516 in,0.9257338 in)(1.0846889 in,0.9253907 in)(1.0836728 in,0.9250208 in)(1.0840181 in,0.9248626 in)(1.0838553 in,0.9245194 in)(1.0828393 in,0.9241496 in)(1.0819146 in,0.9235291 in)(1.0815692 in,0.9236873 in)(1.0805532 in,0.9233175 in)(1.0803905 in,0.9229744 in)(1.0796285 in,0.922697 in)(1.0799737 in,0.9225388 in)(1.079811 in,0.9221956 in)(1.0785409 in,0.9217334 in)(1.0781242 in,0.9212977 in)(1.0777789 in,0.921456 in)(1.0762548 in,0.9209013 in)(1.0760921 in,0.9205581 in)(1.0755841 in,0.9203732 in)(1.0759293 in,0.920215 in)(1.0757666 in,0.9198718 in)(1.0719564 in,0.918485 in)(1.0717222 in,0.917548 in)(1.0694361 in,0.9167159 in)(1.0690908 in,0.9168742 in)(1.0691944 in,0.9197511 in)(1.0689207 in,0.9205032 in)(1.0689009 in,0.9213477 in)(1.0692067 in,0.9228786 in)(1.0694409 in,0.9238157 in)(1.0695642 in,0.925848 in)(1.069616 in,0.9272864 in)(1.0697787 in,0.9276296 in)(1.069505 in,0.9283817 in)(1.0698107 in,0.9299126 in)(1.0696282 in,0.930414 in)(1.0695172 in,0.9315093 in)(1.0696602 in,0.9326971 in)(1.0695296 in,0.934637 in)(1.0692558 in,0.9353891 in)(1.0693988 in,0.9365768 in)(1.0690338 in,0.9375797 in)(1.0691768 in,0.9387673 in)(1.0688118 in,0.9397702 in)(1.0687008 in,0.9408654 in)(1.0688438 in,0.9420532 in)(1.0688241 in,0.9428978 in)(1.0684788 in,0.943056 in)(1.0687649 in,0.9454315 in)(1.0683999 in,0.9464344 in)(1.0684516 in,0.9478728 in)(1.0685946 in,0.9490606 in)(1.0685354 in,0.9515943 in)(1.0688412 in,0.9531252 in)(1.0689127 in,0.9537191 in)(1.0687302 in,0.9542205 in)(1.0692899 in,0.9558438 in)(1.0695439 in,0.9559363 in)(1.0700323 in,0.9569657 in)(1.0702468 in,0.9587473 in)(1.0705008 in,0.9588398 in)(1.070735 in,0.9597768 in)(1.0712234 in,0.9608063 in)(1.0712949 in,0.9614002 in)(1.0725649 in,0.9618624 in)(1.0734897 in,0.9624829 in)(1.0738349 in,0.9623247 in)(1.0748509 in,0.9626945 in)(1.0739977 in,0.9626678 in)(1.0741604 in,0.963011 in)(1.0748312 in,0.963539 in)(1.0768633 in,0.9642787 in)(1.077026 in,0.9646218 in)(1.0773713 in,0.9644636 in)(1.0778793 in,0.9646485 in)(1.077534 in,0.9648067 in)(1.0776968 in,0.9651499 in)(1.0789669 in,0.9656122 in)(1.0791296 in,0.9659553 in)(1.0809077 in,0.9666025 in)(1.0807967 in,0.9676978 in)(1.0802492 in,0.969202 in)(1.0802294 in,0.9700466 in)(1.0789593 in,0.9695843 in)(1.0783798 in,0.9688056 in)(1.0763478 in,0.968066 in)(1.0752603 in,0.9671023 in)(1.0742442 in,0.9667325 in)(1.0740814 in,0.9663893 in)(1.0723034 in,0.9657422 in)(1.0712158 in,0.9647785 in)(1.0699459 in,0.9643162 in)(1.069783 in,0.963973 in)(1.068259 in,0.9634184 in)(1.0676795 in,0.9626396 in)(1.0656474 in,0.9619 in)(1.0654847 in,0.9615568 in)(1.0642146 in,0.9610945 in)(1.0633811 in,0.9602233 in)(1.061603 in,0.9595762 in)(1.0602614 in,0.95852 in)(1.0592454 in,0.9581502 in)(1.0590827 in,0.9578071 in)(1.0575586 in,0.9572523 in)(1.0564711 in,0.9562887 in)(1.054947 in,0.955734 in)(1.0547843 in,0.9553908 in)(1.0535143 in,0.9549286 in)(1.0526807 in,0.9540573 in)(1.0509026 in,0.9534101 in)(1.0507399 in,0.953067 in)(1.0494699 in,0.9526047 in)(1.0486363 in,0.9517335 in)(1.0466043 in,0.9509939 in)(1.0455167 in,0.9500302 in)(1.0445007 in,0.9496604 in)(1.044338 in,0.9493173 in)(1.0425599 in,0.9486701 in)(1.0400395 in,0.946901 in)(1.0385155 in,0.9463463 in)(1.037936 in,0.9455675 in)(1.0359039 in,0.9448279 in)(1.0348163 in,0.9438642 in)(1.0338003 in,0.9434944 in)(1.0336375 in,0.9431513 in)(1.0318595 in,0.9425041 in)(1.0307719 in,0.9415405 in)(1.0295018 in,0.9410782 in)(1.0293391 in,0.9407351 in)(1.0278151 in,0.9401804 in)(1.0269815 in,0.9393092 in)(1.0252034 in,0.938662 in)(1.0250407 in,0.9383188 in)(1.0237707 in,0.9378566 in)(1.0229371 in,0.9369853 in)(1.0211591 in,0.9363382 in)(1.0198175 in,0.9352821 in)(1.0188015 in,0.9349123 in)(1.0186388 in,0.9345691 in)(1.0171147 in,0.9340144 in)(1.0160271 in,0.9330507 in)(1.0147571 in,0.9325885 in)(1.0145944 in,0.9322453 in)(1.0135783 in,0.9318755 in)(1.0135265 in,0.930437 in)(1.0138915 in,0.9294342 in)(1.0140025 in,0.9283389 in)(1.0152726 in,0.9288012 in)(1.0154354 in,0.9291443 in)(1.0169594 in,0.929699 in)(1.017793 in,0.9305703 in)(1.0195709 in,0.9312174 in)(1.0211665 in,0.932366 in)(1.0213293 in,0.9327091 in)(1.021746 in,0.9331448 in)(1.0237781 in,0.9338844 in)(1.0239409 in,0.9342275 in)(1.0252109 in,0.9346898 in)(1.0260444 in,0.935561 in)(1.0278225 in,0.9362082 in)(1.0279853 in,0.9365513 in)(1.0283305 in,0.9363931 in)(1.0290926 in,0.9366705 in)(1.0287473 in,0.9368287 in)(1.0289101 in,0.9371719 in)(1.0301801 in,0.9376341 in)(1.0305969 in,0.9380697 in)(1.0309421 in,0.9379115 in)(1.0306166 in,0.9372251 in)(1.0309619 in,0.9370669 in)(1.0307276 in,0.9361299 in)(1.0310729 in,0.9359716 in)(1.0315291 in,0.934718 in)(1.0314576 in,0.9341242 in)(1.0311321 in,0.9334379 in)(1.0313146 in,0.9329364 in)(1.0309891 in,0.9322501 in)(1.030703 in,0.9298746 in)(1.0308856 in,0.9293732 in)(1.0305083 in,0.9272484 in)(1.0306908 in,0.926747 in)(1.0304566 in,0.92581 in)(1.0307303 in,0.9250579 in)(1.0306785 in,0.9236195 in)(1.0305157 in,0.9232763 in)(1.0308807 in,0.9222735 in)(1.0306465 in,0.9213365 in)(1.0309202 in,0.9205843 in)(1.0307772 in,0.9193966 in)(1.031051 in,0.9186445 in)(1.030908 in,0.9174567 in)(1.0313642 in,0.9162032 in)(1.0312212 in,0.9150154 in)(1.0315862 in,0.9140126 in)(1.0317169 in,0.9120727 in)(1.0315542 in,0.9117295 in)(1.0319192 in,0.9107267 in)(1.0318674 in,0.9092883 in)(1.0317047 in,0.9089451 in)(1.0317244 in,0.9081005 in)(1.0319982 in,0.9073484 in)(1.0320179 in,0.9065039 in)(1.0317836 in,0.9055668 in)(1.0317121 in,0.904973 in)(1.0319858 in,0.9042208 in)(1.0316283 in,0.9012515 in)(1.0313028 in,0.9005652 in)(1.0310883 in,0.8987835 in)(1.0306 in,0.8977541 in)(1.030203 in,0.8964739 in)(1.029949 in,0.8963814 in)(1.0298775 in,0.8957876 in)(1.0290637 in,0.8940717 in)(1.0283214 in,0.8929498 in)(1.0273054 in,0.89258 in)(1.0271426 in,0.8922368 in)(1.0251105 in,0.8914972 in)(1.024277 in,0.890626 in)(1.0230069 in,0.8901637 in)(1.0228442 in,0.8898206 in)(1.0210662 in,0.8891734 in)(1.0202326 in,0.8883022 in)(1.0189626 in,0.88784 in)(1.0187999 in,0.8874968 in)(1.0167678 in,0.8867572 in)(1.0164423 in,0.8860709 in)(1.0146642 in,0.8854237 in)(1.0145015 in,0.8850805 in)(1.0124694 in,0.8843409 in)(1.0121439 in,0.8836546 in)(1.0103658 in,0.8830074 in)(1.010203 in,0.8826643 in)(1.008679 in,0.8821096 in)(1.0080995 in,0.8813308 in)(1.0060674 in,0.8805912 in)(1.0059046 in,0.880248 in)(1.0046346 in,0.8797858 in)(1.003801 in,0.8789145 in)(1.002023 in,0.8782674 in)(1.0009354 in,0.8773038 in)(0.9996653 in,0.8768415 in)(0.9995026 in,0.8764984 in)(0.9979786 in,0.8759437 in)(0.996891 in,0.87498 in)(0.9965458 in,0.8751382 in)(0.996923 in,0.8772629 in)(0.996193 in,0.8792686 in)(0.9963559 in,0.8796118 in)(0.9957368 in,0.8805221 in)(0.9958996 in,0.8808653 in)(0.9959711 in,0.8814592 in)(0.9957886 in,0.8819606 in)(0.9961856 in,0.8832408 in)(0.9959118 in,0.8839929 in)(0.9962891 in,0.8861177 in)(0.9960153 in,0.8868698 in)(0.9961387 in,0.8889022 in)(0.9957737 in,0.889905 in)(0.9958771 in,0.8927819 in)(0.9955319 in,0.8929402 in)(0.9956749 in,0.8941278 in)(0.9954012 in,0.8948799 in)(0.9955639 in,0.8952231 in)(0.9951989 in,0.8962259 in)(0.995342 in,0.8974137 in)(0.994977 in,0.8984165 in)(0.9950287 in,0.899855 in)(0.9951915 in,0.9001981 in)(0.9948265 in,0.901201 in)(0.994787 in,0.9028901 in)(0.9950212 in,0.9038272 in)(0.9950927 in,0.904421 in)(0.9947277 in,0.9054239 in)(0.9950336 in,0.9069548 in)(0.9948511 in,0.9074562 in)(0.9951568 in,0.9089871 in)(0.9949743 in,0.9094885 in)(0.9956056 in,0.9117057 in)(0.9954231 in,0.9122071 in)(0.9958916 in,0.9140812 in)(0.998333 in,0.9192286 in)(0.9992578 in,0.9198491 in)(1.0002738 in,0.9202189 in)(1.0004365 in,0.9205621 in)(1.0022146 in,0.9212092 in)(1.004735 in,0.9229783 in)(1.006259 in,0.923533 in)(1.0068385 in,0.9243118 in)(1.0088706 in,0.9250514 in)(1.0099581 in,0.9260151 in)(1.0109742 in,0.9263849 in)(1.011137 in,0.9267281 in)(1.012915 in,0.9273752 in)(1.0130778 in,0.9277184 in)(1.0119828 in,0.9307269 in)(1.0104587 in,0.9301722 in)(1.0102959 in,0.929829 in)(1.0090259 in,0.9293668 in)(1.0081924 in,0.9284955 in)(1.0061603 in,0.9277559 in)(1.0059975 in,0.9274128 in)(1.0049815 in,0.927043 in)(1.0038939 in,0.9260793 in)(1.002116 in,0.9254321 in)(1.0015364 in,0.9246533 in)(0.9997584 in,0.9240062 in)(0.9995955 in,0.923663 in)(0.9980715 in,0.9231083 in)(0.9974919 in,0.9223295 in)(0.99546 in,0.9215899 in)(0.9952972 in,0.9212468 in)(0.9942811 in,0.920877 in)(0.9931936 in,0.9199133 in)(0.9914155 in,0.9192661 in)(0.990328 in,0.9183024 in)(0.989058 in,0.9178402 in)(0.9888952 in,0.917497 in)(0.9873711 in,0.9169423 in)(0.9865376 in,0.9160711 in)(0.9847595 in,0.9154239 in)(0.9845968 in,0.9150808 in)(0.9833267 in,0.9146185 in)(0.9824932 in,0.9137473 in)(0.9807151 in,0.9131001 in)(0.9805524 in,0.912757 in)(0.9795364 in,0.9123872 in)(0.9784488 in,0.9114235 in)(0.9766708 in,0.9107763 in)(0.9753292 in,0.9097202 in)(0.9743132 in,0.9093504 in)(0.9741505 in,0.9090072 in)(0.9723724 in,0.9083601 in)(0.9717928 in,0.9075813 in)(0.9700148 in,0.9069341 in)(0.9698521 in,0.906591 in)(0.968582 in,0.9061287 in)(0.9677485 in,0.9052575 in)(0.9657164 in,0.9045179 in)(0.9646288 in,0.9035542 in)(0.9636128 in,0.9031844 in)(0.9634501 in,0.9028412 in)(0.961672 in,0.9021941 in)(0.9591516 in,0.900425 in)(0.9576276 in,0.8998702 in)(0.9570481 in,0.8990915 in)(0.955016 in,0.8983519 in)(0.9548532 in,0.8980087 in)(0.9538372 in,0.8976389 in)(0.9527496 in,0.8966752 in)(0.9509717 in,0.8960281 in)(0.9498841 in,0.8950644 in)(0.9486141 in,0.8946021 in)(0.9484513 in,0.894259 in)(0.9469272 in,0.8937043 in)(0.9460936 in,0.8928331 in)(0.9443156 in,0.892186 in)(0.9441529 in,0.8918428 in)(0.9428828 in,0.8913805 in)(0.9423033 in,0.8906018 in)(0.9402712 in,0.8898622 in)(0.9396005 in,0.8893341 in)(0.9399655 in,0.8883313 in)(0.9399137 in,0.8868928 in)(0.9402787 in,0.88589 in)(0.9402071 in,0.8852961 in)(0.94037 in,0.8856393 in)(0.9410407 in,0.8861673 in)(0.9428188 in,0.8868145 in)(0.9441603 in,0.8878706 in)(0.9451764 in,0.8882404 in)(0.9453391 in,0.8885836 in)(0.9471171 in,0.8892307 in)(0.9476967 in,0.8900095 in)(0.9494747 in,0.8906567 in)(0.9496376 in,0.8909999 in)(0.9509075 in,0.8914621 in)(0.951741 in,0.8923333 in)(0.9537731 in,0.8930729 in)(0.9543527 in,0.8938517 in)(0.9558767 in,0.8944064 in)(0.9560395 in,0.8947496 in)(0.9573095 in,0.8952118 in)(0.958143 in,0.8960831 in)(0.9594131 in,0.8965453 in)(0.9597584 in,0.8963871 in)(0.9582418 in,0.8918602 in)(0.9583331 in,0.8916095 in)(0.9578645 in,0.8897354 in)(0.958047 in,0.889234 in)(0.9575785 in,0.8873599 in)(0.957761 in,0.8868585 in)(0.9574553 in,0.8853276 in)(0.957729 in,0.8845755 in)(0.9574232 in,0.8830445 in)(0.9576969 in,0.8822924 in)(0.9575737 in,0.8802601 in)(0.9578474 in,0.879508 in)(0.9577636 in,0.8757865 in)(0.9581089 in,0.8756283 in)(0.9579658 in,0.8744405 in)(0.9582396 in,0.8736884 in)(0.9580768 in,0.8733453 in)(0.9584221 in,0.873187 in)(0.9582988 in,0.8711547 in)(0.9587551 in,0.8699011 in)(0.9585209 in,0.8689641 in)(0.9588859 in,0.8679613 in)(0.9588735 in,0.8648336 in)(0.9587108 in,0.8644905 in)(0.9589845 in,0.8637383 in)(0.9586073 in,0.8616137 in)(0.9587898 in,0.8611123 in)(0.9585753 in,0.8593306 in)(0.9582497 in,0.8586443 in)(0.9579439 in,0.8571134 in)(0.9580352 in,0.8568627 in)(0.9573127 in,0.8548962 in)(0.9568046 in,0.8547113 in)(0.9564989 in,0.8531804 in)(0.9568441 in,0.8530221 in)(0.9568639 in,0.8521775 in)(0.9548318 in,0.8514379 in)(0.954669 in,0.8510948 in)(0.953145 in,0.8505401 in)(0.9525655 in,0.8497613 in)(0.9505334 in,0.8490216 in)(0.9503706 in,0.8486785 in)(0.9488466 in,0.8481238 in)(0.948267 in,0.847345 in)(0.9462351 in,0.8466054 in)(0.9453102 in,0.8459849 in)(0.9449847 in,0.8452986 in)(0.94406 in,0.8446781 in)(0.9427899 in,0.8442158 in)(0.9422104 in,0.843437 in)(0.9401783 in,0.8426974 in)(0.9380747 in,0.8413639 in)(0.9362966 in,0.8407167 in)(0.9361339 in,0.8403736 in)(0.9341018 in,0.839634 in)(0.9339391 in,0.8392908 in)(0.931399 in,0.8383663 in)(0.9312362 in,0.8380231 in)(0.9292041 in,0.8372835 in)(0.9285334 in,0.8367555 in)(0.9281881 in,0.8369137 in)(0.9269181 in,0.8364515 in)(0.9267553 in,0.8361083 in)(0.9206591 in,0.8338895 in)(0.9200599 in,0.8339553 in)(0.9198971 in,0.8336121 in)(0.9188811 in,0.8332423 in)(0.9185358 in,0.8334006 in)(0.9187701 in,0.8343376 in)(0.9190241 in,0.83443 in)(0.9197664 in,0.835552 in)(0.9236725 in,0.8437879 in)(0.9249548 in,0.8473777 in)(0.9248636 in,0.8476284 in)(0.9253322 in,0.8495025 in)(0.9258205 in,0.8505319 in)(0.925892 in,0.8511258 in)(0.9257095 in,0.8516272 in)(0.926035 in,0.8523135 in)(0.9263925 in,0.8552829 in)(0.92621 in,0.8557843 in)(0.9266785 in,0.8576584 in)(0.926496 in,0.8581598 in)(0.9268536 in,0.8611292 in)(0.9266711 in,0.8616306 in)(0.9266316 in,0.8633197 in)(0.9267943 in,0.8636629 in)(0.9267351 in,0.8661966 in)(0.9264613 in,0.8669488 in)(0.9266956 in,0.8678858 in)(0.9263306 in,0.8688885 in)(0.9263824 in,0.870327 in)(0.9260174 in,0.8713298 in)(0.9258669 in,0.8741143 in)(0.9261924 in,0.8748006 in)(0.9258472 in,0.8749589 in)(0.9260814 in,0.8758959 in)(0.9257164 in,0.8768987 in)(0.9260419 in,0.8775851 in)(0.928074 in,0.8783247 in)(0.9291616 in,0.8792884 in)(0.9301776 in,0.8796582 in)(0.9303403 in,0.8800013 in)(0.9321184 in,0.8806485 in)(0.9332059 in,0.8816121 in)(0.934476 in,0.8820744 in)(0.9346387 in,0.8824176 in)(0.9361628 in,0.8829723 in)(0.9369963 in,0.8838435 in)(0.9387744 in,0.8844907 in)(0.9394451 in,0.8850187 in)(0.9381676 in,0.8885287 in)(0.9380049 in,0.8881855 in)(0.9362268 in,0.8875383 in)(0.9351393 in,0.8865747 in)(0.9338692 in,0.8861124 in)(0.9337065 in,0.8857693 in)(0.9319284 in,0.8851221 in)(0.929408 in,0.883353 in)(0.9278841 in,0.8827983 in)(0.9273045 in,0.8820195 in)(0.9252725 in,0.8812799 in)(0.9251097 in,0.8809368 in)(0.9240936 in,0.8805669 in)(0.9230061 in,0.8796033 in)(0.9212281 in,0.8789561 in)(0.9206486 in,0.8781773 in)(0.9188705 in,0.8775302 in)(0.9165129 in,0.8761042 in)(0.9144808 in,0.8753646 in)(0.9143181 in,0.8750215 in)(0.9099999 in,0.8734498 in)(0.9093291 in,0.8729217 in)(0.9089839 in,0.87308 in)(0.9077138 in,0.8726177 in)(0.9075511 in,0.8722746 in)(0.9072058 in,0.8724328 in)(0.9041577 in,0.8713234 in)(0.9038125 in,0.8714817 in)(0.9017804 in,0.870742 in)(0.9014351 in,0.8709003 in)(0.9001651 in,0.870438 in)(0.8987126 in,0.8704772 in)(0.8976965 in,0.8701074 in)(0.8956447 in,0.8702124 in)(0.8948826 in,0.869935 in)(0.8933389 in,0.8702249 in)(0.8928309 in,0.87004 in)(0.8921403 in,0.8703565 in)(0.8916323 in,0.8701716 in)(0.889398 in,0.870778 in)(0.8876717 in,0.8715693 in)(0.8865447 in,0.8722947 in)(0.886271 in,0.8730468 in)(0.8841796 in,0.8748409 in)(0.8839971 in,0.8753423 in)(0.8817186 in,0.8705381 in)(0.8826828 in,0.8694695 in)(0.8834448 in,0.8697469 in)(0.8843179 in,0.868929 in)(0.8867346 in,0.8678211 in)(0.8871711 in,0.8674122 in)(0.8874251 in,0.8675046 in)(0.8893142 in,0.8670565 in)(0.89035 in,0.8665817 in)(0.8927471 in,0.8663185 in)(0.8935091 in,0.8665958 in)(0.8958149 in,0.8665833 in)(0.8961601 in,0.8664251 in)(0.8963229 in,0.8667682 in)(0.8981207 in,0.8665708 in)(0.8981405 in,0.8657262 in)(0.898069 in,0.8651324 in)(0.8977435 in,0.8644461 in)(0.8976917 in,0.8630076 in)(0.8972034 in,0.8619781 in)(0.8972232 in,0.8611335 in)(0.8967349 in,0.860104 in)(0.8957781 in,0.8572005 in)(0.8958693 in,0.8569499 in)(0.8946585 in,0.8539539 in)(0.8928682 in,0.8501791 in)(0.8908953 in,0.8469057 in)(0.8906413 in,0.8468133 in)(0.8888313 in,0.8438831 in)(0.8885773 in,0.8437906 in)(0.8886685 in,0.8435399 in)(0.8870014 in,0.8417975 in)(0.8866759 in,0.8411112 in)(0.8858424 in,0.8402399 in)(0.8853344 in,0.840055 in)(0.8839213 in,0.838405 in)(0.8834133 in,0.8382201 in)(0.882417 in,0.8370057 in)(0.8816549 in,0.8367284 in)(0.8810755 in,0.8359496 in)(0.8800595 in,0.8355798 in)(0.8789719 in,0.8346161 in)(0.8779559 in,0.8342463 in)(0.8768485 in,0.8341272 in)(0.8766858 in,0.833784 in)(0.876269 in,0.8333484 in)(0.875253 in,0.8329786 in)(0.8746537 in,0.8330444 in)(0.874491 in,0.8327013 in)(0.8733122 in,0.8319883 in)(0.872967 in,0.8321466 in)(0.8728757 in,0.8323973 in)(0.8722961 in,0.8316185 in)(0.8712604 in,0.8320933 in)(0.869026 in,0.8326997 in)(0.8631567 in,0.8353901 in)(0.8598668 in,0.8373158 in)(0.8597756 in,0.8375665 in)(0.8572675 in,0.838925 in)(0.8567397 in,0.8395847 in)(0.8563032 in,0.8399937 in)(0.8552675 in,0.8404685 in)(0.8531762 in,0.8422625 in)(0.8529937 in,0.8427639 in)(0.8521207 in,0.8435819 in)(0.8514302 in,0.8438984 in)(0.8508112 in,0.8448088 in)(0.8501206 in,0.8451253 in)(0.8471563 in,0.8477374 in)(0.8469738 in,0.8482388 in)(0.8457555 in,0.849215 in)(0.845573 in,0.8497164 in)(0.8442635 in,0.8509433 in)(0.844081 in,0.8514447 in)(0.8432992 in,0.8520119 in)(0.8430255 in,0.8527641 in)(0.8422437 in,0.8533313 in)(0.84197 in,0.8540834 in)(0.8421327 in,0.8544266 in)(0.8436765 in,0.8541367 in)(0.8441845 in,0.8543216 in)(0.8468355 in,0.8541508 in)(0.8475976 in,0.8544282 in)(0.8479429 in,0.8542699 in)(0.8492129 in,0.8547322 in)(0.8495581 in,0.8545739 in)(0.8505742 in,0.8549437 in)(0.8509195 in,0.8547855 in)(0.8515902 in,0.8553135 in)(0.8519355 in,0.8551553 in)(0.8557456 in,0.8565421 in)(0.8559084 in,0.8568852 in)(0.8576865 in,0.8575324 in)(0.8578492 in,0.8578756 in)(0.8591192 in,0.8583378 in)(0.8607148 in,0.8594864 in)(0.8608775 in,0.8598295 in)(0.8618935 in,0.8601993 in)(0.8622191 in,0.8608857 in)(0.8632351 in,0.8612555 in)(0.8639059 in,0.8617835 in)(0.8642315 in,0.8624699 in)(0.8649935 in,0.8627472 in)(0.8670773 in,0.8649252 in)(0.8675853 in,0.8651101 in)(0.8708282 in,0.8688457 in)(0.8714792 in,0.8702184 in)(0.87215 in,0.8707464 in)(0.8726383 in,0.8717759 in)(0.8740316 in,0.8742705 in)(0.8742856 in,0.874363 in)(0.8754964 in,0.8773589 in)(0.876187 in,0.8770424 in)(0.8766235 in,0.8766335 in)(0.8768972 in,0.8758813 in)(0.8772425 in,0.8757231 in)(0.8776075 in,0.8747202 in)(0.8788257 in,0.873744 in)(0.8790082 in,0.8732426 in)(0.8802265 in,0.8722664 in)(0.880409 in,0.871765 in)(0.8827271 in,0.8748801 in)(0.8832154 in,0.8759096 in)(0.8805963 in,0.8783634 in)(0.8804138 in,0.8788648 in)(0.8791955 in,0.879841 in)(0.879013 in,0.8803424 in)(0.8783225 in,0.8806589 in)(0.8778663 in,0.8819125 in)(0.877521 in,0.8820708 in)(0.8769735 in,0.883575 in)(0.8766283 in,0.8837333 in)(0.8753508 in,0.8872431 in)(0.8750055 in,0.8874014 in)(0.8751683 in,0.8877445 in)(0.874712 in,0.8889981 in)(0.8747835 in,0.889592 in)(0.8744383 in,0.8897502 in)(0.8742878 in,0.8925347 in)(0.8746133 in,0.893221 in)(0.8751213 in,0.8934059 in)(0.8750818 in,0.8950951 in)(0.8754073 in,0.8957814 in)(0.8752248 in,0.8962828 in)(0.8758363 in,0.8993446 in)(0.8766502 in,0.9010604 in)(0.8726896 in,0.9024581 in)(0.8721816 in,0.9022732 in)(0.8718757 in,0.9007423 in)(0.871967 in,0.9004916 in)(0.8717327 in,0.8995546 in)(0.8701052 in,0.8961229 in)(0.8695059 in,0.8961888 in)(0.8684898 in,0.8958189 in)(0.8679103 in,0.8950402 in)(0.8668943 in,0.8946704 in)(0.866295 in,0.8947361 in)(0.8661322 in,0.894393 in)(0.865279 in,0.8943664 in)(0.8629929 in,0.8935343 in)(0.8615404 in,0.8935735 in)(0.8602703 in,0.8931112 in)(0.8590718 in,0.8932428 in)(0.8580557 in,0.892873 in)(0.8540434 in,0.8928322 in)(0.8536982 in,0.8929905 in)(0.8508843 in,0.8928181 in)(0.8505391 in,0.8929764 in)(0.850031 in,0.8927914 in)(0.848142 in,0.8932396 in)(0.847634 in,0.8930547 in)(0.8424033 in,0.89399 in)(0.8417128 in,0.8943065 in)(0.8373157 in,0.8961132 in)(0.8369704 in,0.8962714 in)(0.8363712 in,0.8963373 in)(0.8362799 in,0.896588 in)(0.8332441 in,0.8986062 in)(0.8331528 in,0.8988569 in)(0.8324623 in,0.8991734 in)(0.8309703 in,0.9009017 in)(0.8306053 in,0.9019046 in)(0.8307483 in,0.9030923 in)(0.8313993 in,0.9044649 in)(0.8322649 in,0.9076191 in)(0.8330787 in,0.9093349 in)(0.8331502 in,0.9099288 in)(0.8334042 in,0.9100212 in)(0.8341982 in,0.9125816 in)(0.8385927 in,0.921847 in)(0.8393547 in,0.9221243 in)(0.8425778 in,0.9267045 in)(0.843229 in,0.9280771 in)(0.8439515 in,0.9300436 in)(0.8447135 in,0.930321 in)(0.845039 in,0.9310073 in)(0.845801 in,0.9312846 in)(0.8462893 in,0.9323141 in)(0.8494607 in,0.9354559 in)(0.8497862 in,0.9361422 in)(0.8509649 in,0.9368551 in)(0.8512905 in,0.9375415 in)(0.8517073 in,0.9379771 in)(0.8524693 in,0.9382544 in)(0.8528145 in,0.9380962 in)(0.852314 in,0.9339391 in)(0.8522105 in,0.9310622 in)(0.8523214 in,0.929967 in)(0.8526667 in,0.9298087 in)(0.8525952 in,0.9292149 in)(0.8527777 in,0.9287134 in)(0.8526149 in,0.9283703 in)(0.8532537 in,0.9266153 in)(0.8532734 in,0.9257707 in)(0.8536187 in,0.9256125 in)(0.8536385 in,0.9247679 in)(0.8540947 in,0.9235143 in)(0.8545312 in,0.9231054 in)(0.8543685 in,0.9227622 in)(0.8548247 in,0.9215087 in)(0.85517 in,0.9213504 in)(0.8557175 in,0.9198461 in)(0.8560627 in,0.9196879 in)(0.8567015 in,0.9179329 in)(0.857392 in,0.9176164 in)(0.8578482 in,0.9163628 in)(0.8593403 in,0.9146346 in)(0.8596855 in,0.9144764 in)(0.8612688 in,0.9124973 in)(0.8619593 in,0.9121808 in)(0.8625783 in,0.9112704 in)(0.8632688 in,0.9109539 in)(0.8637967 in,0.9102942 in)(0.8648324 in,0.9098194 in)(0.8663959 in,0.908685 in)(0.8664872 in,0.9084343 in)(0.8705391 in,0.9067859 in)(0.8707216 in,0.9062845 in)(0.8718486 in,0.905559 in)(0.8721026 in,0.9056514 in)(0.8731581 in,0.9043321 in)(0.8735033 in,0.9041738 in)(0.8734318 in,0.9035799 in)(0.8758487 in,0.9024722 in)(0.8771384 in,0.9020899 in)(0.878115 in,0.9041489 in)(0.879274 in,0.9057063 in)(0.8791828 in,0.905957 in)(0.8795996 in,0.9063927 in)(0.8799251 in,0.907079 in)(0.8809411 in,0.9074488 in)(0.8818462 in,0.9089139 in)(0.8829337 in,0.9098775 in)(0.8838585 in,0.9104981 in)(0.884438 in,0.9112768 in)(0.8848547 in,0.9117125 in)(0.8858708 in,0.9120823 in)(0.8867043 in,0.9129535 in)(0.8877203 in,0.9133233 in)(0.8888079 in,0.914287 in)(0.890586 in,0.9149341 in)(0.8907487 in,0.9152773 in)(0.8930348 in,0.9161094 in)(0.8931976 in,0.9164525 in)(0.8935428 in,0.9162943 in)(0.8950668 in,0.916849 in)(0.8952297 in,0.9171921 in)(0.8964997 in,0.9176544 in)(0.8970989 in,0.9175886 in)(0.8972617 in,0.9179317 in)(0.8975157 in,0.9180242 in)(0.8978535 in,0.9218381 in)(0.8899792 in,0.9189721 in)(0.8898165 in,0.918629 in)(0.8882924 in,0.9180743 in)(0.8879471 in,0.9182325 in)(0.8882726 in,0.9189188 in)(0.8879274 in,0.9190771 in)(0.8881616 in,0.9200141 in)(0.8884157 in,0.9201066 in)(0.8886302 in,0.9218882 in)(0.8884477 in,0.9223896 in)(0.8887732 in,0.923076 in)(0.8884995 in,0.9238281 in)(0.888714 in,0.9256097 in)(0.8890395 in,0.926296 in)(0.8890198 in,0.9271405 in)(0.8895081 in,0.92817 in)(0.8892589 in,0.9351774 in)(0.8899099 in,0.93655 in)(0.8924745 in,0.9437297 in)(0.8923833 in,0.9439805 in)(0.8954879 in,0.953628 in)(0.8957419 in,0.9537205 in)(0.9007752 in,0.9612309 in)(0.9010292 in,0.9613233 in)(0.9016285 in,0.9612576 in)(0.9017913 in,0.9616007 in)(0.9023905 in,0.9615349 in)(0.9025533 in,0.9618781 in)(0.9058553 in,0.9630799 in)(0.9065458 in,0.9627634 in)(0.9091057 in,0.9628433 in)(0.9098678 in,0.9631207 in)(0.9137173 in,0.9628183 in)(0.9144078 in,0.9625018 in)(0.9152612 in,0.9625284 in)(0.9162969 in,0.9620537 in)(0.9179319 in,0.9615131 in)(0.9180232 in,0.9612624 in)(0.919059 in,0.9607876 in)(0.9210788 in,0.9583996 in)(0.921424 in,0.9582413 in)(0.9223563 in,0.9548897 in)(0.9221935 in,0.9545466 in)(0.9228323 in,0.9527916 in)(0.9226695 in,0.9524484 in)(0.9231258 in,0.9511949 in)(0.9236092 in,0.9451246 in)(0.923121 in,0.9440951 in)(0.9223466 in,0.9406901 in)(0.9216957 in,0.9393175 in)(0.9214614 in,0.9383804 in)(0.9212074 in,0.938288 in)(0.9162654 in,0.930527 in)(0.9155946 in,0.9299989 in)(0.9146698 in,0.9293784 in)(0.9138363 in,0.9285072 in)(0.9114072 in,0.9264874 in)(0.9095577 in,0.9252463 in)(0.9080336 in,0.9246916 in)(0.9076883 in,0.9248499 in)(0.9056562 in,0.9241103 in)(0.905311 in,0.9242685 in)(0.9025169 in,0.9232516 in)(0.9019177 in,0.9233174 in)(0.9017549 in,0.9229742 in)(0.9009016 in,0.9229475 in)(0.8991236 in,0.9223004 in)(0.899163 in,0.9206112 in)(0.8994367 in,0.9198591 in)(0.899385 in,0.9184206 in)(0.899893 in,0.9186055 in)(0.9003098 in,0.9190412 in)(0.9006551 in,0.9188829 in)(0.9039572 in,0.9200848 in)(0.9043024 in,0.9199265 in)(0.9052273 in,0.9205471 in)(0.9055725 in,0.9203888 in)(0.9076045 in,0.9211284 in)(0.9079498 in,0.9209701 in)(0.9102359 in,0.9218022 in)(0.9105812 in,0.9216439 in)(0.9133753 in,0.9226609 in)(0.913538 in,0.9230041 in)(0.914554 in,0.9233739 in)(0.9154591 in,0.924839 in)(0.9177969 in,0.9271095 in)(0.9184677 in,0.9276375 in)(0.9211311 in,0.9305944 in)(0.9215478 in,0.93103 in)(0.9220558 in,0.9312149 in)(0.9241396 in,0.933393 in)(0.9246279 in,0.9344224 in)(0.9270298 in,0.9412589 in)(0.9270101 in,0.9421035 in)(0.9270618 in,0.943542 in)(0.9273873 in,0.9442283 in)(0.9271136 in,0.9449804 in)(0.9275106 in,0.9462606 in)(0.9272369 in,0.9470128 in)(0.9275426 in,0.9485437 in)(0.9273601 in,0.9490451 in)(0.9267929 in,0.9513939 in)(0.9268644 in,0.9519878 in)(0.9266104 in,0.9518953 in)(0.9262651 in,0.9520536 in)(0.9266819 in,0.9524892 in)(0.9264994 in,0.9529906 in)(0.9266621 in,0.9533338 in)(0.9261146 in,0.954838 in)(0.9262774 in,0.9551812 in)(0.9256387 in,0.9569362 in)(0.9255277 in,0.9580314 in)(0.9246152 in,0.9605385 in)(0.9237421 in,0.9613564 in)(0.9221589 in,0.9633355 in)(0.9214684 in,0.963652 in)(0.9204129 in,0.9649713 in)(0.9199048 in,0.9647864 in)(0.919123 in,0.9653536 in)(0.9173968 in,0.966145 in)(0.9156902 in,0.9660917 in)(0.9149997 in,0.9664082 in)(0.9138012 in,0.9665398 in)(0.9132931 in,0.9663549 in)(0.9120033 in,0.9667372 in)(0.9114953 in,0.9665523 in)(0.9094435 in,0.9666573 in)(0.907991 in,0.9666965 in)(0.9068837 in,0.9665773 in)(0.9053596 in,0.9660226 in)(0.9039071 in,0.9660618 in)(0.9037443 in,0.9657186 in)(0.9028911 in,0.965692 in)(0.900859 in,0.9649524 in)(0.9005137 in,0.9651106 in)(0.8994977 in,0.9647408 in)(0.8988984 in,0.9648066 in)(0.8987357 in,0.9644635 in)(0.8981364 in,0.9645293 in)(0.8968663 in,0.964067 in)(0.8962671 in,0.9641328 in)(0.8961043 in,0.9637897 in)(0.8955051 in,0.9638555 in)(0.893219 in,0.9630234 in)(0.8928737 in,0.9631817 in)(0.8900797 in,0.9621647 in)	1	
+Polygon		TopSilkscreen	7154	7161			0.8960747 in	0.9171784 in						70°									(0.8962102 in,0.9214303 in)(0.9014148 in,0.9231933 in)(0.9022539 in,0.9194275 in)(0.8960747 in,0.9171784 in)	1	
+Polygon		TopSilkscreen	7155	7161			0.9356181 in	0.8832953 in						70°									(0.9356181 in,0.8866563 in)(0.9418806 in,0.8903802 in)(0.9433455 in,0.8868422 in)(0.9364871 in,0.8832953 in)	1	
+Polygon		TopSilkscreen	7156	7161			1.009782 in	0.926311 in						70°									(1.009782 in,0.929672 in)(1.0160444 in,0.9333959 in)(1.0175093 in,0.9298579 in)(1.0106509 in,0.926311 in)	1	
+Polygon		TopSilkscreen	7157	7161			1.077569 in	0.9654298 in						70°									(1.077569 in,0.9687907 in)(1.0838315 in,0.9725147 in)(1.0852965 in,0.9689766 in)(1.078438 in,0.9654298 in)	1	
+Polygon		TopSilkscreen	7158	7161			1.1421678 in	1.0014446 in						70°									(1.1421678 in,1.0059611 in)(1.1490212 in,1.0080615 in)(1.1502825 in,1.003136 in)(1.1427488 in,1.0014446 in)	1	
+Polygon		TopSilkscreen	7159	7161			0.8796935 in	0.8672743 in						70°									(0.8820079 in,0.8767308 in)(0.8870844 in,0.8722747 in)(0.8863356 in,0.8672743 in)(0.8796935 in,0.8728679 in)	1	
+Polygon		TopSilkscreen	7160	7161			0.8719224 in	0.8989576 in						70°									(0.8743684 in,0.9059948 in)(0.8777764 in,0.9036892 in)(0.8756011 in,0.8989576 in)(0.8719224 in,0.9010333 in)	1	
+Group			7161											70°										1	
+Text		TopSilkscreen	7166				1.75 in	1.8125001 in											"Motor"	Anytime	0.0595 in			1	
+Trace		BottomCopper	7222		2533	7268							0.04 in											1	
+Trace		BottomCopper	7228		2538	7276							0.04 in											1	
+Point		BottomCopper	7266				1.4 in	1.2 in																1	
+Trace		BottomCopper	7267		7266	7070							0.025 in											1	
+Point		BottomCopper	7268				1.65 in	1.4375 in																1	
+Trace		BottomCopper	7269		7268	8744							0.04 in											1	
+Point		BottomCopper	7270				2.3 in	1.8 in																1	
+Trace		BottomCopper	7273		7270	8724							0.04 in											1	
+Point		BottomCopper	7276				1.95 in	1.4375 in																1	
+Trace		BottomCopper	7277		7276	8724							0.04 in											1	
+Trace		BottomCopper	7278		7276	7145							0.04 in											1	
+Point		TopCopper	7291				1.725 in	1.7625 in																1	
+Trace		TopCopper	7292		2534	7291							0.04 in											1	
+Trace		TopCopper	7294		7291	8745							0.04 in											1	
+Trace		TopCopper	7298		2539	8725							0.04 in											1	
+Point		BottomCopper	7305				3.075 in	0.9875 in																1	
+Point		BottomCopper	7307				0.7 in	1.4375 in																1	
+Trace		BottomCopper	7308		7307	10293							0.025 in											1	
+Trace		BottomCopper	7310		7307	10403							0.025 in											1	
+Point		TopCopper	7311				2.2 in	1.225 in																1	
+Point		TopCopper	7313				1.85 in	1.225 in																1	
+Trace		TopCopper	7314		7311	7313							0.04 in											1	
+Trace		TopCopper	7322		7026	7311							0.04 in											1	
+Point		BottomCopper	7327				2 in	1.225 in																1	
+Trace		BottomCopper	7328		10503	7327							0.025 in											1	
+Trace		BottomCopper	7330		7327	7339							0.025 in											1	
+Point		BottomCopper	7331				1.7 in	1.375 in																1	
+Trace		BottomCopper	7332		924	7331							0.025 in											1	
+Point		BottomCopper	7333				2.275 in	1.35 in																1	
+Trace		BottomCopper	7334		7331	10463							0.025 in											1	
+Trace		BottomCopper	7338		7333	7673							0.025 in											1	
+Point		BottomCopper	7339				2.1 in	1.225 in																1	
+Trace		BottomCopper	7340		7339	10456							0.025 in											1	
+Text		TopSilkscreen	7341				3.35 in	1.8125 in											"Power"	Anytime	0.0595 in			1	
+Trace		TopCopper	7347		7092	7477							0.04 in											1	
+Point		TopCopper	7354				1.1 in	0.5375 in																1	
+Trace		TopCopper	7355		7001	7354							0.04 in											1	
+Point		BottomCopper	7357				0.1 in	0.3625 in																1	
+Trace		BottomCopper	7358		2458	10400							0.025 in											1	
+Trace		BottomCopper	7360		6994	7357							0.025 in											1	
+Trace		TopCopper	7362		7354	10204							0.04 in											1	
+Point		TopCopper	7363				1.1 in	0.9375 in																1	
+Trace		TopCopper	7364		7354	7363							0.04 in											1	
+Trace		TopCopper	7366		7363	145							0.04 in											1	
+Point		TopCopper	7367				1.2 in	0.7875 in																1	
+Trace		TopCopper	7368		54	7367							0.025 in											1	
+Point		TopCopper	7369				1.2 in	0.7375 in																1	
+Trace		TopCopper	7370		7367	7369							0.025 in											1	
+Point		TopCopper	7371				1.275 in	0.6375 in																1	
+Trace		TopCopper	7372		7369	7371							0.025 in											1	
+Point		TopCopper	7375				1.075 in	0.1875 in																1	
+Trace		TopCopper	7376		7371	7565							0.025 in											1	
+Trace		TopCopper	7378		7375	7005							0.025 in											1	
+Point		TopCopper	7379				2.3 in	0.9375 in																1	
+Trace		TopCopper	7380		7379	72							0.025 in											1	
+Ellipse	Outline	TopSilkscreen	7381	7383			1.4875 in	0.15 in	0.225 in	0.225 in			0.012 in	300°	300°									1	
+Line		TopSilkscreen	7382	7383			1.654363 in	0.3603185 in			1.544363 in	0.3603185 in	0.012 in											1	
+Group			7383											90°			"LED35"	"LED T1 3/4 in 5 mm"						1	
+Pad	SquareWithHole		7384	7383			1.6 in	0.3125 in	0.065 in	0.065 in				90°			"1"	"Cathode"				0.035 in		1	
+Pad			7385	7383			1.6 in	0.2125 in	0.065 in	0.065 in				90°			"2"	"Anode"				0.035 in		1	
+Ellipse	Outline	TopSilkscreen	7386	7388			1.8875 in	0.15 in	0.225 in	0.225 in			0.012 in	300°	300°									1	
+Line		TopSilkscreen	7387	7388			2.054363 in	0.3603185 in			1.944363 in	0.3603185 in	0.012 in											1	
+Group			7388											90°			"LED36"	"LED T1 3/4 in 5 mm"						1	
+Pad	SquareWithHole		7389	7388			2 in	0.3125 in	0.065 in	0.065 in				90°			"1"	"Cathode"				0.035 in		1	
+Pad			7390	7388			2 in	0.2125 in	0.065 in	0.065 in				90°			"2"	"Anode"				0.035 in		1	
+Polygon	Outline	TopSilkscreen	7391	7396			1.75 in	0.2125 in					0.012 in										(1.85 in,0.2125 in)(1.85 in,0.4625 in)(1.75 in,0.4625 in)(1.75 in,0.2125 in)	1	
+Pad			7392	7396			1.8 in	0.1375 in	0.056 in	0.065 in							"1"					0.029 in		1	
+Pad			7393	7396			1.8 in	0.5375 in	0.056 in	0.065 in							"2"					0.029 in		1	
+Line		TopSilkscreen	7394	7396			1.8 in	0.1875 in			1.8 in	0.2125 in	0.012 in											1	
+Line		TopSilkscreen	7395	7396			1.8 in	0.4625 in			1.8 in	0.4875 in	0.012 in											1	
+Group			7396											270°			"R35"	"220Ω"	"0.4 in lead spacing"					1	
+Polygon	Outline	TopSilkscreen	7397	7402			2.15 in	0.2125 in					0.012 in										(2.25 in,0.2125 in)(2.25 in,0.4625 in)(2.15 in,0.4625 in)(2.15 in,0.2125 in)	1	
+Pad			7398	7402			2.2 in	0.1375 in	0.056 in	0.065 in							"1"					0.029 in		1	
+Pad			7399	7402			2.2 in	0.5375 in	0.056 in	0.065 in							"2"					0.029 in		1	
+Line		TopSilkscreen	7400	7402			2.2 in	0.1875 in			2.2 in	0.2125 in	0.012 in											1	
+Line		TopSilkscreen	7401	7402			2.2 in	0.4625 in			2.2 in	0.4875 in	0.012 in											1	
+Group			7402											270°			"R36"	"220Ω"	"0.4 in lead spacing"					1	
+Trace		BottomCopper	7404		7392	7385							0.025 in											1	
+Trace		BottomCopper	7406		7390	7398							0.025 in											1	
+Point		BottomCopper	7410				2.0195972 in	1.1375 in																1	
+Trace		BottomCopper	7411		10502	7410							0.025 in											1	
+Point		BottomCopper	7412				2.1 in	1.0125 in																1	
+Trace		BottomCopper	7413		7410	7412							0.025 in											1	
+Trace		BottomCopper	7415		7412	7429							0.025 in											1	
+Trace		BottomCopper	7419		923	10469							0.025 in											1	
+Trace		TopCopper	7427		7389	7567							0.025 in											1	
+Pad	Via		7428				1.7 in	0.8875 in	0.037 in	0.037 in												0.02 in		1	
+Pad	Via		7429				2.1 in	0.8875 in	0.037 in	0.037 in												0.02 in		1	
+Trace		TopCopper	7431		7095	10233							0.04 in											2	
+Point		BottomCopper	7434				3.525 in	0.425 in																2	
+Trace		BottomCopper	7437		7434	848							0.04 in											2	
+Trace		BottomCopper	7439		848	847							0.04 in											2	
+Point		BottomCopper	7440				3.15 in	0.5375 in																2	
+Trace		BottomCopper	7441		843	7440							0.04 in											2	
+Trace		BottomCopper	7442		7440	7082							0.04 in											2	
+Ellipse	Outline	TopSilkscreen	7443	7445			2.2875 in	0.15 in	0.225 in	0.225 in			0.012 in	300°	300°									2	
+Line		TopSilkscreen	7444	7445			2.454363 in	0.3603185 in			2.344363 in	0.3603185 in	0.012 in											2	
+Group			7445											90°			"LED37"	"LED T1 3/4 in 5 mm"						2	
+Pad	SquareWithHole		7446	7445			2.4 in	0.3125 in	0.065 in	0.065 in				90°			"1"	"Cathode"				0.035 in		2	
+Pad			7447	7445			2.4 in	0.2125 in	0.065 in	0.065 in				90°			"2"	"Anode"				0.035 in		2	
+Polygon	Outline	TopSilkscreen	7448	7453			2.55 in	0.2125 in					0.012 in										(2.65 in,0.2125 in)(2.65 in,0.4625 in)(2.55 in,0.4625 in)(2.55 in,0.2125 in)	2	
+Pad			7449	7453			2.6 in	0.1375 in	0.056 in	0.065 in							"1"					0.029 in		2	
+Pad			7450	7453			2.6 in	0.5375 in	0.056 in	0.065 in							"2"					0.029 in		2	
+Line		TopSilkscreen	7451	7453			2.6 in	0.1875 in			2.6 in	0.2125 in	0.012 in											2	
+Line		TopSilkscreen	7452	7453			2.6 in	0.4625 in			2.6 in	0.4875 in	0.012 in											2	
+Group			7453											270°			"R37"	"220Ω"	"0.4 in lead spacing"					2	
+Trace		BottomCopper	7454		7447	7449							0.025 in											2	
+Point		TopCopper	7456				2.7 in	0.5875 in																2	
+Trace		TopCopper	7457		7060	7456							0.04 in											2	
+Point		TopCopper	7458				2.7 in	0.4875 in																2	
+Trace		TopCopper	7459		7456	7549							0.04 in											2	
+Trace		TopCopper	7461		7458	7446							0.04 in											2	
+Point		TopCopper	7467				3.2 in	0.7875 in																3	
+Trace		TopCopper	7468		7467	15							0.012 in											3	
+Trace		TopCopper	7470		604	7516							0.012 in											3	
+Trace		BottomCopper	7476		7440	603							0.04 in											3	
+Point		TopCopper	7477				2.775 in	1.425 in																3	
+Trace		TopCopper	7483		7477	10333							0.04 in											3	
+Trace		BottomCopper	7485		79	7613							0.025 in											3	
+Trace		TopCopper	7487		606	7490							0.012 in											3	
+Point		TopCopper	7488				3.2 in	0.8875 in																3	
+Point		TopCopper	7490				3.1 in	0.8875 in																3	
+Trace		TopCopper	7491		7490	7488							0.012 in											3	
+Trace		BottomCopper	7493		607	7305							0.025 in											3	
+Trace		TopCopper	7495		609	20							0.025 in											3	
+Line		TopSilkscreen	7496	7502			2.925 in	0.5625 in			3.075 in	0.5625 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	7497	7502			2.9 in	0.5625 in	0.05 in	0.1 in			0.012 in	90°	180°									3	
+Ellipse	Outline	TopSilkscreen	7498	7502			3.05 in	0.5625 in	0.05 in	0.1 in			0.012 in	270°	180°									3	
+Pad			7499	7502			2.95 in	0.6125 in	0.056 in	0.056 in							"1"					0.029 in		3	
+Pad			7500	7502			3.05 in	0.6125 in	0.056 in	0.056 in							"2"					0.029 in		3	
+Line		TopSilkscreen	7501	7502			2.925 in	0.6625 in			3.075 in	0.6625 in	0.012 in											3	
+Group			7502														"C40"	"0.1 µF"						3	
+Point		BottomCopper	7503				2.95 in	0.5375 in																3	
+Trace		BottomCopper	7504		7503	7440							0.04 in											3	
+Trace		BottomCopper	7506		7503	7585							0.04 in											3	
+Point		TopCopper	7507				3 in	1.3375 in																3	
+Trace		TopCopper	7512		7526	7507							0.04 in											3	
+Point		TopCopper	7514				2.6 in	1.3375 in																3	
+Trace		TopCopper	7515		7514	75							0.04 in											3	
+Point		TopCopper	7516				3.1 in	0.7875 in																3	
+Trace		TopCopper	7517		7516	7467							0.012 in											3	
+Trace		BottomCopper	7519		76	7623							0.025 in											3	
+Polygon	Outline	TopSilkscreen	7524	7527			2.8375 in	1.5375 in					0.012 in										(2.8375 in,1.7875 in)(2.8375 in,1.5375 in)(3.0625 in,1.5375 in)(3.0625 in,1.7875 in)	3	
+Pad	SquareWithHole		7525	7527			2.9 in	1.6625 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad			7526	7527			3 in	1.6625 in	0.075 in	0.075 in							"2"					0.04 in		3	
+Group			7527														"J40"	"Header Molex KK 2-pin 22-23-2021"						3	
+Polygon		TopSilkscreen	7528	7527			2.9 in	1.5375 in															(2.9 in,1.5375 in)(3 in,1.5375 in)(3 in,1.5625 in)(2.9 in,1.5625 in)	3	
+Trace		BottomCopper	7532		7305	7677							0.025 in											3	
+Point		BottomCopper	7535				3.225 in	1.0875 in																3	
+Trace		BottomCopper	7536		605	7541							0.025 in											3	
+Point		BottomCopper	7541				3.225 in	0.8875 in																3	
+Trace		BottomCopper	7542		7541	7535							0.025 in											3	
+Trace		BottomCopper	7544		7535	7525							0.025 in											3	
+Point		TopCopper	7549				2.7 in	0.5375 in																3	
+Point		TopCopper	7551				3 in	0.5375 in																3	
+Trace		TopCopper	7552		7549	7551							0.04 in											3	
+Trace		TopCopper	7554		7551	7500							0.04 in											3	
+Trace		TopCopper	7555		7549	7458							0.04 in											3	
+Trace		TopCopper	7557		7488	18							0.012 in											3	
+Trace		BottomCopper	7559		82	602							0.04 in											3	
+Trace		TopCopper	7560		7514	7092							0.04 in											3	
+Trace		TopCopper	7562		7507	21							0.04 in											3	
+Point		TopCopper	7565				1.25 in	0.1875 in																4	
+Trace		TopCopper	7566		7565	7375							0.025 in											4	
+Point		TopCopper	7567				2.1 in	0.6375 in																4	
+Trace		TopCopper	7568		7567	7429							0.025 in											4	
+Trace		TopCopper	7570		7384	7428							0.025 in											4	
+Pad	Circular	BottomCopper	7571				1.8 in	0.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7572				2 in	0.2125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7573				2.2 in	0.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7574				1.8 in	0.5375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7575				1.8 in	0.6375 in	0.08 in	0.08 in														5	
+Trace		BottomCopper	7576		7574	122							0.04 in											5	
+Pad	Circular	BottomCopper	7577				2 in	0.6375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7578				2.2 in	0.5375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7579				2.2 in	0.6375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7580				2.4 in	0.2125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7581				2.6 in	0.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7584				2.5 in	0.6125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7585				2.95 in	0.6125 in	0.08 in	0.08 in														5	
+Trace		BottomCopper	7586		7585	7499							0.04 in											5	
+Pad	Circular	BottomCopper	7587				3.05 in	0.6125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7588				3.4 in	0.6125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7589				3.5 in	0.6125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7590				3.6 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7591				3.3 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7592				3.6 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7593				3.6 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7594				3.6 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7595				3.6 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7596				3.6 in	1.2375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7597				3.6 in	1.3375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7598				3.3 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7599				3.3 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7600				3.3 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7601				3.3 in	1.2375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7602				3.3 in	1.3375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7603				3.15 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7604				3.15 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7605				3.15 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7606				3.15 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7607				2.85 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7608				2.85 in	0.9375 in	0.08 in	0.08 in														5	
+Trace		BottomCopper	7609		7608	606							0.025 in											5	
+Pad	Circular	BottomCopper	7610				2.85 in	1.0375 in	0.08 in	0.08 in														5	
+Point		BottomCopper	7611				2.775 in	0.8875 in																5	
+Trace		BottomCopper	7612		7611	604							0.025 in											5	
+Point		BottomCopper	7613				2.775 in	0.9875 in																5	
+Trace		BottomCopper	7614		7613	7611							0.025 in											5	
+Pad	Circular	BottomCopper	7615				2.775 in	1.5625 in	0.08 in	0.08 in														5	
+Trace		BottomCopper	7616		7615	2525							0.025 in											5	
+Pad	Circular	BottomCopper	7617				2.775 in	1.7125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7618				2.375 in	1.7125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7619				2.375 in	1.5625 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7620				2.4 in	1.3375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7621				2.7 in	1.3375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7622				2.7 in	1.2375 in	0.08 in	0.08 in														5	
+Point		BottomCopper	7623				2.85 in	1.25 in																5	
+Trace		BottomCopper	7624		7623	313							0.025 in											5	
+Pad	Circular	BottomCopper	7625				2.4 in	1.2375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7626				2.4 in	1.1375 in	0.08 in	0.08 in														5	
+Trace		BottomCopper	7627		7626	72							0.025 in											5	
+Pad	Circular	BottomCopper	7628				2.7 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7629				2.7 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7630				2.7 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7631				2.7 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7632				2.7 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7633				2.4 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7634				2.4 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7635				2.4 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7636				2.2 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7637				2 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7638				2.1 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7639				2.2 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7640				1.95 in	1.3 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7641				2.05 in	1.3 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7642				1.75 in	1.3 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7643				1.65 in	1.3 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7644				1.8 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7645				1.6 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7646				1.6 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7647				1.6 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7648				1.6 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7649				1.3 in	0.8375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7650				1.3 in	0.9375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7651				1.3 in	1.0375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7652				0.8 in	0.6375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7653				1.2 in	0.6375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7654				1.4 in	0.6125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7655				1.5 in	0.6125 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7656				0.8 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7657				1.2 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7658				0.6 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7659				0.2 in	1.1375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7660				0.2 in	0.6375 in	0.08 in	0.08 in														5	
+Pad	Circular	BottomCopper	7661				0.6 in	0.6375 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7662				1.55 in	1.3 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7663				1.85 in	1.3 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7664				2.4 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7665				2.85 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7666				3.3 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7667				1.3 in	0.7375 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7668				1.6 in	0.3125 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7669				2 in	0.3125 in	0.08 in	0.08 in														5	
+Pad	Rectangular	BottomCopper	7670				2.4 in	0.3125 in	0.08 in	0.08 in														5	
+Text		TopSilkscreen	7671				0.9665449 in	0.4625 in											"Stop"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7672				0.2682359 in	0.4625 in											"Go"	Anytime	0.0595 in			5	
+Point		BottomCopper	7673				2.3 in	1.5875 in																5	
+Trace		BottomCopper	7674		7673	2519							0.025 in											5	
+Point		BottomCopper	7675				2.9 in	1.5 in																5	
+Trace		BottomCopper	7676		7675	609							0.025 in											5	
+Point		BottomCopper	7677				2.85 in	1.4375 in																5	
+Trace		BottomCopper	7680		7675	2525							0.025 in											5	
+Point		BottomCopper	7681				2.7 in	1.4875 in																5	
+Trace		BottomCopper	7682		7677	7681							0.025 in											5	
+Point		BottomCopper	7683				2.7 in	1.65 in																5	
+Trace		BottomCopper	7684		7681	7683							0.025 in											5	
+Trace		BottomCopper	7686		7683	2520							0.025 in											5	
+Text		TopSilkscreen	7688				1.9182359 in	0.4125 in											"Stop"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7689				1.5682359 in	0.4125 in											"Go"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7690				2.3 in	0.4125 in											"Power"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7691				3.15 in	0.45 in											"Power"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7696				2.85 in	1.8125 in											"Debug"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7697				1.375 in	1.1125 in											"Opto"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7698				2.475 in	1.4 in											"NAND"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	7699				3.25 in	1.4 in											"Flip-Flop"	Anytime	0.0595 in			5	
+Polygon	Outline	TopSilkscreen	8722	8723			2.15 in	1.5125 in					0.012 in										(2.25 in,1.5125 in)(2.25 in,1.7625 in)(2.15 in,1.7625 in)(2.15 in,1.5125 in)	5	
+Group			8723											270°			"D31"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"					5	
+Pad	SquareWithHole		8724	8723			2.2 in	1.4375 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in		5	
+Pad			8725	8723			2.2 in	1.8375 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in		5	
+Line		TopSilkscreen	8726	8723			2.2 in	1.4875 in			2.2 in	1.5125 in	0.012 in											5	
+Line		TopSilkscreen	8727	8723			2.2 in	1.7625 in			2.2 in	1.7875 in	0.012 in											5	
+Line		TopSilkscreen	8728	8723			2.2 in	1.6649576 in			2.2 in	1.7199576 in	0.01 in											5	
+Line		TopSilkscreen	8729	8723			2.2 in	1.6386165 in			2.225 in	1.6636165 in	0.01 in											5	
+Line		TopSilkscreen	8730	8723			2.2 in	1.6386165 in			2.175 in	1.6636165 in	0.01 in											5	
+Line		TopSilkscreen	8731	8723			2.225 in	1.6289808 in			2.175 in	1.6289808 in	0.01 in											5	
+Line		TopSilkscreen	8732	8723			2.225 in	1.6638047 in			2.175 in	1.6638047 in	0.01 in											5	
+Rectangle		TopSilkscreen	8733	8723			2.15 in	1.55 in	0.1 in	0.0375 in				270°										5	
+Line		TopSilkscreen	8734	8723			2.175 in	1.6288258 in			2.175 in	1.6118044 in	0.01 in											5	
+Line		TopSilkscreen	8735	8723			2.175 in	1.6118044 in			2.1875 in	1.6118044 in	0.01 in											5	
+Line		TopSilkscreen	8736	8723			2.2256956 in	1.6461742 in			2.2256956 in	1.6291528 in	0.01 in											5	
+Line		TopSilkscreen	8737	8723			2.2131956 in	1.646522 in			2.2256956 in	1.646522 in	0.01 in											5	
+Polygon	Outline	TopSilkscreen	8742	8743			1.45 in	1.5125 in					0.012 in										(1.55 in,1.5125 in)(1.55 in,1.7625 in)(1.45 in,1.7625 in)(1.45 in,1.5125 in)	5	
+Group			8743											270°			"D30"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"					5	
+Pad	SquareWithHole		8744	8743			1.5 in	1.4375 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in		5	
+Pad			8745	8743			1.5 in	1.8375 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in		5	
+Line		TopSilkscreen	8746	8743			1.5 in	1.4875 in			1.5 in	1.5125 in	0.012 in											5	
+Line		TopSilkscreen	8747	8743			1.5 in	1.7625 in			1.5 in	1.7875 in	0.012 in											5	
+Line		TopSilkscreen	8748	8743			1.5 in	1.6649576 in			1.5 in	1.7199576 in	0.01 in											5	
+Line		TopSilkscreen	8749	8743			1.5 in	1.6386165 in			1.525 in	1.6636165 in	0.01 in											5	
+Line		TopSilkscreen	8750	8743			1.5 in	1.6386165 in			1.475 in	1.6636165 in	0.01 in											5	
+Line		TopSilkscreen	8751	8743			1.525 in	1.6289808 in			1.475 in	1.6289808 in	0.01 in											5	
+Line		TopSilkscreen	8752	8743			1.525 in	1.6638047 in			1.475 in	1.6638047 in	0.01 in											5	
+Rectangle		TopSilkscreen	8753	8743			1.45 in	1.55 in	0.1 in	0.0375 in				270°										5	
+Line		TopSilkscreen	8754	8743			1.475 in	1.6288258 in			1.475 in	1.6118044 in	0.01 in											5	
+Line		TopSilkscreen	8755	8743			1.475 in	1.6118044 in			1.4875 in	1.6118044 in	0.01 in											5	
+Line		TopSilkscreen	8756	8743			1.5256956 in	1.6461742 in			1.5256956 in	1.6291528 in	0.01 in											5	
+Line		TopSilkscreen	8757	8743			1.5131956 in	1.646522 in			1.5256956 in	1.646522 in	0.01 in											5	
+Text		TopSilkscreen	8758				2.875 in	1.1 in											"ATtiny"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	8759	7054			1.575 in	0.5875 in											"0.1µF"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8760	7062			2.675 in	0.5875 in											"0.1µF"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8761	7502			3.125 in	0.5875 in											"0.1µF"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8763	2220			0.895875 in	0.7125 in											"1000Ω"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8764	2387			0.895875 in	1.2125 in											"1000Ω"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8765	2393			0.3222463 in	1.2125 in											"220Ω"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8766	2226			0.3222463 in	0.7125 in											"220Ω"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8767	7453			2.675 in	0.4125 in						90°					"220Ω"	Anytime	0.0595 in		GroupPartValue	5	
+Text		TopSilkscreen	8768	8			1.875 in	0.9125 in						90°					"33kΩ"	Anytime	0.0595 in		GroupPartValue	5	
+Polygon	Outline	TopSilkscreen	8771	8772			3.7 in	1.125 in					0.012 in										(3.8 in,1.125 in)(3.8 in,1.375 in)(3.7 in,1.375 in)(3.7 in,1.125 in)	5	
+Group			8772											270°			"D1"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"					5	
+Pad	SquareWithHole		8773	8772			3.75 in	1.05 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in		5	
+Pad			8774	8772			3.75 in	1.45 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in		5	
+Line		TopSilkscreen	8775	8772			3.75 in	1.1 in			3.75 in	1.125 in	0.012 in											5	
+Line		TopSilkscreen	8776	8772			3.75 in	1.375 in			3.75 in	1.4 in	0.012 in											5	
+Line		TopSilkscreen	8777	8772			3.75 in	1.2774576 in			3.75 in	1.3324576 in	0.01 in											5	
+Line		TopSilkscreen	8778	8772			3.75 in	1.2511165 in			3.775 in	1.2761165 in	0.01 in											5	
+Line		TopSilkscreen	8779	8772			3.75 in	1.2511165 in			3.725 in	1.2761165 in	0.01 in											5	
+Line		TopSilkscreen	8780	8772			3.775 in	1.2414808 in			3.725 in	1.2414808 in	0.01 in											5	
+Line		TopSilkscreen	8781	8772			3.775 in	1.2763047 in			3.725 in	1.2763047 in	0.01 in											5	
+Rectangle		TopSilkscreen	8782	8772			3.7 in	1.1625 in	0.1 in	0.0375 in				270°										5	
+Line		TopSilkscreen	8783	8772			3.725 in	1.2413258 in			3.725 in	1.2243044 in	0.01 in											5	
+Line		TopSilkscreen	8784	8772			3.725 in	1.2243044 in			3.7375 in	1.2243044 in	0.01 in											5	
+Line		TopSilkscreen	8785	8772			3.7756956 in	1.2586742 in			3.7756956 in	1.2416528 in	0.01 in											5	
+Line		TopSilkscreen	8786	8772			3.7631956 in	1.259022 in			3.7756956 in	1.259022 in	0.01 in											5	
+Text		TopSilkscreen	8787	2523			2.470875 in	1.7875 in											"1000Ω"	Anytime	0.0595 in		GroupPartValue	5	
+Pad			10159	10177			4.0125 in	1.5375 in	0.16 in	0.16 in				180°			"2"	"barrel"				0.125 in		5	
+Pad			10160	10177			4.0125 in	1.3012795 in	0.19 in	0.19 in				180°			"1"	"center pin"				0.15 in		5	
+Pad			10161	10177			4.1975 in	1.4193897 in	0.16 in	0.16 in				180°			"3"	"connect"				0.125 in		5	
+Line		TopSilkscreen	10167	10177			4.1860983 in	1.6949 in			3.8360983 in	1.6949 in	0.012 in											5	
+Line		TopSilkscreen	10169	10177			3.8360983 in	1.8349 in			4.1860983 in	1.8349 in	0.012 in											5	
+Line		TopSilkscreen	10170	10177			4.1861 in	1.325 in			4.1861 in	1.2724 in	0.012 in											5	
+Line		TopSilkscreen	10171	10177			3.9 in	1.2724 in			3.8360983 in	1.2724 in	0.012 in											5	
+Line		TopSilkscreen	10172	10177			3.8361 in	1.2724 in			3.8361 in	1.8349 in	0.012 in											5	
+Line		TopSilkscreen	10174	10177			4.1861 in	1.8348999 in			4.1861 in	1.5125 in	0.012 in											5	
+Line		TopSilkscreen	10175	10177			4.1860983 in	1.2723999 in			4.125 in	1.2724 in	0.012 in											5	
+Group			10177											270°			"J2"	"2.1 mm barrel jack PJ-202A"						5	
+Text		TopSilkscreen	10178	10194			3.9281496 in	0.8625 in											"mm"	Anytime	0.0595 in			5	
+Trace		BottomCopper	10179	10194	10185	10187							0.025 in											5	
+Text		TopSilkscreen	10180	10194			95.29 mm	14.2875012 mm											"+"	Anytime	0.0595 in			5	
+Pad	Circular	BottomCopper	10181	10194			3.9712598 in	0.6686024 in	0.08 in	0.08 in														5	
+Text		TopSilkscreen	10182	10194			3.9083256 in	0.575854 in											"3.5"	Anytime	0.0595 in			5	
+Trace		BottomCopper	10183	10194	10184	10185							0.025 in											5	
+Pad			10184	10194			100.9010893 mm	16.982501 mm	0.056 in	0.056 in							"-"					0.029 in		5	
+Pad			10185	10194			100.37 mm	0.7375 in	0.056 in	0.056 in							"-"					0.029 in		5	
+Pad	Circular	BottomCopper	10186	10194			3.9515748 in	0.7375 in	0.08 in	0.08 in														5	
+Pad			10187	10194			102.87 mm	0.7375 in	0.056 in	0.056 in							"-"					0.029 in		5	
+Pad	SquareWithHole		10188	10194			3.8531496 in	0.7375 in	0.056 in	0.056 in							"+"					0.029 in		5	
+Pad	Rectangular	BottomCopper	10189	10194			3.8531496 in	0.7375 in	0.08 in	2.032 mm														5	
+Pad	Circular	BottomCopper	10190	10194			4.05 in	0.7375 in	0.08 in	0.08 in														5	
+Ellipse	Outline	TopSilkscreen	10191	10194			3.7547244 in	0.5406496 in	10 mm	10 mm			0.012 in	0°	360°									5	
+Text		TopSilkscreen	10192	10194			3.8907162 in	0.7849208 in											"2.5"	Anytime	0.0595 in			5	
+Text		TopSilkscreen	10193	10194			4.0781496 in	0.7875 in											"5"	Anytime	0.0595 in			5	
+Group			10194														"C1"	"Bulk capacitor 2.5, 3.5, or 5 mm"						5	
+Trace		TopCopper	10202		57	10474							0.04 in											5	
+Point		TopCopper	10204				0.5 in	0.5375 in																5	
+Trace		TopCopper	10205		10204	6992							0.04 in											5	
+Text		TopSilkscreen	10206				4.2125 in	1.8125 in						90°					"+5VDC "	Tiny	0.0595 in			5	
+Text		TopSilkscreen	10207				4 in	1.85 in											"positive"	Tiny	0.0595 in			5	
+Text		TopSilkscreen	10208				4.2375 in	1.7875 in						90°					"regulated"	Tiny	0.0595 in			5	
+Text		TopSilkscreen	10209				3.825 in	1.85 in											"center"	Tiny	0.0595 in			5	
+Trace		TopCopper	10220		10159	10161							0.04 in											5	
+Trace		TopCopper	10230		10159	10233							0.04 in											5	
+Point		TopCopper	10233				3.5 in	1.5375 in																5	
+Text		TopSilkscreen	10257				83.6581373 mm	41.5925 mm											"+"	Anytime	0.0595 in			5	
+Trace		BottomCopper	10264		28	10188							0.04 in											5	
+Trace		TopCopper	10268		2496	2474							0.04 in											5	
+Pad			10269				0.7 in	1.7125 in	0.16 in	0.16 in												0.125 in		5	
+Polygon	Outline	TopSilkscreen	10272	10273			0.65 in	0.7125 in					0.012 in										(0.75 in,0.7125 in)(0.75 in,0.9625 in)(0.65 in,0.9625 in)(0.65 in,0.7125 in)	5	
+Group			10273											270°			"D10"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"					5	
+Pad	SquareWithHole		10274	10273			0.7 in	0.6375 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in		5	
+Pad			10275	10273			0.7 in	1.0375 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in		5	
+Line		TopSilkscreen	10276	10273			0.7 in	0.6875 in			0.7 in	0.7125 in	0.012 in											5	
+Line		TopSilkscreen	10277	10273			0.7 in	0.9625 in			0.7 in	0.9875 in	0.012 in											5	
+Line		TopSilkscreen	10278	10273			0.7 in	0.8649576 in			0.7 in	0.9199576 in	0.01 in											5	
+Line		TopSilkscreen	10279	10273			0.7 in	0.8386165 in			0.725 in	0.8636165 in	0.01 in											5	
+Line		TopSilkscreen	10280	10273			0.7 in	0.8386165 in			0.675 in	0.8636165 in	0.01 in											5	
+Line		TopSilkscreen	10281	10273			0.725 in	0.8289808 in			0.675 in	0.8289808 in	0.01 in											5	
+Line		TopSilkscreen	10282	10273			0.725 in	0.8638047 in			0.675 in	0.8638047 in	0.01 in											5	
+Rectangle		TopSilkscreen	10283	10273			0.65 in	0.75 in	0.1 in	0.0375 in				270°										5	
+Line		TopSilkscreen	10284	10273			0.675 in	0.8288258 in			0.675 in	0.8118044 in	0.01 in											5	
+Line		TopSilkscreen	10285	10273			0.675 in	0.8118044 in			0.6875 in	0.8118044 in	0.01 in											5	
+Line		TopSilkscreen	10286	10273			0.7256956 in	0.8461742 in			0.7256956 in	0.8291528 in	0.01 in											5	
+Line		TopSilkscreen	10287	10273			0.7131956 in	0.846522 in			0.7256956 in	0.846522 in	0.01 in											5	
+Polygon	Outline	TopSilkscreen	10290	10291			0.65 in	1.2125 in					0.012 in										(0.75 in,1.2125 in)(0.75 in,1.4625 in)(0.65 in,1.4625 in)(0.65 in,1.2125 in)	5	
+Group			10291											270°			"D12"	"1N5817 DO-204AL (DO-41)"	"Schottky diode 20V"					5	
+Pad	SquareWithHole		10292	10291			0.7 in	1.1375 in	0.088 in	0.088 in							"C"	"Cathode"				0.04 in		5	
+Pad			10293	10291			0.7 in	1.5375 in	0.088 in	0.088 in							"A"	"Anode"				0.04 in		5	
+Line		TopSilkscreen	10294	10291			0.7 in	1.1875 in			0.7 in	1.2125 in	0.012 in											5	
+Line		TopSilkscreen	10295	10291			0.7 in	1.4625 in			0.7 in	1.4875 in	0.012 in											5	
+Line		TopSilkscreen	10296	10291			0.7 in	1.3649576 in			0.7 in	1.4199576 in	0.01 in											5	
+Line		TopSilkscreen	10297	10291			0.7 in	1.3386165 in			0.725 in	1.3636165 in	0.01 in											5	
+Line		TopSilkscreen	10298	10291			0.7 in	1.3386165 in			0.675 in	1.3636165 in	0.01 in											5	
+Line		TopSilkscreen	10299	10291			0.725 in	1.3289808 in			0.675 in	1.3289808 in	0.01 in											5	
+Line		TopSilkscreen	10300	10291			0.725 in	1.3638047 in			0.675 in	1.3638047 in	0.01 in											5	
+Rectangle		TopSilkscreen	10301	10291			0.65 in	1.25 in	0.1 in	0.0375 in				270°										5	
+Line		TopSilkscreen	10302	10291			0.675 in	1.3288258 in			0.675 in	1.3118044 in	0.01 in											5	
+Line		TopSilkscreen	10303	10291			0.675 in	1.3118044 in			0.6875 in	1.3118044 in	0.01 in											5	
+Line		TopSilkscreen	10304	10291			0.7256956 in	1.3461742 in			0.7256956 in	1.3291528 in	0.01 in											5	
+Line		TopSilkscreen	10305	10291			0.7131956 in	1.346522 in			0.7256956 in	1.346522 in	0.01 in											5	
+Text		TopSilkscreen	10313				0.0695175 in	0.9082237 in											"Jan 14 2015"	Script	0.0595 in			5	
+Text		TopSilkscreen	10314	7028			1.825 in	1.1125 in											"0.1µF"	Anytime	0.0595 in		GroupPartValue	5	
+Pad			10318	10325			3.975 in	1.05 in	0.056 in	0.056 in												0.029 in		6	
+Pad			10319	10325			4.175 in	1.05 in	0.056 in	0.056 in												0.029 in		6	
+Line		TopSilkscreen	10320	10325			3.975 in	1 in			4.175 in	1 in	0.012 in											6	
+Line		TopSilkscreen	10321	10325			3.975 in	1.1 in			4.175 in	1.1 in	0.012 in											6	
+Ellipse	Outline	TopSilkscreen	10322	10325			3.925 in	1 in	0.1 in	0.1 in			0.012 in	90°	180°									6	
+Ellipse	Outline	TopSilkscreen	10323	10325			4.125 in	1 in	0.1 in	0.1 in			0.012 in	270°	180°									6	
+Ellipse	Outline	TopSilkscreen	10324	10325			3.975 in	1.0171532 in	0.2 in	0.2 in			0.012 in	45°	90°									6	
+Group			10325														"F1"	"RXEF110"	"PolySwitch PTC Resettable fuse"					6	
+Pad	Circular	BottomCopper	10326				3.975 in	1.05 in	0.08 in	0.08 in				270°										5	
+Pad	Circular	BottomCopper	10327				4.175 in	1.05 in	0.08 in	0.08 in				270°										5	
+Point		TopCopper	10333				2.85 in	1.3375 in																6	
+Trace		TopCopper	10334		10333	7507							0.04 in											6	
+Trace		TopCopper	10335		10333	608							0.04 in											6	
+Pad			10349				3.7 in	1.7125 in	0.16 in	0.16 in												0.125 in		6	
+Point		BottomCopper	10350				3.4 in	1.4375 in																6	
+Trace		BottomCopper	10351		7066	10358							0.04 in											6	
+Trace		BottomCopper	10353		10350	2131							0.04 in											6	
+Point		BottomCopper	10354				3.075 in	1.8 in																6	
+Trace		BottomCopper	10355		2131	10354							0.04 in											6	
+Trace		BottomCopper	10357		10354	7270							0.04 in											6	
+Point		BottomCopper	10358				3.4 in	0.8375 in																6	
+Trace		BottomCopper	10359		16	10358							0.04 in											6	
+Trace		BottomCopper	10360		10358	10350							0.04 in											6	
+Trace		TopCopper	10372		10233	7115							0.04 in											6	
+Trace		TopCopper	10374		7067	10436							0.04 in											6	
+Point		BottomCopper	10375				3.45 in	1.55 in																6	
+Trace		BottomCopper	10376		7114	10375							0.04 in											6	
+Trace		BottomCopper	10380		10375	8774							0.04 in											6	
+Trace		BottomCopper	10382		8774	10160							0.04 in											6	
+Trace		BottomCopper	10384		8773	10318							0.04 in											6	
+Trace		BottomCopper	10391		10319	10392							0.04 in											6	
+Point		BottomCopper	10392				4.175 in	0.725 in																6	
+Trace		BottomCopper	10393		10392	10408							0.04 in											6	
+Trace		TopCopper	10395		7115	10396							0.04 in											7	
+Point		TopCopper	10396				3.475 in	1.775 in																7	
+Trace		TopCopper	10397		10396	2132							0.04 in											7	
+Text		TopSilkscreen	10398				3.0846814 in	1.7658088 in						90°					"ZD6.2V"	Anytime	0.0595 in			7	
+Point		BottomCopper	10400				0.1 in	1.4375 in																7	
+Trace		BottomCopper	10402		10400	7357							0.025 in											7	
+Point		BottomCopper	10403				0.4 in	1.4375 in																7	
+Trace		BottomCopper	10404		10403	2463							0.025 in											7	
+Trace		BottomCopper	10405		10403	10400							0.025 in											7	
+Point		BottomCopper	10406				3.775 in	0.55 in																7	
+Trace		BottomCopper	10407		10406	7434							0.04 in											7	
+Point		BottomCopper	10408				4.1 in	0.6 in																7	
+Trace		BottomCopper	10409		10408	10406							0.04 in											7	
+Point		BottomCopper	10410				3.15 in	0.15 in																7	
+Trace		BottomCopper	10411		843	10410							0.04 in											7	
+Trace		BottomCopper	10413		10410	10424							0.04 in											7	
+Point		TopCopper	10418				3.975 in	0.35 in																7	
+Trace		TopCopper	10419		10418	10422							0.04 in											7	
+Trace		TopCopper	10420		10418	10421							0.04 in											7	
+Pad			10421				3.9 in	0.35 in	0.065 in	0.065 in												0.035 in		7	
+Pad			10422				4.15 in	0.35 in	0.065 in	0.065 in												0.035 in		7	
+Pad			10423				4.15 in	0.15 in	0.065 in	0.065 in												0.035 in		7	
+Pad			10424				3.9 in	0.15 in	0.065 in	0.065 in												0.035 in		7	
+Trace		BottomCopper	10425		10424	10423							0.04 in											7	
+Pad	Circular	BottomCopper	10426				4.15 in	0.15 in	0.08 in	0.08 in				270°										7	
+Pad	Circular	BottomCopper	10427				3.9 in	0.15 in	0.08 in	0.08 in				270°										7	
+Pad	Circular	BottomCopper	10428				4.15 in	0.35 in	0.08 in	0.08 in				270°										7	
+Pad	Circular	BottomCopper	10429				3.9 in	0.35 in	0.08 in	0.08 in				270°										7	
+Text		TopSilkscreen	10430				3.9 in	0.4 in											"TP GND"	Anytime	0.0595 in			7	
+Text		TopSilkscreen	10431				3.9 in	0.2 in											"TP +5V"	Anytime	0.0595 in			7	
+Text		TopSilkscreen	10432				0.0945175 in	0.8164474 in											"Santa Trap"	Script	0.0595 in			7	
+Text		TopSilkscreen	10433				0.2195175 in	0.9887061 in											"v1.1"	Script	0.0595 in			7	
+Text		BottomCopper	10434				1.225 in	0.4 in											"Copyright c 2015 David Cook, RobotRoom.com"	Easy	0.0595 in			7	
+Ellipse	Outline	BottomCopper	10435				2.6 in	0.3917763 in	0.075 in	0.075 in			0.008 in	0°	360°									7	
+Point		TopCopper	10436				3.975 in	0.6125 in																7	
+Trace		TopCopper	10437		10436	10184							0.04 in											7	
+Trace		TopCopper	10438		10436	10418							0.04 in											7	
+Text		TopSilkscreen	10439				4 in	1.125 in											"Fuse"	Anytime	0.0595 in			7	
+Trace		TopCopper	10441		2534	925							0.04 in											7	
+Trace		TopCopper	10443		10504	2539							0.04 in											7	
+Trace		TopCopper	10445		7311	75							0.04 in											7	
+Trace		TopCopper	10449		7313	10502							0.04 in											7	
+Point		TopCopper	10450				1.55 in	1.225 in																7	
+Trace		TopCopper	10455		10450	923							0.04 in											7	
+Point		BottomCopper	10456				2.3 in	1.3 in																7	
+Trace		BottomCopper	10457		10456	10467							0.025 in											7	
+Point		BottomCopper	10461				1.7 in	1.075 in																7	
+Trace		BottomCopper	10462		10461	7428							0.025 in											7	
+Point		BottomCopper	10463				2.075 in	1.375 in																7	
+Trace		BottomCopper	10464		10463	10465							0.025 in											7	
+Point		BottomCopper	10465				2.125 in	1.35 in																7	
+Trace		BottomCopper	10466		10465	7333							0.025 in											7	
+Point		BottomCopper	10467				2.375 in	1.45 in																7	
+Trace		BottomCopper	10468		10467	2526							0.025 in											7	
+Point		BottomCopper	10469				1.575 in	1.2 in																7	
+Trace		BottomCopper	10470		10469	10461							0.025 in											7	
+Point		TopCopper	10471				1.3 in	1.225 in																7	
+Trace		TopCopper	10472		10450	10477							0.04 in											7	
+Trace		TopCopper	10473		10471	2496							0.04 in											7	
+Point		TopCopper	10474				1.6 in	1.225 in																7	
+Trace		TopCopper	10475		10474	10450							0.04 in											7	
+Trace		TopCopper	10476		10474	7313							0.04 in											7	
+Point		TopCopper	10477				1.5 in	1.225 in																7	
+Trace		TopCopper	10478		7088	10477							0.04 in											7	
+Trace		TopCopper	10479		10477	10471							0.04 in											7	
+Trace		TopCopper	10481		10184	10185							0.04 in											7	
+Trace		TopCopper	10483		10185	10187							0.04 in											7	
+Text		TopSilkscreen	10484				2.175 in	0.425 in						90°					"220Ω"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10485				1.775 in	0.425 in						90°					"220Ω"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10486				2.575 in	0.425 in						90°					"220Ω"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10487				1.775 in	0.925 in						90°					"33kΩ"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10488				1.975 in	0.925 in						90°					"33kΩ"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10489				2.175 in	0.925 in						90°					"33kΩ"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10490				2.475 in	1.6881857 in											"1000Ω"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10491				2.475 in	1.5394515 in											"1000Ω"	Anytime	0.0595 in		GroupPartValue	7	
+Text		TopSilkscreen	10492				1.625 in	1.375 in											"ZTX1049A"	Anytime	0.0595 in			7	
+Group			10501														"Q31"	"ZTX1049A TO-92"	"NPN medium power transistor"					10	
+Pad	SquareWithHole		10502	10501			1.85 in	1.3 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in		9	
+Pad			10503	10501			1.95 in	1.3 in	0.056 in	0.056 in							"2"	"Base"				0.029 in		9	
+Pad			10504	10501			2.05 in	1.3 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in		9	
+Ellipse	Outline	TopSilkscreen	10505	10501			1.804992 in	1.2125239 in	0.285 in	0.15 in			0.012 in	0°	180°									10	
+Line		TopSilkscreen	10506	10501			2.089992 in	1.3425239 in			1.804992 in	1.3425239 in	0.012 in											10	
+Line		TopSilkscreen	10507	10501			2.089992 in	1.3425239 in			2.089992 in	1.2905239 in	0.012 in											10	
+Line		TopSilkscreen	10508	10501			1.804992 in	1.342074 in			1.804992 in	1.290074 in	0.012 in											10	

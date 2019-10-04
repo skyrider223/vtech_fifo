@@ -1,0 +1,64 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5604
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Sensor
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Group			2														"R"	"Photoresistor 0.3 in round"							
+Pad	Rectangular	TopCopper	14	17			4.1275 mm	12.07 mm	1.4 mm	1 mm							"1"	"Vin"						1	
+Pad	Rectangular	TopCopper	15	17			4.1275 mm	13.97 mm	1.4 mm	1 mm							"2"	"Vout"						1	
+Pad	Rectangular	TopCopper	16	17			6.3275 mm	13.02 mm	1.4 mm	1 mm							"3"	"GND"						1	
+Group			17														"IC"	"ISL21010"	"1.024 voltage reference"					1	
+Ellipse		TopSilkscreen	18	17			3.4275 mm	11.0366 mm	0.014 in	0.014 in				0°	360°									1	
+Line		TopSilkscreen	19	17			5.0941667 mm	11.6589 mm			5.0942 mm	11.7922333 mm	0.007 in											1	
+Line		TopSilkscreen	20	17			5.0942 mm	11.7922333 mm			5.0942 mm	14.3811 mm	0.007 in											1	
+Line		TopSilkscreen	21	17			5.0942 mm	14.3811 mm			5.3608 mm	14.3811 mm	0.007 in											1	
+Line		TopSilkscreen	22	17			5.3608 mm	14.3811 mm			5.3608 mm	11.6589 mm	0.007 in											1	
+Line		TopSilkscreen	23	17			5.3608 mm	11.6589 mm			5.0941667 mm	11.6589 mm	0.007 in											1	
+Pad	Rectangular	TopCopper	24	27			4.1275 mm	17.15 mm	1.4 mm	1 mm							"1"	"Vin"						1	
+Pad	Rectangular	TopCopper	25	27			4.1275 mm	19.05 mm	1.4 mm	1 mm							"2"	"Vout"						1	
+Pad	Rectangular	TopCopper	26	27			6.3275 mm	18.1 mm	1.4 mm	1 mm							"3"	"GND"						1	
+Group			27														"IC"	"TC1047AVNB"	"Temperature sensor"					1	
+Ellipse		TopSilkscreen	28	27			3.4275 mm	16.1166 mm	0.014 in	0.014 in				0°	360°									1	
+Line		TopSilkscreen	29	27			5.0941667 mm	16.7389 mm			5.0942 mm	16.8722333 mm	0.007 in											1	
+Line		TopSilkscreen	30	27			5.0942 mm	16.8722333 mm			5.0942 mm	19.4611 mm	0.007 in											1	
+Line		TopSilkscreen	31	27			5.0942 mm	19.4611 mm			5.3608 mm	19.4611 mm	0.007 in											1	
+Line		TopSilkscreen	32	27			5.3608 mm	19.4611 mm			5.3608 mm	16.7389 mm	0.007 in											1	
+Line		TopSilkscreen	33	27			5.3608 mm	16.7389 mm			5.0941667 mm	16.7389 mm	0.007 in											1	
+Pad			45	2			0.2 in	0.2 in	0.056 in	0.056 in												0.029 in			
+Pad			50	2			0.4 in	0.2 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	191	2			0.2 in	0.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	192	2			0.4 in	0.2 in	0.08 in	0.08 in															
+Ellipse	Outline	TopSilkscreen	603	2			0.15 in	0.05 in	0.3 in	0.3 in			0.012 in	270°	360°										
+Pad	Rectangular	TopCopper	604	608			0.15 in	0.831689 in	1.1 mm	0.8 mm							"1"	"Emitter (-)"						1	
+Pad	Rectangular	TopCopper	605	608			0.15 in	0.875 in	1.1 mm	0.8 mm							"2"	"n/c"						1	
+Pad	Rectangular	TopCopper	606	608			0.2897567 in	0.8533445 in	1.1 mm	1 mm							"3"	"Collector (+)"						1	
+Rectangle	Outline	TopSilkscreen	607	608			0.1786343 in	0.8199744 in	2.0952 mm	1.6952 mm			0.008 in											1	
+Group			608														"Q"	"Phototransistor"	"Vishay TEMT6000X01"					1	

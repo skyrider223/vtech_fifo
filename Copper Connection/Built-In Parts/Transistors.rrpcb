@@ -1,0 +1,126 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5604
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Transistor
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Ellipse	Outline	TopSilkscreen	322	906			0.0550884 in	0.111 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	771	906			0.3400884 in	0.241 in			0.0550884 in	0.241 in	0.012 in											1	
+Line		TopSilkscreen	774	906			0.3400884 in	0.241 in			0.3400884 in	0.189 in	0.012 in											1	
+Line		TopSilkscreen	775	906			0.0550884 in	0.2405501 in			0.0550884 in	0.1885501 in	0.012 in											1	
+Group			857														"Q"	"2N2907A TO-92"	"PNP transistor"					1	
+Pad	SquareWithHole		880	857			0.5 in	0.2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			881	857			0.6 in	0.2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			882	857			0.7 in	0.2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Group			890														"Q"	"2N2222A TO-92"	"NPN transistor"					1	
+Pad	SquareWithHole		891	890			0.5 in	0.4 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			892	890			0.6 in	0.4 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			893	890			0.7 in	0.4 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Group			898														"Q"	"2N3904 TO-92"	"NPN transistor"					1	
+Pad	SquareWithHole		899	898			0.1 in	0.4 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			900	898			0.2 in	0.4 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			901	898			0.3 in	0.4 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Group			906														"Q"	"2N3906 TO-92"	"PNP transistor"					1	
+Pad	SquareWithHole		907	906			0.1 in	0.2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			908	906			0.2 in	0.2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			909	906			0.3 in	0.2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Group			914														"Q"	"ZTX968 TO-92"	"PNP medium power transistor"					1	
+Pad	SquareWithHole		915	914			0.9 in	0.2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			916	914			1 in	0.2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			917	914			1.1 in	0.2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Group			922														"Q"	"ZTX1049A TO-92"	"NPN medium power transistor"					1	
+Pad	SquareWithHole		923	922			0.9 in	0.4 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			924	922			1 in	0.4 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			925	922			1.1 in	0.4 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Pad	Rectangular	TopCopper	929	932			2.245 mm	14.925 mm	1.4 mm	1 mm							"1"								
+Pad	Rectangular	TopCopper	930	932			2.245 mm	16.825 mm	1.4 mm	1 mm							"2"								
+Pad	Rectangular	TopCopper	931	932			4.445 mm	15.875 mm	1.4 mm	1 mm							"3"								
+Group			932														"Q"	"SOT23-3"							
+Ellipse		TopSilkscreen	933	932			1.545 mm	13.8916 mm	0.014 in	0.014 in				0°	360°										
+Line		TopSilkscreen	934	932			3.2116667 mm	14.5139 mm			3.2117 mm	14.6472333 mm	0.007 in												
+Line		TopSilkscreen	935	932			3.2117 mm	14.6472333 mm			3.2117 mm	17.2361 mm	0.007 in												
+Line		TopSilkscreen	936	932			3.2117 mm	17.2361 mm			3.4783 mm	17.2361 mm	0.007 in												
+Line		TopSilkscreen	937	932			3.4783 mm	17.2361 mm			3.4783 mm	14.5139 mm	0.007 in												
+Line		TopSilkscreen	938	932			3.4783 mm	14.5139 mm			3.2116667 mm	14.5139 mm	0.007 in												
+Pad	Rectangular	TopCopper	951	956			6.985 mm	14.9225 mm	1.22 mm	0.7 mm							"1"								
+Pad	Rectangular	TopCopper	952	956			6.985 mm	15.8725 mm	1.22 mm	0.7 mm							"2"								
+Pad	Rectangular	TopCopper	953	956			6.985 mm	16.8225 mm	1.22 mm	0.7 mm							"3"								
+Pad	Rectangular	TopCopper	954	956			9.605 mm	16.8225 mm	1.22 mm	0.7 mm							"4"								
+Pad	Rectangular	TopCopper	955	956			9.605 mm	14.9225 mm	1.22 mm	0.7 mm							"5"								
+Group			956														"Q"	"SOT23-5 SOT-25"							
+Ellipse		TopSilkscreen	957	956			6.375 mm	14.0391 mm	0.014 in	0.014 in				0°	360°										
+Line		TopSilkscreen	958	956			8.0616667 mm	14.6614 mm			7.8617 mm	14.8947333 mm	0.007 in												
+Line		TopSilkscreen	959	956			7.8617 mm	14.8947333 mm			7.8617 mm	17.0836 mm	0.007 in												
+Line		TopSilkscreen	960	956			7.8617 mm	17.0836 mm			8.7283 mm	17.0836 mm	0.007 in												
+Line		TopSilkscreen	961	956			8.7283 mm	17.0836 mm			8.7283 mm	14.6614 mm	0.007 in												
+Line		TopSilkscreen	962	956			8.7283 mm	14.6614 mm			8.0616667 mm	14.6614 mm	0.007 in												
+Pad	Rectangular	TopCopper	963	969			11.7475 mm	14.9225 mm	1.22 mm	0.7 mm							"1"								
+Pad	Rectangular	TopCopper	964	969			11.7475 mm	15.8725 mm	1.22 mm	0.7 mm							"2"								
+Pad	Rectangular	TopCopper	965	969			11.7475 mm	16.8225 mm	1.22 mm	0.7 mm							"3"								
+Pad	Rectangular	TopCopper	966	969			14.3675 mm	16.8225 mm	1.22 mm	0.7 mm							"4"								
+Pad	Rectangular	TopCopper	967	969			14.3675 mm	15.8725 mm	1.22 mm	0.7 mm							"5"								
+Pad	Rectangular	TopCopper	968	969			14.3675 mm	14.9225 mm	1.22 mm	0.7 mm							"6"								
+Group			969														"Q"	"SOT23-6 SOT-26"							
+Ellipse		TopSilkscreen	970	969			11.1375 mm	14.0391 mm	0.014 in	0.014 in				0°	360°										
+Line		TopSilkscreen	971	969			12.8241667 mm	14.6614 mm			12.6242 mm	14.8947333 mm	0.007 in												
+Line		TopSilkscreen	972	969			12.6242 mm	14.8947333 mm			12.6242 mm	17.0836 mm	0.007 in												
+Line		TopSilkscreen	973	969			12.6242 mm	17.0836 mm			13.4908 mm	17.0836 mm	0.007 in												
+Line		TopSilkscreen	974	969			13.4908 mm	17.0836 mm			13.4908 mm	14.6614 mm	0.007 in												
+Line		TopSilkscreen	975	969			13.4908 mm	14.6614 mm			12.8241667 mm	14.6614 mm	0.007 in												
+Ellipse	Outline	TopSilkscreen	977	857			0.4550585 in	0.111 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	978	857			0.7400585 in	0.241 in			0.4550585 in	0.241 in	0.012 in											1	
+Line		TopSilkscreen	979	857			0.7400585 in	0.241 in			0.7400585 in	0.189 in	0.012 in											1	
+Line		TopSilkscreen	980	857			0.4550585 in	0.2405501 in			0.4550585 in	0.1885501 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	982	914			0.8550286 in	0.111 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	983	914			1.1400286 in	0.241 in			0.8550286 in	0.241 in	0.012 in											1	
+Line		TopSilkscreen	984	914			1.1400286 in	0.241 in			1.1400286 in	0.189 in	0.012 in											1	
+Line		TopSilkscreen	985	914			0.8550286 in	0.2405501 in			0.8550286 in	0.1885501 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	987	898			0.054992 in	0.311238 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	988	898			0.339992 in	0.441238 in			0.054992 in	0.441238 in	0.012 in											1	
+Line		TopSilkscreen	989	898			0.339992 in	0.441238 in			0.339992 in	0.389238 in	0.012 in											1	
+Line		TopSilkscreen	990	898			0.054992 in	0.4407881 in			0.054992 in	0.3887881 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	993	890			0.455008 in	0.3124841 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	994	890			0.740008 in	0.4424841 in			0.455008 in	0.4424841 in	0.012 in											1	
+Line		TopSilkscreen	995	890			0.740008 in	0.4424841 in			0.740008 in	0.3904841 in	0.012 in											1	
+Line		TopSilkscreen	996	890			0.455008 in	0.4420342 in			0.455008 in	0.3900342 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	999	922			0.854992 in	0.3125239 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	1000	922			1.139992 in	0.4425239 in			0.854992 in	0.4425239 in	0.012 in											1	
+Line		TopSilkscreen	1001	922			1.139992 in	0.4425239 in			1.139992 in	0.3905239 in	0.012 in											1	
+Line		TopSilkscreen	1002	922			0.854992 in	0.442074 in			0.854992 in	0.390074 in	0.012 in											1	
+Pad	Rectangular	TopCopper	11112	11115			2.2225 mm	19.05 mm	0.9 mm	0.8 mm							"1"	"base"						1	
+Pad	Rectangular	TopCopper	11113	11115			2.2225 mm	20.95 mm	0.9 mm	0.8 mm							"2"	"emitter"						1	
+Pad	Rectangular	TopCopper	11114	11115			4.2225 mm	20 mm	0.9 mm	0.8 mm							"3"	"collector"						1	
+Group			11115														"Q"	"PNP Transistor SOT23"	"FMMT717"					1	
+Ellipse		TopSilkscreen	11116	11115			1.7725 mm	18.1166 mm	0.014 in	0.014 in				0°	360°									1	
+Line		TopSilkscreen	11117	11115			3.0391667 mm	18.7389 mm			2.9392 mm	18.9222333 mm	0.007 in											1	
+Line		TopSilkscreen	11118	11115			2.9392 mm	18.9222333 mm			2.9392 mm	21.2611 mm	0.007 in											1	
+Line		TopSilkscreen	11119	11115			2.9392 mm	21.2611 mm			3.5058 mm	21.2611 mm	0.007 in											1	
+Line		TopSilkscreen	11120	11115			3.5058 mm	21.2611 mm			3.5058 mm	18.7389 mm	0.007 in											1	
+Line		TopSilkscreen	11121	11115			3.5058 mm	18.7389 mm			3.0391667 mm	18.7389 mm	0.007 in											1	

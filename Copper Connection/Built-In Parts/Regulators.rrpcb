@@ -1,0 +1,79 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5502
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Regulator
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Pad			2	22			0.5 in	0.3 in	0.08 in	0.075 in							"Vin"					0.04 in			
+Pad			3	22			0.1 in	0.3 in	0.08 in	0.075 in							"Vout"					0.04 in			
+Point		BottomCopper	6	22			0.35 in	0.375 in																	
+Trace		BottomCopper	7	22	329	6							0.04 in												
+Point		BottomCopper	8	22			0.15 in	0.375 in																	
+Trace		BottomCopper	9	22	6	8							0.04 in												
+Trace		BottomCopper	11	22	8	3							0.04 in												
+Point		BottomCopper	12	22			0.25 in	0.225 in																	
+Trace		BottomCopper	13	22	326	12							0.04 in												
+Point		BottomCopper	14	22			0.45 in	0.225 in																	
+Trace		BottomCopper	15	22	12	14							0.04 in												
+Trace		BottomCopper	17	22	14	2							0.04 in												
+Group			22														"VR"	"Voltage regulator"	"Universal hole pattern for T0-92 and TO-220. See RobotRoom.com/PCB-Layout-Tips.html"					1	
+Pad			326	22			0.2 in	0.3 in	0.08 in	0.075 in							"Vin"					0.04 in			
+Pad			328	22			0.3 in	0.3 in	0.08 in	0.075 in							"GND"					0.04 in			
+Pad			329	22			0.4 in	0.3 in	0.08 in	0.075 in							"Vout"					0.04 in			
+Polygon	Outline	TopSilkscreen	330	22			0.1 in	0.2 in					0.012 in										(0.1 in,0.2 in)(0.5 in,0.2 in)(0.5 in,0.375 in)(0.1 in,0.375 in)		
+Polygon		TopSilkscreen	331	22			0.1 in	0.2 in															(0.1 in,0.2 in)(0.5 in,0.2 in)(0.5 in,0.235 in)(0.1 in,0.235 in)		
+Text		TopSilkscreen	712	22			0.0903605 in	0.175 in						90°					"+5V"	Tiny	0.0595 in				
+Text		TopSilkscreen	718	22			0.4903605 in	0.175 in						90°					"+UN"	Tiny	0.0595 in				
+Text		TopSilkscreen	719	22			0.390963 in	0.175 in						90°					"+5V"	Tiny	0.0595 in				
+Text		TopSilkscreen	720	22			0.290963 in	0.175 in						90°					"GND"	Tiny	0.0595 in				
+Text		TopSilkscreen	721	22			0.1915655 in	0.175 in						90°					"+UN"	Tiny	0.0595 in				
+Group			857														"VR"	"LM317L TO-92"	"Adjustable regulator"					1	
+Pad			880	857			0.9 in	0.3 in	0.056 in	0.056 in				180°			"Adj"	"Adjustment"				0.029 in			
+Pad			881	857			0.8 in	0.3 in	0.056 in	0.056 in				180°			"Out"	"Output"				0.029 in			
+Pad	SquareWithHole		882	857			0.7 in	0.3 in	0.056 in	0.056 in				180°			"In"	"Input"				0.029 in			
+Pad	SquareWithHole		891	2071			1.1 in	0.3 in	0.056 in	0.056 in							"GND"					0.029 in			
+Pad			892	2071			1.2 in	0.3 in	0.056 in	0.056 in							"Vin"	"Input 5.65 V to 13.2 V"				0.029 in			
+Pad			893	2071			1.3 in	0.3 in	0.056 in	0.056 in							"5V"	"Output"				0.029 in			
+Ellipse	Outline	TopSilkscreen	993	2071			1.0547098 in	0.2094195 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	994	2071			1.3397098 in	0.3394195 in			1.0547098 in	0.3394195 in	0.012 in											1	
+Line		TopSilkscreen	995	2071			1.3397098 in	0.3394195 in			1.3397098 in	0.2874195 in	0.012 in											1	
+Line		TopSilkscreen	996	2071			1.0547098 in	0.3389696 in			1.0547098 in	0.2869696 in	0.012 in											1	
+Pad	Circular	BottomCopper	2068	2071			1.3 in	0.3 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	2069	2071			1.2 in	0.3 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	2070	2071			1.1 in	0.3 in	0.08 in	0.08 in															
+Group			2071														"VR"	"MCP1702-5002E/TO"	"250 mA low current low dropout"					1	
+Ellipse	Outline	TopSilkscreen	2073	857			0.6555645 in	0.2389031 in	0.285 in	0.15 in			0.012 in	180°	180°									1	
+Line		TopSilkscreen	2074	857			0.6555645 in	0.2589031 in			0.9405645 in	0.2589031 in	0.012 in											1	
+Line		TopSilkscreen	2075	857			0.6555645 in	0.2589031 in			0.6555645 in	0.3109031 in	0.012 in											1	
+Line		TopSilkscreen	2076	857			0.9405645 in	0.259353 in			0.9405645 in	0.311353 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	2081	22			0.0575 in	0.2322258 in	0.285 in	0.15 in			0.012 in	180°	180°									1	
+Line		TopSilkscreen	2082	22			0.0575 in	0.2522258 in			0.3425 in	0.2522258 in	0.012 in											1	
+Line		TopSilkscreen	2083	22			0.0575 in	0.2522258 in			0.0575 in	0.3042258 in	0.012 in											1	
+Line		TopSilkscreen	2084	22			0.3425 in	0.2526757 in			0.3425 in	0.3046757 in	0.012 in											1	

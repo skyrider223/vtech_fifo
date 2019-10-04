@@ -1,0 +1,109 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5714
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Potentiometer
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Pad			4	53			1.8 in	0.8 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			6	19			1.3 in	0.9 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad			11	19			1.2 in	0.8 in	0.056 in	0.056 in							"1"					0.029 in			
+Polygon	Outline	TopSilkscreen	12	19			1.1125 in	0.617811 in					0.012 in										(1.1125 in,0.617811 in)(1.1125 in,0.9928111 in)(1.4875 in,0.992811 in)(1.4875 in,0.617811 in)		
+Group			19														"R"	"Bourns 3386P trimpot"							
+Pad			20	53			2 in	0.8 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad			21	53			1.9 in	0.9 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad			22	19			1.4 in	0.8 in	0.056 in	0.056 in							"3"					0.029 in			
+Polygon	Outline	TopSilkscreen	23	53			1.7125 in	0.617811 in					0.012 in										(1.7125 in,0.617811 in)(1.7125 in,0.9928111 in)(2.0875 in,0.992811 in)(2.0875 in,0.617811 in)		
+Pad	Circular	BottomCopper	25	53			1.8 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	26	53			1.9 in	0.9 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	27	53			2 in	0.8 in	0.08 in	0.08 in															
+Pad			28	53			1.9 in	0.8 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	29	53			1.9 in	0.8 in	0.08 in	0.08 in															
+Pad			30	53			2 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	31	53			2 in	0.9 in	0.08 in	0.08 in															
+Pad			32	53			2 in	1 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	33	53			2 in	1 in	0.08 in	0.08 in															
+Pad			34	53			1.9 in	1 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	35	53			1.9 in	1 in	0.08 in	0.08 in															
+Pad			36	53			1.8 in	1 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	37	53			1.8 in	1 in	0.08 in	0.08 in															
+Pad			38	53			1.8 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	39	53			1.8 in	0.9 in	0.08 in	0.08 in															
+Trace		BottomCopper	41	53	4	38							0.025 in												
+Trace		BottomCopper	43	53	38	36							0.025 in												
+Trace		BottomCopper	45	53	28	21							0.025 in												
+Trace		BottomCopper	47	53	21	34							0.025 in												
+Trace		BottomCopper	49	53	20	30							0.025 in												
+Trace		BottomCopper	51	53	30	32							0.025 in												
+Group			53														"R"	"Trimpot"	"Universal hole pattern allows choice at insertion time"						
+Pad			95	120			2.3 in	0.8 in	0.056 in	0.056 in												0.029 in			
+Pad			96	120			2.5 in	0.8 in	0.056 in	0.056 in												0.029 in			
+Pad			97	120			2.4 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Polygon	Outline	TopSilkscreen	98	120			2.2125 in	0.617811 in					0.012 in										(2.2125 in,0.617811 in)(2.2125 in,0.9928111 in)(2.5875 in,0.992811 in)(2.5875 in,0.617811 in)		
+Pad	Circular	BottomCopper	99	120			2.3 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	100	120			2.4 in	0.9 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	101	120			2.5 in	0.8 in	0.08 in	0.08 in															
+Pad			102	120			2.4 in	0.8 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	103	120			2.4 in	0.8 in	0.08 in	0.08 in															
+Pad			104	120			2.5 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	105	120			2.5 in	0.9 in	0.08 in	0.08 in															
+Pad			106	120			2.5 in	1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad	Circular	BottomCopper	107	120			2.5 in	1 in	0.08 in	0.08 in															
+Pad			108	120			2.4 in	1 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad	Circular	BottomCopper	109	120			2.4 in	1 in	0.08 in	0.08 in															
+Pad			110	120			2.3 in	1 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad	Circular	BottomCopper	111	120			2.3 in	1 in	0.08 in	0.08 in															
+Pad			112	120			2.3 in	0.9 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	113	120			2.3 in	0.9 in	0.08 in	0.08 in															
+Trace		BottomCopper	114	120	95	112							0.025 in												
+Trace		BottomCopper	115	120	112	110							0.025 in												
+Trace		BottomCopper	116	120	102	97							0.025 in												
+Trace		BottomCopper	117	120	97	108							0.025 in												
+Trace		BottomCopper	118	120	96	104							0.025 in												
+Trace		BottomCopper	119	120	104	106							0.025 in												
+Group			120														"R"	"Trimpot multiturn"	"Bourns 3296
+Universal hole pattern allows choice at insertion time"						
+Polygon	Outline	TopSilkscreen	121	120			2.5025 in	0.5677663 in					0.012 in										(2.5025 in,0.5677663 in)(2.5875 in,0.5677663 in)(2.5875 in,0.6177663 in)(2.5025 in,0.6177663 in)		
+Polygon	Outline	TopSilkscreen	125	147			2.7125 in	0.95 in					0.012 in										(2.7125 in,0.95 in)(2.7125 in,1.0500001 in)(3.0875 in,1.05 in)(3.0875 in,0.95 in)		
+Pad			133	147			3 in	1 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad	Circular	BottomCopper	134	147			3 in	1 in	0.08 in	0.08 in															
+Pad			135	147			2.9 in	1 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad	Circular	BottomCopper	136	147			2.9 in	1 in	0.08 in	0.08 in															
+Pad			137	147			2.8 in	1 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad	Circular	BottomCopper	138	147			2.8 in	1 in	0.08 in	0.08 in															
+Group			147														"R"	"Trimpot multiturn standup"	"Bourns 3296
+Universal hole pattern allows choice at insertion time"						
+Ellipse	Outline	TopSilkscreen	149	152			3.0007582 in	0.9625 in	0.075 in	0.075 in			0.012 in	90°	360°										
+Line		TopSilkscreen	150	152			3.0007582 in	1 in			3.0757582 in	1 in	0.012 in												
+Group			152	147																					
+Pad			11126	11132			0.8 in	0.9 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad			11127	11132			0.7 in	0.8 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad			11130	11132			0.9 in	0.8 in	0.056 in	0.056 in							"3"					0.029 in			
+Ellipse	Outline	TopSilkscreen	11131	11132			0.65 in	0.65 in	0.3 in	0.3 in			0.012 in	0°	360°										
+Group			11132														"R"	"Bourns 3339P trimpot"							

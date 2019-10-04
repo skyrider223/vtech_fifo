@@ -1,0 +1,336 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5714
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=AVR
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Pad	SquareWithHole		32	101			0.9 in	0.1 in	0.056 in	0.056 in							"1"	"PB0 (MOSI/DI/SDA/~OC1A/PCINT8)"				0.029 in			
+Pad			33	101			1.2 in	0.7 in	0.056 in	0.056 in							"14"	"PA4 (ADC3/ICP0/PCINT4)"				0.029 in			
+Pad			34	101			0.9 in	0.2 in	0.056 in	0.056 in							"2"	"PB1 (MISO/DO/OC1A/PCINT9)"				0.029 in			
+Pad			35	101			1.2 in	0.8 in	0.056 in	0.056 in							"13"	"PA5 (ADC4/AIN2/PCINT5)"				0.029 in			
+Pad			37	101			0.9 in	0.3 in	0.056 in	0.056 in							"3"	"PB2 (SCK/USCK/SCL/~OC1B/PCINT10)"				0.029 in			
+Pad			42	101			1.2 in	0.9 in	0.056 in	0.056 in							"12"	"PA6 (ADC5/AIN0/PCINT6)"				0.029 in			
+Pad			45	101			0.9 in	0.4 in	0.056 in	0.056 in							"4"	"PB3 (OC1B/PCINT11)"				0.029 in			
+Pad			46	101			1.2 in	1 in	0.056 in	0.056 in							"11"	"PA7 (ADC6/AIN1/PCINT7)"				0.029 in			
+Line		TopSilkscreen	47	101			0.95 in	0.075 in			0.95 in	1.025 in	0.012 in												
+Line		TopSilkscreen	48	101			0.95 in	1.025 in			1.15 in	1.025 in	0.012 in												
+Line		TopSilkscreen	49	101			1.15 in	1.025 in			1.15 in	0.075 in	0.012 in												
+Line		TopSilkscreen	50	101			1.15 in	0.075 in			1.089 in	0.075 in	0.012 in												
+Line		TopSilkscreen	51	101			0.95 in	0.075 in			1.0125 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	52	101			1.0125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			53	101			0.9 in	0.5 in	0.056 in	0.056 in							"5"	"Vcc"				0.029 in			
+Pad			54	101			0.9 in	0.6 in	0.056 in	0.056 in							"6"	"GND"				0.029 in			
+Pad			55	101			0.9 in	0.7 in	0.056 in	0.056 in							"7"	"PB4 (ADC7/~OC1D/CLKI/XTAL1/PCINT12)"				0.029 in			
+Pad			56	101			0.9 in	1 in	0.056 in	0.056 in							"10"	"PB7 (ADC10/~RESET/PCINT15)"				0.029 in			
+Pad			57	101			0.9 in	0.9 in	0.056 in	0.056 in							"9"	"PB6 (ADC9/INT0/T0/PCINT14)"				0.029 in			
+Pad			58	101			0.9 in	0.8 in	0.056 in	0.056 in							"8"	"PB5 (ADC8/OC1D/CLKO/XTAL2/PCINT13)"				0.029 in			
+Pad			59	101			1.2 in	0.5 in	0.056 in	0.056 in							"16"	"AGND"				0.029 in			
+Pad			74	101			1.2 in	0.6 in	0.056 in	0.056 in							"15"	"AVcc"				0.029 in			
+Pad			95	101			1.2 in	0.3 in	0.056 in	0.056 in							"18"	"PA2 (ADC2/INT1/USCK/SCL/PCINT2)"				0.029 in			
+Pad			96	101			1.2 in	0.4 in	0.056 in	0.056 in							"17"	"PA3 (AREF/PCINT3)"				0.029 in			
+Pad			99	101			1.2 in	0.1 in	0.056 in	0.056 in							"20"	"PA0 (ADC0/DI/SDA/PCINT0)"				0.029 in			
+Pad			100	101			1.2 in	0.2 in	0.056 in	0.056 in							"19"	"PA1 (ADC1/DO/PCINT1)"				0.029 in			
+Group			101														"IC"	"ATtiny861"							
+Ellipse		TopSilkscreen	106	134			1.425 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		113	134			1.35 in	0.1 in	0.056 in	0.056 in							"1"	"Vcc"				0.029 in			
+Pad			114	134			1.65 in	0.1 in	0.056 in	0.056 in							"14"	"GND"				0.029 in			
+Pad			116	134			1.35 in	0.2 in	0.056 in	0.056 in							"2"	"PB0"	"PCINT8/XTAL1/CLKI"			0.029 in			
+Pad			117	134			1.65 in	0.2 in	0.056 in	0.056 in							"13"	"PA0"	"ADC0/AREF/PCINT0"			0.029 in			
+Pad			118	134			1.35 in	0.3 in	0.056 in	0.056 in							"3"	"PB1"	"PCINT9/XTAL2"			0.029 in			
+Pad			119	134			1.65 in	0.3 in	0.056 in	0.056 in							"12"	"PA1"	"ADC1/AIN0/PCINT1"			0.029 in			
+Pad			120	134			1.35 in	0.4 in	0.056 in	0.056 in							"4"	"PB3"	"PCINT11/~RESET/dW"			0.029 in			
+Pad			121	134			1.65 in	0.4 in	0.056 in	0.056 in							"11"	"PA2"	"ADC2/AIN1/PCINT2"			0.029 in			
+Line		TopSilkscreen	122	134			1.4 in	0.075 in			1.4 in	0.725 in	0.012 in												
+Line		TopSilkscreen	123	134			1.4 in	0.725 in			1.6 in	0.725 in	0.012 in												
+Line		TopSilkscreen	124	134			1.6 in	0.725 in			1.6 in	0.075 in	0.012 in												
+Line		TopSilkscreen	125	134			1.6 in	0.075 in			1.539 in	0.075 in	0.012 in												
+Line		TopSilkscreen	126	134			1.4 in	0.075 in			1.4625 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	127	134			1.4625 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			128	134			1.35 in	0.5 in	0.056 in	0.056 in							"5"	"PB2"	"PCINT10/INT0/OC0A/CKOUT"			0.029 in			
+Pad			129	134			1.35 in	0.6 in	0.056 in	0.056 in							"6"	"PA7"	"PCINT7/ICP/OC0B/ADC7"			0.029 in			
+Pad			130	134			1.35 in	0.7 in	0.056 in	0.056 in							"7"	"PA6"	"PCINT6/OC1A/SDA/MOSI/DI/ADC6"			0.029 in			
+Pad			131	134			1.65 in	0.5 in	0.056 in	0.056 in							"10"	"PA3"	"ADC3/T0/PCINT3"			0.029 in			
+Pad			132	134			1.65 in	0.6 in	0.056 in	0.056 in							"9"	"PA4"	"ADC4/USCK/SCL/T1/PCINT4"			0.029 in			
+Pad			133	134			1.65 in	0.7 in	0.056 in	0.056 in							"8"	"PA5"	"ADC5/D0/MISO/OC1B/PCINT5"			0.029 in			
+Group			134														"IC"	"ATtiny24/44/84 DIP 14-pin"							
+Pad	Rectangular	TopCopper	167	181			34.925 mm	20.955 mm	2.2 mm	0.6 mm							"1"	"VCC"						1	
+Pad	Rectangular	TopCopper	168	181			34.925 mm	22.225 mm	2.2 mm	0.6 mm							"2"	"(PCINT8/XTAL1/CLKI) PB0"						1	
+Pad	Rectangular	TopCopper	169	181			34.925 mm	23.495 mm	2.2 mm	0.6 mm							"3"	"(PCINT9/XTAL2) PB1"						1	
+Pad	Rectangular	TopCopper	170	181			34.925 mm	24.765 mm	2.2 mm	0.6 mm							"4"	"(PCINT11/RESET/dW) PB3"						1	
+Pad	Rectangular	TopCopper	171	181			34.925 mm	26.035 mm	2.2 mm	0.6 mm							"5"	"(PCINT10/INT0/OC0A/CKOUT) PB2"						1	
+Pad	Rectangular	TopCopper	172	181			34.925 mm	27.305 mm	2.2 mm	0.6 mm							"6"	"(PCINT7/ICP/OC0B/ADC7) PA7"						1	
+Pad	Rectangular	TopCopper	173	181			34.925 mm	28.575 mm	2.2 mm	0.6 mm							"7"	"(PCINT6/OC1A/SDA/MOSI/DI/ADC6) PA6"						1	
+Pad	Rectangular	TopCopper	174	181			41.125 mm	28.575 mm	2.2 mm	0.6 mm							"8"	"PA5 (ADC5/DO/MISO/OC1B/PCINT5"						1	
+Pad	Rectangular	TopCopper	175	181			41.125 mm	27.305 mm	2.2 mm	0.6 mm							"9"	"PA4 (ADC4/USCK/SCL/T1/PCINT4)"						1	
+Pad	Rectangular	TopCopper	176	181			41.125 mm	26.035 mm	2.2 mm	0.6 mm							"10"	"PA3 (ADC3/T0/PCINT3)"						1	
+Pad	Rectangular	TopCopper	177	181			41.125 mm	24.765 mm	2.2 mm	0.6 mm							"11"	"PA2 (ADC2/AIN1/PCINT2)"						1	
+Pad	Rectangular	TopCopper	178	181			41.125 mm	23.495 mm	2.2 mm	0.6 mm							"12"	"PA1 (ADC1/AIN0/PCINT1)"						1	
+Pad	Rectangular	TopCopper	179	181			41.125 mm	22.225 mm	2.2 mm	0.6 mm							"13"	"PA0 (ADC0/AREF/PCINT0)"						1	
+Pad	Rectangular	TopCopper	180	181			41.125 mm	20.955 mm	2.2 mm	0.6 mm							"14"	"GND"						1	
+Group			181														"IC"	"ATtiny84A SOIC"						1	
+Ellipse		TopSilkscreen	182	181			36.9394 mm	20.8026 mm	0.024 in	0.024 in				0°	360°									1	
+Line		TopSilkscreen	183	181			37.525 mm	20.3502 mm			36.4822 mm	20.3502 mm	0.012 in											1	
+Line		TopSilkscreen	184	181			36.4822 mm	20.3502 mm			36.4822 mm	29.1798 mm	0.012 in											1	
+Line		TopSilkscreen	185	181			36.4822 mm	29.1798 mm			39.5678 mm	29.1798 mm	0.012 in											1	
+Line		TopSilkscreen	186	181			39.5678 mm	29.1798 mm			39.5678 mm	20.3502 mm	0.012 in											1	
+Line		TopSilkscreen	187	181			39.5678 mm	20.3502 mm			38.525 mm	20.3502 mm	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	188	181			37.525 mm	19.8502 mm	1 mm	1 mm			0.012 in	180°	180°									1	
+Ellipse		TopSilkscreen	601	615			1.925 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		602	615			1.85 in	0.1 in	0.056 in	0.056 in							"1"	"PB5"	"PCINT5/~RESET/ADC0/dW"			0.029 in			
+Pad			603	615			2.15 in	0.1 in	0.056 in	0.056 in							"8"	"Vcc"				0.029 in			
+Pad			604	615			1.85 in	0.2 in	0.056 in	0.056 in							"2"	"PB3"	"PCINT3/XTAL1/CLKI/~OC1B/ADC3"			0.029 in			
+Pad			605	615			2.15 in	0.2 in	0.056 in	0.056 in							"7"	"PB2"	"SCK/USCK/SCL/ADC1/T0/INT0/PCINT2"			0.029 in			
+Pad			606	615			1.85 in	0.3 in	0.056 in	0.056 in							"3"	"PB4"	"PCINT4/XTAL2/CLKO/OC1B/ADC2"			0.029 in			
+Pad			607	615			2.15 in	0.3 in	0.056 in	0.056 in							"6"	"PB1"	"MISO/DO/AIN1/OC0B/OC1A/PCINT1"			0.029 in			
+Pad			608	615			1.85 in	0.4 in	0.056 in	0.056 in							"4"	"GND"				0.029 in			
+Pad			609	615			2.15 in	0.4 in	0.056 in	0.056 in							"5"	"PB0"	"MOSI/DI/SDA/AIN0/OC0A/~OC1A/AREF/PCINT0"			0.029 in			
+Line		TopSilkscreen	610	615			1.9 in	0.075 in			1.9 in	0.425 in	0.012 in												
+Line		TopSilkscreen	611	615			1.9 in	0.425 in			2.1 in	0.425 in	0.012 in												
+Line		TopSilkscreen	612	615			2.1 in	0.075 in			2.039 in	0.075 in	0.012 in												
+Line		TopSilkscreen	613	615			1.9 in	0.075 in			1.9625 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	614	615			1.9625 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Group			615														"IC"	"ATtiny 24/45/85 DIP 8-pin"							
+Line		TopSilkscreen	616	615			2.1 in	0.075 in			2.1 in	0.425 in	0.012 in												
+Pad	SquareWithHole		2179	2219			0.1 in	0.1 in	0.056 in	0.056 in							"1"	"PB0 (PCINT8/XCK0/T0)"				0.029 in			
+Pad			2180	2219			0.1 in	0.2 in	0.056 in	0.056 in							"2"	"PB1 (PCINT9/CLKO/T1)"				0.029 in			
+Pad			2181	2219			0.1 in	0.3 in	0.056 in	0.056 in							"3"	"PB2 (PCINT10/INT2/AIN0)"				0.029 in			
+Pad			2182	2219			0.1 in	0.4 in	0.056 in	0.056 in							"4"	"PB3 (PCINT11/OC0A/AIN1)"				0.029 in			
+Pad			2183	2219			0.1 in	0.5 in	0.056 in	0.056 in							"5"	"PB4 (PCINT12/OC0B/SS)"				0.029 in			
+Pad			2184	2219			0.1 in	0.6 in	0.056 in	0.056 in							"6"	"PB5 (PCINT13/MOSI)"				0.029 in			
+Pad			2185	2219			0.1 in	0.7 in	0.056 in	0.056 in							"7"	"PB6 (PCINT14/MISO)"				0.029 in			
+Pad			2186	2219			0.1 in	0.8 in	0.056 in	0.056 in							"8"	"PB7 (PCINT15/SCK)"				0.029 in			
+Pad			2187	2219			0.1 in	0.9 in	0.056 in	0.056 in							"9"	"RESET"				0.029 in			
+Pad			2188	2219			0.1 in	1 in	0.056 in	0.056 in							"10"	"VCC"				0.029 in			
+Pad			2189	2219			0.1 in	1.1 in	0.056 in	0.056 in							"11"	"GND"				0.029 in			
+Pad			2190	2219			0.1 in	1.2 in	0.056 in	0.056 in							"12"	"XTAL2"				0.029 in			
+Pad			2191	2219			0.1 in	1.3 in	0.056 in	0.056 in							"13"	"XTAL1"				0.029 in			
+Pad			2192	2219			0.1 in	1.4 in	0.056 in	0.056 in							"14"	"PD0 (PCINT24/RXD0)"				0.029 in			
+Pad			2193	2219			0.1 in	1.5 in	0.056 in	0.056 in							"15"	"PD1 (PCINT25/TXD0)"				0.029 in			
+Pad			2194	2219			0.1 in	1.6 in	0.056 in	0.056 in							"16"	"PD2 (PCINT26/RXD1/INT0)"				0.029 in			
+Pad			2195	2219			0.1 in	1.7 in	0.056 in	0.056 in							"17"	"PD3 (PCINT27/TXD1/INT1)"				0.029 in			
+Pad			2196	2219			0.1 in	1.8 in	0.056 in	0.056 in							"18"	"PD4 (PCINT28/XCK1/OC1B)"				0.029 in			
+Pad			2197	2219			0.1 in	1.9 in	0.056 in	0.056 in							"19"	"PD5 (PCINT29/OC1A)"				0.029 in			
+Pad			2198	2219			0.1 in	2 in	0.056 in	0.056 in							"20"	"PD6 (PCINT30/OC2B/ICP)"				0.029 in			
+Pad			2199	2219			0.7 in	2 in	0.056 in	0.056 in							"21"	"PD7 (OC2A/PCINT31)"				0.029 in			
+Pad			2200	2219			0.7 in	1.9 in	0.056 in	0.056 in							"22"	"PC0 (SCL/PCINT16)"				0.029 in			
+Pad			2201	2219			0.7 in	1.8 in	0.056 in	0.056 in							"23"	"PC1 (SDA/PCINT17)"				0.029 in			
+Pad			2202	2219			0.7 in	1.7 in	0.056 in	0.056 in							"24"	"PC2 (TCK/PCINT18)"				0.029 in			
+Pad			2203	2219			0.7 in	1.6 in	0.056 in	0.056 in							"25"	"PC3 (TMS/PCINT19)"				0.029 in			
+Pad			2204	2219			0.7 in	1.5 in	0.056 in	0.056 in							"26"	"PC4 (TDO/PCINT20)"				0.029 in			
+Pad			2205	2219			0.7 in	1.4 in	0.056 in	0.056 in							"27"	"PC5 (TDI/PCINT21)"				0.029 in			
+Pad			2206	2219			0.7 in	1.3 in	0.056 in	0.056 in							"28"	"PC6 (TOSC1/PCINT22)"				0.029 in			
+Pad			2207	2219			0.7 in	1.2 in	0.056 in	0.056 in							"29"	"PC7 (TOSC2/PCINT23)"				0.029 in			
+Pad			2208	2219			0.7 in	1.1 in	0.056 in	0.056 in							"30"	"AVCC"				0.029 in			
+Pad			2209	2219			0.7 in	1 in	0.056 in	0.056 in							"31"	"GND"				0.029 in			
+Pad			2210	2219			0.7 in	0.9 in	0.056 in	0.056 in							"32"	"AREF"				0.029 in			
+Pad			2211	2219			0.7 in	0.8 in	0.056 in	0.056 in							"33"	"PA7 (ADC7/PCINT7)"				0.029 in			
+Pad			2212	2219			0.7 in	0.7 in	0.056 in	0.056 in							"34"	"PA6 (ADC6/PCINT6)"				0.029 in			
+Pad			2213	2219			0.7 in	0.6 in	0.056 in	0.056 in							"35"	"PA5 (ADC5/PCINT5)"				0.029 in			
+Pad			2214	2219			0.7 in	0.5 in	0.056 in	0.056 in							"36"	"PA4 (ADC4/PCINT4)"				0.029 in			
+Pad			2215	2219			0.7 in	0.4 in	0.056 in	0.056 in							"37"	"PA3 (ADC3/PCINT3)"				0.029 in			
+Pad			2216	2219			0.7 in	0.3 in	0.056 in	0.056 in							"38"	"PA2 (ADC2/PCINT2)"				0.029 in			
+Pad			2217	2219			0.7 in	0.2 in	0.056 in	0.056 in							"39"	"PA1 (ADC1/PCINT1)"				0.029 in			
+Pad			2218	2219			0.7 in	0.1 in	0.056 in	0.056 in							"40"	"PA0 (ADC0/PCINT0)"				0.029 in			
+Group			2219														"IC"	"ATmega644PA"							
+Ellipse		TopSilkscreen	2220	2219			0.175 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	2221	2219			0.3625 in	0.075 in			0.15 in	0.075 in	0.012 in												
+Line		TopSilkscreen	2222	2219			0.15 in	0.075 in			0.15 in	2.025 in	0.012 in												
+Line		TopSilkscreen	2223	2219			0.15 in	2.025 in			0.65 in	2.025 in	0.012 in												
+Line		TopSilkscreen	2224	2219			0.65 in	2.025 in			0.65 in	0.075 in	0.012 in												
+Line		TopSilkscreen	2225	2219			0.65 in	0.075 in			0.4375 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	2226	2219			0.3625 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Text		TopSilkscreen	2254	2270			2.475 in	0.55 in											"GND"	Anytime	0.051 in				
+Text		TopSilkscreen	2255	2270			2.325 in	0.55 in											"RST"	Anytime	0.051 in				
+Text		TopSilkscreen	2256	2270			2.55 in	0.475 in						90°					"MOSI"	Anytime	0.051 in				
+Text		TopSilkscreen	2257	2270			2.475 in	0.2 in											"Vcc"	Anytime	0.051 in				
+Text		TopSilkscreen	2258	2270			2.3 in	0.45 in						90°					"SCK"	Anytime	0.051 in				
+Pad	SquareWithHole		2259	2270			2.4 in	0.3 in	65 thou	65 thou							"1"	"MISO"				0.035 in			
+Pad			2260	2270			2.4 in	0.4 in	65 thou	65 thou							"3"	"SCK"				0.035 in			
+Pad			2261	2270			2.4 in	0.5 in	65 thou	65 thou							"5"	"~RESET"				0.035 in			
+Pad			2262	2270			2.5 in	0.5 in	65 thou	65 thou							"6"	"GND"				0.035 in			
+Pad			2263	2270			2.5 in	0.4 in	65 thou	65 thou							"4"	"MOSI"				0.035 in			
+Pad			2264	2270			2.5 in	0.3 in	65 thou	65 thou							"2"	"Vcc"				0.035 in			
+Polygon	Outline	TopSilkscreen	2266	2270			2.275 in	0.1 in					0.012 in										(2.275 in,0.1 in)(2.625 in,0.1 in)(2.625 in,0.7 in)(2.275 in,0.7 in)		
+Text		TopSilkscreen	2267	2270			2.3 in	0.2 in											"MISO"	Anytime	0.051 in				
+Text		TopSilkscreen	2268	2270			2.375 in	0.125 in						45°					"1"	Anytime	0.051 in				
+Text		TopSilkscreen	2269	2270			2.5 in	0.125 in						45°					"2"	Anytime	0.051 in				
+Group			2270														"J"	"ISP6"							
+Pad	Rectangular	TopCopper	2271	2303			22.625 mm	30.21 mm	1.6 mm	0.5 mm							"1"	"(PCINT19/OC2B/INT1) PD3"						1	
+Pad	Rectangular	TopCopper	2272	2303			22.625 mm	31.01 mm	1.6 mm	0.5 mm							"2"	"(PCINT20/XCK/T0) PD4"						1	
+Pad	Rectangular	TopCopper	2273	2303			22.625 mm	31.81 mm	1.6 mm	0.5 mm							"3"	"GND"						1	
+Pad	Rectangular	TopCopper	2274	2303			22.625 mm	32.61 mm	1.6 mm	0.5 mm							"4"	"VCC"						1	
+Pad	Rectangular	TopCopper	2275	2303			22.625 mm	33.41 mm	1.6 mm	0.5 mm							"5"	"GND"						1	
+Pad	Rectangular	TopCopper	2276	2303			22.625 mm	34.21 mm	1.6 mm	0.5 mm							"6"	"VCC"						1	
+Pad	Rectangular	TopCopper	2277	2303			22.625 mm	35.01 mm	1.6 mm	0.5 mm							"7"	"(PCINT6/XTAL1/TOSC1) PB6"						1	
+Pad	Rectangular	TopCopper	2278	2303			22.625 mm	35.81 mm	1.6 mm	0.5 mm							"8"	"(PCINT7/XTAL2/TOSC2) PB7"						1	
+Pad	Rectangular	TopCopper	2279	2303			24.025 mm	37.21 mm	0.5 mm	1.6 mm							"9"	"(PCINT21/OC0B/T1) PD5"						1	
+Pad	Rectangular	TopCopper	2280	2303			24.825 mm	37.21 mm	0.5 mm	1.6 mm							"10"	"(PCINT22/OC0A/AIN0) PD6"						1	
+Pad	Rectangular	TopCopper	2281	2303			25.625 mm	37.21 mm	0.5 mm	1.6 mm							"11"	"(PCINT23/AIN1) PD7"						1	
+Pad	Rectangular	TopCopper	2282	2303			26.425 mm	37.21 mm	0.5 mm	1.6 mm							"12"	"(PCINT0/CLKO/ICP1) PB0"						1	
+Pad	Rectangular	TopCopper	2283	2303			27.225 mm	37.21 mm	0.5 mm	1.6 mm							"13"	"(PCINT1/OC1A) PB1"						1	
+Pad	Rectangular	TopCopper	2284	2303			28.025 mm	37.21 mm	0.5 mm	1.6 mm							"14"	"(PCINT2/SS/OC1B) PB2"						1	
+Pad	Rectangular	TopCopper	2285	2303			28.825 mm	37.21 mm	0.5 mm	1.6 mm							"15"	"(PCINT3/OC2A/MOSI) PB3"						1	
+Pad	Rectangular	TopCopper	2286	2303			29.625 mm	37.21 mm	0.5 mm	1.6 mm							"16"	"(PCINT4/MISO) PB4"						1	
+Pad	Rectangular	TopCopper	2287	2303			31.025 mm	35.81 mm	1.6 mm	0.5 mm							"17"	"PB5 (SCK/PCINT5)"						1	
+Pad	Rectangular	TopCopper	2288	2303			31.025 mm	35.01 mm	1.6 mm	0.5 mm							"18"	"AVCC"						1	
+Pad	Rectangular	TopCopper	2289	2303			31.025 mm	34.21 mm	1.6 mm	0.5 mm							"19"	"ADC6"						1	
+Pad	Rectangular	TopCopper	2290	2303			31.025 mm	33.41 mm	1.6 mm	0.5 mm							"20"	"AREF"						1	
+Pad	Rectangular	TopCopper	2291	2303			31.025 mm	32.61 mm	1.6 mm	0.5 mm							"21"	"GND"						1	
+Pad	Rectangular	TopCopper	2292	2303			31.025 mm	31.81 mm	1.6 mm	0.5 mm							"22"	"ADC7"						1	
+Pad	Rectangular	TopCopper	2293	2303			31.025 mm	31.01 mm	1.6 mm	0.5 mm							"23"	"PC0 (ADC0/PCINT8)"						1	
+Pad	Rectangular	TopCopper	2294	2303			31.025 mm	30.21 mm	1.6 mm	0.5 mm							"24"	"PC1 (ADC1/PCINT9)"						1	
+Pad	Rectangular	TopCopper	2295	2303			29.625 mm	28.81 mm	0.5 mm	1.6 mm							"25"	"PC2 (ADC2/PCINT10"						1	
+Pad	Rectangular	TopCopper	2296	2303			28.825 mm	28.81 mm	0.5 mm	1.6 mm							"26"	"PC3 (ADC3/PCINT11)"						1	
+Pad	Rectangular	TopCopper	2297	2303			28.025 mm	28.81 mm	0.5 mm	1.6 mm							"27"	"PC4 (ADC4/SDA/PCINT12)"						1	
+Pad	Rectangular	TopCopper	2298	2303			27.225 mm	28.81 mm	0.5 mm	1.6 mm							"28"	"PC5 (ADC5/SCL/PCINT13)"						1	
+Pad	Rectangular	TopCopper	2299	2303			26.425 mm	28.81 mm	0.5 mm	1.6 mm							"29"	"PC6 (RESET/PCINT14)"						1	
+Pad	Rectangular	TopCopper	2300	2303			25.625 mm	28.81 mm	0.5 mm	1.6 mm							"30"	"PD0 (RXD/PCINT16)"						1	
+Pad	Rectangular	TopCopper	2301	2303			24.825 mm	28.81 mm	0.5 mm	1.6 mm							"31"	"PD1 (TXD/PCINT17)"						1	
+Pad	Rectangular	TopCopper	2302	2303			24.025 mm	28.81 mm	0.5 mm	1.6 mm							"32"	"PD2 (INT0/PCINT18)"						1	
+Group			2303														"IC"	"ATmega328P TQFP32"						1	
+Line		TopSilkscreen	2304	2303			22.225 mm	29.61 mm			22.225 mm	29.21 mm	0.012 in											1	
+Line		TopSilkscreen	2305	2303			22.225 mm	29.21 mm			23.025 mm	28.41 mm	0.012 in											1	
+Line		TopSilkscreen	2306	2303			23.025 mm	28.41 mm			23.425 mm	28.41 mm	0.012 in											1	
+Line		TopSilkscreen	2307	2303			22.225 mm	36.41 mm			22.225 mm	37.61 mm	0.012 in											1	
+Line		TopSilkscreen	2308	2303			22.225 mm	37.61 mm			23.425 mm	37.61 mm	0.012 in											1	
+Line		TopSilkscreen	2309	2303			30.225 mm	37.61 mm			31.425 mm	37.61 mm	0.012 in											1	
+Line		TopSilkscreen	2310	2303			31.425 mm	37.61 mm			31.425 mm	36.41 mm	0.012 in											1	
+Line		TopSilkscreen	2311	2303			31.425 mm	29.61 mm			31.425 mm	28.41 mm	0.012 in											1	
+Line		TopSilkscreen	2312	2303			31.425 mm	28.41 mm			30.225 mm	28.41 mm	0.012 in											1	
+Pad	Rectangular	TopCopper	2355	2387			22.6 mm	41.715 mm	1.5 mm	0.55 mm							"1"	"PD3 (PCINT19/INT1)"						1	
+Pad	Rectangular	TopCopper	2356	2387			22.6 mm	42.515 mm	1.5 mm	0.55 mm							"2"	"PD4 (PCINT20/T0)"						1	
+Pad	Rectangular	TopCopper	2357	2387			22.6 mm	43.315 mm	1.5 mm	0.55 mm							"3"	"PA2 (PCINT26)"						1	
+Pad	Rectangular	TopCopper	2358	2387			22.6 mm	44.115 mm	1.5 mm	0.55 mm							"4"	"VCC"						1	
+Pad	Rectangular	TopCopper	2359	2387			22.6 mm	44.915 mm	1.5 mm	0.55 mm							"5"	"GND"						1	
+Pad	Rectangular	TopCopper	2360	2387			22.6 mm	45.715 mm	1.5 mm	0.55 mm							"6"	"PA3 (PCINT27)"						1	
+Pad	Rectangular	TopCopper	2361	2387			22.6 mm	46.515 mm	1.5 mm	0.55 mm							"7"	"PB6 (PCINT6/CLKI)"						1	
+Pad	Rectangular	TopCopper	2362	2387			22.6 mm	47.315 mm	1.5 mm	0.55 mm							"8"	"PB7 (PCINT7)"						1	
+Pad	Rectangular	TopCopper	2363	2387			24.05 mm	48.765 mm	0.55 mm	1.5 mm							"9"	"PD5 (PCINT21/T1)"						1	
+Pad	Rectangular	TopCopper	2364	2387			24.85 mm	48.765 mm	0.55 mm	1.5 mm							"10"	"PD6 (PCINT22/AIN0)"						1	
+Pad	Rectangular	TopCopper	2365	2387			25.65 mm	48.765 mm	0.55 mm	1.5 mm							"11"	"PD7 (PCINT23/AIN1)"						1	
+Pad	Rectangular	TopCopper	2366	2387			26.45 mm	48.765 mm	0.55 mm	1.5 mm							"12"	"PB0 (PCINT0/CLKO/ICP1)"						1	
+Pad	Rectangular	TopCopper	2367	2387			27.25 mm	48.765 mm	0.55 mm	1.5 mm							"13"	"PB1 (PCINT1/OC1A)"						1	
+Pad	Rectangular	TopCopper	2368	2387			28.05 mm	48.765 mm	0.55 mm	1.5 mm							"14"	"PB2 (PCINT2/SS/OC1B)"						1	
+Pad	Rectangular	TopCopper	2369	2387			28.85 mm	48.765 mm	0.55 mm	1.5 mm							"15"	"PB3 (PCINT3/MOSI)"						1	
+Pad	Rectangular	TopCopper	2370	2387			29.65 mm	48.765 mm	0.55 mm	1.5 mm							"16"	"PB4 (PCINT4/MISO)"						1	
+Pad	Rectangular	TopCopper	2371	2387			31.1 mm	47.315 mm	1.5 mm	0.55 mm							"17"	"PB5 (SCK/PCINT5)"						1	
+Pad	Rectangular	TopCopper	2372	2387			31.1 mm	46.515 mm	1.5 mm	0.55 mm							"18"	"AVCC"						1	
+Pad	Rectangular	TopCopper	2373	2387			31.1 mm	45.715 mm	1.5 mm	0.55 mm							"19"	"PA0 (ADC6/PCINT24)"						1	
+Pad	Rectangular	TopCopper	2374	2387			31.1 mm	44.915 mm	1.5 mm	0.55 mm							"20"	"PC7 (PCINT15)"						1	
+Pad	Rectangular	TopCopper	2375	2387			31.1 mm	44.115 mm	1.5 mm	0.55 mm							"21"	"GND"						1	
+Pad	Rectangular	TopCopper	2376	2387			31.1 mm	43.315 mm	1.5 mm	0.55 mm							"22"	"PA1 (ADC7/PCINT25)"						1	
+Pad	Rectangular	TopCopper	2377	2387			31.1 mm	42.515 mm	1.5 mm	0.55 mm							"23"	"PC0 (ADC0/PCINT8)"						1	
+Pad	Rectangular	TopCopper	2378	2387			31.1 mm	41.715 mm	1.5 mm	0.55 mm							"24"	"PC1 (ADC1/PCINT9)"						1	
+Pad	Rectangular	TopCopper	2379	2387			29.65 mm	40.265 mm	0.55 mm	1.5 mm							"25"	"PC2 (ADC2/PCINT10)"						1	
+Pad	Rectangular	TopCopper	2380	2387			28.85 mm	40.265 mm	0.55 mm	1.5 mm							"26"	"PC3 (ADC3/PCINT11)"						1	
+Pad	Rectangular	TopCopper	2381	2387			28.05 mm	40.265 mm	0.55 mm	1.5 mm							"27"	"PC4 (ADC4/SDA/PCINT12)"						1	
+Pad	Rectangular	TopCopper	2382	2387			27.25 mm	40.265 mm	0.55 mm	1.5 mm							"28"	"PC5 (ADC5/SCL/PCINT13)"						1	
+Pad	Rectangular	TopCopper	2383	2387			26.45 mm	40.265 mm	0.55 mm	1.5 mm							"29"	"PC6 (RESET/PCINT14)"						1	
+Pad	Rectangular	TopCopper	2384	2387			25.65 mm	40.265 mm	0.55 mm	1.5 mm							"30"	"PD0 (PCINT16)"						1	
+Pad	Rectangular	TopCopper	2385	2387			24.85 mm	40.265 mm	0.55 mm	1.5 mm							"31"	"PD1 (PCINT17)"						1	
+Pad	Rectangular	TopCopper	2386	2387			24.05 mm	40.265 mm	0.55 mm	1.5 mm							"32"	"PD2 (INT0/PCINT18)"						1	
+Group			2387														"IC"	"ATtiny44/88"	"TQFP32"					1	
+Line		TopSilkscreen	2388	2387			22.225 mm	41.015 mm			22.225 mm	40.64 mm	0.012 in											1	
+Line		TopSilkscreen	2389	2387			22.225 mm	40.64 mm			22.975 mm	39.89 mm	0.012 in											1	
+Line		TopSilkscreen	2390	2387			22.975 mm	39.89 mm			23.35 mm	39.89 mm	0.012 in											1	
+Line		TopSilkscreen	2391	2387			22.225 mm	48.015 mm			22.225 mm	49.14 mm	0.012 in											1	
+Line		TopSilkscreen	2392	2387			22.225 mm	49.14 mm			23.35 mm	49.14 mm	0.012 in											1	
+Line		TopSilkscreen	2393	2387			30.35 mm	49.14 mm			31.475 mm	49.14 mm	0.012 in											1	
+Line		TopSilkscreen	2394	2387			31.475 mm	49.14 mm			31.475 mm	48.015 mm	0.012 in											1	
+Line		TopSilkscreen	2395	2387			31.475 mm	41.015 mm			31.475 mm	39.89 mm	0.012 in											1	
+Line		TopSilkscreen	2396	2387			31.475 mm	39.89 mm			30.35 mm	39.89 mm	0.012 in											1	
+Text		TopSilkscreen	7571	7586			2.5375 in	1.2375 in											"GND"	Tiny	0.051 in			2	
+Text		TopSilkscreen	7572	7586			2.3 in	1.2375 in											"RST"	Tiny	0.051 in			2	
+Text		TopSilkscreen	7573	7586			2.525 in	1.05 in											"MOSI"	Tiny	0.051 in			2	
+Text		TopSilkscreen	7574	7586			2.5375 in	0.9375 in											"Vcc"	Tiny	0.051 in			2	
+Text		TopSilkscreen	7575	7586			2.3 in	1.05 in											"SCK"	Tiny	0.051 in			2	
+Pad	SquareWithHole		7576	7586			2.4 in	1 in	65 thou	65 thou							"1"	"MISO"				0.035 in		2	
+Pad			7577	7586			2.4 in	1.1 in	65 thou	65 thou							"3"	"SCK"				0.035 in		2	
+Pad			7578	7586			2.4 in	1.2 in	65 thou	65 thou							"5"	"~RESET"				0.035 in		2	
+Pad			7579	7586			2.5 in	1.2 in	65 thou	65 thou							"6"	"GND"				0.035 in	BottomCopper Thermal	2	
+Pad			7580	7586			2.5 in	1.1 in	65 thou	65 thou							"4"	"MOSI"				0.035 in		2	
+Pad			7581	7586			2.5 in	1 in	65 thou	65 thou							"2"	"Vcc"				0.035 in		2	
+Polygon	Outline	TopSilkscreen	7582	7586			2.275 in	0.8 in					0.012 in										(2.275 in,0.8 in)(2.625 in,0.8 in)(2.625 in,1.4 in)(2.275 in,1.4 in)	2	
+Text		TopSilkscreen	7583	7586			2.3 in	0.9375 in											"MISO"	Tiny	0.051 in			2	
+Text		TopSilkscreen	7584	7586			2.38725 in	0.87575 in						135°					"1"	Anytime	0.051 in			2	
+Text		TopSilkscreen	7585	7586			2.47475 in	0.87575 in						135°					"2"	Anytime	0.051 in			2	
+Group			7586	11013													"J101"	"ISP6"	"FCI 75869-131LF or 0015912080"					2	
+Pad	Circular	BottomCopper	9969	11012			2.5000002 in	1.2 in	0.08 in	0.08 in				90°									BottomCopper Thermal	2	
+Pad	Circular	BottomCopper	9970	11012			2.5 in	1.1 in	0.08 in	0.08 in				90°										2	
+Pad	Circular	BottomCopper	9971	11012			2.5 in	1 in	0.08 in	0.08 in				90°										2	
+Pad	Circular	BottomCopper	9972	11012			2.4 in	1.1 in	0.08 in	0.08 in				90°										2	
+Pad	Circular	BottomCopper	9973	11012			2.4 in	1.2 in	0.08 in	0.08 in				90°										2	
+Pad	Rectangular	BottomCopper	9974	11012			2.4000002 in	1 in	0.08 in	0.08 in				90°										2	
+Text		TopSilkscreen	10196	11013			2.375 in	1.325 in											"ISP6"	Anytime	0.0595 in			2	
+Pad	Rectangular	TopCopper	10697	11011			2.5375 in	1 in	0.145 in	0.05 in				90°				"Vcc"						2	
+Pad	Rectangular	TopCopper	10698	11011			2.3625 in	1 in	0.145 in	0.05 in				90°				"MISO"						2	
+Pad	Rectangular	TopCopper	10699	11011			2.5375 in	1.1 in	0.145 in	0.05 in				90°				"MOSI"						2	
+Pad	Rectangular	TopCopper	10700	11011			2.3625 in	1.1 in	0.145 in	0.05 in				90°				"SCK"						2	
+Pad	Rectangular	TopCopper	10702	11011			2.3625 in	1.2 in	0.145 in	0.05 in				90°				"RST"						2	
+Pad	Rectangular	TopCopper	10704	11011			2.5375 in	1.2 in	0.145 in	0.05 in				90°				"GND"						2	
+Pad	SquareWithHole		10975	11003			2.8 in	0.1 in	0.056 in	0.056 in							"1"	"PC6 (PCINT14/RESET)"				0.029 in		1	
+Pad			10976	11003			2.8 in	0.2 in	0.056 in	0.056 in							"2"	"PD0 (PCINT16/RXD)"				0.029 in		1	
+Pad			10977	11003			2.8 in	0.3 in	0.056 in	0.056 in							"3"	"PD1 (PCINT17/TXD)"				0.029 in		1	
+Pad			10978	11003			2.8 in	0.4 in	0.056 in	0.056 in							"4"	"PD2 (PCINT18/INT0)"				0.029 in		1	
+Pad			10979	11003			2.8 in	0.5 in	0.056 in	0.056 in							"5"	"PD3 (PCINT19/OC2B/INT1)"				0.029 in		1	
+Pad			10980	11003			2.8 in	0.6 in	0.056 in	0.056 in							"6"	"PD4 (PCINT20/XCK/T0)"				0.029 in		1	
+Pad			10981	11003			2.8 in	0.7 in	0.056 in	0.056 in							"7"	"VCC"				0.029 in		1	
+Pad			10982	11003			2.8 in	0.8 in	0.056 in	0.056 in							"8"	"GND"				0.029 in		1	
+Pad			10983	11003			2.8 in	0.9 in	0.056 in	0.056 in							"9"	"PB6 (PCINT6/XTAL1/TOSC1)"				0.029 in		1	
+Pad			10984	11003			2.8 in	1 in	0.056 in	0.056 in							"10"	"PB7 (PCINT7/XTAL2/TOSC2)"				0.029 in		1	
+Pad			10985	11003			2.8 in	1.1 in	0.056 in	0.056 in							"11"	"PD5 (PCINT21/OC0B/T1)"				0.029 in		1	
+Pad			10986	11003			2.8 in	1.2 in	0.056 in	0.056 in							"12"	"PD6 (PCINT22/OC0A/AIN0)"				0.029 in		1	
+Pad			10987	11003			2.8 in	1.3 in	0.056 in	0.056 in							"13"	"PD7 (PCINT23/AIN1)"				0.029 in		1	
+Pad			10988	11003			2.8 in	1.4 in	0.056 in	0.056 in							"14"	"PB0 (PCINT0/CLKO/ICP1)"				0.029 in		1	
+Pad			10989	11003			3.1 in	1.4 in	0.056 in	0.056 in							"15"	"PB1 (OC1A/PCINT1"				0.029 in		1	
+Pad			10990	11003			3.1 in	1.3 in	0.056 in	0.056 in							"16"	"PB2 (SS/OC1B/PCINT2)"				0.029 in		1	
+Pad			10991	11003			3.1 in	1.2 in	0.056 in	0.056 in							"17"	"PB3 (MOSI/OC2A/PCINT3)"				0.029 in		1	
+Pad			10992	11003			3.1 in	1.1 in	0.056 in	0.056 in							"18"	"PB4 (MISO/PCINT4)"				0.029 in		1	
+Pad			10993	11003			3.1 in	1 in	0.056 in	0.056 in							"19"	"PB5 (SCK/PCINT5)"				0.029 in		1	
+Pad			10994	11003			3.1 in	0.9 in	0.056 in	0.056 in							"20"	"AVCC"				0.029 in		1	
+Pad			10995	11003			3.1 in	0.8 in	0.056 in	0.056 in							"21"	"AREF"				0.029 in		1	
+Pad			10996	11003			3.1 in	0.7 in	0.056 in	0.056 in							"22"	"GND"				0.029 in		1	
+Pad			10997	11003			3.1 in	0.6 in	0.056 in	0.056 in							"23"	"PC0 (ADC0/PCINT8)"				0.029 in		1	
+Pad			10998	11003			3.1 in	0.5 in	0.056 in	0.056 in							"24"	"PC1 (ADC1/PCINT9)"				0.029 in		1	
+Pad			10999	11003			3.1 in	0.4 in	0.056 in	0.056 in							"25"	"PC2 (ADC2/PCINT10)"				0.029 in		1	
+Pad			11000	11003			3.1 in	0.3 in	0.056 in	0.056 in							"26"	"PC3 (ADC3/PCINT11)"				0.029 in		1	
+Pad			11001	11003			3.1 in	0.2 in	0.056 in	0.056 in							"27"	"PC4 (ADC4/SDA/PCINT12)"				0.029 in		1	
+Pad			11002	11003			3.1 in	0.1 in	0.056 in	0.056 in							"28"	"PC5 (ADC5/SCL/PCINT13)"				0.029 in		1	
+Group			11003														"IC"	"ATmega168PA"						1	
+Ellipse		TopSilkscreen	11004	11003			2.875 in	0.1 in	0.025 in	0.025 in				0°	360°									1	
+Line		TopSilkscreen	11005	11003			2.9125 in	0.075 in			2.85 in	0.075 in	0.012 in											1	
+Line		TopSilkscreen	11006	11003			2.85 in	0.075 in			2.85 in	1.425 in	0.012 in											1	
+Line		TopSilkscreen	11007	11003			2.85 in	1.425 in			3.05 in	1.425 in	0.012 in											1	
+Line		TopSilkscreen	11008	11003			3.05 in	1.425 in			3.05 in	0.075 in	0.012 in											1	
+Line		TopSilkscreen	11009	11003			3.05 in	0.075 in			2.9875 in	0.075 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	11010	11003			2.9125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°									1	
+Group			11011	11013																				2	
+Group			11012	11013																				2	
+Group			11013																					2	

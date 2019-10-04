@@ -1,0 +1,109 @@
+ApplicationVersion=2.0.5089
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+ClearanceMinimum=0.01 in
+CopperLayers=1
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.5 in
+HoleDiameterMinimum=0.014 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=-
+InnerLayerUpperConnectionLabel=+
+LicenseNumber=1100
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PlatedHoles=False
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TraceClearanceDefault=0.015 in
+Website=http://www.robotroom.com/DPDT-Bidirectional-Motor-Switch.html
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	1.7 in					0.007 in										(0 in,1.7000001 in)(2 in,1.7 in)(2 in,2.4999999 in)(0 in,2.5 in)		
+Polygon	Outline	TopSilkscreen	12	18			0.525 in	1.9625 in					0.012 in										(0.525 in,1.9625 in)(0.775 in,1.9625 in)(0.775 in,2.1875 in)(0.525 in,2.1875 in)		
+Pad	SquareWithHole		13	18			0.65 in	2.025 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			15	18			0.65 in	2.125 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			18											270°			"J2"	"Header 2 pin 22-23-2021"	"Molex KK"						
+Rectangle		TopSilkscreen	19	18			0.75 in	2.025 in	0.025 in	0.1 in															
+Pad			1312	1342			1.2 in	2.245 in	0.13 in	0.13 in							"4"					0.079 in			
+Pad			1313	1342			1.2 in	2.06 in	0.13 in	0.13 in							"5"					0.079 in			
+Pad			1314	1342			1.2 in	1.875 in	0.13 in	0.13 in							"6"					0.079 in			
+Pad			1315	1342			1.39 in	2.245 in	0.13 in	0.13 in							"1"					0.079 in			
+Pad			1316	1342			1.39 in	2.06 in	0.13 in	0.13 in							"2"					0.079 in			
+Pad			1317	1342			1.39 in	1.875 in	0.13 in	0.13 in							"3"					0.079 in			
+Rectangle	Outline	TopSilkscreen	1338	1342			1.045 in	1.81 in	0.5 in	0.5 in			0.012 in												
+Ellipse	Outline	TopSilkscreen	1340	1342			1.27 in	1.913313 in	0.05 in	0.05 in			0.012 in	180°	180°										
+Ellipse	Outline	TopSilkscreen	1341	1342			1.17 in	1.935 in	0.25 in	0.25 in			0.012 in	180°	360°										
+Group			1342														"SW1"	"DPDT center off toggle switch with solder lugs"							
+Point		BottomCopper	1343				1.3 in	2.35 in																	
+Trace		BottomCopper	1344		1312	1343							0.04 in												
+Point		BottomCopper	1345				1.575 in	2.35 in																	
+Trace		BottomCopper	1346		1343	1345							0.04 in												
+Point		BottomCopper	1347				1.575 in	1.875 in																	
+Trace		BottomCopper	1348		1345	1347							0.04 in												
+Trace		BottomCopper	1350		1347	1317							0.04 in												
+Point		BottomCopper	1351				1.275 in	2.15 in																	
+Trace		BottomCopper	1352		1316	1351							0.04 in												
+Trace		BottomCopper	1354		1351	1374							0.03 in												
+Trace		BottomCopper	1356		1313	1403							0.04 in												
+Point		BottomCopper	1357				1.3 in	1.9670551 in																	
+Trace		BottomCopper	1358		1314	1357							0.04 in												
+Point		BottomCopper	1359				1.5 in	1.9670551 in																	
+Trace		BottomCopper	1360		1357	1359							0.03 in												
+Point		BottomCopper	1361				1.5 in	2.175 in																	
+Trace		BottomCopper	1362		1359	1361							0.04 in												
+Trace		BottomCopper	1364		1361	1315							0.04 in												
+Polygon	Outline	TopSilkscreen	1365	1368			0.175 in	1.9625 in					0.012 in										(0.175 in,1.9625 in)(0.425 in,1.9625 in)(0.425 in,2.1875 in)(0.175 in,2.1875 in)		
+Pad	SquareWithHole		1366	1368			0.3 in	2.025 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			1367	1368			0.3 in	2.125 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			1368											270°			"J1"	"Header 2 pin 22-23-2021"	"Molex KK"						
+Rectangle		TopSilkscreen	1369	1368			0.4 in	2.025 in	0.025 in	0.1 in															
+Point		BottomCopper	1370				0.2 in	1.9 in																	
+Trace		BottomCopper	1373		1370	1401							0.04 in												
+Point		BottomCopper	1374				1.1 in	2.15 in																	
+Trace		BottomCopper	1378		15	1405							0.04 in												
+Point		BottomCopper	1379				0.4 in	2.2 in																	
+Trace		BottomCopper	1382		1379	1407							0.04 in												
+Text		TopSilkscreen	1383				0.55 in	2.35 in											"Motor"	Anytime	0.0595 in				
+Text		TopSilkscreen	1384				0.15 in	2.35 in											"Battery"	Anytime	0.0595 in				
+Text		TopSilkscreen	1385				1.175 in	2.35 in											"Switch"	Anytime	0.0595 in				
+Text		TopSilkscreen	1386				1.6 in	1.85 in											"Forward"	Anytime	0.0595 in				
+Text		TopSilkscreen	1387				1.6 in	2.0366171 in											"Off"	Anytime	0.0595 in				
+Text		TopSilkscreen	1388				1.6 in	2.2185461 in											"Backward"	Anytime	0.0595 in				
+Point		BottomCopper	1389				0.4 in	2.025 in																	
+Trace		BottomCopper	1390		1366	1389							0.04 in												
+Trace		BottomCopper	1392		1389	1379							0.04 in												
+Point		BottomCopper	1393				0.2 in	2.125 in																	
+Trace		BottomCopper	1394		1370	1393							0.04 in												
+Trace		BottomCopper	1396		1393	1367							0.04 in												
+Text		TopSilkscreen	1397				0.6641987 in	1.95 in						180°					"+"	Anytime	0.0595 in				
+Text		TopSilkscreen	1398				0.3146737 in	1.95 in						180°					"+"	Anytime	0.0595 in				
+Text		TopSilkscreen	1399				0.3146737 in	2.25 in						180°					"-"	Anytime	0.0595 in				
+Text		TopSilkscreen	1400				0.6633829 in	2.25 in						180°					"-"	Anytime	0.0595 in				
+Pad			1401				0.9 in	1.9 in	0.065 in	0.065 in												0.035 in			
+Trace		BottomCopper	1402		1401	1314							0.04 in												
+Pad			1403				0.9 in	2 in	0.065 in	0.065 in												0.035 in			
+Trace		BottomCopper	1404		1403	13							0.04 in												
+Pad			1405				0.9 in	2.1 in	0.065 in	0.065 in												0.035 in			
+Trace		BottomCopper	1406		1405	1374							0.04 in												
+Pad			1407				0.9 in	2.2 in	0.065 in	0.065 in												0.035 in			
+Trace		BottomCopper	1408		1407	1312							0.04 in												
+Note		TopCopper	1409				0.85 in	2.275 in	0.1070664 in	0.1070664 in									"Alternatively, split the four holes and switch onto a small board. Solder that board onto the standalone swith. Solder four wires to the four holes."				LightBulb		
+Line		TopSilkscreen	1410				0.8 in	1.725 in			0.8 in	1.75 in	0.012 in												
+Line		TopSilkscreen	1411				0.8 in	2.45 in			0.8 in	2.475 in	0.012 in												
+Line		TopSilkscreen	1412				1.6 in	1.725 in			1.6 in	1.75 in	0.012 in												
+Line		TopSilkscreen	1413				1.6 in	2.45 in			1.6 in	2.475 in	0.012 in												
+Pad			2433				0.1 in	1.8 in	0.15 in	0.106 in												0.089 in			
+Pad			2434				1.9 in	1.8 in	0.15 in	0.106 in												0.089 in			
+Pad			2435				1.9 in	2.4 in	0.15 in	0.106 in												0.089 in			
+Pad			2436				0.1 in	2.4 in	0.15 in	0.106 in												0.089 in			

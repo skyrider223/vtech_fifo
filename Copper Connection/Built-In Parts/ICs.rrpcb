@@ -1,0 +1,219 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5488
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=IC
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Group			2														"IC"	"IXDx404PI DIP"							
+Ellipse		TopSilkscreen	3	2			0.175 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		18	2			0.1 in	0.1 in	0.056 in	0.056 in							"1"	"NC"				0.029 in			
+Pad			19	2			0.4 in	0.1 in	0.056 in	0.056 in							"8"	"NC"				0.029 in			
+Pad			20	2			0.1 in	0.2 in	0.056 in	0.056 in							"2"	"In A"				0.029 in			
+Pad			21	2			0.4 in	0.2 in	0.056 in	0.056 in							"7"	"Out A"				0.029 in			
+Pad			22	2			0.1 in	0.3 in	0.056 in	0.056 in							"3"	"GND"				0.029 in			
+Pad			23	2			0.4 in	0.3 in	0.056 in	0.056 in							"6"	"Vcc"	"18 V (typical) 25 V (max)"			0.029 in			
+Pad			24	2			0.1 in	0.4 in	0.056 in	0.056 in							"4"	"In B"				0.029 in			
+Pad			25	2			0.4 in	0.4 in	0.056 in	0.056 in							"5"	"Out B"				0.029 in			
+Line		TopSilkscreen	26	2			0.15 in	0.075 in			0.15 in	0.425 in	0.012 in												
+Line		TopSilkscreen	27	2			0.15 in	0.425 in			0.35 in	0.425 in	0.012 in												
+Line		TopSilkscreen	29	2			0.35 in	0.075 in			0.289 in	0.075 in	0.012 in												
+Line		TopSilkscreen	30	2			0.15 in	0.075 in			0.2125 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	59	2			0.2125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Line		TopSilkscreen	113	2			0.35 in	0.075 in			0.35 in	0.425 in	0.012 in												
+Ellipse		TopSilkscreen	355	404			0.675 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		378	404			0.6 in	0.1 in	0.056 in	0.056 in							"1"	"Out A"				0.029 in			
+Pad			379	404			0.9 in	0.1 in	0.056 in	0.056 in							"8"	"Vcc"				0.029 in			
+Pad			380	404			0.6 in	0.2 in	0.056 in	0.056 in							"2"	"In- A"				0.029 in			
+Pad			381	404			0.9 in	0.2 in	0.056 in	0.056 in							"7"	"Out B"				0.029 in			
+Pad			382	404			0.6 in	0.3 in	0.056 in	0.056 in							"3"	"In+ A"				0.029 in			
+Pad			383	404			0.9 in	0.3 in	0.056 in	0.056 in							"6"	"In- B"				0.029 in			
+Pad			384	404			0.6 in	0.4 in	0.056 in	0.056 in							"4"	"GND"				0.029 in			
+Pad			385	404			0.9 in	0.4 in	0.056 in	0.056 in							"5"	"In+ B"				0.029 in			
+Line		TopSilkscreen	386	404			0.65 in	0.075 in			0.65 in	0.425 in	0.012 in												
+Line		TopSilkscreen	400	404			0.65 in	0.425 in			0.85 in	0.425 in	0.012 in												
+Line		TopSilkscreen	401	404			0.85 in	0.075 in			0.789 in	0.075 in	0.012 in												
+Line		TopSilkscreen	402	404			0.65 in	0.075 in			0.7125 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	403	404			0.7125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Group			404														"IC"	"LM393 DIP 8-pin"	"Dual comparator"						
+Line		TopSilkscreen	405	404			0.85 in	0.075 in			0.85 in	0.425 in	0.012 in												
+Ellipse		TopSilkscreen	406	428			1.675 in	0.1 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		407	428			1.6 in	0.1 in	0.056 in	0.056 in							"Vcc"	"Logic power supply 2.5 V to 7 V"				0.029 in			
+Pad			408	428			1.9 in	0.1 in	0.056 in	0.056 in							"P⏚"	"Power GND"				0.029 in			
+Pad			409	428			1.6 in	0.2 in	0.056 in	0.056 in							"En1"	"Enable 1"				0.029 in			
+Pad			410	428			1.9 in	0.2 in	0.056 in	0.056 in							"En2"	"Enable 2"				0.029 in			
+Pad			411	428			1.6 in	0.3 in	0.056 in	0.056 in							"Out1"	"Output 1"				0.029 in			
+Pad			412	428			1.9 in	0.3 in	0.056 in	0.056 in							"Out3"	"Output 3"				0.029 in			
+Pad			413	428			1.6 in	0.4 in	0.056 in	0.056 in							"PV1"	"First motor power supply 2.5 V to 7 V"				0.029 in			
+Pad			414	428			1.9 in	0.4 in	0.056 in	0.056 in							"PV2"	"Second motor power supply 2.5 V to 7 V"				0.029 in			
+Line		TopSilkscreen	415	428			1.65 in	0.075 in			1.65 in	0.725 in	0.012 in												
+Line		TopSilkscreen	416	428			1.65 in	0.725 in			1.85 in	0.725 in	0.012 in												
+Line		TopSilkscreen	417	428			1.85 in	0.725 in			1.85 in	0.075 in	0.012 in												
+Line		TopSilkscreen	418	428			1.85 in	0.075 in			1.789 in	0.075 in	0.012 in												
+Line		TopSilkscreen	419	428			1.65 in	0.075 in			1.7125 in	0.075 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	420	428			1.7125 in	0.0375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad			421	428			1.6 in	0.5 in	0.056 in	0.056 in							"Out2"	"Output 2"				0.029 in			
+Pad			422	428			1.6 in	0.6 in	0.056 in	0.056 in							"In1"	"Input 1"				0.029 in			
+Pad			423	428			1.6 in	0.7 in	0.056 in	0.056 in							"⏚"	"Logic GND"				0.029 in			
+Pad			424	428			1.9 in	0.5 in	0.056 in	0.056 in							"Out4"	"Output 4"				0.029 in			
+Pad			425	428			1.9 in	0.6 in	0.056 in	0.056 in							"In2"	"Input 2"				0.029 in			
+Pad			426	428			1.9 in	0.7 in	0.056 in	0.056 in							"P⏚"	"Power ground"				0.029 in			
+Group			428														"IC"	"FAN8200"	"Low voltage motor driver"						
+Pad	Rectangular	TopCopper	2452	2468			15.24 mm	22.86 mm	2.2 mm	0.6 mm							"1"	"~HOLD"	"Hold (low)"						
+Pad	Rectangular	TopCopper	2453	2468			15.24 mm	24.13 mm	2.2 mm	0.6 mm							"2"	"Vcc"	"Power"						
+Pad	Rectangular	TopCopper	2454	2468			15.24 mm	25.4 mm	2.2 mm	0.6 mm							"3"	"NC"							
+Pad	Rectangular	TopCopper	2455	2468			15.24 mm	26.67 mm	2.2 mm	0.6 mm							"4"	"NC"							
+Pad	Rectangular	TopCopper	2456	2468			15.24 mm	27.94 mm	2.2 mm	0.6 mm							"5"	"NC"							
+Pad	Rectangular	TopCopper	2457	2468			15.24 mm	29.21 mm	2.2 mm	0.6 mm							"6"	"NC"							
+Pad	Rectangular	TopCopper	2458	2468			15.24 mm	30.48 mm	2.2 mm	0.6 mm							"7"	"~CS"	"Chip select (low)"						
+Pad	Rectangular	TopCopper	2459	2468			15.24 mm	31.75 mm	2.2 mm	0.6 mm							"8"	"SO"	"Data output"						
+Pad	Rectangular	TopCopper	2460	2468			24.44 mm	31.75 mm	2.2 mm	0.6 mm							"9"	"~WP"	"Write protect (low)"						
+Pad	Rectangular	TopCopper	2461	2468			24.44 mm	30.48 mm	2.2 mm	0.6 mm							"10"	"GND"							
+Pad	Rectangular	TopCopper	2462	2468			24.44 mm	29.21 mm	2.2 mm	0.6 mm							"11"	"NC"							
+Pad	Rectangular	TopCopper	2463	2468			24.44 mm	27.94 mm	2.2 mm	0.6 mm							"12"	"NC"							
+Pad	Rectangular	TopCopper	2464	2468			24.44 mm	26.67 mm	2.2 mm	0.6 mm							"13"	"NC"							
+Pad	Rectangular	TopCopper	2465	2468			24.44 mm	25.4 mm	2.2 mm	0.6 mm							"14"	"NC"							
+Pad	Rectangular	TopCopper	2466	2468			24.44 mm	24.13 mm	2.2 mm	0.6 mm							"15"	"SI"	"Data input"						
+Pad	Rectangular	TopCopper	2467	2468			24.44 mm	22.86 mm	2.2 mm	0.6 mm							"16"	"SCK"	"Clock input"						
+Group			2468														"IC"	"Serial Flash SO16W"							
+Ellipse		TopSilkscreen	2469	2468			17.2544 mm	22.7076 mm	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	2470	2468			19.34 mm	22.2552 mm			16.7972 mm	22.2552 mm	0.012 in												
+Line		TopSilkscreen	2471	2468			16.7972 mm	22.2552 mm			16.7972 mm	32.3548 mm	0.012 in												
+Line		TopSilkscreen	2472	2468			16.7972 mm	32.3548 mm			22.8828 mm	32.3548 mm	0.012 in												
+Line		TopSilkscreen	2473	2468			22.8828 mm	32.3548 mm			22.8828 mm	22.2552 mm	0.012 in												
+Line		TopSilkscreen	2474	2468			22.8828 mm	22.2552 mm			20.34 mm	22.2552 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2475	2468			19.34 mm	21.7552 mm	1 mm	1 mm			0.012 in	180°	180°										
+Pad	Rectangular	TopCopper	2526	2534			3.175 mm	22.86 mm	2.2 mm	0.6 mm							"1"	"~CS"	"Chip select (low)"						
+Pad	Rectangular	TopCopper	2527	2534			3.175 mm	24.13 mm	2.2 mm	0.6 mm							"2"	"SO"	"Output"						
+Pad	Rectangular	TopCopper	2528	2534			3.175 mm	25.4 mm	2.2 mm	0.6 mm							"3"	"~WP"	"Write protect (low)"						
+Pad	Rectangular	TopCopper	2529	2534			3.175 mm	26.67 mm	2.2 mm	0.6 mm							"4"	"GND"							
+Pad	Rectangular	TopCopper	2530	2534			10.035 mm	26.67 mm	2.2 mm	0.6 mm							"5"	"SI"	"Input"						
+Pad	Rectangular	TopCopper	2531	2534			10.035 mm	25.4 mm	2.2 mm	0.6 mm							"6"	"SCK"	"Serial clock"						
+Pad	Rectangular	TopCopper	2532	2534			10.035 mm	24.13 mm	2.2 mm	0.6 mm							"7"	"~HOLD"							
+Pad	Rectangular	TopCopper	2533	2534			10.035 mm	22.86 mm	2.2 mm	0.6 mm							"8"	"Vcc"							
+Group			2534														"IC"	"Serial Flash SO8 208 mil 8S2"							
+Ellipse		TopSilkscreen	2535	2534			5.1894 mm	22.7076 mm	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	2536	2534			6.105 mm	22.2552 mm			4.7322 mm	22.2552 mm	0.012 in												
+Line		TopSilkscreen	2537	2534			4.7322 mm	22.2552 mm			4.7322 mm	27.2748 mm	0.012 in												
+Line		TopSilkscreen	2538	2534			4.7322 mm	27.2748 mm			8.4778 mm	27.2748 mm	0.012 in												
+Line		TopSilkscreen	2539	2534			8.4778 mm	27.2748 mm			8.4778 mm	22.2552 mm	0.012 in												
+Line		TopSilkscreen	2540	2534			8.4778 mm	22.2552 mm			7.105 mm	22.2552 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2541	2534			6.105 mm	21.7552 mm	1 mm	1 mm			0.012 in	180°	180°										
+Pad	Rectangular	TopCopper	2749	2769			28.575 mm	22.86 mm	2.2 mm	0.6 mm							"1"	"~CS"							
+Pad	Rectangular	TopCopper	2750	2769			28.575 mm	24.13 mm	2.2 mm	0.6 mm							"2"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2751	2769			28.575 mm	25.4 mm	2.2 mm	0.6 mm							"3"	"32 kHz"							
+Pad	Rectangular	TopCopper	2752	2769			28.575 mm	26.67 mm	2.2 mm	0.6 mm							"4"	"Vcc"							
+Pad	Rectangular	TopCopper	2753	2769			28.575 mm	27.94 mm	2.2 mm	0.6 mm							"5"	"~INT/SQW"							
+Pad	Rectangular	TopCopper	2754	2769			28.575 mm	29.21 mm	2.2 mm	0.6 mm							"6"	"~RST"							
+Pad	Rectangular	TopCopper	2755	2769			28.575 mm	30.48 mm	2.2 mm	0.6 mm							"7"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2756	2769			28.575 mm	31.75 mm	2.2 mm	0.6 mm							"8"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2757	2769			28.575 mm	33.02 mm	2.2 mm	0.6 mm							"9"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2758	2769			28.575 mm	34.29 mm	2.2 mm	0.6 mm							"10"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2759	2769			37.775 mm	34.29 mm	2.2 mm	0.6 mm							"11"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2760	2769			37.775 mm	33.02 mm	2.2 mm	0.6 mm							"12"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2761	2769			37.775 mm	31.75 mm	2.2 mm	0.6 mm							"13"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2762	2769			37.775 mm	30.48 mm	2.2 mm	0.6 mm							"14"	"NC"	"Must be connected to GND"						
+Pad	Rectangular	TopCopper	2763	2769			37.775 mm	29.21 mm	2.2 mm	0.6 mm							"15"	"GND"							
+Pad	Rectangular	TopCopper	2764	2769			37.775 mm	27.94 mm	2.2 mm	0.6 mm							"16"	"VBAT"							
+Pad	Rectangular	TopCopper	2765	2769			37.775 mm	26.67 mm	2.2 mm	0.6 mm							"17"	"DIN"							
+Pad	Rectangular	TopCopper	2766	2769			37.775 mm	25.4 mm	2.2 mm	0.6 mm							"18"	"SCLK"							
+Pad	Rectangular	TopCopper	2767	2769			37.775 mm	24.13 mm	2.2 mm	0.6 mm							"19"	"DOUT"							
+Pad	Rectangular	TopCopper	2768	2769			37.775 mm	22.86 mm	2.2 mm	0.6 mm							"20"	"SCLK"							
+Group			2769														"IC"	"DS3234 RTC real time clock"							
+Ellipse		TopSilkscreen	2770	2769			30.5894 mm	22.7076 mm	0.024 in	0.024 in				0°	360°										
+Line		TopSilkscreen	2771	2769			32.675 mm	22.2552 mm			30.1322 mm	22.2552 mm	0.012 in												
+Line		TopSilkscreen	2772	2769			30.1322 mm	22.2552 mm			30.1322 mm	34.8948 mm	0.012 in												
+Line		TopSilkscreen	2773	2769			30.1322 mm	34.8948 mm			36.2178 mm	34.8948 mm	0.012 in												
+Line		TopSilkscreen	2774	2769			36.2178 mm	34.8948 mm			36.2178 mm	22.2552 mm	0.012 in												
+Line		TopSilkscreen	2775	2769			36.2178 mm	22.2552 mm			33.675 mm	22.2552 mm	0.012 in												
+Ellipse	Outline	TopSilkscreen	2776	2769			32.675 mm	21.7552 mm	1 mm	1 mm			0.012 in	180°	180°										
+Pad	SquareWithHole		5976	5984			0.1 in	1.5 in	0.056 in	0.056 in							"1"	"GAIN"				0.029 in			
+Pad			5977	5984			0.1 in	1.6 in	0.056 in	0.056 in							"2"	"INPUT-"				0.029 in			
+Pad			5978	5984			0.1 in	1.7 in	0.056 in	0.056 in							"3"	"INPUT+"				0.029 in			
+Pad			5979	5984			0.1 in	1.8 in	0.056 in	0.056 in							"4"	"GND"				0.029 in			
+Pad			5980	5984			0.4 in	1.8 in	0.056 in	0.056 in							"5"	"Vout"				0.029 in			
+Pad			5981	5984			0.4 in	1.7 in	0.056 in	0.056 in							"6"	"Vs"				0.029 in			
+Pad			5982	5984			0.4 in	1.6 in	0.056 in	0.056 in							"7"	"BYPASS"				0.029 in			
+Pad			5983	5984			0.4 in	1.5 in	0.056 in	0.056 in							"8"	"GAIN"				0.029 in			
+Group			5984														"IC"	"LM386 Audio Amplifier DIP"	"Low Voltage Audio Power Amplifier"						
+Ellipse		TopSilkscreen	5985	5984			0.175 in	1.5 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	5986	5984			0.2125 in	1.475 in			0.15 in	1.475 in	0.012 in												
+Line		TopSilkscreen	5987	5984			0.15 in	1.475 in			0.15 in	1.825 in	0.012 in												
+Line		TopSilkscreen	5988	5984			0.15 in	1.825 in			0.35 in	1.825 in	0.012 in												
+Line		TopSilkscreen	5989	5984			0.35 in	1.825 in			0.35 in	1.475 in	0.012 in												
+Line		TopSilkscreen	5990	5984			0.35 in	1.475 in			0.2875 in	1.475 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	5991	5984			0.2125 in	1.4375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Ellipse		TopSilkscreen	7074	7088			0.875 in	1.5 in	0.025 in	0.025 in				0°	360°										
+Pad	SquareWithHole		7075	7088			0.8 in	1.5 in	0.056 in	0.056 in							"1"	"NC"				0.029 in			
+Pad			7076	7088			1.1 in	1.5 in	0.056 in	0.056 in							"8"	"NC"				0.029 in			
+Pad			7077	7088			0.8 in	1.6 in	0.056 in	0.056 in							"2"	"IN"	"8 V to 36 V"			0.029 in			
+Pad			7078	7088			1.1 in	1.6 in	0.056 in	0.056 in							"7"	"NC"				0.029 in			
+Pad			7079	7088			0.8 in	1.7 in	0.056 in	0.056 in							"3"	"NR"				0.029 in			
+Pad			7080	7088			1.1 in	1.7 in	0.056 in	0.056 in							"6"	"OUT"				0.029 in			
+Pad			7081	7088			0.8 in	1.8 in	0.056 in	0.056 in							"4"	"GND"				0.029 in			
+Pad			7082	7088			1.1 in	1.8 in	0.056 in	0.056 in							"5"	"TRIM"				0.029 in			
+Line		TopSilkscreen	7083	7088			0.85 in	1.475 in			0.85 in	1.825 in	0.012 in												
+Line		TopSilkscreen	7084	7088			0.85 in	1.825 in			1.05 in	1.825 in	0.012 in												
+Line		TopSilkscreen	7085	7088			1.05 in	1.475 in			0.989 in	1.475 in	0.012 in												
+Line		TopSilkscreen	7086	7088			0.85 in	1.475 in			0.9125 in	1.475 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	7087	7088			0.9125 in	1.4375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Group			7088														"IC"	"MAX6225/6241/6250 Voltage Reference DIP 8-pin"							
+Line		TopSilkscreen	7089	7088			1.05 in	1.475 in			1.05 in	1.825 in	0.012 in												
+Pad	SquareWithHole		7106	7114			1.5 in	1.5 in	0.056 in	0.056 in							"1"	"GND"				0.029 in			
+Pad			7107	7114			1.5 in	1.6 in	0.056 in	0.056 in							"2"	"~Trigger"				0.029 in			
+Pad			7108	7114			1.5 in	1.7 in	0.056 in	0.056 in							"3"	"Output"				0.029 in			
+Pad			7109	7114			1.5 in	1.8 in	0.056 in	0.056 in							"4"	"~Reset"				0.029 in			
+Pad			7110	7114			1.8 in	1.8 in	0.056 in	0.056 in							"5"	"Control Voltage"				0.029 in			
+Pad			7111	7114			1.8 in	1.7 in	0.056 in	0.056 in							"6"	"Threshold"				0.029 in			
+Pad			7112	7114			1.8 in	1.6 in	0.056 in	0.056 in							"7"	"Discharge"				0.029 in			
+Pad			7113	7114			1.8 in	1.5 in	0.056 in	0.056 in							"8"	"Vcc"				0.029 in			
+Group			7114														"IC"	"555 Timer DIP"							
+Ellipse		TopSilkscreen	7115	7114			1.575 in	1.5 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	7116	7114			1.6125 in	1.475 in			1.55 in	1.475 in	0.012 in												
+Line		TopSilkscreen	7117	7114			1.55 in	1.475 in			1.55 in	1.825 in	0.012 in												
+Line		TopSilkscreen	7118	7114			1.55 in	1.825 in			1.75 in	1.825 in	0.012 in												
+Line		TopSilkscreen	7119	7114			1.75 in	1.825 in			1.75 in	1.475 in	0.012 in												
+Line		TopSilkscreen	7120	7114			1.75 in	1.475 in			1.6875 in	1.475 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	7121	7114			1.6125 in	1.4375 in	0.075 in	0.075 in			0.012 in	180°	180°										
+Pad	SquareWithHole		7307	7315			2 in	1.5 in	0.056 in	0.056 in							"1"	"X1"	"Crystal"			0.029 in			
+Pad			7308	7315			2 in	1.6 in	0.056 in	0.056 in							"2"	"X2"	"Crystal"			0.029 in			
+Pad			7309	7315			2 in	1.7 in	0.056 in	0.056 in							"3"	"Vbat"	"2V-3.5V"			0.029 in			
+Pad			7310	7315			2 in	1.8 in	0.056 in	0.056 in							"4"	"GND"				0.029 in			
+Pad			7311	7315			2.3 in	1.8 in	0.056 in	0.056 in							"5"	"SDA"	"Serial data (I2C)"			0.029 in			
+Pad			7312	7315			2.3 in	1.7 in	0.056 in	0.056 in							"6"	"SCL"	"Serial clock (I2C)"			0.029 in			
+Pad			7313	7315			2.3 in	1.6 in	0.056 in	0.056 in							"7"	"SQW/OUT"	"Square wave"			0.029 in			
+Pad			7314	7315			2.3 in	1.5 in	0.056 in	0.056 in							"8"	"Vcc"	"5V"			0.029 in			
+Group			7315														"IC"	"DS1307"							
+Ellipse		TopSilkscreen	7316	7315			2.075 in	1.5 in	0.025 in	0.025 in				0°	360°										
+Line		TopSilkscreen	7317	7315			2.1125 in	1.475 in			2.05 in	1.475 in	0.012 in												
+Line		TopSilkscreen	7318	7315			2.05 in	1.475 in			2.05 in	1.825 in	0.012 in												
+Line		TopSilkscreen	7319	7315			2.05 in	1.825 in			2.25 in	1.825 in	0.012 in												
+Line		TopSilkscreen	7320	7315			2.25 in	1.825 in			2.25 in	1.475 in	0.012 in												
+Line		TopSilkscreen	7321	7315			2.25 in	1.475 in			2.1875 in	1.475 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	7322	7315			2.1125 in	1.4375 in	0.075 in	0.075 in			0.012 in	180°	180°										

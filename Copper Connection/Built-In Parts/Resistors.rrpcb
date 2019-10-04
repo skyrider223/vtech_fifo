@@ -1,0 +1,99 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.8.5496
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSolderMask=True
+BottomSolderPaste=True
+Categories=Resistor
+ClearanceMinimum=0.01 in
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.562 in
+HoleDiameterMinimum=0.008 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=+
+InnerLayerUpperConnectionLabel=⏚
+LicenseNumber=1100
+PadClearanceDefault=0.015 in
+PlatedHoles=True
+PoursSelectable=True
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(4 in,0 in)(4 in,2.5 in)(0 in,2.5 in)		
+Polygon	Outline	TopSilkscreen	2	8			0.875 in	0.15 in					0.012 in	90°									(0.875 in,0.15 in)(1.125 in,0.15 in)(1.125 in,0.25 in)(0.875 in,0.25 in)		
+Pad			3	8			0.8 in	0.2 in	0.056 in	0.065 in				90°			"1"					0.029 in			
+Pad			4	8			1.2 in	0.2 in	0.056 in	0.065 in				90°			"2"					0.029 in			
+Line		TopSilkscreen	5	8			0.85 in	0.2 in			0.875 in	0.2 in	0.012 in												
+Line		TopSilkscreen	6	8			1.125 in	0.2 in			1.15 in	0.2 in	0.012 in												
+Polygon	Outline	TopSilkscreen	7	31			3.7375 in	0.165 in					0.012 in	90°									(3.7375 in,0.165 in)(3.7625 in,0.165 in)(3.7625 in,0.235 in)(3.7375 in,0.235 in)		
+Group			8														"R"	"Resistor 1/4 W (0.4 in)"	"0.4 in lead spacing"						
+Polygon	Outline	TopSilkscreen	9	22			2.45 in	0.165 in					0.012 in	90°									(2.45 in,0.165 in)(2.6 in,0.165 in)(2.6 in,0.235 in)(2.45 in,0.235 in)		
+Pad			10	22			2.4 in	0.2 in	0.054 in	0.054 in				90°			"1"					0.025 in			
+Pad			11	22			2.65 in	0.2 in	0.054 in	0.054 in				90°			"2"					0.025 in			
+Line		TopSilkscreen	12	22			2.434918 in	0.2 in			2.447418 in	0.2 in	0.012 in												
+Line		TopSilkscreen	13	22			2.6021477 in	0.2 in			2.6146477 in	0.2 in	0.012 in												
+Polygon	Outline	TopSilkscreen	14	20			0.175 in	0.13125 in					0.012 in	90°									(0.175 in,0.13125 in)(0.525 in,0.13125 in)(0.525 in,0.26875 in)(0.175 in,0.26875 in)		
+Pad			15	20			0.1 in	0.2 in	0.065 in	0.065 in				90°			"1"					0.035 in			
+Pad			16	31			3.7 in	0.2 in	0.056 in	0.056 in				90°			"1"					0.029 in			
+Pad			17	20			0.6 in	0.2 in	0.065 in	0.065 in				90°			"2"					0.035 in			
+Line		TopSilkscreen	18	20			0.15 in	0.2 in			0.175 in	0.2 in	0.012 in												
+Line		TopSilkscreen	19	20			0.525 in	0.2 in			0.55 in	0.2 in	0.012 in												
+Group			20														"R"	"Resistor 1/2 W (0.5 in)"	"0.5 in lead spacing"						
+Group			22														"R"	"Resistor 1/8 W (0.25 in)"	"0.25 in lead spacing"						
+Pad			23	31			3.8 in	0.2 in	0.056 in	0.056 in				90°			"2"					0.029 in			
+Line		TopSilkscreen	25	31			3.7312322 in	0.2 in			3.7372322 in	0.2 in	0.012 in												
+Line		TopSilkscreen	30	31			3.7643162 in	0.2 in			3.7703162 in	0.2 in	0.012 in												
+Group			31														"R"	"Resistor (0.1 in; stand up)"							
+Polygon	Outline	TopSilkscreen	32	37			1.475 in	0.15 in					0.012 in	90°									(1.475 in,0.15 in)(1.675 in,0.15 in)(1.675 in,0.25 in)(1.475 in,0.25 in)		
+Pad			33	37			1.4 in	0.2 in	0.056 in	0.065 in				90°			"1"					0.029 in			
+Pad			34	37			1.75 in	0.2 in	0.056 in	0.065 in				90°			"2"					0.029 in			
+Line		TopSilkscreen	35	37			1.45 in	0.2 in			1.475 in	0.2 in	0.012 in												
+Line		TopSilkscreen	36	37			1.675 in	0.2 in			1.7 in	0.2 in	0.012 in												
+Group			37														"R"	"Resistor 1/4 W (0.35 in)"	"0.35 in lead spacing"						
+Pad			2098	2105			3.3 in	0.2 in	0.054 in	0.054 in				90°								0.025 in			
+Pad			2099	2105			3.475 in	0.2 in	0.054 in	0.054 in				90°								0.025 in			
+Polygon	Outline	TopSilkscreen	2100	2105			3.35 in	0.1625 in					0.012 in	90°									(3.35 in,0.1625 in)(3.425 in,0.1625 in)(3.425 in,0.2375 in)(3.35 in,0.2375 in)		
+Line		TopSilkscreen	2101	2105			3.425 in	0.2 in			3.4375 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2102	2105			3.3375 in	0.2 in			3.35 in	0.2 in	0.012 in												
+Group			2105														"R"	"Resistor 1/8 W (0.175 in)"	"0.175 in lead spacing"						
+Polygon	Outline	TopSilkscreen	2106	2111			1.95 in	0.165 in					0.012 in	90°									(1.95 in,0.165 in)(2.15 in,0.165 in)(2.15 in,0.235 in)(1.95 in,0.235 in)		
+Pad			2107	2111			1.9 in	0.2 in	0.054 in	0.054 in				90°			"1"					0.025 in			
+Pad			2108	2111			2.2 in	0.2 in	0.054 in	0.054 in				90°			"2"					0.025 in			
+Line		TopSilkscreen	2109	2111			1.934918 in	0.2 in			1.947418 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2110	2111			2.1529108 in	0.2 in			2.1654108 in	0.2 in	0.012 in												
+Group			2111														"R"	"Resistor 1/8 W (0.3 in)"	"0.3 in lead spacing"						
+Polygon	Outline	TopSilkscreen	2114	2119			2.85 in	0.165 in					0.012 in	90°									(2.85 in,0.165 in)(2.95 in,0.165 in)(2.95 in,0.235 in)(2.85 in,0.235 in)		
+Pad			2115	2119			2.8 in	0.2 in	0.054 in	0.054 in				90°			"1"					0.025 in			
+Pad			2116	2119			3 in	0.2 in	0.054 in	0.054 in				90°			"2"					0.025 in			
+Line		TopSilkscreen	2117	2119			2.834918 in	0.2 in			2.847418 in	0.2 in	0.012 in												
+Line		TopSilkscreen	2118	2119			2.9523538 in	0.2 in			2.9648538 in	0.2 in	0.012 in												
+Group			2119														"R"	"Resistor 1/8 W (0.2 in)"	"0.2 in lead spacing"						
+Polygon	Outline	TopSilkscreen	2147	2152			0.2125 in	0.325 in					0.012 in	90°									(0.2125 in,0.325 in)(0.5875 in,0.325 in)(0.5875 in,0.475 in)(0.2125 in,0.475 in)		
+Pad			2148	2152			0.1 in	0.4 in	0.065 in	0.065 in				90°			"1"					0.035 in			
+Pad			2149	2152			0.7 in	0.4 in	0.065 in	0.065 in				90°			"2"					0.035 in			
+Line		TopSilkscreen	2150	2152			0.15 in	0.4 in			0.2125 in	0.4 in	0.012 in												
+Line		TopSilkscreen	2151	2152			0.5875 in	0.4 in			0.65 in	0.4 in	0.012 in												
+Group			2152														"R"	"Resistor 1/2 W (0.6 in)"	"0.5 in lead spacing"						
+Polygon	Outline	TopSilkscreen	2154	2159			0.2375 in	0.6125 in					0.012 in	90°									(0.2375 in,0.6125 in)(0.6625 in,0.6125 in)(0.6625 in,0.7875 in)(0.2375 in,0.7875 in)		
+Pad			2155	2159			0.1 in	0.7 in	0.1 in	0.1 in				90°			"1"					0.046 in			
+Pad			2156	2159			0.8 in	0.7 in	0.1 in	0.1 in				90°			"2"					0.046 in			
+Line		TopSilkscreen	2157	2159			0.175 in	0.7 in			0.2375 in	0.7 in	0.012 in												
+Line		TopSilkscreen	2158	2159			0.6625 in	0.7 in			0.725 in	0.7 in	0.012 in												
+Group			2159														"R"	"Resistor 1 W (0.7 in)"	"0.5 in lead spacing"						
+Polygon	Outline	TopSilkscreen	2163	2170			0.2625 in	0.9 in					0.012 in	90°									(0.2625 in,0.9 in)(0.8375 in,0.9 in)(0.8375 in,1.1 in)(0.2625 in,1.1 in)		
+Pad			2164	2170			0.1 in	1 in	0.1 in	0.1 in				90°			"1"					0.046 in			
+Pad			2165	2170			1 in	1 in	0.1 in	0.1 in				90°			"2"					0.046 in			
+Line		TopSilkscreen	2166	2170			0.175 in	1 in			0.2625 in	1 in	0.012 in												
+Line		TopSilkscreen	2167	2170			0.8375 in	1 in			0.925 in	1 in	0.012 in												
+Group			2170														"R"	"Resistor 2 W (0.9 in)"							
