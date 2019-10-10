@@ -1609,3 +1609,135 @@ Point		TopCopper	14952				23.495 mm	1.27 mm																3
 Trace		TopCopper	14953		14817	14952							0.3 mm											3	
 Point		TopCopper	14954				23.495 mm	2.54 mm																3	
 Trace		TopCopper	14956		14954	14788							0.3 mm											3	
+Pad	Rectangular	BottomCopper	14957				20.955 mm	5.08 mm	0.04 in	0.04 in														3	
+Point		BottomCopper	14964				20.32 mm	20.32 mm																3	
+Trace		BottomCopper	14965		15012	14964							0.3 mm											3	
+Point		BottomCopper	14966				19.685 mm	19.685 mm																3	
+Trace		BottomCopper	14967		14964	14966							0.3 mm											3	
+Point		BottomCopper	14968				19.685 mm	3.175 mm																3	
+Trace		BottomCopper	14969		14966	14988							0.3 mm											3	
+Point		BottomCopper	14970				19.685 mm	5.08 mm																3	
+Trace		BottomCopper	14971		14970	14968							0.3 mm											3	
+Trace		BottomCopper	14973		14970	14957							0.3 mm											3	
+Point		BottomCopper	14974				19.685 mm	7.62 mm																3	
+Trace		BottomCopper	14975		14974	14970							0.3 mm											3	
+Trace		BottomCopper	14977		14974	15013							0.3 mm											3	
+Point		BottomCopper	14978				19.685 mm	10.16 mm																3	
+Trace		BottomCopper	14979		15008	14978							0.3 mm											3	
+Trace		BottomCopper	14980		14978	14974							0.3 mm											3	
+Point		BottomCopper	14981				19.685 mm	12.7 mm																3	
+Trace		BottomCopper	14982		14981	14978							0.3 mm											3	
+Trace		BottomCopper	14984		14981	15009							0.3 mm											3	
+Point		BottomCopper	14985				19.685 mm	15.24 mm																3	
+Trace		BottomCopper	14986		15016	14985							0.3 mm											3	
+Trace		BottomCopper	14987		14985	14981							0.3 mm											3	
+Point		BottomCopper	14988				19.685 mm	17.78 mm																3	
+Trace		BottomCopper	14989		14988	14985							0.3 mm											3	
+Trace		BottomCopper	14991		14988	15017							0.3 mm											3	
+Trace		BottomCopper	14994		15019	14968							0.3 mm											3	
+Point		BottomCopper	14995				18.415 mm	3.175 mm																3	
+Trace		BottomCopper	14997		14995	14968							0.3 mm											3	
+Point		BottomCopper	14999				31.75 mm	6.35 mm																3	
+Trace		BottomCopper	15000		14838	14999							0.3 mm											3	
+Point		BottomCopper	15001				31.75 mm	3.81 mm																3	
+Trace		BottomCopper	15002		14999	15001							0.3 mm											3	
+Point		BottomCopper	15003				31.115 mm	3.175 mm																3	
+Trace		BottomCopper	15004		15001	15003							0.3 mm											3	
+Point		BottomCopper	15008				20.955 mm	10.16 mm																3	
+Point		BottomCopper	15009				20.955 mm	12.7 mm																3	
+Point		BottomCopper	15012				20.955 mm	20.32 mm																3	
+Pad	Rectangular	BottomCopper	15013				20.955 mm	7.62 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15014				20.955 mm	10.16 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15015				20.955 mm	12.7 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15016				20.955 mm	15.24 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15017				20.955 mm	17.78 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15018				20.955 mm	20.32 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15019				20.955 mm	3.175 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15022				22.225 mm	3.175 mm	0.026 in	0.04 in														3	
+Trace		BottomCopper	15024		15022	15003							0.3 mm											3	
+Text		BottomSilkscreen	15025				24.13 mm	19.685 mm											"0"	Anytime	0.051 in			3	
+Text		BottomSilkscreen	15026				24.13 mm	17.145 mm											"1"		0.051 in			3	
+Text		BottomSilkscreen	15027				24.13 mm	14.605 mm											"2"		0.051 in			3	
+Text		BottomSilkscreen	15028				24.13 mm	12.065 mm											"3"		0.051 in			3	
+Text		BottomSilkscreen	15029				24.13 mm	9.525 mm											"4"		0.051 in			3	
+Text		BottomSilkscreen	15030				24.13 mm	6.985 mm											"5"		0.051 in			3	
+Text		BottomSilkscreen	15031				24.13 mm	4.445 mm											"6"		0.051 in			3	
+Text		BottomSilkscreen	15032				24.13 mm	2.54 mm											"7"		0.051 in			3	
+Text		BottomSilkscreen	15033				29.21 mm	7.62 mm						270°					"Device MAP"	Anytime	1.295 mm			3	
+Text		BottomSilkscreen	15034				27.5265 mm	7.62 mm						270°					"Selection"		1.295 mm			3	
+Point		TopCopper	15165				93.98 mm	55.245 mm																3	
+Trace		TopCopper	15166		15259	15260							0.3 mm											3	
+Trace		TopCopper	15168		15165	13729							0.3 mm											3	
+Pad	SquareWithHole		15193				2 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15194				2 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15195				2.1 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15196				2.1 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15197				2.2 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15198				2.2 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15199				2.3 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15200				2.3 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15201				2.4 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15202				2.4 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15203				2.5 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15204				2.5 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15205				2.6 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15206				2.6 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15207				2.7 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15208				2.7 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15209				2.8 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15210				2.8 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15211				2.9 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15212				2.9 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15213				3 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15214				3 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15215				3.1 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15216				3.1 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15217				3.2 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15218				3.2 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15219				3.3 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15220				3.3 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15221				3.4 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15222				3.4 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15223				3.5 in	1.9 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15224				3.5 in	2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15227				2 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15228				2 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15229				2.1 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15230				2.1 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15231				2.2 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15232				2.2 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15233				2.3 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15234				2.3 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15235				2.4 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15236				2.4 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15237				2.5 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15238				2.5 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15239				2.6 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15240				2.6 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15241				2.7 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15242				2.7 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15243				2.8 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15244				2.8 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15245				2.9 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15246				2.9 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15247				3 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15248				3 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15249				3.1 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15250				3.1 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15251				3.2 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15252				3.2 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15253				3.3 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15254				3.3 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15255				3.4 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15256				3.4 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15257				3.5 in	2.1 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15258				3.5 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Pad	SquareWithHole		15259				3.6 in	2.2 in	0.075 in	0.075 in							"1"					0.04 in		3	
+Point		TopCopper	15260				93.345 mm	55.88 mm																3	
+Trace		TopCopper	15261		15260	15165							0.3 mm											3	
+Text		TopSilkscreen	15265				34.29 mm	57.785 mm											"Device N°"	Classic	1.727 mm			3	
+Text		TopSilkscreen	15266				41.91 mm	53.34 mm											"OUT#"	Anytime	1.727 mm			3	
+Polygon	FillClearance	TopSilkscreen	15281				33.655 mm	57.15 mm						270°									(95.8850005 mm,57.15 mm)(33.655 mm,57.15 mm)(33.655 mm,62.865 mm)(95.884999 mm,62.865 mm)	3	
+Text		TopSilkscreen	15282				36.83 mm	54.61 mm											"IN"	Anytime	1.727 mm			3	
+Text		TopSilkscreen	15283				48.895 mm	57.785 mm											"Address $"	Classic	1.727 mm			3	
+Line		TopSilkscreen	15284				46.99 mm	57.15 mm			46.99 mm	62.865 mm	0.3 mm											3	
