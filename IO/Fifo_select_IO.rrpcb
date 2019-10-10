@@ -5,7 +5,7 @@ AutoViaPadDiameter=1.4 mm
 BottomSilkscreen=True
 BottomSolderMask=True
 BottomSolderPaste=True
-ClearanceMinimum=0.254 mm
+ClearanceMinimum=0.154 mm
 CopperLayers=2
 EdgeClearanceMinimum=0.635 mm
 FileVersion=3.0
@@ -17,45 +17,68 @@ InnerLayerLowerConnectionLabel=+
 InnerLayerUpperConnectionLabel=⏚
 LicenseNumber=3638186
 OriginOffsetY=2.5 in
-PadClearanceDefault=0.381 mm
+PadClearanceDefault=0.181 mm
 PlatedHoles=True
 PoursSelectable=True
 SpaceBetweenHolesMinumum=0.53 mm
+TextClearanceIsRectangular=False
 ThermalReliefThickness=0.3 mm
 ThicknessMinimum=0.152 mm
 TopSilkscreen=True
 TopSolderMask=True
 TopSolderPaste=True
-TraceClearanceDefault=0.381 mm
+TraceClearanceDefault=0.181 mm
 YAxisIsQuadrantI=True
 
 [Data]
 Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
 Polygon	Outline	BoardEdge	1				0 in	0 in					0.007 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
 Ellipse		TopSilkscreen	3	162			1.7 in	0.5 in	0.025 in	0.025 in				0°	360°									2	
-Ellipse		TopSilkscreen	5	139			0.275 in	0.5 in	0.025 in	0.025 in				0°	360°									1	
-Pad	SquareWithHole		116	139			0.2 in	0.5 in	0.056 in	0.056 in							"1"					0.029 in		1	
-Pad			117	139			0.5 in	0.7 in	0.056 in	0.056 in							"14"					0.029 in		1	
-Pad			118	139			0.2 in	0.6 in	0.056 in	0.056 in							"2"					0.029 in		1	
-Pad			119	139			0.5 in	0.8 in	0.056 in	0.056 in							"13"					0.029 in		1	
-Pad			120	139			0.2 in	0.7 in	0.056 in	0.056 in							"3"					0.029 in		1	
-Pad			121	139			0.5 in	0.9 in	0.056 in	0.056 in							"12"					0.029 in		1	
-Pad			122	139			0.2 in	0.8 in	0.056 in	0.056 in							"4"					0.029 in		1	
-Pad			123	139			0.5 in	1 in	0.056 in	0.056 in							"11"					0.029 in		1	
-Line		TopSilkscreen	124	139			0.25 in	0.475 in			0.25 in	1.225 in	0.012 in											1	
-Line		TopSilkscreen	125	139			0.25 in	1.225 in			0.45 in	1.225 in	0.012 in											1	
-Line		TopSilkscreen	126	139			0.45 in	1.225 in			0.45 in	0.475 in	0.012 in											1	
-Line		TopSilkscreen	127	139			0.45 in	0.475 in			0.389 in	0.475 in	0.012 in											1	
-Line		TopSilkscreen	128	139			0.25 in	0.475 in			0.3125 in	0.475 in	0.012 in											1	
-Ellipse	Outline	TopSilkscreen	129	139			0.3125 in	0.4375 in	0.075 in	0.075 in			0.012 in	180°	180°									1	
-Pad			130	139			0.2 in	0.9 in	0.056 in	0.056 in							"5"					0.029 in		1	
-Pad			131	139			0.2 in	1 in	0.056 in	0.056 in							"6"					0.029 in		1	
-Pad			132	139			0.2 in	1.1 in	0.056 in	0.056 in							"7"					0.029 in		1	
-Pad			133	139			0.5 in	1.1 in	0.056 in	0.056 in							"10"					0.029 in		1	
-Pad			134	139			0.5 in	1.2 in	0.056 in	0.056 in							"9"					0.029 in		1	
-Pad			135	139			0.2 in	1.2 in	0.056 in	0.056 in							"8"					0.029 in		1	
-Pad			137	139			0.5 in	0.5 in	0.056 in	0.056 in							"16"					0.029 in		1	
-Pad			138	139			0.5 in	0.6 in	0.056 in	0.056 in							"15"					0.029 in		1	
+Ellipse		TopSilkscreen	5	139			4.625 in	1.65 in	0.025 in	0.025 in				0°	360°									1	
+Pad	SquareWithHole		69	83			4.7 in	0.525 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		3	
+Pad			70	83			4.7 in	0.625 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		3	
+Pad			71	83			4.7 in	0.725 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		3	
+Pad			72	83			4.7 in	0.825 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		3	
+Pad			73	83			4.7 in	0.925 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		3	
+Pad			74	83			4.7 in	1.025 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		3	
+Pad			75	83			4.7 in	1.125 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		3	
+Pad			76	83			5 in	1.125 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		3	
+Pad			77	83			5 in	1.025 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		3	
+Pad			78	83			5 in	0.925 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		3	
+Pad			79	83			5 in	0.825 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		3	
+Pad			80	83			5 in	0.725 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		3	
+Pad			81	83			5 in	0.625 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		3	
+Pad			82	83			5 in	0.525 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		3	
+Group			83														"IC"	"7400 NAND"						3	
+Ellipse		TopSilkscreen	84	83			4.775 in	0.525 in	0.025 in	0.025 in				0°	360°									3	
+Line		TopSilkscreen	85	83			4.8125 in	0.5 in			4.75 in	0.5 in	0.012 in											3	
+Line		TopSilkscreen	86	83			4.75 in	0.5 in			4.75 in	1.15 in	0.012 in											3	
+Line		TopSilkscreen	87	83			4.75 in	1.15 in			4.95 in	1.15 in	0.012 in											3	
+Line		TopSilkscreen	88	83			4.95 in	1.15 in			4.95 in	0.5 in	0.012 in											3	
+Line		TopSilkscreen	89	83			4.95 in	0.5 in			4.8875 in	0.5 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	90	83			4.8125 in	0.4625 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
+Pad	SquareWithHole		116	139			4.55 in	1.65 in	0.056 in	0.056 in							"1"					0.029 in		1	
+Pad			117	139			4.85 in	1.85 in	0.056 in	0.056 in							"14"					0.029 in		1	
+Pad			118	139			4.55 in	1.75 in	0.056 in	0.056 in							"2"					0.029 in		1	
+Pad			119	139			4.85 in	1.95 in	0.056 in	0.056 in							"13"					0.029 in		1	
+Pad			120	139			4.55 in	1.85 in	0.056 in	0.056 in							"3"					0.029 in		1	
+Pad			121	139			4.85 in	2.05 in	0.056 in	0.056 in							"12"					0.029 in		1	
+Pad			122	139			4.55 in	1.95 in	0.056 in	0.056 in							"4"					0.029 in		1	
+Pad			123	139			4.85 in	2.15 in	0.056 in	0.056 in							"11"					0.029 in		1	
+Line		TopSilkscreen	124	139			4.6 in	1.625 in			4.6 in	2.375 in	0.012 in											1	
+Line		TopSilkscreen	125	139			4.6 in	2.375 in			4.8 in	2.375 in	0.012 in											1	
+Line		TopSilkscreen	126	139			4.8 in	2.375 in			4.8 in	1.625 in	0.012 in											1	
+Line		TopSilkscreen	127	139			4.8 in	1.625 in			4.739 in	1.625 in	0.012 in											1	
+Line		TopSilkscreen	128	139			4.6 in	1.625 in			4.6625 in	1.625 in	0.012 in											1	
+Ellipse	Outline	TopSilkscreen	129	139			4.6625 in	1.5875 in	0.075 in	0.075 in			0.012 in	180°	180°									1	
+Pad			130	139			4.55 in	2.05 in	0.056 in	0.056 in							"5"					0.029 in		1	
+Pad			131	139			4.55 in	2.15 in	0.056 in	0.056 in							"6"					0.029 in		1	
+Pad			132	139			4.55 in	2.25 in	0.056 in	0.056 in							"7"					0.029 in		1	
+Pad			133	139			4.85 in	2.25 in	0.056 in	0.056 in							"10"					0.029 in		1	
+Pad			134	139			4.85 in	2.35 in	0.056 in	0.056 in							"9"					0.029 in		1	
+Pad			135	139			4.55 in	2.35 in	0.056 in	0.056 in							"8"					0.029 in		1	
+Pad			137	139			4.85 in	1.65 in	0.056 in	0.056 in							"16"					0.029 in		1	
+Pad			138	139			4.85 in	1.75 in	0.056 in	0.056 in							"15"					0.029 in		1	
 Group			139														"IC"	"DIP 16-pin"						1	
 Pad	SquareWithHole		140	162			1.625 in	0.5 in	0.056 in	0.056 in							"1"					0.029 in		2	
 Pad			141	162			1.925 in	1.1 in	0.056 in	0.056 in							"14"					0.029 in		2	
@@ -142,6 +165,28 @@ Pad			10478				3.2 in	0.1 in	0.075 in	0.075 in							"5"					0.04 in
 Pad			10479				3.3 in	0.1 in	0.075 in	0.075 in							"6"					0.04 in			
 Pad			10480				3.4 in	0.1 in	0.075 in	0.075 in							"7"					0.04 in			
 Pad			10481				3.5 in	0.1 in	0.075 in	0.075 in							"8"					0.04 in			
+Pad	SquareWithHole		12010	12024			4.7 in	-0.375 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		3	
+Pad			12011	12024			4.7 in	-0.275 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		3	
+Pad			12012	12024			4.7 in	-0.175 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		3	
+Pad			12013	12024			4.7 in	-0.075 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		3	
+Pad			12014	12024			4.7 in	0.025 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		3	
+Pad			12015	12024			4.7 in	0.125 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		3	
+Pad			12016	12024			4.7 in	0.225 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		3	
+Pad			12017	12024			5 in	0.225 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		3	
+Pad			12018	12024			5 in	0.125 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		3	
+Pad			12019	12024			5 in	0.025 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		3	
+Pad			12020	12024			5 in	-0.075 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		3	
+Pad			12021	12024			5 in	-0.175 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		3	
+Pad			12022	12024			5 in	-0.275 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		3	
+Pad			12023	12024			5 in	-0.375 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		3	
+Group			12024														"IC"	"7400 NAND"						3	
+Ellipse		TopSilkscreen	12025	12024			4.775 in	-0.375 in	0.025 in	0.025 in				0°	360°									3	
+Line		TopSilkscreen	12026	12024			4.8125 in	-0.4 in			4.75 in	-0.4 in	0.012 in											3	
+Line		TopSilkscreen	12027	12024			4.75 in	-0.4 in			4.75 in	0.25 in	0.012 in											3	
+Line		TopSilkscreen	12028	12024			4.75 in	0.25 in			4.95 in	0.25 in	0.012 in											3	
+Line		TopSilkscreen	12029	12024			4.95 in	0.25 in			4.95 in	-0.4 in	0.012 in											3	
+Line		TopSilkscreen	12030	12024			4.95 in	-0.4 in			4.8875 in	-0.4 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	12031	12024			4.8125 in	-0.4375 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
 Pad	SquareWithHole		12032				2 in	1.8 in	0.075 in	0.075 in							"1"					0.04 in			
 Pad			12033				2.1 in	1.8 in	0.075 in	0.075 in							"2"					0.04 in			
 Pad			12034				2.2 in	1.8 in	0.075 in	0.075 in							"3"					0.04 in			
@@ -211,12 +256,150 @@ Line		TopSilkscreen	12336				69.85 mm	43.815 mm			69.85 mm	46.99 mm	0.3 mm
 Line		TopSilkscreen	12337				69.85 mm	46.99 mm			70.485 mm	47.625 mm	0.3 mm												
 Line		TopSilkscreen	12338				69.85 mm	46.99 mm			69.215 mm	47.625 mm	0.3 mm												
 Pad			12391				1.6 in	0.1 in	0.075 in	0.075 in							"3"					0.04 in			
-Text		TopSilkscreen	12395				40.005 mm	8.255 mm						90°					"/CE"	Anytime	1.727 mm				
+Text		TopSilkscreen	12395				34.925 mm	8.255 mm						90°					"/OE"	Anytime	1.727 mm				
+Point		BottomCopper	12678				121.92 mm	28.575 mm																3	
 Pad	SquareWithHole		12684				3.7 in	0.1 in	0.075 in	0.075 in							"1"					0.04 in			
 Pad			12685				3.6 in	0.1 in	0.075 in	0.075 in							"8"					0.04 in			
 Text	Bold	TopSilkscreen	12690				90.805 mm	8.255 mm						90°					"+5V"		1.727 mm				
 Text	Bold	TopSilkscreen	12691				93.345 mm	8.255 mm						90°					"GND"		1.727 mm				
-Text		TopSilkscreen	12940				34.29 mm	3.81 mm						180°					"VTECH GeniusIQ"		3.239 mm				
+Text		TopSilkscreen	12696				122.555 mm	5.715 mm						90°					"74hc00 NAND"	Anytime	1.727 mm			3	
+Text		TopSilkscreen	12697				122.555 mm	27.305 mm						90°					"74hc32 OR"	Anytime	1.727 mm			3	
+Trace		TopCopper	12699		12010	12011							0.3 mm											3	
+Point		TopCopper	12720				118.11 mm	-19.05 mm																3	
+Point		TopCopper	12722				117.475 mm	-18.415 mm																3	
+Trace		TopCopper	12723		12720	12722							0.3 mm											3	
+Trace		TopCopper	12725		12722	12873							0.3 mm											3	
+Point		TopCopper	12726				120.015 mm	-18.415 mm																3	
+Point		TopCopper	12728				119.38 mm	-17.78 mm																3	
+Trace		TopCopper	12729		12726	12728							0.3 mm											3	
+Trace		TopCopper	12731		12728	12010							0.3 mm											3	
+Trace		TopCopper	12733		12012	12013							0.3 mm											3	
+Point		BottomCopper	12738				121.92 mm	5.715 mm																3	
+Trace		BottomCopper	12739		12016	12738							1.016 mm											3	
+Trace		BottomCopper	12741		12738	12758							1.016 mm											3	
+Trace		BottomCopper	12743		12678	75							1.016 mm											3	
+Point		BottomCopper	12744				124.46 mm	13.335 mm																3	
+Trace		BottomCopper	12745		82	12744							1.016 mm											3	
+Point		BottomCopper	12746				124.46 mm	-9.525 mm																3	
+Trace		BottomCopper	12747		12744	12760							1.016 mm											3	
+Trace		BottomCopper	12749		12746	12023							1.016 mm											3	
+Point		BottomCopper	12754				124.46 mm	-10.16 mm																3	
+Trace		BottomCopper	12757		12754	13105							1.016 mm											3	
+Pad			12758				121.92 mm	10.795 mm	0.0467165 in	0.0467165 in												0.02 in		3	
+Trace		BottomCopper	12759		12758	12678							1.016 mm											3	
+Pad			12760				124.46 mm	10.795 mm	0.0427165 in	0.0427165 in												0.02 in		3	
+Trace		BottomCopper	12761		12760	12952							1.016 mm											3	
+Point		TopCopper	12764				121.285 mm	0 mm																3	
+Point		TopCopper	12766				121.285 mm	-17.145 mm																3	
+Trace		TopCopper	12767		12764	12766							0.3 mm											3	
+Point		TopCopper	12768				121.92 mm	-17.78 mm																3	
+Trace		TopCopper	12769		12766	12768							0.3 mm											3	
+Trace		TopCopper	12771		12768	14400							0.3 mm											3	
+Point		TopCopper	12790				120.65 mm	0.635 mm																3	
+Trace		TopCopper	12791		12764	12790							0.3 mm											3	
+Trace		TopCopper	12793		12790	12014							0.3 mm											3	
+Pad			12816				121.92 mm	9.525 mm	0.0467165 in	0.0467165 in												0.025 in		3	
+Pad			12817				124.46 mm	9.525 mm	0.0427165 in	0.0427165 in												0.025 in		3	
+Pad			12818				121.92 mm	8.255 mm	0.0467165 in	0.0467165 in												0.02 in		3	
+Pad			12819				124.46 mm	8.255 mm	0.0427165 in	0.0427165 in												0.02 in		3	
+Point		TopCopper	12829				118.11 mm	4.445 mm																3	
+Trace		TopCopper	12830		12015	12829							0.3 mm											3	
+Point		TopCopper	12835				118.11 mm	12.065 mm																3	
+Trace		TopCopper	12836		12829	12835							0.3 mm											3	
+Trace		TopCopper	12838		12835	69							0.3 mm											3	
+Trace		TopCopper	12850		71	12913							0.3 mm											3	
+Point		TopCopper	12853				128.905 mm	17.145 mm																3	
+Point		BottomCopper	12869				118.11 mm	1.905 mm																3	
+Trace		BottomCopper	12870		12014	12869							0.3 mm											3	
+Point		BottomCopper	12871				118.11 mm	19.685 mm																3	
+Trace		BottomCopper	12872		12869	12871							0.3 mm											3	
+Point		TopCopper	12873				117.475 mm	15.24 mm																3	
+Point		TopCopper	12874				118.11 mm	15.875 mm																3	
+Trace		TopCopper	12875		12873	12874							0.3 mm											3	
+Trace		TopCopper	12877		12874	70							0.3 mm											3	
+Trace		BottomCopper	12879		12871	72							0.3 mm											3	
+Point		BottomCopper	12880				117.475 mm	-5.08 mm																3	
+Trace		BottomCopper	12881		12011	12880							0.3 mm											3	
+Point		BottomCopper	12882				117.475 mm	21.59 mm																3	
+Trace		BottomCopper	12883		12880	12882							0.3 mm											3	
+Trace		BottomCopper	12885		12882	73							0.3 mm											3	
+Point		BottomCopper	12886				124.46 mm	18.415 mm																3	
+Trace		BottomCopper	12887		80	12886							0.1524 mm											3	
+Trace		BottomCopper	12889		12886	12744							0.3 mm											3	
+Point		BottomCopper	12890				124.46 mm	15.875 mm																3	
+Trace		BottomCopper	12892		12890	81							0.1524 mm											3	
+Point		BottomCopper	12893				124.46 mm	23.495 mm																3	
+Trace		BottomCopper	12894		78	12893							0.1524 mm											3	
+Point		BottomCopper	12895				124.46 mm	26.035 mm																3	
+Trace		BottomCopper	12896		77	12895							0.1524 mm											3	
+Point		BottomCopper	12897				124.46 mm	28.575 mm																3	
+Trace		BottomCopper	12898		12893	12897							0.3048 mm											3	
+Trace		BottomCopper	12900		12897	12678							0.3048 mm											3	
+Point		TopCopper	12905				120.65 mm	24.765 mm																3	
+Trace		TopCopper	12906		74	12905							0.3 mm											3	
+Point		TopCopper	12907				120.65 mm	20.955 mm																3	
+Trace		TopCopper	12908		12905	12907							0.3 mm											3	
+Point		TopCopper	12909				121.92 mm	19.685 mm																3	
+Trace		TopCopper	12910		12907	12909							0.3 mm											3	
+Point		TopCopper	12911				129.54 mm	19.685 mm																3	
+Trace		TopCopper	12912		12909	12911							0.3 mm											3	
+Point		TopCopper	12913				120.65 mm	18.415 mm																3	
+Trace		TopCopper	12914		12913	12915							0.3 mm											3	
+Point		TopCopper	12915				121.92 mm	17.145 mm																3	
+Trace		TopCopper	12916		12915	12853							0.3 mm											3	
+Point		TopCopper	12917				130.175 mm	19.05 mm																3	
+Trace		TopCopper	12918		12911	12917							0.3 mm											3	
+Point		TopCopper	12919				130.175 mm	-6.35 mm																3	
+Trace		TopCopper	12920		12917	12919							0.3 mm											3	
+Point		TopCopper	12925				129.54 mm	16.51 mm																3	
+Trace		TopCopper	12926		12853	12925							0.3 mm											3	
+Point		TopCopper	12929				129.54 mm	-6.35 mm																3	
+Trace		TopCopper	12930		12925	12929							0.3 mm											3	
+Rectangle		BottomCopper	12934				128.27 mm	-10.16 mm	2.54 mm	40.64 mm														3	
+Point		BottomCopper	12935				121.92 mm	29.21 mm																3	
+Trace		BottomCopper	12936		12935	12678							1.016 mm											3	
+Rectangle		BottomCopper	12937				126.365 mm	7.62 mm	3.1750001 mm	4.4450001 mm														3	
+Rectangle		BottomCopper	12938				118.745 mm	7.62 mm	3.1750001 mm	3.81 mm														3	
+Text		TopSilkscreen	12940				34.925 mm	-1.905 mm						180°					"VTECH GeniusIQ"		3.239 mm				
+Point		BottomCopper	12943				124.46 mm	-6.985 mm																3	
+Trace		BottomCopper	12944		12022	12943							0.1523529 mm											3	
+Trace		BottomCopper	12945		12943	12754							1.016 mm											3	
+Point		BottomCopper	12946				124.46 mm	-4.445 mm																3	
+Trace		BottomCopper	12947		12021	12946							0.1523529 mm											3	
+Trace		BottomCopper	12948		12946	12943							1.016 mm											3	
+Point		BottomCopper	12949				124.46 mm	0.635 mm																3	
+Trace		BottomCopper	12950		12019	12949							0.1523529 mm											3	
+Trace		BottomCopper	12951		12949	12946							1.016 mm											3	
+Point		BottomCopper	12952				124.46 mm	3.175 mm																3	
+Trace		BottomCopper	12953		12018	12952							0.1523529 mm											3	
+Trace		BottomCopper	12954		12952	12949							1.016 mm											3	
+Point		BottomCopper	13079				128.27 mm	-14.605 mm																3	
+Point		BottomCopper	13080				127.635 mm	-14.605 mm																3	
+Trace		BottomCopper	13081		13079	13080							0.3048 mm											3	
+Point		BottomCopper	13082				125.73 mm	-16.51 mm																3	
+Trace		BottomCopper	13083		13080	13082							0.3048 mm											3	
+Point		BottomCopper	13084				125.73 mm	-12.7 mm																3	
+Trace		BottomCopper	13085		13080	13084							0.3048 mm											3	
+Trace		BottomCopper	13087		13084	13091							0.3048 mm											3	
+Point		BottomCopper	13091				125.73 mm	-14.605 mm																3	
+Trace		BottomCopper	13092		13091	13082							0.3048 mm											3	
+Point		BottomCopper	13093				123.825 mm	-14.605 mm																3	
+Trace		BottomCopper	13094		13091	13093							0.3048 mm											3	
+Point		BottomCopper	13095				128.905 mm	-14.605 mm																3	
+Trace		BottomCopper	13096		13079	13095							0.3048 mm											3	
+Point		BottomCopper	13097				127 mm	-15.875 mm																3	
+Point		BottomCopper	13098				127.635 mm	-16.51 mm																3	
+Trace		BottomCopper	13099		13097	13098							0.3048 mm											3	
+Point		BottomCopper	13100				127.635 mm	-15.875 mm																3	
+Trace		BottomCopper	13101		13098	13100							0.3048 mm											3	
+Point		BottomCopper	13102				127 mm	-16.51 mm																3	
+Trace		BottomCopper	13104		13102	13098							0.3048 mm											3	
+Point		BottomCopper	13105				125.73 mm	-11.43 mm																3	
+Trace		BottomCopper	13107		12754	12746							1.016 mm											3	
+Point		BottomCopper	13108				123.19 mm	30.48 mm																3	
+Trace		BottomCopper	13109		13108	12935							1.016 mm											3	
+Point		BottomCopper	13110				129.54 mm	30.48 mm																3	
+Trace		BottomCopper	13111		13110	13108							1.016 mm											3	
 Pad			13177				1.7 in	0.1 in	0.075 in	0.075 in							"3"					0.04 in			
 Text		TopSilkscreen	13178				42.545 mm	8.255 mm						90°					"A0"	Anytime	1.727 mm				
 Pad			13179				1.8 in	0.1 in	0.075 in	0.075 in							"3"					0.04 in			
@@ -238,22 +421,22 @@ Point		TopSilkscreen	13194				41.91 mm	8.255 mm
 Trace		TopSilkscreen	13195		13192	13194							0.3 mm												
 Point		TopSilkscreen	13196				41.91 mm	0.635 mm																	
 Trace		TopSilkscreen	13197		13194	13196							0.3 mm												
-Text		TopSilkscreen	13198				6.985 mm	12.7 mm											"A0"	Anytime	1.295 mm			1	
-Text		TopSilkscreen	13199				6.985 mm	14.605 mm											"A1"	Anytime	1.295 mm			1	
-Text		TopSilkscreen	13200				6.985 mm	17.145 mm											"A2"		1.295 mm			1	
-Text		TopSilkscreen	13201				6.35 mm	19.685 mm											"/LE"		1.295 mm			1	
-Text		TopSilkscreen	13202				6.35 mm	22.225 mm											"/E1"		1.295 mm			1	
-Text		TopSilkscreen	13203				6.985 mm	24.765 mm											"E2"		1.295 mm			1	
-Text		TopSilkscreen	13204				6.985 mm	27.305 mm											"Y7"		1.295 mm			1	
-Text		TopSilkscreen	13205				6.35 mm	29.845 mm											"--"		1.295 mm			1	
-Text		TopSilkscreen	13206				10.16 mm	12.7 mm											"+"	Anytime	1.295 mm			1	
-Text		TopSilkscreen	13207				9.525 mm	14.605 mm											"Y0"		1.295 mm			1	
-Text		TopSilkscreen	13208				9.525 mm	17.145 mm											"Y1"		1.295 mm			1	
-Text		TopSilkscreen	13209				9.525 mm	19.685 mm											"Y2"		1.295 mm			1	
-Text		TopSilkscreen	13210				9.525 mm	22.225 mm											"Y3"		1.295 mm			1	
-Text		TopSilkscreen	13211				9.525 mm	24.765 mm											"Y4"		1.295 mm			1	
-Text		TopSilkscreen	13212				9.525 mm	27.305 mm											"Y5"		1.295 mm			1	
-Text		TopSilkscreen	13213				9.525 mm	29.845 mm											"Y6"		1.295 mm			1	
+Text		TopSilkscreen	13198				117.475 mm	41.91 mm											"A0"	Anytime	1.295 mm			1	
+Text		TopSilkscreen	13199				117.475 mm	43.815 mm											"A1"	Anytime	1.295 mm			1	
+Text		TopSilkscreen	13200				117.475 mm	46.355 mm											"A2"		1.295 mm			1	
+Text		TopSilkscreen	13201				116.84 mm	48.895 mm											"/LE"		1.295 mm			1	
+Text		TopSilkscreen	13202				116.84 mm	51.435 mm											"/E1"		1.295 mm			1	
+Text		TopSilkscreen	13203				117.475 mm	53.975 mm											"E2"		1.295 mm			1	
+Text		TopSilkscreen	13204				117.475 mm	56.515 mm											"Y7"		1.295 mm			1	
+Text		TopSilkscreen	13205				116.84 mm	59.055 mm											"--"		1.295 mm			1	
+Text		TopSilkscreen	13206				120.65 mm	41.91 mm											"+"	Anytime	1.295 mm			1	
+Text		TopSilkscreen	13207				120.015 mm	43.815 mm											"Y0"		1.295 mm			1	
+Text		TopSilkscreen	13208				120.015 mm	46.355 mm											"Y1"		1.295 mm			1	
+Text		TopSilkscreen	13209				120.015 mm	48.895 mm											"Y2"		1.295 mm			1	
+Text		TopSilkscreen	13210				120.015 mm	51.435 mm											"Y3"		1.295 mm			1	
+Text		TopSilkscreen	13211				120.015 mm	53.975 mm											"Y4"		1.295 mm			1	
+Text		TopSilkscreen	13212				120.015 mm	56.515 mm											"Y5"		1.295 mm			1	
+Text		TopSilkscreen	13213				120.015 mm	59.055 mm											"Y6"		1.295 mm			1	
 Text		TopSilkscreen	13214				43.18 mm	14.605 mm											"D0"	Anytime	1.295 mm			2	
 Text		TopSilkscreen	13215				43.18 mm	17.145 mm											"D1"		1.295 mm			2	
 Text		TopSilkscreen	13216				43.18 mm	19.685 mm											"D2"		1.295 mm			2	
@@ -362,7 +545,7 @@ Point		BottomCopper	13342				42.545 mm	16.51 mm																2
 Trace		BottomCopper	13343		13340	13675							0.3 mm											2	
 Trace		BottomCopper	13345		13342	142							0.3 mm											2	
 Trace		BottomCopper	13347		157	13985							1.016 mm											2	
-Point		BottomCopper	13348				53.34 mm	38.735 mm																2	
+Point		BottomCopper	13348				53.34 mm	39.37 mm																2	
 Point		BottomCopper	13352				51.435 mm	10.16 mm																2	
 Trace		BottomCopper	13353		165	13352							1.016 mm											2	
 Point		BottomCopper	13354				66.04 mm	10.16 mm																2	
@@ -515,9 +698,9 @@ Trace		BottomCopper	13533		13468	13532							0.3 mm											2
 Point		BottomCopper	13534				70.485 mm	16.51 mm																2	
 Trace		BottomCopper	13535		13532	13602							0.3 mm											2	
 Trace		BottomCopper	13536		13534	13396							0.3 mm											2	
-Point		BottomCopper	13537				69.215 mm	38.735 mm																2	
+Point		BottomCopper	13537				69.215 mm	39.37 mm																2	
 Trace		BottomCopper	13538		13411	13537							1.016 mm											2	
-Point		BottomCopper	13539				86.36 mm	38.735 mm																2	
+Point		BottomCopper	13539				86.36 mm	39.37 mm																2	
 Trace		BottomCopper	13540		13537	13539							1.016 mm											2	
 Trace		BottomCopper	13541		13539	13981							1.016 mm											2	
 Point		BottomCopper	13542				76.835 mm	10.16 mm																2	
@@ -545,8 +728,8 @@ Point		TopCopper	13575				81.915 mm	39.37 mm																2
 Trace		TopCopper	13576		13575	13847							0.3 mm											2	
 Point		TopCopper	13577				82.55 mm	39.37 mm																2	
 Trace		TopCopper	13578		13849	13577							0.3 mm											2	
-Pad	SquareWithHole		13579				1.8 in	1.8 in	0.075 in	0.075 in							"1"					0.04 in		2	
-Text		TopSilkscreen	13581				45.0849996 mm	43.18 mm						90°					"/CE_fifo"	Anytime	1.727 mm			2	
+Pad	SquareWithHole		13579				1.7 in	1.8 in	0.075 in	0.075 in							"1"					0.04 in		2	
+Text		TopSilkscreen	13581				42.545 mm	39.37 mm						90°					"IN"	Anytime	1.727 mm			2	
 Pad	Via		13582				90.17 mm	34.29 mm	0.026 in	0.026 in												0.008 in		2	
 Point		TopCopper	13585				90.17 mm	3.81 mm																2	
 Trace		TopCopper	13587		13585	13582							0.3 mm											2	
@@ -634,10 +817,9 @@ Pad	SquareWithHole		13729				3.7 in	1.8 in	0.075 in	0.075 in							"1"					0.04 
 Pad			13730				3.6 in	1.8 in	0.075 in	0.075 in							"8"					0.04 in		2	
 Text	Bold	TopSilkscreen	13731				90.805 mm	43.18 mm						90°					"+5V"		1.727 mm			2	
 Text	Bold	TopSilkscreen	13732				93.345 mm	43.18 mm						90°					"GND"		1.727 mm			2	
-Trace		TopCopper	13734		13729	12684							1.016 mm											2	
-Point		BottomCopper	13735				91.44 mm	7.62 mm																2	
-Trace		BottomCopper	13736		12685	13735							1.016 mm											2	
-Trace		BottomCopper	13738		13735	13544							1.016 mm											2	
+Trace		TopCopper	13734		13729	14054							1.016 mm											2	
+Trace		BottomCopper	13736		12685	14324							1.016 mm											2	
+Trace		BottomCopper	13738		14324	13544							1.016 mm											2	
 Point		TopCopper	13741				59.69 mm	3.81 mm																2	
 Trace		TopCopper	13742		13669	13741							0.3 mm											2	
 Trace		TopCopper	13744		13741	10394							0.3 mm											2	
@@ -662,10 +844,8 @@ Trace		TopCopper	13782		13779	13673							0.3 mm											2
 Point		TopCopper	13783				57.785 mm	9.525 mm																2	
 Trace		TopCopper	13784		13675	13783							0.3 mm											2	
 Trace		TopCopper	13786		13783	10391							0.3 mm											2	
-Point		TopCopper	13787				80.01 mm	40.005 mm																2	
-Trace		TopCopper	13788		13569	13787							0.3 mm											2	
 Point		TopCopper	13789				80.01 mm	44.45 mm																2	
-Trace		TopCopper	13790		13787	13789							0.3 mm											2	
+Trace		TopCopper	13790		13569	13789							0.3 mm											2	
 Point		TopCopper	13793				80.645 mm	45.085 mm																2	
 Trace		TopCopper	13794		13571	13793							0.3 mm											2	
 Trace		TopCopper	13796		13793	12044							0.3 mm											2	
@@ -724,7 +904,7 @@ Pad	Via		13879				52.705 mm	25.4 mm	0.026 in	0.026 in												0.008 in		2
 Pad	Via		13880				53.34 mm	27.94 mm	0.026 in	0.026 in												0.008 in		2	
 Pad	Via		13881				53.975 mm	30.48 mm	0.026 in	0.026 in												0.008 in		2	
 Pad	Via		13882				54.61 mm	33.02 mm	0.026 in	0.026 in												0.008 in		2	
-Point		TopCopper	13889				50.165 mm	43.815 mm																2	
+Point		TopCopper	13889				50.165 mm	44.45 mm																2	
 Trace		TopCopper	13890		13889	12032							0.3 mm											2	
 Point		TopCopper	13891				50.8 mm	43.18 mm																2	
 Trace		TopCopper	13892		12033	13891							0.3 mm											2	
@@ -776,41 +956,37 @@ Trace		TopCopper	13942		13929	13941							0.3 mm											2
 Point		TopCopper	13943				68.58 mm	40.64 mm																2	
 Trace		TopCopper	13944		13941	13943							0.3 mm											2	
 Trace		TopCopper	13946		13943	12039							0.3 mm											2	
-Trace		BottomCopper	13948		13537	13949							1.016 mm											2	
-Point		BottomCopper	13949				58.42 mm	38.735 mm																2	
+Trace		BottomCopper	13948		13537	14078							1.016 mm											2	
+Point		BottomCopper	13949				58.42 mm	39.37 mm																2	
 Trace		BottomCopper	13950		13949	13348							1.016 mm											2	
 Trace		BottomCopper	13952		13949	13983							1.016 mm											2	
 Pad	Via		13953				63.5 mm	11.43 mm	0.026 in	0.026 in												0.008 in		2	
 Pad	Via		13954				56.515 mm	11.43 mm	0.026 in	0.026 in												0.008 in		2	
 Point		BottomCopper	13955				57.15 mm	13.97 mm																2	
 Trace		BottomCopper	13956		13235	13955							0.3 mm											2	
-Point		BottomCopper	13957				82.55 mm	13.97 mm																2	
-Trace		BottomCopper	13958		13955	13957							0.3 mm											2	
+Trace		BottomCopper	13958		13955	14069							0.3 mm											2	
 Point		BottomCopper	13961				54.61 mm	13.97 mm																2	
 Trace		BottomCopper	13962		13235	13961							0.3 mm											2	
-Point		BottomCopper	13963				34.29 mm	13.97 mm																2	
+Point		BottomCopper	13963				40.005 mm	13.97 mm																2	
 Trace		BottomCopper	13964		13961	13963							0.3 mm											2	
-Point		TopCopper	13965				42.545 mm	11.43 mm																2	
+Point		TopCopper	13965				46.99 mm	12.7 mm																2	
 Trace		TopCopper	13966		140	13965							0.3 mm											2	
-Trace		TopCopper	13968		13965	13954							0.3 mm											2	
+Trace		TopCopper	13968		13965	14320							0.3 mm											2	
 Point		TopCopper	13969				67.945 mm	11.43 mm																2	
 Trace		TopCopper	13970		13953	13969							0.3 mm											2	
 Trace		TopCopper	13972		13969	13394							0.3 mm											2	
-Trace		BottomCopper	13974		13957	13442							0.3 mm											2	
 Trace		BottomCopper	13976		13953	13954							0.3 mm											2	
-Point		TopCopper	13977				34.29 mm	12.7 mm																2	
-Trace		TopCopper	13978		140	13977							0.3 mm											2	
 Point		BottomCopper	13979				66.04 mm	12.7 mm																2	
 Trace		BottomCopper	13980		13979	13260							1.016 mm											2	
 Point		BottomCopper	13981				86.36 mm	35.56 mm																2	
 Trace		BottomCopper	13982		13981	13459							1.016 mm											2	
 Point		BottomCopper	13983				58.42 mm	35.56 mm																2	
 Trace		BottomCopper	13984		13983	13252							1.016 mm											2	
-Point		BottomCopper	13985				41.275 mm	38.735 mm																2	
+Point		BottomCopper	13985				41.275 mm	39.37 mm																2	
 Trace		BottomCopper	13986		13985	13348							1.016 mm											2	
 Point		TopCopper	13987				47.625 mm	36.83 mm																2	
 Trace		TopCopper	13988		147	13987							0.3 mm											2	
-Point		TopCopper	13989				36.195 mm	36.83 mm																2	
+Point		TopCopper	13989				40.005 mm	36.83 mm																2	
 Trace		TopCopper	13990		13987	13989							0.3 mm											2	
 Point		BottomCopper	13991				50.165 mm	36.83 mm																2	
 Trace		BottomCopper	13992		147	13991							0.3 mm											2	
@@ -823,11 +999,613 @@ Pad	Via		14000				48.895 mm	37.465 mm	0.026 in	0.026 in												0.008 in		2
 Pad	Via		14001				55.88 mm	37.465 mm	0.026 in	0.026 in												0.008 in		2	
 Pad	Via		14002				76.835 mm	37.465 mm	0.026 in	0.026 in												0.008 in		2	
 Pad	Via		14003				83.82 mm	37.465 mm	0.026 in	0.026 in												0.008 in		2	
-Point		TopCopper	14004				36.195 mm	37.465 mm																2	
-Trace		TopCopper	14005		14000	14004							0.3 mm											2	
+Trace		TopCopper	14005		14000	14398							0.3 mm											2	
 Trace		BottomCopper	14007		14000	14001							0.3 mm											2	
 Trace		BottomCopper	14011		14003	14002							0.3 mm											2	
 Trace		TopCopper	14013		14001	14002							0.3 mm											2	
 Point		TopCopper	14014				89.535 mm	37.465 mm																2	
 Trace		TopCopper	14015		14003	14014							0.3 mm											2	
 Trace		TopCopper	14017		14014	13449							0.3 mm											2	
+Pad	Via		14018				63.5 mm	37.465 mm	0.026 in	0.026 in												0.008 in		2	
+Trace		BottomCopper	14020		14018	13242							0.3 mm											2	
+Pad	SquareWithHole		14021				1.8 in	1.8 in	0.075 in	0.075 in							"1"					0.04 in		2	
+Text		TopSilkscreen	14022				45.085 mm	41.91 mm						90°					"OUT#"	Anytime	1.727 mm			2	
+Trace		TopCopper	14024		14054	14025							1.016 mm											2	
+Point		TopCopper	14025				95.25 mm	38.1 mm																2	
+Trace		TopCopper	14026		14025	14067							1.016 mm											2	
+Point		TopCopper	14027				93.98 mm	12.7 mm																2	
+Trace		TopCopper	14028		14027	14329							1.016 mm											2	
+Point		TopCopper	14029				95.25 mm	13.97 mm																2	
+Trace		TopCopper	14030		14029	14027							1.016 mm											2	
+Point		TopCopper	14033				91.44 mm	41.275 mm																2	
+Trace		TopCopper	14042		13730	14033							1.016 mm											2	
+Trace		TopCopper	14044		14033	14045							1.016 mm											2	
+Point		TopCopper	14045				91.44 mm	39.37 mm																2	
+Trace		TopCopper	14047		14045	14303							1.016 mm											2	
+Trace		TopCopper	14051		14055	13467							1.016 mm											2	
+Trace		BottomCopper	14053		13539	14054							1.016 mm											2	
+Pad	Via		14054				93.98 mm	39.37 mm	0.041 in	0.041 in												0.008 in		2	
+Pad	Via		14055				93.345 mm	14.605 mm	0.041 in	0.041 in												0.008 in		2	
+Pad	Via		14056				95.25 mm	14.605 mm	0.041 in	0.041 in												0.008 in		2	
+Trace		TopCopper	14057		14056	14029							1.016 mm											2	
+Pad	Via		14058				93.345 mm	20.32 mm	0.041 in	0.041 in												0.008 in		2	
+Trace		TopCopper	14059		14058	14055							1.016 mm											2	
+Pad	Via		14060				95.25 mm	20.32 mm	0.041 in	0.041 in												0.008 in		2	
+Trace		TopCopper	14061		14060	14056							1.016 mm											2	
+Pad	Via		14067				95.25 mm	37.465 mm	0.041 in	0.041 in												0.02 in		2	
+Trace		TopCopper	14068		14067	14060							1.016 mm											2	
+Pad	Via		14069				64.77 mm	13.97 mm	0.026 in	0.026 in												0.008 in		2	
+Point		TopCopper	14071				82.55 mm	13.97 mm																2	
+Trace		TopCopper	14072		14069	14071							0.3 mm											2	
+Trace		TopCopper	14074		14071	13442							0.3 mm											2	
+Point		BottomCopper	14075				66.04 mm	22.86 mm																2	
+Trace		BottomCopper	14076		13979	14081							1.27 mm											2	
+Point		BottomCopper	14078				66.04 mm	39.37 mm																2	
+Trace		BottomCopper	14079		14083	14078							1.27 mm											2	
+Trace		BottomCopper	14080		14078	13949							1.016 mm											2	
+Pad	Rectangular	BottomCopper	14081				66.04 mm	22.225 mm	0.04 in	0.094 in														2	
+Trace		BottomCopper	14082		14081	14075							1.016 mm											2	
+Pad	Rectangular	BottomCopper	14083				66.04 mm	25.4 mm	0.04 in	0.094 in														2	
+Trace		TopCopper	14085		13933	12037							0.3 mm											2	
+Line	SquareEnds	TopSilkscreen	14256				33.02 mm	62.865 mm			33.02 mm	62.23 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14257				33.02 mm	60.96 mm			33.02 mm	60.325 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14258				33.02 mm	59.055 mm			33.02 mm	58.42 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14259				33.02 mm	57.15 mm			33.02 mm	56.515 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14260				33.02 mm	55.245 mm			33.02 mm	54.61 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14261				33.02 mm	53.34 mm			33.02 mm	52.705 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14262				33.02 mm	51.435 mm			33.02 mm	50.8 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14263				33.02 mm	49.53 mm			33.02 mm	48.895 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14264				33.02 mm	47.625 mm			33.02 mm	46.99 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14265				33.02 mm	45.72 mm			33.02 mm	45.085 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14266				33.02 mm	43.815 mm			33.02 mm	43.18 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14267				33.02 mm	41.91 mm			33.02 mm	41.275 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14268				33.02 mm	40.005 mm			33.02 mm	39.37 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14269				33.02 mm	38.1 mm			33.02 mm	37.465 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14270				33.02 mm	36.195 mm			33.02 mm	35.56 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14271				33.02 mm	34.29 mm			33.02 mm	33.655 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14272				33.02 mm	32.385 mm			33.02 mm	31.75 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14273				33.02 mm	30.48 mm			33.02 mm	29.845 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14274				33.02 mm	28.575 mm			33.02 mm	27.94 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14275				33.02 mm	26.67 mm			33.02 mm	26.035 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14276				33.02 mm	24.765 mm			33.02 mm	24.13 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14277				33.02 mm	22.86 mm			33.02 mm	22.225 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14278				33.02 mm	20.955 mm			33.02 mm	20.32 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14279				33.02 mm	19.05 mm			33.02 mm	18.415 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14280				33.02 mm	17.145 mm			33.02 mm	16.51 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14281				33.02 mm	15.24 mm			33.02 mm	14.605 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14282				33.02 mm	13.335 mm			33.02 mm	12.7 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14283				33.02 mm	11.43 mm			33.02 mm	10.795 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14284				33.02 mm	9.525 mm			33.02 mm	8.89 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14285				33.02 mm	7.62 mm			33.02 mm	6.985 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14286				33.02 mm	5.715 mm			33.02 mm	5.08 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14287				33.02 mm	3.81 mm			33.02 mm	3.175 mm	0.508 mm											2	
+Line	SquareEnds	TopSilkscreen	14288				33.02 mm	1.905 mm			33.02 mm	1.27 mm	0.508 mm											2	
+Point		BottomSilkscreen	14296				40.005 mm	13.97 mm																2	
+Point		BottomSilkscreen	14297				38.1 mm	13.97 mm																2	
+Trace		BottomSilkscreen	14298		14296	14297							0.508 mm											2	
+Point		BottomSilkscreen	14299				40.005 mm	36.83 mm																2	
+Point		BottomSilkscreen	14300				37.465 mm	36.83 mm																2	
+Trace		BottomSilkscreen	14301		14299	14300							0.508 mm											2	
+Pad	Via		14303				93.345 mm	37.465 mm	0.041 in	0.041 in												0.02 in		2	
+Trace		TopCopper	14304		14303	14058							1.016 mm											2	
+Trace		TopCopper	14307		14021	14309							0.3 mm											2	
+Pad	Via		14308				46.99 mm	38.1 mm	0.026 in	0.026 in												0.008 in		2	
+Point		TopCopper	14309				45.72 mm	41.275 mm																2	
+Trace		TopCopper	14310		14309	14311							0.3 mm											2	
+Point		TopCopper	14311				46.99 mm	40.005 mm																2	
+Trace		TopCopper	14312		14311	14308							0.3 mm											2	
+Trace		BottomCopper	14314		14308	14315							0.3 mm											2	
+Pad	Via		14315				46.99 mm	35.56 mm	0.026 in	0.026 in												0.008 in		2	
+Point		TopCopper	14320				48.26 mm	11.43 mm																2	
+Trace		TopCopper	14321		14320	13954							0.3 mm											2	
+Trace		TopCopper	14323		13965	14315							0.3 mm											2	
+Pad			14324				91.44 mm	7.62 mm	0.056 in	0.056 in												0.029 in		2	
+Pad			14325				93.98 mm	7.62 mm	0.056 in	0.056 in												0.029 in		2	
+Trace		TopCopper	14326		14325	14327							1.016 mm											2	
+Point		TopCopper	14327				93.98 mm	6.35 mm																2	
+Trace		TopCopper	14328		14327	12684							1.016 mm											2	
+Point		TopCopper	14329				93.98 mm	8.89 mm																2	
+Trace		TopCopper	14330		14327	14329							1.27 mm											2	
+Trace		TopCopper	14331		14329	14325							1.27 mm											2	
+Polygon		TopCopper	14333				92.71 mm	3.8099999 mm															(92.71 mm,8.255 mm)(92.71 mm,3.8099999 mm)(92.71 mm,12.7000002 mm)	2	
+Line		TopSilkscreen	14340				49.53 mm	40.005 mm			49.53 mm	43.1800001 mm	0.3 mm											2	
+Line		TopSilkscreen	14341				90.17 mm	40.005 mm			90.17 mm	43.1800001 mm	0.3 mm											2	
+Line		TopSilkscreen	14342				46.99 mm	41.91 mm			46.99 mm	36.8299999 mm	0.3 mm											2	
+Line		TopSilkscreen	14343				41.91 mm	43.18 mm			41.91 mm	36.8299999 mm	0.3 mm											2	
+Line		TopSilkscreen	14345				44.45 mm	36.83 mm			44.45 mm	43.1799998 mm	0.3 mm											2	
+Line		TopSilkscreen	14378				44.45 mm	41.91 mm			45.72 mm	43.18 mm	0.3 mm											2	
+Line		TopSilkscreen	14379				45.72 mm	43.18 mm			46.99 mm	41.91 mm	0.3 mm											2	
+Line		TopSilkscreen	14382				41.91 mm	43.815 mm			43.18 mm	42.545 mm	0.3 mm											2	
+Line		TopSilkscreen	14383				43.18 mm	42.545 mm			44.45 mm	43.815 mm	0.3 mm											2	
+Line		TopSilkscreen	14384				44.45 mm	42.545 mm			45.72 mm	43.815 mm	0.3 mm											2	
+Line		TopSilkscreen	14385				45.72 mm	43.815 mm			46.99 mm	42.545 mm	0.3 mm											2	
+Line		TopSilkscreen	14386				46.99 mm	42.545 mm			46.99 mm	41.91 mm	0.3 mm											2	
+Line		TopSilkscreen	14387				41.91 mm	43.815 mm			41.91 mm	43.18 mm	0.3 mm											2	
+Line		TopSilkscreen	14388				44.45 mm	43.815 mm			44.45 mm	43.18 mm	0.3 mm											2	
+Line		TopSilkscreen	14389				41.91 mm	43.18 mm			43.18 mm	41.91 mm	0.3 mm											2	
+Line		TopSilkscreen	14390				43.18 mm	41.91 mm			44.45 mm	43.18 mm	0.3 mm											2	
+Polygon	FillClearance	TopSilkscreen	14391				41.91 mm	36.8299999 mm															(41.91 mm,36.83 mm)(41.91 mm,43.8150004 mm)(43.18 mm,42.545 mm)(44.45 mm,43.815 mm)(44.45 mm,42.545 mm)(45.72 mm,43.815 mm)(46.99 mm,42.545 mm)(46.99 mm,36.8299999 mm)	2	
+Point		TopCopper	14392				43.18 mm	41.275 mm																2	
+Trace		TopCopper	14393		13579	14392							0.3 mm											2	
+Point		TopCopper	14394				44.45 mm	40.005 mm																2	
+Trace		TopCopper	14395		14392	14394							0.3 mm											2	
+Point		TopCopper	14396				44.45 mm	38.1 mm																2	
+Trace		TopCopper	14397		14394	14396							0.3 mm											2	
+Point		TopCopper	14398				45.085 mm	37.465 mm																2	
+Trace		TopCopper	14399		14396	14398							0.3 mm											2	
+Point		TopCopper	14400				128.905 mm	-17.78 mm																3	
+Point		TopCopper	14402				128.905 mm	-18.415 mm																3	
+Trace		TopCopper	14403		14402	12726							0.3 mm											3	
+Point		TopCopper	14404				128.905 mm	-19.05 mm																3	
+Trace		TopCopper	14405		14404	12720							0.3 mm											3	
+Pad	SquareWithHole		14406	14420			5.4 in	0.6 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		3	
+Pad			14407	14420			5.4 in	0.7 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		3	
+Pad			14408	14420			5.4 in	0.8 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		3	
+Pad			14409	14420			5.4 in	0.9 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		3	
+Pad			14410	14420			5.4 in	1 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		3	
+Pad			14411	14420			5.4 in	1.1 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		3	
+Pad			14412	14420			5.4 in	1.2 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		3	
+Pad			14413	14420			5.7 in	1.2 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		3	
+Pad			14414	14420			5.7 in	1.1 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		3	
+Pad			14415	14420			5.7 in	1 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		3	
+Pad			14416	14420			5.7 in	0.9 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		3	
+Pad			14417	14420			5.7 in	0.8 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		3	
+Pad			14418	14420			5.7 in	0.7 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		3	
+Pad			14419	14420			5.7 in	0.6 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		3	
+Group			14420														"IC"	"7400 NAND"						3	
+Ellipse		TopSilkscreen	14421	14420			5.475 in	0.6 in	0.025 in	0.025 in				0°	360°									3	
+Line		TopSilkscreen	14422	14420			5.5125 in	0.575 in			5.45 in	0.575 in	0.012 in											3	
+Line		TopSilkscreen	14423	14420			5.45 in	0.575 in			5.45 in	1.225 in	0.012 in											3	
+Line		TopSilkscreen	14424	14420			5.45 in	1.225 in			5.65 in	1.225 in	0.012 in											3	
+Line		TopSilkscreen	14425	14420			5.65 in	1.225 in			5.65 in	0.575 in	0.012 in											3	
+Line		TopSilkscreen	14426	14420			5.65 in	0.575 in			5.5875 in	0.575 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	14427	14420			5.5125 in	0.5375 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
+Pad	SquareWithHole		14428	14442			5.4 in	-0.3 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		3	
+Pad			14429	14442			5.4 in	-0.2 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		3	
+Pad			14430	14442			5.4 in	-0.1 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		3	
+Pad			14431	14442			5.4 in	0 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		3	
+Pad			14432	14442			5.4 in	0.1 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		3	
+Pad			14433	14442			5.4 in	0.2 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		3	
+Pad			14434	14442			5.4 in	0.3 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		3	
+Pad			14435	14442			5.7 in	0.3 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		3	
+Pad			14436	14442			5.7 in	0.2 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		3	
+Pad			14437	14442			5.7 in	0.1 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		3	
+Pad			14438	14442			5.7 in	0 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		3	
+Pad			14439	14442			5.7 in	-0.1 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		3	
+Pad			14440	14442			5.7 in	-0.2 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		3	
+Pad			14441	14442			5.7 in	-0.3 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		3	
+Group			14442														"IC"	"7400 NAND"						3	
+Ellipse		TopSilkscreen	14443	14442			5.475 in	-0.3 in	0.025 in	0.025 in				0°	360°									3	
+Line		TopSilkscreen	14444	14442			5.5125 in	-0.325 in			5.45 in	-0.325 in	0.012 in											3	
+Line		TopSilkscreen	14445	14442			5.45 in	-0.325 in			5.45 in	0.325 in	0.012 in											3	
+Line		TopSilkscreen	14446	14442			5.45 in	0.325 in			5.65 in	0.325 in	0.012 in											3	
+Line		TopSilkscreen	14447	14442			5.65 in	0.325 in			5.65 in	-0.325 in	0.012 in											3	
+Line		TopSilkscreen	14448	14442			5.65 in	-0.325 in			5.5875 in	-0.325 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	14449	14442			5.5125 in	-0.3625 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
+Point		BottomCopper	14450				139.7 mm	30.48 mm																3	
+Text		TopSilkscreen	14451				140.335 mm	7.62 mm						90°					"74hc00 NAND"	Anytime	1.727 mm			3	
+Text		TopSilkscreen	14452				140.335 mm	29.21 mm						90°					"74hc32 OR"	Anytime	1.727 mm			3	
+Trace		TopCopper	14453		14428	14429							0.3 mm											3	
+Point		TopCopper	14454				135.89 mm	-17.145 mm																3	
+Point		TopCopper	14455				135.255 mm	-16.51 mm																3	
+Trace		TopCopper	14456		14454	14455							0.3 mm											3	
+Trace		TopCopper	14457		14455	14502							0.3 mm											3	
+Point		TopCopper	14458				137.795 mm	-16.51 mm																3	
+Point		TopCopper	14459				137.16 mm	-15.875 mm																3	
+Trace		TopCopper	14460		14458	14459							0.3 mm											3	
+Trace		TopCopper	14461		14459	14428							0.3 mm											3	
+Trace		TopCopper	14462		14430	14431							0.3 mm											3	
+Point		BottomCopper	14463				139.7 mm	7.62 mm																3	
+Trace		BottomCopper	14464		14434	14463							1.016 mm											3	
+Trace		BottomCopper	14465		14463	14474							1.016 mm											3	
+Trace		BottomCopper	14466		14450	14412							1.016 mm											3	
+Point		BottomCopper	14467				142.24 mm	15.24 mm																3	
+Trace		BottomCopper	14468		14419	14467							1.016 mm											3	
+Point		BottomCopper	14469				142.24 mm	-7.62 mm																3	
+Trace		BottomCopper	14470		14467	14476							1.016 mm											3	
+Trace		BottomCopper	14471		14469	14441							1.016 mm											3	
+Point		BottomCopper	14472				142.24 mm	-8.255 mm																3	
+Trace		BottomCopper	14473		14472	14582							1.016 mm											3	
+Pad			14474				139.7 mm	12.7 mm	0.0467165 in	0.0467165 in												0.02 in		3	
+Trace		BottomCopper	14475		14474	14450							1.016 mm											3	
+Pad			14476				142.24 mm	12.7 mm	0.0427165 in	0.0427165 in												0.02 in		3	
+Trace		BottomCopper	14477		14476	14558							1.016 mm											3	
+Point		TopCopper	14478				139.065 mm	1.905 mm																3	
+Point		TopCopper	14479				139.065 mm	-15.24 mm																3	
+Trace		TopCopper	14480		14478	14479							0.3 mm											3	
+Point		TopCopper	14481				139.7 mm	-15.875 mm																3	
+Trace		TopCopper	14482		14479	14481							0.3 mm											3	
+Trace		TopCopper	14483		14481	14588							0.3 mm											3	
+Point		TopCopper	14484				138.43 mm	2.54 mm																3	
+Trace		TopCopper	14485		14478	14484							0.3 mm											3	
+Trace		TopCopper	14486		14484	14432							0.3 mm											3	
+Pad			14487				139.7 mm	11.43 mm	0.0467165 in	0.0467165 in												0.025 in		3	
+Pad			14488				142.24 mm	11.43 mm	0.0427165 in	0.0427165 in												0.025 in		3	
+Pad			14489				139.7 mm	10.16 mm	0.0467165 in	0.0467165 in												0.02 in		3	
+Pad			14490				142.24 mm	10.16 mm	0.0427165 in	0.0427165 in												0.02 in		3	
+Point		TopCopper	14491				135.89 mm	6.35 mm																3	
+Trace		TopCopper	14492		14433	14491							0.3 mm											3	
+Point		TopCopper	14493				135.89 mm	13.97 mm																3	
+Trace		TopCopper	14494		14491	14493							0.3 mm											3	
+Trace		TopCopper	14495		14493	14406							0.3 mm											3	
+Trace		TopCopper	14496		14408	14532							0.3 mm											3	
+Point		TopCopper	14497				146.685 mm	19.05 mm																3	
+Point		BottomCopper	14498				135.89 mm	3.81 mm																3	
+Trace		BottomCopper	14499		14432	14498							0.3 mm											3	
+Point		BottomCopper	14500				135.89 mm	21.59 mm																3	
+Trace		BottomCopper	14501		14498	14500							0.3 mm											3	
+Point		TopCopper	14502				135.255 mm	17.145 mm																3	
+Point		TopCopper	14503				135.89 mm	17.78 mm																3	
+Trace		TopCopper	14504		14502	14503							0.3 mm											3	
+Trace		TopCopper	14505		14503	14407							0.3 mm											3	
+Trace		BottomCopper	14506		14500	14409							0.3 mm											3	
+Point		BottomCopper	14507				135.255 mm	-3.175 mm																3	
+Trace		BottomCopper	14508		14429	14507							0.3 mm											3	
+Point		BottomCopper	14509				135.255 mm	23.495 mm																3	
+Trace		BottomCopper	14510		14507	14509							0.3 mm											3	
+Trace		BottomCopper	14511		14509	14410							0.3 mm											3	
+Point		BottomCopper	14512				142.24 mm	20.32 mm																3	
+Trace		BottomCopper	14513		14417	14512							0.1524 mm											3	
+Trace		BottomCopper	14514		14512	14467							0.3 mm											3	
+Point		BottomCopper	14515				142.24 mm	17.78 mm																3	
+Trace		BottomCopper	14516		14515	14418							0.1524 mm											3	
+Point		BottomCopper	14517				142.24 mm	25.4 mm																3	
+Trace		BottomCopper	14518		14415	14517							0.1524 mm											3	
+Point		BottomCopper	14519				142.24 mm	27.94 mm																3	
+Trace		BottomCopper	14520		14414	14519							0.1524 mm											3	
+Point		BottomCopper	14521				142.24 mm	30.48 mm																3	
+Trace		BottomCopper	14522		14517	14521							0.3048 mm											3	
+Trace		BottomCopper	14523		14521	14450							0.3048 mm											3	
+Point		TopCopper	14524				138.43 mm	26.67 mm																3	
+Trace		TopCopper	14525		14411	14524							0.3 mm											3	
+Point		TopCopper	14526				138.43 mm	22.86 mm																3	
+Trace		TopCopper	14527		14524	14526							0.3 mm											3	
+Point		TopCopper	14528				139.7 mm	21.59 mm																3	
+Trace		TopCopper	14529		14526	14528							0.3 mm											3	
+Point		TopCopper	14530				147.32 mm	21.59 mm																3	
+Trace		TopCopper	14531		14528	14530							0.3 mm											3	
+Point		TopCopper	14532				138.43 mm	20.32 mm																3	
+Trace		TopCopper	14533		14532	14534							0.3 mm											3	
+Point		TopCopper	14534				139.7 mm	19.05 mm																3	
+Trace		TopCopper	14535		14534	14497							0.3 mm											3	
+Point		TopCopper	14536				147.955 mm	20.955 mm																3	
+Trace		TopCopper	14537		14530	14536							0.3 mm											3	
+Point		TopCopper	14538				147.955 mm	-4.445 mm																3	
+Trace		TopCopper	14539		14536	14538							0.3 mm											3	
+Point		TopCopper	14540				147.32 mm	18.415 mm																3	
+Trace		TopCopper	14541		14497	14540							0.3 mm											3	
+Point		TopCopper	14542				147.32 mm	-4.445 mm																3	
+Trace		TopCopper	14543		14540	14542							0.3 mm											3	
+Rectangle		BottomCopper	14544				146.05 mm	-8.255 mm	2.54 mm	40.64 mm														3	
+Point		BottomCopper	14545				139.7 mm	31.115 mm																3	
+Trace		BottomCopper	14546		14545	14450							1.016 mm											3	
+Rectangle		BottomCopper	14547				144.145 mm	9.525 mm	3.1750001 mm	4.4450001 mm														3	
+Rectangle		BottomCopper	14548				136.525 mm	9.525 mm	3.1750001 mm	3.81 mm														3	
+Point		BottomCopper	14549				142.24 mm	-5.08 mm																3	
+Trace		BottomCopper	14550		14440	14549							0.1523529 mm											3	
+Trace		BottomCopper	14551		14549	14472							1.016 mm											3	
+Point		BottomCopper	14552				142.24 mm	-2.54 mm																3	
+Trace		BottomCopper	14553		14439	14552							0.1523529 mm											3	
+Trace		BottomCopper	14554		14552	14549							1.016 mm											3	
+Point		BottomCopper	14555				142.24 mm	2.54 mm																3	
+Trace		BottomCopper	14556		14437	14555							0.1523529 mm											3	
+Trace		BottomCopper	14557		14555	14552							1.016 mm											3	
+Point		BottomCopper	14558				142.24 mm	5.08 mm																3	
+Trace		BottomCopper	14559		14436	14558							0.1523529 mm											3	
+Trace		BottomCopper	14560		14558	14555							1.016 mm											3	
+Point		BottomCopper	14561				146.05 mm	-12.7 mm																3	
+Point		BottomCopper	14562				145.415 mm	-12.7 mm																3	
+Trace		BottomCopper	14563		14561	14562							0.3048 mm											3	
+Point		BottomCopper	14564				143.51 mm	-14.605 mm																3	
+Trace		BottomCopper	14565		14562	14564							0.3048 mm											3	
+Point		BottomCopper	14566				143.51 mm	-10.795 mm																3	
+Trace		BottomCopper	14567		14562	14566							0.3048 mm											3	
+Trace		BottomCopper	14568		14566	14569							0.3048 mm											3	
+Point		BottomCopper	14569				143.51 mm	-12.7 mm																3	
+Trace		BottomCopper	14570		14569	14564							0.3048 mm											3	
+Point		BottomCopper	14571				141.605 mm	-12.7 mm																3	
+Trace		BottomCopper	14572		14569	14571							0.3048 mm											3	
+Point		BottomCopper	14573				146.685 mm	-12.7 mm																3	
+Trace		BottomCopper	14574		14561	14573							0.3048 mm											3	
+Point		BottomCopper	14575				144.78 mm	-13.97 mm																3	
+Point		BottomCopper	14576				145.415 mm	-14.605 mm																3	
+Trace		BottomCopper	14577		14575	14576							0.3048 mm											3	
+Point		BottomCopper	14578				145.415 mm	-13.97 mm																3	
+Trace		BottomCopper	14579		14576	14578							0.3048 mm											3	
+Point		BottomCopper	14580				144.78 mm	-14.605 mm																3	
+Trace		BottomCopper	14581		14580	14576							0.3048 mm											3	
+Point		BottomCopper	14582				143.51 mm	-9.525 mm																3	
+Trace		BottomCopper	14583		14472	14469							1.016 mm											3	
+Point		BottomCopper	14584				140.97 mm	32.385 mm																3	
+Trace		BottomCopper	14585		14584	14545							1.016 mm											3	
+Point		BottomCopper	14586				147.32 mm	32.385 mm																3	
+Trace		BottomCopper	14587		14586	14584							1.016 mm											3	
+Point		TopCopper	14588				146.685 mm	-15.875 mm																3	
+Point		TopCopper	14589				146.685 mm	-16.51 mm																3	
+Trace		TopCopper	14590		14589	14458							0.3 mm											3	
+Point		TopCopper	14591				146.685 mm	-17.145 mm																3	
+Trace		TopCopper	14592		14591	14454							0.3 mm											3	
+Pad	SquareWithHole		14593	14607			0.2 in	1.1 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		3	
+Pad			14594	14607			0.2 in	1.2 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		3	
+Pad			14595	14607			0.2 in	1.3 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		3	
+Pad			14596	14607			0.2 in	1.4 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		3	
+Pad			14597	14607			0.2 in	1.5 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		3	
+Pad			14598	14607			0.2 in	1.6 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		3	
+Pad			14599	14607			0.2 in	1.7 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		3	
+Pad			14600	14607			0.5 in	1.7 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		3	
+Pad			14601	14607			0.5 in	1.6 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		3	
+Pad			14602	14607			0.5 in	1.5 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		3	
+Pad			14603	14607			0.5 in	1.4 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		3	
+Pad			14604	14607			0.5 in	1.3 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		3	
+Pad			14605	14607			0.5 in	1.2 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		3	
+Pad			14606	14607			0.5 in	1.1 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		3	
+Group			14607														"IC"	"7400 NAND"						3	
+Ellipse		TopSilkscreen	14608	14607			0.275 in	1.1 in	0.025 in	0.025 in				0°	360°									3	
+Line		TopSilkscreen	14609	14607			0.3125 in	1.075 in			0.25 in	1.075 in	0.012 in											3	
+Line		TopSilkscreen	14610	14607			0.25 in	1.075 in			0.25 in	1.725 in	0.012 in											3	
+Line		TopSilkscreen	14611	14607			0.25 in	1.725 in			0.45 in	1.725 in	0.012 in											3	
+Line		TopSilkscreen	14612	14607			0.45 in	1.725 in			0.45 in	1.075 in	0.012 in											3	
+Line		TopSilkscreen	14613	14607			0.45 in	1.075 in			0.3875 in	1.075 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	14614	14607			0.3125 in	1.0375 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
+Pad	SquareWithHole		14615	14629			0.2 in	0.2 in	0.056 in	0.056 in							"1"	"In 1A"				0.029 in		3	
+Pad			14616	14629			0.2 in	0.3 in	0.056 in	0.056 in							"2"	"In 1B"				0.029 in		3	
+Pad			14617	14629			0.2 in	0.4 in	0.056 in	0.056 in							"3"	"Out 1"				0.029 in		3	
+Pad			14618	14629			0.2 in	0.5 in	0.056 in	0.056 in							"4"	"In 2A"				0.029 in		3	
+Pad			14619	14629			0.2 in	0.6 in	0.056 in	0.056 in							"5"	"In 2B"				0.029 in		3	
+Pad			14620	14629			0.2 in	0.7 in	0.056 in	0.056 in							"6"	"Out 2"				0.029 in		3	
+Pad			14621	14629			0.2 in	0.8 in	0.056 in	0.056 in							"7"	"GND"				0.029 in		3	
+Pad			14622	14629			0.5 in	0.8 in	0.056 in	0.056 in							"8"	"Out 3"				0.029 in		3	
+Pad			14623	14629			0.5 in	0.7 in	0.056 in	0.056 in							"9"	"In 3A"				0.029 in		3	
+Pad			14624	14629			0.5 in	0.6 in	0.056 in	0.056 in							"10"	"In 3B"				0.029 in		3	
+Pad			14625	14629			0.5 in	0.5 in	0.056 in	0.056 in							"11"	"Out 4"				0.029 in		3	
+Pad			14626	14629			0.5 in	0.4 in	0.056 in	0.056 in							"12"	"In 4A"				0.029 in		3	
+Pad			14627	14629			0.5 in	0.3 in	0.056 in	0.056 in							"13"	"In 4B"				0.029 in		3	
+Pad			14628	14629			0.5 in	0.2 in	0.056 in	0.056 in							"14"	"Vcc"				0.029 in		3	
+Group			14629														"IC"	"7400 NAND"						3	
+Ellipse		TopSilkscreen	14630	14629			0.275 in	0.2 in	0.025 in	0.025 in				0°	360°									3	
+Line		TopSilkscreen	14631	14629			0.3125 in	0.175 in			0.25 in	0.175 in	0.012 in											3	
+Line		TopSilkscreen	14632	14629			0.25 in	0.175 in			0.25 in	0.825 in	0.012 in											3	
+Line		TopSilkscreen	14633	14629			0.25 in	0.825 in			0.45 in	0.825 in	0.012 in											3	
+Line		TopSilkscreen	14634	14629			0.45 in	0.825 in			0.45 in	0.175 in	0.012 in											3	
+Line		TopSilkscreen	14635	14629			0.45 in	0.175 in			0.3875 in	0.175 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	14636	14629			0.3125 in	0.1375 in	0.075 in	0.075 in			0.012 in	180°	180°									3	
+Point		BottomCopper	14637				7.62 mm	43.18 mm																3	
+Text		TopSilkscreen	14638				8.255 mm	20.32 mm						90°					"74hc00 NAND"	Anytime	1.727 mm			3	
+Text		TopSilkscreen	14639				8.255 mm	41.91 mm						90°					"74hc32 OR"	Anytime	1.727 mm			3	
+Trace		TopCopper	14640		14615	14616							0.3 mm											3	
+Trace		TopCopper	14649		14617	14618							0.3 mm											3	
+Point		BottomCopper	14650				7.62 mm	20.32 mm																3	
+Trace		BottomCopper	14651		14621	14650							1.016 mm											3	
+Trace		BottomCopper	14652		14650	14661							1.016 mm											3	
+Trace		BottomCopper	14653		14637	14599							1.016 mm											3	
+Point		BottomCopper	14654				10.16 mm	27.94 mm																3	
+Trace		BottomCopper	14655		14606	14654							1.016 mm											3	
+Point		BottomCopper	14656				10.16 mm	5.08 mm																3	
+Trace		BottomCopper	14657		14654	14663							1.016 mm											3	
+Trace		BottomCopper	14658		14656	14628							1.016 mm											3	
+Pad			14661				7.62 mm	25.4 mm	0.0467165 in	0.0467165 in												0.02 in		3	
+Trace		BottomCopper	14662		14661	14637							1.016 mm											3	
+Pad			14663				10.16 mm	25.4 mm	0.0427165 in	0.0427165 in												0.02 in		3	
+Trace		BottomCopper	14664		14663	14745							1.016 mm											3	
+Point		TopCopper	14665				6.985 mm	14.605 mm																3	
+Trace		TopCopper	14667		14665	14784							0.3 mm											3	
+Point		TopCopper	14671				6.35 mm	15.24 mm																3	
+Trace		TopCopper	14672		14665	14671							0.3 mm											3	
+Trace		TopCopper	14673		14671	14619							0.3 mm											3	
+Pad			14674				7.62 mm	24.13 mm	0.0467165 in	0.0467165 in												0.025 in		3	
+Pad			14675				10.16 mm	24.13 mm	0.0427165 in	0.0427165 in												0.025 in		3	
+Pad			14676				7.62 mm	22.86 mm	0.0467165 in	0.0467165 in												0.02 in		3	
+Pad			14677				10.16 mm	22.86 mm	0.0427165 in	0.0427165 in												0.02 in		3	
+Point		TopCopper	14678				3.81 mm	19.05 mm																3	
+Trace		TopCopper	14679		14620	14678							0.3 mm											3	
+Point		TopCopper	14680				3.81 mm	26.67 mm																3	
+Trace		TopCopper	14681		14678	14680							0.3 mm											3	
+Trace		TopCopper	14682		14680	14593							0.3 mm											3	
+Trace		TopCopper	14683		14595	14719							0.3 mm											3	
+Point		TopCopper	14684				14.605 mm	31.75 mm																3	
+Point		BottomCopper	14685				3.81 mm	16.51 mm																3	
+Trace		BottomCopper	14686		14619	14685							0.3 mm											3	
+Point		BottomCopper	14687				3.81 mm	34.29 mm																3	
+Trace		BottomCopper	14688		14685	14687							0.3 mm											3	
+Point		TopCopper	14689				3.175 mm	29.845 mm																3	
+Point		TopCopper	14690				3.81 mm	30.48 mm																3	
+Trace		TopCopper	14691		14689	14690							0.3 mm											3	
+Trace		TopCopper	14692		14690	14594							0.3 mm											3	
+Trace		BottomCopper	14693		14687	14596							0.3 mm											3	
+Point		BottomCopper	14694				3.175 mm	9.525 mm																3	
+Trace		BottomCopper	14695		14616	14694							0.3 mm											3	
+Point		BottomCopper	14696				3.175 mm	36.195 mm																3	
+Trace		BottomCopper	14697		14694	14696							0.3 mm											3	
+Trace		BottomCopper	14698		14696	14597							0.3 mm											3	
+Point		BottomCopper	14699				10.16 mm	33.02 mm																3	
+Trace		BottomCopper	14700		14604	14699							0.1524 mm											3	
+Trace		BottomCopper	14701		14699	14654							0.3 mm											3	
+Point		BottomCopper	14702				10.16 mm	30.48 mm																3	
+Trace		BottomCopper	14703		14702	14605							0.1524 mm											3	
+Point		BottomCopper	14704				10.16 mm	38.1 mm																3	
+Trace		BottomCopper	14705		14602	14704							0.1524 mm											3	
+Point		BottomCopper	14706				10.16 mm	40.64 mm																3	
+Trace		BottomCopper	14707		14601	14706							0.1524 mm											3	
+Point		BottomCopper	14708				10.16 mm	43.18 mm																3	
+Trace		BottomCopper	14709		14704	14708							0.3048 mm											3	
+Trace		BottomCopper	14710		14708	14637							0.3048 mm											3	
+Point		TopCopper	14711				6.35 mm	39.37 mm																3	
+Trace		TopCopper	14712		14598	14711							0.3 mm											3	
+Point		TopCopper	14713				6.35 mm	35.56 mm																3	
+Trace		TopCopper	14714		14711	14713							0.3 mm											3	
+Point		TopCopper	14715				7.62 mm	34.29 mm																3	
+Trace		TopCopper	14716		14713	14715							0.3 mm											3	
+Point		TopCopper	14717				15.24 mm	34.29 mm																3	
+Trace		TopCopper	14718		14715	14717							0.3 mm											3	
+Point		TopCopper	14719				6.35 mm	33.02 mm																3	
+Trace		TopCopper	14720		14719	14721							0.3 mm											3	
+Point		TopCopper	14721				7.62 mm	31.75 mm																3	
+Trace		TopCopper	14722		14721	14684							0.3 mm											3	
+Point		TopCopper	14723				15.875 mm	33.655 mm																3	
+Trace		TopCopper	14724		14717	14723							0.3 mm											3	
+Point		TopCopper	14725				15.875 mm	8.255 mm																3	
+Trace		TopCopper	14726		14723	14725							0.3 mm											3	
+Point		TopCopper	14727				15.24 mm	31.115 mm																3	
+Trace		TopCopper	14728		14684	14727							0.3 mm											3	
+Point		TopCopper	14729				15.24 mm	8.255 mm																3	
+Trace		TopCopper	14730		14727	14729							0.3 mm											3	
+Point		BottomCopper	14732				7.62 mm	43.815 mm																3	
+Trace		BottomCopper	14733		14732	14637							1.016 mm											3	
+Rectangle		BottomCopper	14735				4.445 mm	22.225 mm	3.1750001 mm	3.81 mm														3	
+Point		BottomCopper	14736				10.16 mm	7.62 mm																3	
+Trace		BottomCopper	14737		14627	14736							0.1523529 mm											3	
+Trace		BottomCopper	14738		14736	14656							1.016 mm											3	
+Point		BottomCopper	14739				10.16 mm	10.16 mm																3	
+Trace		BottomCopper	14740		14626	14739							0.1523529 mm											3	
+Trace		BottomCopper	14741		14739	14736							1.016 mm											3	
+Point		BottomCopper	14742				10.16 mm	15.24 mm																3	
+Trace		BottomCopper	14743		14624	14742							0.1523529 mm											3	
+Trace		BottomCopper	14744		14742	14739							1.016 mm											3	
+Point		BottomCopper	14745				10.16 mm	17.78 mm																3	
+Trace		BottomCopper	14746		14623	14745							0.1523529 mm											3	
+Trace		BottomCopper	14747		14745	14742							1.016 mm											3	
+Point		BottomCopper	14771				8.89 mm	45.085 mm																3	
+Trace		BottomCopper	14772		14771	14732							1.016 mm											3	
+Point		BottomCopper	14773				15.24 mm	45.085 mm																3	
+Trace		BottomCopper	14774		14773	14771							1.016 mm											3	
+Point		TopCopper	14780				3.175 mm	1.905 mm																3	
+Trace		TopCopper	14781		14780	14689							0.3 mm											3	
+Point		TopCopper	14782				5.08 mm	4.445 mm																3	
+Trace		TopCopper	14783		14782	14615							0.3 mm											3	
+Point		TopCopper	14784				6.985 mm	3.81 mm																3	
+Pad			14786				1.5 in	0.1 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Text		TopSilkscreen	14787				37.465 mm	8.255 mm						90°					"/CE"	Anytime	1.727 mm			3	
+Pad			14788				1.4 in	0.1 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Text		TopSilkscreen	14789				40.005 mm	8.255 mm						90°					"/RW"	Anytime	1.727 mm			3	
+Point		TopCopper	14790				5.08 mm	3.175 mm																3	
+Trace		TopCopper	14791		14782	14790							0.3 mm											3	
+Point		TopCopper	14792				6.35 mm	1.905 mm																3	
+Trace		TopCopper	14793		14790	14792							0.3 mm											3	
+Point		TopCopper	14794				3.81 mm	1.27 mm																3	
+Trace		TopCopper	14795		14780	14794							0.3 mm											3	
+Trace		TopCopper	14797		14794	14861							0.3 mm											3	
+Trace		TopCopper	14802		14792	14863							0.3 mm											3	
+Point		TopCopper	14809				6.985 mm	3.175 mm																3	
+Trace		TopCopper	14810		14784	14809							0.3 mm											3	
+Point		TopCopper	14811				7.62 mm	2.54 mm																3	
+Trace		TopCopper	14812		14809	14811							0.3 mm											3	
+Trace		TopCopper	14814		14811	14865							0.3 mm											3	
+Point		TopCopper	14817				39.37 mm	1.27 mm																3	
+Trace		TopCopper	14820		14817	12391							0.3 mm											3	
+Ellipse		TopSilkscreen	14821	14844			1.1 in	0.875 in	0.025 in	0.025 in				180°	360°									3	
+Pad	SquareWithHole		14822	14844			1.2 in	0.9 in	0.056 in	0.056 in				180°			"1"					0.029 in		3	
+Pad			14823	14844			0.9 in	0.7 in	0.056 in	0.056 in				180°			"14"					0.029 in		3	
+Pad			14824	14844			1.2 in	0.8 in	0.056 in	0.056 in				180°			"2"					0.029 in		3	
+Pad			14825	14844			0.9 in	0.6 in	0.056 in	0.056 in				180°			"13"					0.029 in		3	
+Pad			14826	14844			1.2 in	0.7 in	0.056 in	0.056 in				180°			"3"					0.029 in		3	
+Pad			14827	14844			0.9 in	0.5 in	0.056 in	0.056 in				180°			"12"					0.029 in		3	
+Pad			14828	14844			1.2 in	0.6 in	0.056 in	0.056 in				180°			"4"					0.029 in		3	
+Pad			14829	14844			0.9 in	0.4 in	0.056 in	0.056 in				180°			"11"					0.029 in		3	
+Line		TopSilkscreen	14830	14844			1.15 in	0.925 in			1.15 in	0.175 in	0.012 in											3	
+Line		TopSilkscreen	14831	14844			1.15 in	0.175 in			0.95 in	0.175 in	0.012 in											3	
+Line		TopSilkscreen	14832	14844			0.95 in	0.175 in			0.95 in	0.925 in	0.012 in											3	
+Line		TopSilkscreen	14833	14844			0.95 in	0.925 in			1.011 in	0.925 in	0.012 in											3	
+Line		TopSilkscreen	14834	14844			1.15 in	0.925 in			1.0875 in	0.925 in	0.012 in											3	
+Ellipse	Outline	TopSilkscreen	14835	14844			1.0125 in	0.8875 in	0.075 in	0.075 in			0.012 in	0°	180°									3	
+Pad			14836	14844			1.2 in	0.5 in	0.056 in	0.056 in				180°			"5"					0.029 in		3	
+Pad			14837	14844			1.2 in	0.4 in	0.056 in	0.056 in				180°			"6"					0.029 in		3	
+Pad			14838	14844			1.2 in	0.3 in	0.056 in	0.056 in				180°			"7"					0.029 in		3	
+Pad			14839	14844			0.9 in	0.3 in	0.056 in	0.056 in				180°			"10"					0.029 in		3	
+Pad			14840	14844			0.9 in	0.2 in	0.056 in	0.056 in				180°			"9"					0.029 in		3	
+Pad			14841	14844			1.2 in	0.2 in	0.056 in	0.056 in				180°			"8"					0.029 in		3	
+Pad			14842	14844			0.9 in	0.9 in	0.056 in	0.056 in				180°			"16"					0.029 in		3	
+Pad			14843	14844			0.9 in	0.8 in	0.056 in	0.056 in				180°			"15"					0.029 in		3	
+Group			14844											180°			"IC"	"DIP 16-pin"						3	
+Text		TopSilkscreen	14845				28.575 mm	22.86 mm						180°					"A0"	Anytime	1.295 mm			3	
+Text		TopSilkscreen	14846				28.575 mm	20.955 mm						180°					"A1"	Anytime	1.295 mm			3	
+Text		TopSilkscreen	14847				28.575 mm	18.415 mm						180°					"A2"		1.295 mm			3	
+Text		TopSilkscreen	14848				29.21 mm	15.875 mm						180°					"/LE"		1.295 mm			3	
+Text		TopSilkscreen	14849				29.21 mm	13.335 mm						180°					"/E1"		1.295 mm			3	
+Text		TopSilkscreen	14850				28.575 mm	10.795 mm						180°					"E2"		1.295 mm			3	
+Text		TopSilkscreen	14851				28.575 mm	8.255 mm						180°					"Y7"		1.295 mm			3	
+Text		TopSilkscreen	14852				29.21 mm	5.715 mm						180°					"--"		1.295 mm			3	
+Text		TopSilkscreen	14853				25.4 mm	22.86 mm						180°					"+"	Anytime	1.295 mm			3	
+Text		TopSilkscreen	14854				26.035 mm	20.955 mm						180°					"Y0"		1.295 mm			3	
+Text		TopSilkscreen	14855				26.035 mm	18.415 mm						180°					"Y1"		1.295 mm			3	
+Text		TopSilkscreen	14856				26.035 mm	15.875 mm						180°					"Y2"		1.295 mm			3	
+Text		TopSilkscreen	14857				26.035 mm	13.335 mm						180°					"Y3"		1.295 mm			3	
+Text		TopSilkscreen	14858				26.035 mm	10.795 mm						180°					"Y4"		1.295 mm			3	
+Text		TopSilkscreen	14859				26.035 mm	8.255 mm						180°					"Y5"		1.295 mm			3	
+Text		TopSilkscreen	14860				26.035 mm	5.715 mm						180°					"Y6"		1.295 mm			3	
+Point		TopCopper	14861				15.24 mm	1.27 mm																3	
+Point		TopCopper	14863				15.24 mm	1.905 mm																3	
+Point		TopCopper	14865				15.24 mm	2.54 mm																3	
+Point		TopCopper	14867				43.18 mm	9.525 mm																3	
+Trace		TopCopper	14868		13177	14867							0.3 mm											3	
+Point		TopCopper	14869				42.545 mm	10.16 mm																3	
+Trace		TopCopper	14870		14867	14869							0.3 mm											3	
+Point		TopCopper	14871				36.83 mm	10.16 mm																3	
+Trace		TopCopper	14872		14869	14871							0.3 mm											3	
+Point		TopCopper	14873				36.195 mm	10.795 mm																3	
+Trace		TopCopper	14874		14871	14873							0.3 mm											3	
+Point		TopCopper	14875				36.195 mm	22.225 mm																3	
+Trace		TopCopper	14876		14873	14875							0.3 mm											3	
+Point		TopCopper	14877				35.56 mm	22.86 mm																3	
+Trace		TopCopper	14878		14875	14877							0.3 mm											3	
+Trace		TopCopper	14880		14877	14822							0.3 mm											3	
+Point		TopCopper	14881				34.925 mm	20.32 mm																3	
+Trace		TopCopper	14882		14824	14881							0.3 mm											3	
+Point		TopCopper	14883				35.56 mm	19.685 mm																3	
+Trace		TopCopper	14884		14881	14883							0.3 mm											3	
+Point		TopCopper	14885				35.56 mm	10.16 mm																3	
+Trace		TopCopper	14886		14883	14885							0.3 mm											3	
+Point		TopCopper	14887				36.195 mm	9.525 mm																3	
+Trace		TopCopper	14888		14885	14887							0.3 mm											3	
+Trace		TopCopper	14890		14887	14891							0.3 mm											3	
+Pad	Via		14891				41.91 mm	9.525 mm	0.026 in	0.026 in												0.008 in		3	
+Point		BottomCopper	14892				45.085 mm	9.525 mm																3	
+Trace		BottomCopper	14893		14891	14892							0.3 mm											3	
+Point		BottomCopper	14894				45.72 mm	8.89 mm																3	
+Trace		BottomCopper	14895		14892	14894							0.3 mm											3	
+Trace		BottomCopper	14897		14894	13179							0.3 mm											3	
+Pad	Via		14898				41.91 mm	8.255 mm	0.026 in	0.026 in												0.008 in		3	
+Pad	Via		14899				44.45 mm	8.255 mm	0.026 in	0.026 in												0.008 in		3	
+Trace		BottomCopper	14901		14899	14898							0.3 mm											3	
+Point		TopCopper	14902				47.625 mm	8.255 mm																3	
+Trace		TopCopper	14903		14899	14902							0.3 mm											3	
+Point		TopCopper	14904				48.26 mm	7.62 mm																3	
+Trace		TopCopper	14905		14902	14904							0.3 mm											3	
+Trace		TopCopper	14907		14904	13181							0.3 mm											3	
+Point		TopCopper	14908				34.29 mm	17.78 mm																3	
+Trace		TopCopper	14909		14826	14908							0.3 mm											3	
+Point		TopCopper	14910				34.925 mm	17.145 mm																3	
+Trace		TopCopper	14911		14908	14910							0.3 mm											3	
+Point		TopCopper	14912				34.925 mm	9.525 mm																3	
+Trace		TopCopper	14913		14910	14912							0.3 mm											3	
+Point		TopCopper	14914				35.56 mm	8.89 mm																3	
+Trace		TopCopper	14915		14912	14914							0.3 mm											3	
+Point		TopCopper	14916				41.275 mm	8.89 mm																3	
+Trace		TopCopper	14917		14914	14916							0.3 mm											3	
+Trace		TopCopper	14919		14916	14920							0.3 mm											3	
+Point		TopCopper	14920				41.91 mm	8.255 mm																3	
+Trace		TopCopper	14921		14920	14898							0.3 mm											3	
+Trace		BottomCopper	14929		14828	14836							0.3 mm											3	
+Point		TopCopper	14930				28.575 mm	22.86 mm																3	
+Trace		TopCopper	14931		14842	14930							0.3 mm											3	
+Point		TopCopper	14932				29.21 mm	22.225 mm																3	
+Trace		TopCopper	14933		14930	14932							0.3 mm											3	
+Point		TopCopper	14934				29.21 mm	11.43 mm																3	
+Trace		TopCopper	14935		14932	14934							0.3 mm											3	
+Trace		TopCopper	14937		14934	14837							0.3 mm											3	
+Point		TopCopper	14938				33.655 mm	12.7 mm																3	
+Trace		TopCopper	14939		14836	14938							0.3 mm											3	
+Point		TopCopper	14940				34.29 mm	12.065 mm																3	
+Trace		TopCopper	14941		14938	14940							0.3 mm											3	
+Point		TopCopper	14942				34.29 mm	8.89 mm																3	
+Trace		TopCopper	14943		14940	14942							0.3 mm											3	
+Point		TopCopper	14944				34.925 mm	8.255 mm																3	
+Trace		TopCopper	14945		14942	14944							0.3 mm											3	
+Point		TopCopper	14946				37.465 mm	8.255 mm																3	
+Trace		TopCopper	14947		14944	14946							0.3 mm											3	
+Point		TopCopper	14948				38.1 mm	7.62 mm																3	
+Trace		TopCopper	14949		14946	14948							0.3 mm											3	
+Trace		TopCopper	14951		14948	14786							0.3 mm											3	
+Point		TopCopper	14952				23.495 mm	1.27 mm																3	
+Trace		TopCopper	14953		14817	14952							0.3 mm											3	
+Point		TopCopper	14954				23.495 mm	2.54 mm																3	
+Trace		TopCopper	14956		14954	14788							0.3 mm											3	
