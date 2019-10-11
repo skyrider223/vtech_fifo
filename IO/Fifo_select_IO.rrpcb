@@ -1379,7 +1379,7 @@ Trace		BottomCopper	14651		14621	14650							1.016 mm											3
 Trace		BottomCopper	14652		14650	14661							1.016 mm											3	
 Trace		BottomCopper	14653		14637	14599							1.016 mm											3	
 Point		BottomCopper	14654				10.16 mm	27.94 mm																3	
-Trace		BottomCopper	14655		14606	14654							1.016 mm											3	
+Trace		BottomCopper	14655		14606	15323							1.016 mm											3	
 Point		BottomCopper	14656				10.16 mm	5.08 mm																3	
 Trace		BottomCopper	14657		14654	14663							1.016 mm											3	
 Trace		BottomCopper	14658		14656	14628							1.016 mm											3	
@@ -1417,17 +1417,8 @@ Trace		BottomCopper	14695		14616	14694							0.3 mm											3
 Point		BottomCopper	14696				3.175 mm	36.195 mm																3	
 Trace		BottomCopper	14697		14694	14696							0.3 mm											3	
 Trace		BottomCopper	14698		14696	14597							0.3 mm											3	
-Point		BottomCopper	14699				10.16 mm	33.02 mm																3	
-Trace		BottomCopper	14700		14604	14699							0.1524 mm											3	
-Trace		BottomCopper	14701		14699	14654							0.3 mm											3	
-Point		BottomCopper	14702				10.16 mm	30.48 mm																3	
-Trace		BottomCopper	14703		14702	14605							0.1524 mm											3	
-Point		BottomCopper	14704				10.16 mm	38.1 mm																3	
-Trace		BottomCopper	14705		14602	14704							0.1524 mm											3	
-Point		BottomCopper	14706				10.16 mm	40.64 mm																3	
-Trace		BottomCopper	14707		14601	14706							0.1524 mm											3	
+Trace		BottomCopper	14701		15322	15323							0.635 mm											3	
 Point		BottomCopper	14708				10.16 mm	43.18 mm																3	
-Trace		BottomCopper	14709		14704	14708							0.3048 mm											3	
 Trace		BottomCopper	14710		14708	14637							0.3048 mm											3	
 Point		TopCopper	14711				6.35 mm	39.37 mm																3	
 Trace		TopCopper	14712		14598	14711							0.3 mm											3	
@@ -1443,26 +1434,18 @@ Point		TopCopper	14721				7.62 mm	31.75 mm																3
 Trace		TopCopper	14722		14721	14684							0.3 mm											3	
 Point		TopCopper	14723				15.875 mm	33.655 mm																3	
 Trace		TopCopper	14724		14717	14723							0.3 mm											3	
-Point		TopCopper	14725				15.875 mm	8.255 mm																3	
-Trace		TopCopper	14726		14723	14725							0.3 mm											3	
 Point		TopCopper	14727				15.24 mm	31.115 mm																3	
 Trace		TopCopper	14728		14684	14727							0.3 mm											3	
-Point		TopCopper	14729				15.24 mm	8.255 mm																3	
-Trace		TopCopper	14730		14727	14729							0.3 mm											3	
 Point		BottomCopper	14732				7.62 mm	43.815 mm																3	
 Trace		BottomCopper	14733		14732	14637							1.016 mm											3	
 Rectangle		BottomCopper	14735				4.445 mm	22.225 mm	3.1750001 mm	3.81 mm														3	
 Point		BottomCopper	14736				10.16 mm	7.62 mm																3	
-Trace		BottomCopper	14737		14627	14736							0.1523529 mm											3	
 Trace		BottomCopper	14738		14736	14656							1.016 mm											3	
 Point		BottomCopper	14739				10.16 mm	10.16 mm																3	
-Trace		BottomCopper	14740		14626	14739							0.1523529 mm											3	
 Trace		BottomCopper	14741		14739	14736							1.016 mm											3	
 Point		BottomCopper	14742				10.16 mm	15.24 mm																3	
-Trace		BottomCopper	14743		14624	14742							0.1523529 mm											3	
 Trace		BottomCopper	14744		14742	14739							1.016 mm											3	
 Point		BottomCopper	14745				10.16 mm	17.78 mm																3	
-Trace		BottomCopper	14746		14623	14745							0.1523529 mm											3	
 Trace		BottomCopper	14747		14745	14742							1.016 mm											3	
 Point		BottomCopper	14771				8.89 mm	45.085 mm																3	
 Trace		BottomCopper	14772		14771	14732							1.016 mm											3	
@@ -1609,33 +1592,33 @@ Point		TopCopper	14952				23.495 mm	1.27 mm																3
 Trace		TopCopper	14953		14817	14952							0.3 mm											3	
 Point		TopCopper	14954				23.495 mm	2.54 mm																3	
 Trace		TopCopper	14956		14954	14788							0.3 mm											3	
-Pad	Rectangular	BottomCopper	14957				20.955 mm	5.08 mm	0.04 in	0.04 in														3	
-Point		BottomCopper	14964				20.32 mm	20.32 mm																3	
+Pad	Rectangular	BottomCopper	14957				18.415 mm	5.08 mm	0.04 in	0.04 in														3	
+Point		BottomCopper	14964				17.78 mm	20.32 mm																3	
 Trace		BottomCopper	14965		15012	14964							0.3 mm											3	
-Point		BottomCopper	14966				19.685 mm	19.685 mm																3	
+Point		BottomCopper	14966				17.145 mm	19.685 mm																3	
 Trace		BottomCopper	14967		14964	14966							0.3 mm											3	
-Point		BottomCopper	14968				19.685 mm	3.175 mm																3	
+Point		BottomCopper	14968				17.145 mm	3.175 mm																3	
 Trace		BottomCopper	14969		14966	14988							0.3 mm											3	
-Point		BottomCopper	14970				19.685 mm	5.08 mm																3	
+Point		BottomCopper	14970				17.145 mm	5.08 mm																3	
 Trace		BottomCopper	14971		14970	14968							0.3 mm											3	
 Trace		BottomCopper	14973		14970	14957							0.3 mm											3	
-Point		BottomCopper	14974				19.685 mm	7.62 mm																3	
+Point		BottomCopper	14974				17.145 mm	7.62 mm																3	
 Trace		BottomCopper	14975		14974	14970							0.3 mm											3	
 Trace		BottomCopper	14977		14974	15013							0.3 mm											3	
-Point		BottomCopper	14978				19.685 mm	10.16 mm																3	
+Point		BottomCopper	14978				17.145 mm	10.16 mm																3	
 Trace		BottomCopper	14979		15008	14978							0.3 mm											3	
 Trace		BottomCopper	14980		14978	14974							0.3 mm											3	
-Point		BottomCopper	14981				19.685 mm	12.7 mm																3	
+Point		BottomCopper	14981				17.145 mm	12.7 mm																3	
 Trace		BottomCopper	14982		14981	14978							0.3 mm											3	
 Trace		BottomCopper	14984		14981	15009							0.3 mm											3	
-Point		BottomCopper	14985				19.685 mm	15.24 mm																3	
+Point		BottomCopper	14985				17.145 mm	15.24 mm																3	
 Trace		BottomCopper	14986		15016	14985							0.3 mm											3	
 Trace		BottomCopper	14987		14985	14981							0.3 mm											3	
-Point		BottomCopper	14988				19.685 mm	17.78 mm																3	
+Point		BottomCopper	14988				17.145 mm	17.78 mm																3	
 Trace		BottomCopper	14989		14988	14985							0.3 mm											3	
 Trace		BottomCopper	14991		14988	15017							0.3 mm											3	
 Trace		BottomCopper	14994		15019	14968							0.3 mm											3	
-Point		BottomCopper	14995				18.415 mm	3.175 mm																3	
+Point		BottomCopper	14995				15.875 mm	3.175 mm																3	
 Trace		BottomCopper	14997		14995	14968							0.3 mm											3	
 Point		BottomCopper	14999				31.75 mm	6.35 mm																3	
 Trace		BottomCopper	15000		14838	14999							0.3 mm											3	
@@ -1643,15 +1626,15 @@ Point		BottomCopper	15001				31.75 mm	3.81 mm																3
 Trace		BottomCopper	15002		14999	15001							0.3 mm											3	
 Point		BottomCopper	15003				31.115 mm	3.175 mm																3	
 Trace		BottomCopper	15004		15001	15003							0.3 mm											3	
-Point		BottomCopper	15008				20.955 mm	10.16 mm																3	
-Point		BottomCopper	15009				20.955 mm	12.7 mm																3	
-Point		BottomCopper	15012				20.955 mm	20.32 mm																3	
-Pad	Rectangular	BottomCopper	15013				20.955 mm	7.62 mm	0.04 in	0.04 in														3	
-Pad	Rectangular	BottomCopper	15014				20.955 mm	10.16 mm	0.04 in	0.04 in														3	
-Pad	Rectangular	BottomCopper	15015				20.955 mm	12.7 mm	0.04 in	0.04 in														3	
-Pad	Rectangular	BottomCopper	15016				20.955 mm	15.24 mm	0.04 in	0.04 in														3	
-Pad	Rectangular	BottomCopper	15017				20.955 mm	17.78 mm	0.04 in	0.04 in														3	
-Pad	Rectangular	BottomCopper	15018				20.955 mm	20.32 mm	0.04 in	0.04 in														3	
+Point		BottomCopper	15008				18.415 mm	10.16 mm																3	
+Point		BottomCopper	15009				18.415 mm	12.7 mm																3	
+Point		BottomCopper	15012				18.415 mm	20.32 mm																3	
+Pad	Rectangular	BottomCopper	15013				18.415 mm	7.62 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15014				18.415 mm	10.16 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15015				18.415 mm	12.7 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15016				18.415 mm	15.24 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15017				18.415 mm	17.78 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15018				18.415 mm	20.32 mm	0.04 in	0.04 in														3	
 Pad	Rectangular	BottomCopper	15019				20.955 mm	3.175 mm	0.04 in	0.04 in														3	
 Pad	Rectangular	BottomCopper	15022				22.225 mm	3.175 mm	0.026 in	0.04 in														3	
 Trace		BottomCopper	15024		15022	15003							0.3 mm											3	
@@ -1741,3 +1724,58 @@ Polygon	FillClearance	TopSilkscreen	15281				33.655 mm	57.15 mm						270°						
 Text		TopSilkscreen	15282				36.83 mm	54.61 mm											"IN"	Anytime	1.727 mm			3	
 Text		TopSilkscreen	15283				48.895 mm	57.785 mm											"Address $"	Classic	1.727 mm			3	
 Line		TopSilkscreen	15284				46.99 mm	57.15 mm			46.99 mm	62.865 mm	0.3 mm											3	
+Pad			15285				0.8 in	0.2 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15286				0.8 in	0.3 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15287				0.8 in	0.4 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15288				0.8 in	0.5 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15289				0.8 in	0.6 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15290				0.8 in	0.7 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15291				0.8 in	0.8 in	0.075 in	0.075 in							"3"					0.04 in		3	
+Pad			15293				3.81 mm	59.69 mm	0.18 in	0.18 in												0.125 in		3	
+Pad			15295				93.345 mm	59.69 mm	0.18 in	0.18 in												0.125 in		3	
+Trace		BottomCopper	15297		14677	14842							1.27 mm											3	
+Point		BottomCopper	15300				36.195 mm	10.795 mm																3	
+Trace		BottomCopper	15301		13352	15315							1.016 mm											3	
+Point		BottomCopper	15302				34.925 mm	12.065 mm																3	
+Trace		BottomCopper	15303		15300	15302							1.016 mm											3	
+Point		BottomCopper	15304				34.925 mm	24.13 mm																3	
+Trace		BottomCopper	15305		15302	15304							1.016 mm											3	
+Point		BottomCopper	15306				33.655 mm	25.4 mm																3	
+Trace		BottomCopper	15307		15304	15306							1.016 mm											3	
+Point		BottomCopper	15308				25.4 mm	25.4 mm																3	
+Trace		BottomCopper	15309		15306	15308							1.016 mm											3	
+Trace		BottomCopper	15311		15308	14842							1.016 mm											3	
+Point		BottomCopper	15313				45.72 mm	10.795 mm																3	
+Trace		BottomCopper	15314		15313	15300							1.016 mm											3	
+Point		BottomCopper	15315				46.355 mm	10.16 mm																3	
+Trace		BottomCopper	15316		15315	15313							1.016 mm											3	
+Pad	Rectangular	BottomCopper	15317				10.795 mm	17.78 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15318				10.795 mm	15.24 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15319				10.795 mm	10.16 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15320				10.795 mm	7.62 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15321				10.795 mm	30.48 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15322				10.795 mm	33.02 mm	0.04 in	0.04 in														3	
+Point		BottomCopper	15323				10.795 mm	27.94 mm																3	
+Trace		BottomCopper	15325		15323	14654							1.016 mm											3	
+Point		BottomCopper	15326				20.955 mm	39.37 mm																3	
+Trace		BottomCopper	15327		14773	15326							1.016 mm											3	
+Trace		BottomCopper	15329		15326	13985							1.016 mm											3	
+Pad	Rectangular	BottomCopper	15330				10.795 mm	38.1 mm	0.04 in	0.04 in														3	
+Pad	Rectangular	BottomCopper	15331				10.795 mm	40.64 mm	0.04 in	0.04 in														3	
+Point		BottomCopper	15333				10.795 mm	42.545 mm																3	
+Trace		BottomCopper	15334		15333	14708							0.3048 mm											3	
+Trace		BottomCopper	15336		15333	15330							0.3048 mm											3	
+Point		TopCopper	15337				19.685 mm	1.27 mm																3	
+Point		TopCopper	15338				22.225 mm	1.27 mm																3	
+Trace		TopCopper	15339		15337	15338							0.3048 mm											3	
+Point		TopCopper	15340				19.685 mm	0.635 mm																3	
+Point		TopCopper	15341				21.59 mm	0.635 mm																3	
+Trace		TopCopper	15342		15340	15341							0.3048 mm											3	
+Point		TopCopper	15343				22.86 mm	0.635 mm																3	
+Trace		TopCopper	15344		15341	15343							0.3048 mm											3	
+Point		TopCopper	15345				23.495 mm	1.27 mm																3	
+Trace		TopCopper	15346		15343	15345							0.3048 mm											3	
+Trace		TopCopper	15348		15345	14952							0.3048 mm											3	
+Point		TopCopper	15349				22.86 mm	1.905 mm																3	
+Trace		TopCopper	15350		15338	15349							0.3048 mm											3	
+Trace		TopCopper	15352		15349	14954							0.3048 mm											3	
